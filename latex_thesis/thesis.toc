@@ -5,8 +5,8 @@
 \contentsline {section}{\numberline {3}Effects of Gravitational Waves}{9}{section.3}
 \contentsline {subsection}{\numberline {3.1}Free particles}{9}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Geodesic deviation of test particles}{10}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Detection of GW}{14}{subsection.3.3}
-\contentsline {section}{\numberline {4}Production of Gravitational Waves}{15}{section.4}
-\contentsline {subsection}{\numberline {4.1}Solution of the linearized Einstein's equation}{15}{subsection.4.1}
-\contentsline {section}{\numberline {5}Conclusion}{16}{section.5}
-\contentsline {section}{\numberline {6}Appendices}{17}{section.6}
+\contentsline {subsection}{\numberline {3.3}The quadrupole nature of gravitational waves}{14}{subsection.3.3}
+\contentsline {section}{\numberline {4}Production of Gravitational Waves}{16}{section.4}
+\contentsline {subsection}{\numberline {4.1}Solution of the linearized Einstein's equation}{16}{subsection.4.1}
+\contentsline {section}{\numberline {5}Conclusion}{17}{section.5}
+\contentsline {section}{\numberline {6}Appendices}{18}{section.6}

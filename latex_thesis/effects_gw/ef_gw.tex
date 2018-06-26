@@ -74,12 +74,14 @@ The \textbf{geodesic deviation equation} expresses the relative acceleration bet
 \[
 \dfrac{D}{d \tau} = \dv{x^{\mu}}{\tau} \, \nabla_{\mu}
 \]
-The geodesic deviation equation is particularly important because it describes the relative motions of free falling objects and it gives a coordinate-independent measure of the gravitational wave effect. It will also clarify the meaning of the plus and the cross polarizations.\\
-If we consider some nearby particles with four-velocities described by a single vector field $u^{\mu}$ and separation vector field $S^{\mu}$, the geodesic deviation equation(\ref{geudesic_deviation_eq}) becomes
+A non-zero acceleration of the deviation bewteen between neighbouring geodesics is a signature of spacetime curvature.
+In fact, geodesic deviation cannot distinguish between a zero gravitational field and a uniform grabitational field. Only tidal gravitational fields give rise to an acceleration in the geodesic deviation.
+The geodesic deviation describes the relative motions of free falling objects and it will show a coordinate-independent measure of the gravitational wave effects. \\
+Let us consider some nearby particles with four-velocities described by a single vector field $u^{\mu}$ and separation vector field $S^{\mu}$, the geodesic deviation equation(\ref{geudesic_deviation_eq}) becomes
 \begin{equation}
 \dfrac{D^2}{d \tau ^2} S^{\mu} = :R^{\mu} _{\nu \rho \sigma}: \, u^{\nu} u^{\rho} S^{\sigma}
 \end{equation}
-The four-velocity vector can be approximated with a unit vector in the time direction plus corrections of order $h^{\T} \mu \nu$ and higher, however the Reimann curvature tensor is already first order. Therefore, we ignore the corrections of the four-velocity vector and we write $u^{\nu} =(1,0,0,0)$.\\
+The four-velocity vector can be approximated with a unit vector in the time direction plus corrections of order $h^{\T} _{\mu \nu}$ and higher, however the Reimann curvature tensor is already first order. Therefore, we ignore the corrections of the four-velocity vector and we write $u^{\nu} =(1,0,0,0)$.\\
 Since we have already calculated the Riemann curvature tensor in equation(\ref{reimann_curvature_tensor_first_order}) we recall the result taking into account the TT gauge conditions
 \bea
 :R^\mu _{00 \sigma }: 
@@ -92,8 +94,19 @@ Since we have already calculated the Riemann curvature tensor in equation(\ref{r
 )
 \\
 &=&
-\dfrac{1}{2} \partial_0 \partial_0 :h^{\T \mu} _{\sigma}: \hspace{1.5cm} \text{using } h^{\T} _{\mu 0} =0 
+\dfrac{1}{2} \partial_0 \partial_0 :h^{\T \mu} _{\sigma}: 
+\hspace{1.5cm} \text{using } h^{\T} _{\mu 0} =0 
 \eea 
+The above result tells us that the curvature of spacetime is proportional to the 'acceleration' of the gravitational wave. 
+Naively, the spacetime is more curved if the ripples of the GW are closer to each others.
+Considering the plane wave solution
+\[ 
+ :R^\mu _{00 \sigma }: = -\dfrac{1}{2} \omega^2 :A^{\T \mu} _{\sigma}: \cos (\omega t)
+\]
+where $\omega$ is the frequency of the plane wave. 
+The curvature is proportional to the square of the frequency, in fact we expect a bigger curvature if the metric oscillates more times per second.
+Analogously, the electromagnetic field of an oscillating electric dipole is proportional to the square of the frequency, in fact we expect a bigger  field if the charge oscillates more times per second.
+ \\
 In the lowest order approximation the particles are slowly moving, then we have $\tau = x^{0} = t$, so the geodesic deviation equation becomes
 \begin{equation}
 \pdv[2]{}{t} S^{\mu} = \dfrac{1}{2} S^{\sigma} \pdv[2]{}{t} :h^{\T \mu} _{\sigma}:
@@ -111,11 +124,30 @@ S^{2} = S^{2}(t=0) \qty(1 - \dfrac{1}{2} h_{+}) +  \dfrac{1}{2} h_{\times} S^{1}
 Let us study the effects of the two polarizations $h_{+}$ and $h_{\times}$ of a gravitational wave, which propagates through the center of a ring of free-falling test particles. 
 So, let us use consider a plane wave travelling along the z axis, and let us place a ring of free-falling test particles on the x-y plane  with its center in $(0,0,0)$. 
 The ring is initially parametrized by $(\cos \theta, \sin \theta)$ with $\theta \in (0,2\pi]$ and the separation vector $S^{\mu}$ measures the deformation of the ring from its center.\\
+
+\begin{figure}
+\centering
+    \textbf{Time evolution of the $\mathlarger{\mathlarger{+}}$ polarization}\par\medskip
+\makebox[\textwidth][c]{\includegraphics[width=1.3\textwidth]{effects_gw/plus_polarization.eps}}
+\caption{Effect of the $h_+$ mode on a ring of free-falling test particles at $\omega t = n\pi/6 $ with $n=0,...,12$.}
+\label{plus_polarization}
+\end{figure}
+
+\begin{figure}
+\centering
+    \textbf{Time evolution of the $\mathlarger{\mathlarger{\times}}$ polarization.}\par\medskip
+\makebox[\textwidth][c]{\includegraphics[width=1.3\textwidth]{effects_gw/times_polarization.eps}}
+\caption{Effect of the $h_\times$ mode on a ring of free-falling test particles at $\omega t = n\pi/6 $ with $n=0,...,12$.}
+\label{times_polarization}
+\end{figure}
+
 Beginning with the case $h_{\times} =0$ and $h_{+} \neq 0$, the solutions of the geodesic deviation equation are
-\bea
-S^{1} = \cos\theta \qty(1 + \dfrac{1}{2} A^{\T} _{11} \cos (\omega t)) \\
-S^{2} = \sin \theta \qty(1 - \dfrac{1}{2} A^{\T} _{11} \cos (\omega t))
-\eea
+\begin{eqnarray}
+\label{s1_+}
+S^{1}_{+} = \cos\theta \qty(1 + \dfrac{1}{2} A^{\T} _{11} \cos (\omega t)) \\
+\label{s2_+}
+S^{2}_{+} = \sin \theta \qty(1 - \dfrac{1}{2} A^{\T} _{11} \cos (\omega t))
+\end{eqnarray}
 where $h_{+} = A^{\T} _{11} \cos (\omega t)$ for a plane wave. 
 The time evolution of the ring is shown in Figure(\ref{plus_polarization}).\\
 When the plus polarized gravitational wave propagates through the ring, it increases the proper distance between the ring and its center along the x axis when the phase of the wave is close to $\omega t = 0, 2\pi$, meanwhile it squeezes the test particles along the y axis.
@@ -123,35 +155,27 @@ If the phase of the gravitational wave is close to $\omega t = \pi/2, 3\pi/2$ th
 As the wave passes, the test particles bounce back and forth in the shape of $+$ as shown in Figure(\ref{plus_cont}). \\
 On the ohter hand, the case where $h_{\times} \neq 0$ and $h_{+} = 0$ yields the geodesic deviation solutions to be
 \bea
-S^{1} =   \cos \theta + \dfrac{1}{2} \sin \theta A^{\T} _{12} \cos (\omega t) \\
-S^{2} = \sin \theta  +  \dfrac{1}{2}  \cos \theta A^{\T} _{12} \cos (\omega t)
+S^{1}_{\times} =   \cos \theta + \dfrac{1}{2} \sin \theta A^{\T} _{12} \cos (\omega t) \\
+S^{2}_{\times} = \sin \theta  +  \dfrac{1}{2}  \cos \theta A^{\T} _{12} \cos (\omega t)
 \eea
 where $h_{\times} = A^{\T} _{12} \cos (\omega t)$ for a plane wave. 
-The relationship between these solutions and those for $h_{+} \neq 0$ can be easily found if we consider an angle of $\theta = \pi / 4 $, therefore we obtain
-In this case the circle of particles bounce back and forth in the shape of 
-
-
-
-
-
-\begin{figure}
-\centering
-    \textbf{ $\mathlarger{\mathlarger{+}}$ Polarization of the gravitational wave}\par\medskip
-\makebox[\textwidth][c]{\includegraphics[width=1.3\textwidth]{effects_gw/plus_polarization.eps}}
-\caption{Effect of the $h_+$ component on a ring of free-falling test particles at $\omega t = n\pi/6 $ with $n=0,...,12$.}
-\label{plus_polarization}
-\end{figure}
-
-\begin{figure}
-\centering
-    \textbf{ $\mathlarger{\mathlarger{\times}}$ Polarization of the gravitational wave}\par\medskip
-\makebox[\textwidth][c]{\includegraphics[width=1.3\textwidth]{effects_gw/times_polarization.eps}}
-\caption{Effect of the $h_\times$ component on a ring of free-falling test particles at $\omega t = n\pi/6 $ with $n=0,...,12$.}
-\end{figure}
+The relationship between these solutions and those for $h_{+} \neq 0$ can be easily found if we rotate the x and y axis through an angle of $ -\pi / 4 $, so that the new coordinate axis are
+\bea
+x' = \dfrac{1}{\sqrt{2}} (x-y)\\
+y' = \dfrac{1}{\sqrt{2}} (x + y)\\
+\eea
+Then, the geodesic deviations $S_{+}$ of  equations (\ref{s1_+}) and (\ref{s2_+}) with $h_{+} \neq 0$ and $h_{\times} =0$ become
+\bea
+S' _{+}\, ^{1} = (S^{1}_{+} - S^{2}_{+})/\sqrt{2} = \cos \qty(\theta +\pi / 4 ) + \dfrac{1}{2} \sin \qty(\theta +\pi / 4 )  h_{+} 
+\\
+S' _{+}\, ^{2} = (S^{1}_{+} + S^{2}_{+})/\sqrt{2}  = \sin \qty(\theta +\pi / 4 )   +  \dfrac{1}{2}  \cos \qty(\theta +\pi / 4 )  h_{+}
+\\
+\eea
+The above equations are similiar to those with $h_{+} = 0$ and $h_{\times} \neq 0$, in fact the deviations $S^{1} _{\times}$ and $S^{2} _\times$ are nothing but the plus polarization rotated of an angle $-\pi/4$. So, in this case ($h_{+} = 0$ and $h_{\times} \neq 0$) the circle of particles bounce back and forth in the shape of $\times$ as we can see from Figures (\ref{times_polarization}) and (\ref{times_cont}).
 
 \begin{figure}
 \centering
-    \textbf{ $\mathlarger{\mathlarger{+}}$ Polarization and $\mathlarger{\mathlarger{\times}}$ Polarization}\par\medskip
+    \textbf{$\mathlarger{\mathlarger{+}}$ Polarization and $\mathlarger{\mathlarger{\times}}$ Polarization}\par\medskip
 \centering
 \subfloat[][$+$ polarized gravitational wave.]
    {\includegraphics[width=.45\textwidth]{effects_gw/plus_pol_cont.eps}
@@ -159,16 +183,38 @@ In this case the circle of particles bounce back and forth in the shape of
 \subfloat[][$\times$ polarized gravitational wave.]
    {\includegraphics[width=.45\textwidth]{effects_gw/times_pol_cont.eps}
    \label{times_cont}} \\
-\caption{Evolution of a ring of free-falling test particles.}
+\caption{Spatial positions occupied by a ring of free-falling test particles disturbed by a gravitational wave.}
 \label{plus_and_times}
 \end{figure}
 
+We could consider also right- and left-handed cricularly polarized modes by defining
+\begin{eqnarray}
+\label{r_polarized}
+h_{R} = \dfrac{1}{\sqrt{2}} (h_{+} - i h_{\times})
+\\
+\label{l_polarized}
+h_{L} = \dfrac{1}{\sqrt{2}} (h_{+} + i h_{\times})
+\end{eqnarray}
+The effect of a pure $h_R$ wave would be to rotate the particles in a right-handed sense and similiarly for the left-handed mode $h_{L}$. It is important to stress that the particles do not travel around the ring, they just move in little epicycles.
 
+\begin{figure}
+\centering
+    \textbf{ Right- and Left-handed cricularly polarized modes}\par\medskip
+\centering
+\subfloat[][Right-handed polarized gravitational wave.]
+   {\includegraphics[width=.45\textwidth]{effects_gw/r_pol.eps}
+   \label{plus_cont}} \quad
+\subfloat[][Left-handed polarized gravitational wave.]
+   {\includegraphics[width=.45\textwidth]{effects_gw/l_pol.eps}
+   \label{times_cont}} \\
+\caption{Time evoluition of a ring of free-falling test particles on the x-y plane.}
+\label{plus_and_times}
+\end{figure}
 
+\subsection{The quadrupole nature of gravitational waves}
+Since the geodesic deviation cannot distinguish between a zero field and a uniform gravitational field, only a tidal gravitational field does the geodesic deviation accelerate. 
 
-
-\subsection{Detection of GW}
-
+Gravitational waves are variations in the curvature of spacetime
 
 
 

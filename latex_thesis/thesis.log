@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  26 JUN 2018 16:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  26 JUN 2018 19:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1899,7 +1899,23 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/titlesec/block.tss
 File: block.tss 2011/12/15
-) (./thesis.aux)
+) (./thesis.aux
+
+LaTeX Warning: Label `plus_cont' multiply defined.
+
+
+LaTeX Warning: Label `sub@plus_cont' multiply defined.
+
+
+LaTeX Warning: Label `times_cont' multiply defined.
+
+
+LaTeX Warning: Label `sub@times_cont' multiply defined.
+
+
+LaTeX Warning: Label `plus_and_times' multiply defined.
+
+)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -2137,6 +2153,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 369--382
 ) [8] (./effects_gw/ef_gw.tex [9
 
 ] [10] [11]
+Underfull \hbox (badness 10000) in paragraph at lines 123--127
+
+ []
+
 Package epstopdf Info: Source file: <effects_gw/plus_polarization.eps>
 (epstopdf)                    date: 2018-06-25 17:23:45
 (epstopdf)                    size: 545135 bytes
@@ -2146,16 +2166,16 @@ Package epstopdf Info: Source file: <effects_gw/plus_polarization.eps>
 (epstopdf)                    size: 420654 bytes
 (epstopdf)             Command: <repstopdf --outfile=effects_gw/plus_polarizati
 on-eps-converted-to.pdf effects_gw/plus_polarization.eps>
-(epstopdf)             \includegraphics on input line 140.
+(epstopdf)             \includegraphics on input line 131.
 Package epstopdf Info: Output file is already uptodate.
 
-<effects_gw/plus_polarization-eps-converted-to.pdf, id=179, 1237.62375pt x 107.
+<effects_gw/plus_polarization-eps-converted-to.pdf, id=177, 1237.62375pt x 107.
 40125pt>
 File: effects_gw/plus_polarization-eps-converted-to.pdf Graphic file (type pdf)
 
  <use effects_gw/plus_polarization-eps-converted-to.pdf>
 Package pdftex.def Info: effects_gw/plus_polarization-eps-converted-to.pdf used
- on input line 140.
+ on input line 131.
 (pdftex.def)             Requested size: 588.85963pt x 51.10297pt.
 Package epstopdf Info: Source file: <effects_gw/times_polarization.eps>
 (epstopdf)                    date: 2018-06-25 18:16:38
@@ -2166,17 +2186,19 @@ d-to.pdf>
 (epstopdf)                    size: 423596 bytes
 (epstopdf)             Command: <repstopdf --outfile=effects_gw/times_polarizat
 ion-eps-converted-to.pdf effects_gw/times_polarization.eps>
-(epstopdf)             \includegraphics on input line 148.
+(epstopdf)             \includegraphics on input line 139.
 Package epstopdf Info: Output file is already uptodate.
 
-<effects_gw/times_polarization-eps-converted-to.pdf, id=180, 1138.2525pt x 128.
+<effects_gw/times_polarization-eps-converted-to.pdf, id=178, 1138.2525pt x 128.
 48pt>
 File: effects_gw/times_polarization-eps-converted-to.pdf Graphic file (type pdf
 )
  <use effects_gw/times_polarization-eps-converted-to.pdf>
 Package pdftex.def Info: effects_gw/times_polarization-eps-converted-to.pdf use
-d on input line 148.
+d on input line 139.
 (pdftex.def)             Requested size: 588.85963pt x 66.47081pt.
+ [12 <./effects_gw/plus_polarization-eps-converted-to.pdf> <./effects_gw/times_
+polarization-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <effects_gw/plus_pol_cont.eps>
 (epstopdf)                    date: 2018-06-25 18:30:11
 (epstopdf)                    size: 1626958 bytes
@@ -2186,15 +2208,15 @@ pdf>
 (epstopdf)                    size: 1346795 bytes
 (epstopdf)             Command: <repstopdf --outfile=effects_gw/plus_pol_cont-e
 ps-converted-to.pdf effects_gw/plus_pol_cont.eps>
-(epstopdf)             \includegraphics on input line 158.
+(epstopdf)             \includegraphics on input line 182.
 Package epstopdf Info: Output file is already uptodate.
 
-<effects_gw/plus_pol_cont-eps-converted-to.pdf, id=181, 562.1pt x 421.575pt>
+<effects_gw/plus_pol_cont-eps-converted-to.pdf, id=195, 562.1pt x 421.575pt>
 File: effects_gw/plus_pol_cont-eps-converted-to.pdf Graphic file (type pdf)
 
 <use effects_gw/plus_pol_cont-eps-converted-to.pdf>
 Package pdftex.def Info: effects_gw/plus_pol_cont-eps-converted-to.pdf used on 
-input line 158.
+input line 182.
 (pdftex.def)             Requested size: 203.83417pt x 152.8733pt.
 Package epstopdf Info: Source file: <effects_gw/times_pol_cont.eps>
 (epstopdf)                    date: 2018-06-25 18:25:39
@@ -2205,27 +2227,63 @@ Package epstopdf Info: Source file: <effects_gw/times_pol_cont.eps>
 (epstopdf)                    size: 1960314 bytes
 (epstopdf)             Command: <repstopdf --outfile=effects_gw/times_pol_cont-
 eps-converted-to.pdf effects_gw/times_pol_cont.eps>
-(epstopdf)             \includegraphics on input line 161.
+(epstopdf)             \includegraphics on input line 185.
 Package epstopdf Info: Output file is already uptodate.
 
-<effects_gw/times_pol_cont-eps-converted-to.pdf, id=182, 562.1pt x 421.575pt>
+<effects_gw/times_pol_cont-eps-converted-to.pdf, id=196, 562.1pt x 421.575pt>
 File: effects_gw/times_pol_cont-eps-converted-to.pdf Graphic file (type pdf)
 
 <use effects_gw/times_pol_cont-eps-converted-to.pdf>
 Package pdftex.def Info: effects_gw/times_pol_cont-eps-converted-to.pdf used on
- input line 161.
+ input line 185.
 (pdftex.def)             Requested size: 203.83417pt x 152.8733pt.
-) [12 <./effects_gw/plus_polarization-eps-converted-to.pdf>] [13 <./effects_gw/
-times_polarization-eps-converted-to.pdf> <./effects_gw/plus_pol_cont-eps-conver
-ted-to.pdf> <./effects_gw/times_pol_cont-eps-converted-to.pdf>] [14] (./product
-ion_gw/prod_gw.tex)
-[15
+ [13]
+Package epstopdf Info: Source file: <effects_gw/r_pol.eps>
+(epstopdf)                    date: 2018-06-26 17:49:40
+(epstopdf)                    size: 1734641 bytes
+(epstopdf)             Output file: <effects_gw/r_pol-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-26 17:51:53
+(epstopdf)                    size: 1532756 bytes
+(epstopdf)             Command: <repstopdf --outfile=effects_gw/r_pol-eps-conve
+rted-to.pdf effects_gw/r_pol.eps>
+(epstopdf)             \includegraphics on input line 206.
+Package epstopdf Info: Output file is already uptodate.
 
-] [16
+<effects_gw/r_pol-eps-converted-to.pdf, id=203, 562.1pt x 421.575pt>
+File: effects_gw/r_pol-eps-converted-to.pdf Graphic file (type pdf)
+
+<use effects_gw/r_pol-eps-converted-to.pdf>
+Package pdftex.def Info: effects_gw/r_pol-eps-converted-to.pdf used on input li
+ne 206.
+(pdftex.def)             Requested size: 203.83417pt x 152.8733pt.
+Package epstopdf Info: Source file: <effects_gw/l_pol.eps>
+(epstopdf)                    date: 2018-06-26 17:50:51
+(epstopdf)                    size: 1733927 bytes
+(epstopdf)             Output file: <effects_gw/l_pol-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-06-26 17:51:56
+(epstopdf)                    size: 1533146 bytes
+(epstopdf)             Command: <repstopdf --outfile=effects_gw/l_pol-eps-conve
+rted-to.pdf effects_gw/l_pol.eps>
+(epstopdf)             \includegraphics on input line 209.
+Package epstopdf Info: Output file is already uptodate.
+
+<effects_gw/l_pol-eps-converted-to.pdf, id=204, 562.1pt x 421.575pt>
+File: effects_gw/l_pol-eps-converted-to.pdf Graphic file (type pdf)
+
+<use effects_gw/l_pol-eps-converted-to.pdf>
+Package pdftex.def Info: effects_gw/l_pol-eps-converted-to.pdf used on input li
+ne 209.
+(pdftex.def)             Requested size: 203.83417pt x 152.8733pt.
+) [14 <./effects_gw/plus_pol_cont-eps-converted-to.pdf> <./effects_gw/times_pol
+_cont-eps-converted-to.pdf>]
+[15 <./effects_gw/r_pol-eps-converted-to.pdf> <./effects_gw/l_pol-eps-converted
+-to.pdf>] (./production_gw/prod_gw.tex) [16
+
+] [17
 
 ] (./appendix/resampling.tex)
 No file thesis.bbl.
-[17
+[18
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 66.
@@ -2234,14 +2292,18 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 66.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 33015B3B1679E35B3128342DFF490E72;857.
+(rerunfilecheck)             Checksum: 7D48F80D4E32C2BFE58B02CAA755C959;886.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 66.
  ) 
 Here is how much of TeX's memory you used:
- 31449 strings out of 493033
- 610949 string characters out of 6134139
- 814212 words of memory out of 5000000
- 34387 multiletter control sequences out of 15000+600000
+ 31470 strings out of 493033
+ 611434 string characters out of 6134139
+ 815212 words of memory out of 5000000
+ 34400 multiletter control sequences out of 15000+600000
  20274 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,19n,80p,10426b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2259,10 +2321,10 @@ exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on thesis.pdf (20 pages, 4506990 bytes).
+Output written on thesis.pdf (21 pages, 7572787 bytes).
 PDF statistics:
- 283 PDF objects out of 1000 (max. 8388607)
- 238 compressed objects within 3 object streams
- 57 named destinations out of 1000 (max. 500000)
- 134 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 309 PDF objects out of 1000 (max. 8388607)
+ 259 compressed objects within 3 object streams
+ 63 named destinations out of 1000 (max. 500000)
+ 144 words of extra memory for PDF output out of 10000 (max. 10000000)
 

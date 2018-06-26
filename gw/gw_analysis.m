@@ -122,24 +122,32 @@ ii=1;
 for t=500:3000
     % plus polarization
     h_plus = 0.5.*cos(omega.*t);
-    h_times = 0;%.2.*cos(omega.*t + pi/2);
+    h_times = 0.5.*cos(omega.*t + pi/2);
     X = cos(theta) .* (1 + 0.5.*h_plus) + sin(theta).*(0.5.*h_times);
     Y = sin(theta) .* (1 - 0.5.*h_plus) + cos(theta).*(0.5.*h_times);
 
-    CM = jet(500); % n+10 
+    CM = jet(120); % n+10 
     plot3(X,Y,ii.*ones(size(X)),'.','color',CM(n,:));
     grid on;
     %set(gca,'Visible','off')
     pbaspect([1 1 1]);
-    set(gca,'xtick',[])
-    set(gca,'ytick',[])
+    set(gca,'zticklabel',[])
+    set(gca,'xticklabel',[])
+    set(gca,'yticklabel',[])
+    xlabel('x');
+    ylabel('y');
+    zlabel('t');
+    %set(gca,'xtick',[])
+    %set(gca,'ytick',[])
+    %set(gca,'ztick',[])
     xlim([-2 2]);
     ylim([-2 2]);
     pause(0.1)
+    
     hold on;
     n=n+1;
     %clf;
-    ii = ii + 1;
+    ii = ii + 0.2;
 end
 %%
 CM = jet(n);  % See the help for COLORMAP to see other choices.
