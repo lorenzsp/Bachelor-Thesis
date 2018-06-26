@@ -24,51 +24,9 @@ plot(BH1.data(:,3),BH1.data(:,4))
 
 %%
 H = gw_strain('mp_psi4_l2_m2_r115.00.asc',115);
-%%
-filename = ('mp_psi4_l2_m2_r115.00.asc');
-x = importdata(filename, ' ');
-
-st = 6000;
-en = 6.3e4;
-t = x(st:en,1);%(7000:end-10,1);%
-%t = t - t(1);
-psi4_r = x(st:en,2);%(7000:end-10,2);%
-psi4_i = x(st:en,3);%(7000:end-10,3);%
-
-hold on
-plot(t,psi4_r,'.')
-plot(t,psi4_i,'.')
-%%
- R = zeros(size(psi4_r));
- I = zeros(size(psi4_i));
-for i=2:length(t)
-
-    R(i) = trapz(t(1:i),psi4_r(1:i));
-    I(i) = trapz(t(1:i),psi4_i(1:i));
-    h(i) = -trapz(t(1:i),R(1:i)) + j.* trapz(t(1:i),I(1:i));
-end
-h = h';
-%hold on;
-%plot(t,-real(h),'.');
-%plot(t, imag(h),'.');
-
-
-%-(fit.coeff(1).*t.^2 + fit.coeff(2).*t + fit.coeff(3))
-%% linear fit
-p_r=polyfit(t,-real(h),2);
-
-figure();
-new_h_p = -real(h)-(polyval(p_r,t));
-plot(t,new_h_p);
-
-p_i = polyfit(t,imag(h),2);
-hold on
-%figure();
-new_h_x = imag(h)-(polyval(p_i,t));
-plot(t,new_h_x);
-
-grid on;
-
+t = H(:,1);
+new_h_x = H(:,2);
+new_h_p = H(:,3);
 %% energy balance
 % variable in the integral over the angles proportional to the energy
 int_var = diff(new_h_x).^2 + diff(new_h_p).^2;
@@ -79,6 +37,7 @@ figure();
 
 plot(t,fft(new_h_p));
 hold on;
+%% 
 plot(t,fft(new_h_x));
 
 %% BINARY NEUTRON star

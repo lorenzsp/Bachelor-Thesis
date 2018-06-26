@@ -14,7 +14,7 @@ psi4_i = x(:,3);
 
 figure();
 hold on;
-plot_f('\psi_4','t [M_\odot]','\psi_4',20)
+plot_f('\psi_4','t [M_\odot]','\psi_4',16)
 plot(t,psi4_r,'.');
 plot(t,psi4_i,'.');
 s= {['Re{\psi_4}'],...
@@ -42,11 +42,11 @@ h_p = rr-(polyval(p_r,t)); %h_+
 h_x = -(ii-(polyval(p_i,t))); %h_x
 
 figure();
-plot_f('Metric perturbation h','t [M_\odot]','h',20)
-plot(t,h_p);
 hold on;
+plot(t,h_p);
 plot(t,h_x);
 grid on;
+plot_f('Metric perturbation h','t [M_\odot]','h',16)
 s= {['h_+'],...
     ['h_x']};
 legend_f(s);

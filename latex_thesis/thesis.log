@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  25 JUN 2018 22:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  26 JUN 2018 16:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2146,7 +2146,7 @@ Package epstopdf Info: Source file: <effects_gw/plus_polarization.eps>
 (epstopdf)                    size: 420654 bytes
 (epstopdf)             Command: <repstopdf --outfile=effects_gw/plus_polarizati
 on-eps-converted-to.pdf effects_gw/plus_polarization.eps>
-(epstopdf)             \includegraphics on input line 136.
+(epstopdf)             \includegraphics on input line 140.
 Package epstopdf Info: Output file is already uptodate.
 
 <effects_gw/plus_polarization-eps-converted-to.pdf, id=179, 1237.62375pt x 107.
@@ -2155,7 +2155,7 @@ File: effects_gw/plus_polarization-eps-converted-to.pdf Graphic file (type pdf)
 
  <use effects_gw/plus_polarization-eps-converted-to.pdf>
 Package pdftex.def Info: effects_gw/plus_polarization-eps-converted-to.pdf used
- on input line 136.
+ on input line 140.
 (pdftex.def)             Requested size: 588.85963pt x 51.10297pt.
 Package epstopdf Info: Source file: <effects_gw/times_polarization.eps>
 (epstopdf)                    date: 2018-06-25 18:16:38
@@ -2166,7 +2166,7 @@ d-to.pdf>
 (epstopdf)                    size: 423596 bytes
 (epstopdf)             Command: <repstopdf --outfile=effects_gw/times_polarizat
 ion-eps-converted-to.pdf effects_gw/times_polarization.eps>
-(epstopdf)             \includegraphics on input line 144.
+(epstopdf)             \includegraphics on input line 148.
 Package epstopdf Info: Output file is already uptodate.
 
 <effects_gw/times_polarization-eps-converted-to.pdf, id=180, 1138.2525pt x 128.
@@ -2175,7 +2175,7 @@ File: effects_gw/times_polarization-eps-converted-to.pdf Graphic file (type pdf
 )
  <use effects_gw/times_polarization-eps-converted-to.pdf>
 Package pdftex.def Info: effects_gw/times_polarization-eps-converted-to.pdf use
-d on input line 144.
+d on input line 148.
 (pdftex.def)             Requested size: 588.85963pt x 66.47081pt.
 Package epstopdf Info: Source file: <effects_gw/plus_pol_cont.eps>
 (epstopdf)                    date: 2018-06-25 18:30:11
@@ -2186,7 +2186,7 @@ pdf>
 (epstopdf)                    size: 1346795 bytes
 (epstopdf)             Command: <repstopdf --outfile=effects_gw/plus_pol_cont-e
 ps-converted-to.pdf effects_gw/plus_pol_cont.eps>
-(epstopdf)             \includegraphics on input line 154.
+(epstopdf)             \includegraphics on input line 158.
 Package epstopdf Info: Output file is already uptodate.
 
 <effects_gw/plus_pol_cont-eps-converted-to.pdf, id=181, 562.1pt x 421.575pt>
@@ -2194,7 +2194,7 @@ File: effects_gw/plus_pol_cont-eps-converted-to.pdf Graphic file (type pdf)
 
 <use effects_gw/plus_pol_cont-eps-converted-to.pdf>
 Package pdftex.def Info: effects_gw/plus_pol_cont-eps-converted-to.pdf used on 
-input line 154.
+input line 158.
 (pdftex.def)             Requested size: 203.83417pt x 152.8733pt.
 Package epstopdf Info: Source file: <effects_gw/times_pol_cont.eps>
 (epstopdf)                    date: 2018-06-25 18:25:39
@@ -2205,7 +2205,7 @@ Package epstopdf Info: Source file: <effects_gw/times_pol_cont.eps>
 (epstopdf)                    size: 1960314 bytes
 (epstopdf)             Command: <repstopdf --outfile=effects_gw/times_pol_cont-
 eps-converted-to.pdf effects_gw/times_pol_cont.eps>
-(epstopdf)             \includegraphics on input line 157.
+(epstopdf)             \includegraphics on input line 161.
 Package epstopdf Info: Output file is already uptodate.
 
 <effects_gw/times_pol_cont-eps-converted-to.pdf, id=182, 562.1pt x 421.575pt>
@@ -2213,7 +2213,7 @@ File: effects_gw/times_pol_cont-eps-converted-to.pdf Graphic file (type pdf)
 
 <use effects_gw/times_pol_cont-eps-converted-to.pdf>
 Package pdftex.def Info: effects_gw/times_pol_cont-eps-converted-to.pdf used on
- input line 157.
+ input line 161.
 (pdftex.def)             Requested size: 203.83417pt x 152.8733pt.
 ) [12 <./effects_gw/plus_polarization-eps-converted-to.pdf>] [13 <./effects_gw/
 times_polarization-eps-converted-to.pdf> <./effects_gw/plus_pol_cont-eps-conver
@@ -2259,7 +2259,7 @@ exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on thesis.pdf (20 pages, 4506755 bytes).
+Output written on thesis.pdf (20 pages, 4506990 bytes).
 PDF statistics:
  283 PDF objects out of 1000 (max. 8388607)
  238 compressed objects within 3 object streams
