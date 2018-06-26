@@ -1,0 +1,384 @@
+Albert Einstein developed the General Theory of Relativity between and 1907 and 1917, creating a new tool to observe the universe. 
+The General Theory of Relativity has changed the way we describe and study the gravitational phenomena. 
+In particular, the new theory of gravitation was not only able to solve unexplained observations, as for instance, anomalies in the newtonian description of planets' orbits as Mercury, but it also predictied new  phenomena such as gravitational time dilation, gravitational lensing and gravitational waves.
+One of the most important test of the General Theory of Relativity was the discovery of the gravitational waves (GW). %cite and comment the two nobel prices
+\\
+\subsection{Linearized Einstein's field equation}
+The Einstein's field equation represents how the geometry of space-time is related to the presence of masses and energy:
+\begin{equation}
+\label{einstein_eq}
+G_{\mu \nu} \equiv R_{\mu \nu} - \dfrac{1}{2} \,  g_{\mu \nu} \, R =\dfrac{8 \, \pi \, G}{c^4}  \, T_{\mu \nu}
+\end{equation}
+On the right hand side we have the energy-momentum tensor $T_{\mu \nu}$, which is interpreted as the flux of four momentum $p^\mu$ accross a surface of constant $x^\nu$, and $G=6.67408\times 10^{-11} \, \newton \usk \metre^2 \usk \kilogram^{-2}$ and $c=299\,792\,458 \,\metre \per \second$ that are respectively the Newton constant of gravitation and the speed of light. 
+On the left hand side the Einstein tensor $G_{\mu \nu}$ includes a measure of the curvature of spacetime through the Ricci tensor $R_{\mu \nu}$, the Ricci scalar $R = R_{\mu \nu} g^{\mu \nu} $ and the metric $g_{\mu \nu}$. \\
+In order to solve the Einstein's equation we will make assumptions on the metric tensor $g_{\mu \nu}$ and we will derive the Einstein tensor $G_{\mu \nu}$ going through the following steps:
+\begin{itemize}
+\item[(a)] Calculate the Christoffel symbol
+\begin{equation}
+\label{christoffel_symbol}
+:\Gamma ^\alpha _{\beta \gamma}: = 
+\dfrac{1}{2} g^{\alpha ^\rho} \qty(
+\partial_\beta g_{\gamma \rho} + 
+\partial_\gamma g_{\rho \beta} -
+\partial_\rho g_{\beta \gamma}
+)
+\end{equation}
+where $\partial_\mu$ means the partial derivative $\partial/\partial x^{\mu}$.
+\item[(b)] Calculate the Riemann curvature tensor
+\begin{equation}
+\label{riemann_tensor}
+: R^\alpha _{\beta \gamma \sigma}:
+=
+:\Gamma ^\alpha _{\gamma \lambda}:\,
+:\Gamma ^\lambda _{\sigma \beta}:
+-
+:\Gamma ^\alpha _{\sigma \lambda}:\,
+:\Gamma ^\lambda _{\gamma \beta}:
++
+\partial_\gamma :\Gamma^\alpha _{\sigma \beta}: 
+-
+\partial_\sigma :\Gamma^\alpha _{\gamma \beta} :
+\end{equation}
+
+\item[(c)] Obtain the Ricci tensor and the Ricci scalar from the Riemann curvature tenor
+\begin{equation}
+\label{ricci}
+R_{\mu \nu} = :R^\alpha _\mu \alpha _\nu: \hspace{1.5cm}
+R=\eta^{\mu \nu} R_{\mu \nu} = :R^{\mu} _\mu:
+\end{equation}
+
+\end{itemize}
+
+$G_{\mu \nu}$ and $T_{\mu \nu}$ are symmetric tensors because $g_{\mu \nu}$ is symmetric as well.
+So the Einstein's field equation is a set of non-linear second-order partial differential equations with $10$ linearly independent variables. \\
+We show that the equation(\ref{einstein_eq}) leads to gravitational wave solutions if we consider a weak gravitational field, where the spacetime is nearly flat. 
+Therefore, we assume the metric tensor $g_{\mu \nu}$ to be equal to the Minkwoski metric $\eta=\text{diag}(-1,+1,+1,+1)$ plus a small perturbation $h_{\mu \nu}$ :
+\begin{equation}
+\label{metric}
+g_{\mu \nu} = \eta_{\mu \nu} + h_{\mu \nu}
+\end{equation}
+where perturbation is symmetric and $\abs{h_{\mu \nu}}\ll 1$ for all $\mu$ and $\nu$. \\
+The metric $g_{\mu \nu}$ is also used to lower and raise indeces, however, in linearized theory we consider only the first order approximation in $h_{\mu \nu}$. So, it is possible to raise and lower indeces using the Minkoswkian metric $\eta_{\mu \nu}$.\\ % we can add the estimation of the swarzschild metric the correction at the sun surface h - 10^-6
+Taking into account the mentioned approximations we follow the described procedure to calculate the so-called linearized Einstein's field equation.
+The Christoffel symbol is obtained keeping up to the first order in the perturbation $h_{\mu \nu}$
+\[
+:\Gamma ^\alpha _{\beta \gamma}: = 
+\dfrac{1}{2} \eta^{\alpha \rho}
+\qty(
+\partial_\beta h_{\gamma \rho } 
++
+ \partial_\gamma h_{\rho \beta}
+-
+\partial_\rho h _{\beta \gamma}
+) 
+\]
+The Riemann curvature tensor is 
+\setlength{\jot}{10pt}
+\begin{eqnarray}
+:R^\mu _{\beta \gamma \de }: &=&  \notag
+\partial_\gamma :\Gamma ^\mu _{\de \beta}: -
+\partial_\de :\Gamma ^\mu _{\gamma \beta}: 
+\\ \notag
+&=& 
+\dfrac{1}{2} 
+\qty[
+\eta^{\mu \rho} 
+\qty(
+\partial_\gamma \partial_\de h_{\beta \rho} + %cancel
+\partial_\gamma \partial_\beta h_{\de \rho} -
+\partial_\gamma \partial_\rho h_{\beta \de}
+)
+-
+\eta^{\mu \sigma} 
+\qty(
+\partial_\de \partial_\beta h_{\gamma \sigma} +
+\partial_\de \partial_\gamma h_{\beta \sigma} - %cancel
+\partial_\de \partial_\sigma h_{\beta \gamma}
+)
+]
+\\ 
+&=&
+\label{reimann_curvature_tensor_first_order}
+\dfrac{1}{2} \qty(
+\partial_\gamma \partial_\beta :h ^\mu _{\de}: -
+\partial_\gamma \partial^\mu h_{\beta \de} -
+\partial_\de \partial_\beta :h^\mu _{ \gamma} : +
+\partial_\de \partial^\mu h_{\beta \gamma}
+)
+\end{eqnarray}
+where we neglected the first two terms in eq(\ref{riemann_tensor}) because they are second order terms. 
+Contracting the first and the third indeces we get the Ricci tensor
+\bea
+R_{\beta \de} &=& 
+\dfrac{1}{2} 
+\qty(
+\partial_\mu \partial_\beta :h ^\mu _{\de}: -
+\partial_\mu \partial^\mu h_{\beta \de} -
+\partial_\de \partial_\beta :h^\mu _{\mu } :+ 
+\partial_\de \partial^\mu h_{\beta \mu}
+) \\
+&=&
+\dfrac{1}{2} 
+\qty(
+\partial_\mu \partial_\beta :h^\mu _{\de} : -
+\square h_{\beta \de} -
+\partial_\de \partial_\beta h +
+\partial_\de \partial^\mu h_{\beta \mu}
+) 
+\eea
+where the trace of the perturbation is defined as $h=\eta^{\mu \nu} h_{\mu \nu}= :h^{\mu} _{\mu} :$, and the d'Alambertian opereator in flat space is $\square = \partial_\mu \partial^\mu$. \\
+Contracting again to obtain the Ricci scalar yields
+\begin{equation*}
+\begin{aligned}
+R &= \dfrac{1}{2} 
+\qty(
+\partial_\mu \partial^\nu :h ^\mu _{\nu}: -
+\square :h^\beta _{\beta} : -
+ \partial_\beta \partial^\beta h +
+\partial_\nu \partial^\mu :h^\nu _\mu:
+)
+\\
+&= 
+\partial_\mu \partial_\nu h^{\mu \nu} - \square h
+\end{aligned}
+\end{equation*}
+Therefore the Einstein tensor is
+\begin{equation}
+\label{einstein_tensor_approx}
+G_{\beta \nu} = \dfrac{1}{2} 
+\qty(
+\partial_\mu \partial_\beta :h ^\mu _\nu: -
+\square h_{\beta \nu} -
+\partial_\nu \partial_\beta h +
+\partial_\nu \partial^\mu h_{\beta \mu}
+- 
+\eta_{\beta \nu} \partial_\mu \partial_\lambda h^{\mu \lambda} - 
+\eta_{\beta \nu} \square h
+)
+\end{equation}
+If we define the \textbf{trace-reversed} perturbation 
+\[
+\bar{h} _{\mu \nu} = h_{\mu \nu} - \dfrac{1}{2} h \eta_{\mu \nu} \hspace{1.5cm} \bar{h}=\bar{h}^{\mu \nu} \eta_{\mu \nu} = - h
+\]
+we can simplify the equation(\ref{einstein_tensor_approx}).
+Thus,
+\begin{equation*}
+\begin{aligned}
+R_{\beta \nu} &= 
+\dfrac{1}{2} 
+\qty(
+\partial_\mu \partial_\beta \bar{h}^{\mu}\! _{\nu } -
+\square \bar{h}_{\beta \nu} -
+\cancel{\partial_\nu \partial_\beta h} +
+\partial_\nu \partial^\mu \bar{h}_{\beta \mu}
++
+\cancel{\dfrac{1}{2} \eta_{\nu \mu} \partial^\mu \partial_\beta h}
+-
+\dfrac{1}{2} \eta_{\beta \nu} \square h 
++
+\cancel{\dfrac{1}{2} \eta_{\beta \mu} \partial_\nu \partial^\mu h}
+) \\
+&=
+\dfrac{1}{2} 
+\qty(
+\partial_\mu \partial_\beta \bar{h}^{\mu} \!_{\nu } -
+\square \bar{h}_{\beta \nu}
++
+\partial_\nu \partial^\mu \bar{h}_{\beta \mu}
+-
+\dfrac{1}{2} \eta_{\beta \nu} \square h 
+)
+\end{aligned}
+\end{equation*}
+If we contract the above tensor we obtain
+\begin{equation*}
+\begin{aligned}
+R &=
+\partial_\mu \partial_\beta \bar{h}^{\mu}\! _{\nu } +
+ \dfrac{1}{2} \eta^{\mu \nu} \partial_\mu \partial_\nu h - \square h
+\end{aligned} = 
+\partial_\mu \partial_\nu \bar{h}^{\mu \nu} - 
+\dfrac{1}{2} \square h
+\end{equation*}
+So the Einstein's tensor expressed as a function of $\bar{h} _{\mu \nu}$ is
+\begin{equation}
+\label{einstein_tensor_tracereversed}
+G_{\beta \nu} = \dfrac{1}{2} 
+\qty(
+\partial_\mu \partial_\beta \bar{h}^\mu \! _{ \nu} -
+\square \bar{h}_{\beta \nu}
++
+\partial_\nu \partial^\mu \bar{h}_{\beta \mu}
+- \eta_{\mu \nu} \partial_\mu \partial_\nu \bar{h}^{\mu \nu}
+)
+\end{equation}
+This expression can be simplified further by choosing an appropriate gauge transformation.
+Using the \textbf{Lorenz gauge} condition 
+\begin{equation}
+\label{lorentz_gauge}
+\partial_{\mu} \bar{h}\, ^{\mu \nu} = 0 
+\end{equation}
+ the Einstein's tensor of equation(\ref{einstein_tensor_tracereversed}) becomes
+\bea
+G_{\beta \nu} = 
+\dfrac{1}{2}
+\qty(
+\partial_\beta \partial_\mu \bar{h}^{\mu \alpha} \eta_{\alpha \nu}
++ 
+\partial_\nu \partial_\mu \bar{h}^{\mu \alpha} \eta_{\alpha \beta}
+-
+\eta_{\mu \nu} \partial_{\nu} \partial_{\mu} \bar{h}^{\mu \nu}
+-
+\square \bar{h}_{\beta \nu}
+) =
+-\dfrac{1}{2} \square \bar{h}_{\beta \nu}
+\eea
+The linearized Einstein's field equation is
+\begin{equation}
+\label{linear_einstein_eq}
+\square \bar{h}_{\beta \nu} = - 16 \pi\,  T_{\beta \nu} 
+\end{equation}
+we will solve the above equation with individual approximations in section(), whereas we work in vacuum.
+The energy-momentumn tensor $T_{\beta \nu}$ is null in vacuum so the linearized Einstein's equation in vacuum assumes the form of the wave equation in a tensorial form
+\begin{equation}
+\label{wave_equation}
+\square \bar{h}_{\beta \nu} =0  
+\end{equation}
+The above equation shows that the trace-reversed metric perturbation propagate as a wave distorting a flat spacetime.\\
+The simplest solution to the linearized Einstein's equation(\ref{wave_equation}) is a plane wave
+\[
+\bar{h}_{\beta \nu} = A_{\beta \nu} \, \exp\qty(i\, k_{\alpha} x^{\alpha})
+\]
+where $A_{\beta \nu}$ is called \textbf{amplitude tensor} and it is symmetric, since $\bar{h}_{\mu \nu}$ is symmetric.\\
+Substitution of the plane wave solution into equation(\ref{wave_equation}) implies that $k_{\alpha} k^{\alpha} =0$, so $k^{\alpha}$ is a null four vector. 
+Therefore, the plane wave solution is a gravitational wave which travels at the speed of light in the spatial direction $\vb{k} = (k^{1},k^{2},k^{3})/k^{0}$ and with frequency $\omega=k^{0} $, i.e. $\bar{h}_{\beta \nu} = A_{\beta \nu} \, \exp\qty[i\, (\vb{k} \cdot \vb{x} - \omega t)]$.
+Furthermore, any $\bar{h}_{\mu \nu}$ satisfying the linearized Einstein's field equation(\ref{wave_equation}) in vacuum describes a \textbf{gravitational wave} propagating at the speed of light, and it can be Fourier-expanded as a superposition of plane waves.
+ 
+
+\subsection{Gauge transformations and GW polarizations}
+A \textbf{gauge transformation} in linearized theory is defined as a transformation of the perturbation $h_{\mu \nu}$ into a new metric perturbation $h'_{\mu \nu}$
+\begin{equation}
+\label{gauge_transf}
+h' _{\mu \nu} = h_{\mu \nu} + \partial_\mu \xi _{\nu} + \partial_\nu \xi _{\mu}
+\end{equation}
+for a given vector field $\xi^\mu$.
+Gauge transformations are particularly important because they leave the Riemann curvature tensor unchanged (up to the first order in $h_{\mu \nu}$), indeed, the physical spacetime is unchanged. 
+The invariance of the curvature under such transformations is analogous to the traditional gauge invariance of electromagnetism.\\
+Assuming that the Einstein's field equation(\ref{linear_einstein_eq}) are valid everywhere the metric perturbation $h_{\mu \nu}$ contains: gauge degrees of freedom; physical, radiative degrees of freedom; and physical, non-radiative degrees of freedom tied to the matter source of the GW. \\
+ It is possible to show that the linearized Einstein's equation can be written as 5 Poisson-type quations for certain combinations of spacetimemetric, plus a wave equation for the transverse-traceless components of the metric perturbation, which represents the radiative degrees of freedom.\\%[ref] 
+ Neverthless this procedure will manifestly demonstrate that the radiative degrees of freedom in spacetime are two, it is a cumbersome and long derivation.
+Instead, we ignore the degrees of freedom tied to the matter and we consider only solutions of equation(\ref{wave_equation}):
+\[
+\bar{h}_{\mu \nu} = A_{\mu \nu} \, \exp\qty(i\, k_{\alpha} x^{\alpha})
+\]
+By using the Lorenz gauge and the transverse traceless gauge, we reduce progressively the number degrees of freedom of a plane wave from 10 to 2.\\
+
+We want now to find the conditions on the parameter $\xi_{\mu}$ in order to satisfy the Lorenz gauge condition, that we used in the previous section. 
+The initial metric perturbation $h_{\mu \nu}$ tranforms into $h'_{\mu \nu}$ if a gauge transformation is used. However, the new trace reversed metric $\bar{h}'_{\mu \nu}$ transforms as
+\begin{eqnarray}
+\bar{h}'_{\mu \nu} &=& 
+h _{\mu \nu} + 
+\partial_\mu \xi _\nu +
+\partial_\nu \xi_\mu 
+-\dfrac{1}{2} \eta _{\mu \nu}\,
+\qty(
+ h \, + \partial_\alpha \xi^\alpha +
+\partial_\alpha \xi^\alpha  \notag
+ )
+ \\
+ \label{h_bar_gauge}
+ \bar{h}'_{\mu \nu} &=&
+ \bar{h} _{\mu \nu} + 
+\partial_\mu \xi _\nu +
+\partial_\nu \xi_\mu 
+- \eta _{\mu \nu}\,\partial_\alpha \xi^\alpha 
+\end{eqnarray}
+Imposing the Lorenz gauge $\partial_{\mu} \bar{h}'\, ^{\mu \nu}=\partial_{\mu} \bar{h}\, ^{\mu \nu} = 0 $ we obtain
+\bea
+\partial_{\mu} \bar{h}'\, ^{\mu \nu} &=&
+\partial_{\mu} \bar{h}\, ^{\mu \nu}+
+\partial_{\mu} \partial^\mu \xi ^\nu +
+\partial_{\mu} \partial^\nu \xi^\mu -
+\partial_{\mu} \eta ^{\mu \nu}\,\partial_\alpha \xi^\alpha 
+\\
+&=&
+0 +
+\square \xi^{\nu}+
+\partial^\nu \partial_{\mu} \xi^\mu -
+\partial^{\nu} \partial_\alpha \xi^\alpha =0
+\eea
+Any metric perturbation $h_{\mu \nu}$ can therefore be put into a Lorenz gauge by using transformations that satisfy
+\[
+\square \xi_\mu = 0
+\]
+The plane wave $\xi_{\mu} = C_{\mu} \exp[i k_{\alpha} x^{\alpha}]$ is a solution of the above equation and it generates a gauge transformation through the four arbitrary constants $C_{\mu}$. \\
+The \textbf{Transverse-Traceless (TT) gauge} is the most convinient gauge for the analysis of the grabitational waves, and it is defined for a plane wave by the following conditions:
+\begin{itemize}
+\item[a)] The Lorenz gauge condition fixes four components of $A_{\mu \nu}$
+\[
+\partial^{\mu} \bar{h}_{\mu \nu}=A_{\mu \nu} k^{\nu} =0
+\]
+The amplitude tensor $A_{\mu \nu}$ and the four vector $k^{\mu}$ are orthogonal.
+
+\item[b)] Three components of the aplitude tensor can be eliminated selecting $\xi_{\mu} = C_{\mu} \exp[i k_{\alpha} x^{\alpha}]$ so that $A^{\mu \nu} u_{\mu} =0$ for some chosen four velocity $u_{\mu}$. Three and not four components are fixed, since one firther constraint $k^{\mu} A_{\mu \nu} u^{\nu}$ needs to be satisfied.
+ 
+\item[c)] One component of the aplitude tensor can be eliminated selecting $\xi_{\mu} = C_{\mu} \exp[i k_{\alpha} x^{\alpha}]$ so that $A^{\mu} _{\mu} = 0$.
+
+\end{itemize}
+This means that we have suffecient freedom to fix the values of 8 components of $A_{\mu \nu}$ from a), b) and c), hence, reducing the number of independent component from 10 to 2.
+Note that $\bar{h} ^{\T} _{\mu \nu}= h^{\T} _{\mu \nu}$ from c).
+\\
+What are the physical consequences of using the TT gauge?\\
+Let use consider a test a particle at rest with four-velocity $u^{\alpha} = (1,0,0,0)$ in a nearly flat spacetime. If we orient our spatial coordinate axes so that the a plane gravitational wave is travelling in the positive z-direction $k^{\sigma} = (\omega, 0 ,0 ,\omega)$ the transverse traceless conditions becomes
+\[ \left.
+\begin{aligned}
+A^{\T}_{\mu 0} \, \omega + A ^{\T}_{\mu 3} \, \omega &= 0 \\
+A^{\T}_{0 \nu}  &= 0 \\
+A^{\T} _{00} + A^{\T} _{11} +A^{\T} _{22} + A^{\T} _{33} &= 0
+\end{aligned}
+\;
+\right\}
+\quad \Rightarrow \quad
+\begin{bmatrix}
+0 & 0 & 0 & 0 \\
+0 & A^{\T} _{11} & A_{12} ^{\T} & 0 \\
+0 & A^{\T} _{12} & -A^{\T} _{11} & 0 \\
+0 & 0 & 0 & 0 \\
+\end{bmatrix}
+\]
+As a consequence of the transverse traceless gauge  the only non-zero component of the metric perturbation $\bar{h}^{\T}_{\mu \nu}$ are, respectively, the plus ($+$) and the cross ($\times$) polarization of the gravitational wave
+\bea
+\bar{h}^{\T} _{11} &=& -\bar{h}^{\T} _{22} \equiv h_{+} \\
+\bar{h}^{\T} _{12} &=& \bar{h}^{\T} _{21} \equiv h_{\times}  
+\eea
+So, the plane wave solution in the TT gauge is:
+\beq
+\label{matrix_h_tt}
+\bar{h}^{\T}_{\mu \nu} =
+\begin{bmatrix}
+0 & 0 & 0 & 0 \\
+0 & h_{+} & h_{\times} & 0 \\
+0 & h_{\times} & -h_{+} & 0 \\
+0 & 0 & 0 & 0 \\
+\end{bmatrix}
+\eeq
+where we express the real part of the solution with
+\bea
+h_{+} = A^{\T} _{11} \cos \qty(\omega(t-z)) \\
+h_{\times} =  A^{\T} _{12} \cos \qty(\omega(t-z))
+\eea
+$h_{+}$ and $h_{\times}$ are the two independent polarizations of a gravitational wave and they completely characterize the gravitational wave solution. 
+We finally found that the radiative degrees of freedom are only two and they are represented by $h_{+}$ and $h_{\times}$. \\
+In the next section we will understand the physical meaning of these two polarizations.
+\\
+\begin{comment}
+Generally, within any finite vacuum region it is always possible to find a gauge which is locally TT, that is, a guage which satisfies the general conditions of the \textbf{Transverse Traceless gauge}% ref
+\bea
+h_{0 \nu} ^{\T} = 0 \\
+\eta ^{\mu \nu} h_{\mu \nu} ^{\T} =0 \\
+\partial_{\mu} h^{\mu \nu} _{\T} =0
+\eea
+\end{comment}
+ 
+
+

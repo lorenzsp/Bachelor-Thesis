@@ -1,0 +1,55 @@
+%\definecolor{headercolor}{rgb}{0.2,0.2,0.2}
+%\pagestyle{fancy}
+%% \fancypagestyle{bananana}
+% {
+%  \fancyhf{}
+%  \fancyhead[EL]{{\color{headercolor} \footnotesize \thepage \qquad \nouppercase{\leftmark}}}
+%  %take 
+%  \fancyhead[ER]{{\color{headercolor} \footnotesize Chapter \thechapter}}
+%  \fancyhead[OL]{{\color{headercolor} \footnotesize Section \arabic{section}}}
+%  \fancyhead[OR]{{\color{headercolor} \footnotesize \nouppercase{\rightmark} \qquad \thepage}}
+%}
+
+%\renewcommand{\chaptermark}[1]{
+%\markboth{#1}{}}
+%\renewcommand{\sectionmark}[1]{
+%\markright{#1}}
+% \fancyhead[R]{\thepage}
+%
+%\fancypagestyle{plain}
+%{
+%    \fancyhf{}
+%    \fancyhead[OR]{{\color{headercolor} \footnotesize \nouppercase{\rightmark} \qquad \thepage}}
+%    \fancyhead[EL]{{\color{headercolor} \footnotesize \nouppercase{\rightmark} \qquad \thepage}}
+%
+%}
+
+%\fancypagestyle{part}
+%{
+%\renewcommand{\headrulewidth}{0pt}
+%    \fancyhf{}
+%}
+
+%
+\fancypagestyle{onlypagenum}
+{
+  \fancyhf{}
+  \fancyhead[OR]{\color{headercolor} \thepage}
+  \fancyhead[EL]{\color{headercolor} \thepage}
+}
+
+\fancypagestyle{tableofcontents}
+{
+%  \fancyhf{}
+%  \fancyhead[EL]{{\color{headercolor} \footnotesize \thepage \qquad \nouppercase{\leftmark}}}
+%  \fancyhead[OR]{{\color{headercolor} \footnotesize \nouppercase{\rightmark} \qquad \thepage}}
+}
+
+\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else
+\hbox{}
+\thispagestyle{empty}
+\newpage
+\if@twocolumn\hbox{}\newpage\fi\fi\fi}
+
+% Fix headheight too small warning by setting it to 15pt:
+\setlength{\headwidth}{6.3in}

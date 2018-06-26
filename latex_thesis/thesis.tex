@@ -1,0 +1,67 @@
+%% MAIN DOCUMENT FOR MASTER THESIS
+\documentclass[twoside,english, a4paper, 12pt]{shared/uiofysmaster}
+\usepackage[top=1.5in, bottom=1.5in, left=1in, right=1in]{geometry}
+
+%% TITLE
+\author{Lorenzo Speri}
+\title{\bf{A Very Impressive and Fancy Title for a Thesis}}
+\date{May 2018}
+
+%% LOAD PACKAGES
+\input{shared/preamble}
+
+% format sections
+\usepackage{titlesec}
+\titleformat{\section}[block]
+{\Large\bfseries}
+{\thesection}{0.5em}{}
+ 
+%% MAIN DOCUMENT BEGINNING
+\begin{document}
+
+% LOAD COMMANDS
+\input{shared/custom_commands}
+\maketitle
+\clearpage
+
+\tableofcontents
+\clearpage
+
+%% ABSTRACT AND ACKNOWLEDGMENTS
+\begin{abstract1}
+A really interesting and fascinating abstract
+\end{abstract1}
+
+\clearpage
+\section{Introduction}
+\input{introduction/intro.tex}
+
+\clearpage
+\section{From the Einstein's field equation\\ to gravitational wave solutions}
+\input{einstein_eq/einstein_eq_gw.tex}
+
+\clearpage
+\section{Effects of Gravitational Waves}
+\input{effects_gw/ef_gw.tex}
+
+\clearpage
+\section{Production of Gravitational Waves}
+\input{production_gw/prod_gw.tex}
+
+\clearpage
+\section{Conclusion}
+
+\clearpage
+%% APPENDICES
+\section{Appendices}
+\input{appendix/resampling}
+jajdc.,jdac amdadadadadadad ad ad a  d a d a d a d a  d a d a d a
+
+
+%% MAKE BIBLIOGRAPHY
+\bibliographystyle{unsrt}
+\bibliography{bibliography/master_thesis}
+
+%% AND SO WE END
+\end{document}
+

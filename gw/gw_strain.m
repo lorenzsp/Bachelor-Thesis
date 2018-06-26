@@ -14,7 +14,7 @@ psi4_i = x(:,3);
 
 figure();
 hold on;
-plot_f('\psi_4','t [M_\odot]','\psi_4',12)
+plot_f('\psi_4','t [M_\odot]','\psi_4',20)
 plot(t,psi4_r,'.');
 plot(t,psi4_i,'.');
 s= {['Re{\psi_4}'],...
