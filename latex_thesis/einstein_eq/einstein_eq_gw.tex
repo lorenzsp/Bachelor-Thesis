@@ -312,7 +312,7 @@ Any metric perturbation $h_{\mu \nu}$ can therefore be put into a Lorenz gauge b
 \square \xi_\mu = 0
 \]
 The plane wave $\xi_{\mu} = C_{\mu} \exp[i k_{\alpha} x^{\alpha}]$ is a solution of the above equation and it generates a gauge transformation through the four arbitrary constants $C_{\mu}$. \\
-The \textbf{Transverse-Traceless (TT) gauge} is the most convinient gauge for the analysis of the grabitational waves, and it is defined for a plane wave by the following conditions:
+The \textbf{Transverse-Traceless (TT) gauge} is the most convinient gauge for the analysis of the gravitational waves, and it is defined for a plane wave by the following conditions:
 \begin{itemize}
 \item[a)] The Lorenz gauge condition fixes four components of $A_{\mu \nu}$
 \[
@@ -328,7 +328,7 @@ The amplitude tensor $A_{\mu \nu}$ and the four vector $k^{\mu}$ are orthogonal.
 This means that we have suffecient freedom to fix the values of 8 components of $A_{\mu \nu}$ from a), b) and c), hence, reducing the number of independent component from 10 to 2.
 Note that $\bar{h} ^{\T} _{\mu \nu}= h^{\T} _{\mu \nu}$ from c).
 \\
-What are the physical consequences of using the TT gauge?\\
+What does the TT gauge tell us about gravitational radiation ?\\
 Let use consider a test a particle at rest with four-velocity $u^{\alpha} = (1,0,0,0)$ in a nearly flat spacetime. If we orient our spatial coordinate axes so that the a plane gravitational wave is travelling in the positive z-direction $k^{\sigma} = (\omega, 0 ,0 ,\omega)$ the transverse traceless conditions becomes
 \[ \left.
 \begin{aligned}
@@ -369,16 +369,38 @@ h_{\times} =  A^{\T} _{12} \cos \qty(\omega(t-z))
 \eea
 $h_{+}$ and $h_{\times}$ are the two independent polarizations of a gravitational wave and they completely characterize the gravitational wave solution. 
 We finally found that the radiative degrees of freedom are only two and they are represented by $h_{+}$ and $h_{\times}$. \\
-In the next section we will understand the physical meaning of these two polarizations.
-\\
-\begin{comment}
-Generally, within any finite vacuum region it is always possible to find a gauge which is locally TT, that is, a guage which satisfies the general conditions of the \textbf{Transverse Traceless gauge}% ref
+
+Generally, within any finite vacuum region it is always possible to find a gauge which is locally transverse and traceless, that is, a guage which satisfies the following general conditions
 \bea
 h_{0 \nu} ^{\T} = 0 \\
 \eta ^{\mu \nu} h_{\mu \nu} ^{\T} =0 \\
 \partial_{\mu} h^{\mu \nu} _{\T} =0
 \eea
-\end{comment}
- 
+The transverse traceless gauge does not only simplify the expression of the perturbation metric, but it also gives an important relation between the Riemann curvature tensor and the metric perturbation.
+Since we have already calculated the Riemann curvature tensor in equation(\ref{reimann_curvature_tensor_first_order}) we recall the result taking into account the TT gauge conditions
+\begin{eqnarray}
+:R^\mu _{00 \sigma }: 
+&=&
+\dfrac{1}{2} \qty(
+\partial_0 \partial_0 :h^{\T \mu} _{\sigma}: -
+\partial_0 \partial^\mu h^{\T}_{0 \sigma} -
+\partial_\sigma \partial_0 :h^{\T \,\mu} _{ 0}:  +
+\partial_\sigma \partial^\mu h_{0 0} ^{\T}
+) \notag
+\\
+&=&
+\label{reimann_tensor_TT}
+\dfrac{1}{2} \partial_0 \partial_0 :h^{\T \mu} _{\sigma}: 
+\hspace{1.5cm} \text{using } h^{\T} _{\mu 0} =0 
+\end{eqnarray}
+The above result tells us that the curvature of spacetime is proportional to the 'acceleration' of the gravitational wave. 
+Considering a plane wave we have
+\[
+ :R^\mu _{00 \sigma }: = -\dfrac{1}{2} \omega^2 :A^{\T \mu} _{\sigma}: \cos (\omega (t-z))
+\]
+where $\omega$ is the frequency of the plane wave. 
+The curvature is proportional to the square of the frequency, in fact we expect a bigger curvature if the wave oscillates more times per second. 
+Naively, the spacetime is more curved if the ripples of the GW are squeezed in a narrow time interval.
+Analogously, the electromagnetic field of an oscillating electric dipole is proportional to the square of the frequency, in fact we expect a more intense  field if the charge oscillates more times per second.
 
 
