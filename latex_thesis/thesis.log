@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  27 JUN 2018 15:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  27 JUN 2018 20:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -364,6 +364,10 @@ Package: subfig 2005/06/28 ver: 1.3 subfig package
 \sf@top=\skip59
 \sf@bottom=\skip60
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup4
+)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip61
 \f@ncyO@elh=\skip62
@@ -422,8 +426,8 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
@@ -450,7 +454,7 @@ Package: SIunits 2007/12/02 v1.36 Support for the International System of units
 
 
 \@qskwidth=\skip71
-\symgreek=\mathgroup6
+\symgreek=\mathgroup7
 (/usr/local/texlive/2015/texmf-dist/tex/latex/SIunits/SIunits.cfg)
 Option `squaren' provided!
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/sidecap/sidecap.sty
@@ -1916,7 +1920,7 @@ LaTeX Warning: Label `sub@times_cont' multiply defined.
 LaTeX Warning: Label `plus_and_times' multiply defined.
 
 
-LaTeX Warning: Label `h_retarded_solution' multiply defined.
+LaTeX Warning: Label `quadrupole_moment_tensor' multiply defined.
 
 )
 \openout1 = `thesis.aux'.
@@ -2076,6 +2080,11 @@ d/logo.png>] [2
 
 
 ] (./thesis.toc
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 3.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
 LaTeX Font Info:    Try loading font information for U+msa on input line 3.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -2306,14 +2315,19 @@ s_pol_cont-eps-converted-to.pdf>]
 [15 <./effects_gw/r_pol-eps-converted-to.pdf> <./effects_gw/l_pol-eps-converted
 -to.pdf>] (./production_gw/prod_gw.tex [16
 
-]) [17]
-(./numerical_evolution/num_ev.tex) [18
+] [17]
+Overfull \hbox (18.99855pt too wide) in alignment at lines 124--154
+ [][][] []
+ []
 
-] [19
+[18]) [19] (./numerical_evolution/num_ev.tex) [20
 
-] (./appendix/resampling.tex)
+] [21
+
+]
+(./appendix/resampling.tex)
 No file thesis.bbl.
-[20
+[22
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 70.
@@ -2330,13 +2344,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
  ) 
 Here is how much of TeX's memory you used:
- 31491 strings out of 493033
- 611757 string characters out of 6134139
- 815212 words of memory out of 5000000
- 34408 multiletter control sequences out of 15000+600000
- 20274 words of font info for 76 fonts, out of 8000000 for 9000
+ 31536 strings out of 493033
+ 612607 string characters out of 6134139
+ 815291 words of memory out of 5000000
+ 34434 multiletter control sequences out of 15000+600000
+ 21593 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,19n,80p,10426b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,19n,80p,10426b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
@@ -2350,11 +2364,12 @@ texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on thesis.pdf (23 pages, 7580712 bytes).
+/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
+Output written on thesis.pdf (25 pages, 7594299 bytes).
 PDF statistics:
- 341 PDF objects out of 1000 (max. 8388607)
- 289 compressed objects within 3 object streams
- 72 named destinations out of 1000 (max. 500000)
+ 369 PDF objects out of 1000 (max. 8388607)
+ 313 compressed objects within 4 object streams
+ 81 named destinations out of 1000 (max. 500000)
  160 words of extra memory for PDF output out of 10000 (max. 10000000)
 

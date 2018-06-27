@@ -65,12 +65,162 @@ The fractional error of this approximation scales as $\sim L/r$, where $L$ is th
 \end{itemize}
 So we rewrite equation(\ref{h_retarded_solution}) using the far field approximation:
 \[
-\label{h_retarded_solution}
 \bar{h}_{\mu \nu} (t,\vb{x}) = \dfrac{4}{r} \int
  T_{\mu \nu} \qty(t-r,\vb{y}) \, \dd[3]y
 \]
-
-
-
-
-
+Using the Fourier trassform and inverse with respect to time
+\bea
+\phi (t,\vb{x}) &=&  \mathcal{F}^{-1}[\tilde{\phi}(\omega , \vb{x})] \equiv 
+\dfrac{1}{\sqrt{2 \pi}} \, \int \dd \omega e^{-i\omega t} \tilde{\phi}(\omega , \vb{x}) \\
+\tilde{\phi} (\omega,\vb{x}) &=&  \mathcal{F}[\phi(t , \vb{x})] \equiv 
+\dfrac{1}{\sqrt{2 \pi}} \, \int \dd t e^{i\omega t} \phi (\omega , \vb{x})
+\eea
+applied to the metric perturbation 
+\begin{eqnarray}
+\h _{\mu \nu}(\omega , t) 
+&\equiv &
+\mathcal{F}[\bar{h} _{\mu \nu}(t,\vb{x})]
+=
+\dfrac{1}{\sqrt{2 \pi}} \, \int  e^{i\omega t} \bar{h}_{\mu \nu} (t , \vb{x}) \; \dd t
+\notag
+\\
+&=&
+\dfrac{4}{\sqrt{2 \pi}} \, \int  e^{i\omega t}  \dfrac{T_{\mu \nu}(t_r,\vb{y})}{r} \; \dd t \, \dd ^{3} y
+\notag
+\\
+&=&
+\dfrac{4}{\sqrt{2 \pi} \, r} 
+\, \int  e^{i\omega (t_r + r)} \, T_{\mu \nu}(t_r,\vb{y}) \; \dd t_r \, \dd ^{3} y
+\notag
+\\
+&=&
+\label{F(h)}
+\dfrac{4\,  e^{i\omega r}}{r} \int  \, \ten _{\mu \nu}(\omega,\vb{y}) \;  \, \dd ^{3} y
+\end{eqnarray}
+where we used a change of variable and we defined the Fourier transform of the energy momentum tensor as $\ten _{\mu \nu} \equiv \mathcal{F}[T_{\mu \nu}]$. \\
+The Lorenz gauge condition $\partial_{\mu } \bar{h} ^{\mu \nu} =0$ in the Fourier space becomes
+\bea
+\mathcal{F}\qty[\partial_{0} \bar{h} ^{0 \nu} + \partial_{j} \bar{h} ^{j \nu}] =0
+\\
+\h ^{0 \nu} = \dfrac{i}{\omega} \partial_{j} \h ^{j \nu}
+\eea
+As a consequence, we only need to calculate the spacelike components $\h^{j \nu}$.
+We set $\nu=k$ in order to find $\h ^{0 k}$ from $\h ^{j k}$, afterwards we use $\h ^{k 0}$ to get $h ^{0 0}$.
+The integration by parts of the spacelike components of equation(\ref{F(h)}) is 
+\[
+\int \ten ^{j k} \dd ^{3} y =
+\int \partial_m \qty( \ten ^{m k} y^{j})
+\dd ^{3} y
+- 
+\int \partial_m \qty( \ten ^{m k}) y^{j}
+\dd ^{3} y
+\]
+Since we assumed that the source is isolated, the first term, which is a surface integral, vanishes.
+Whereas, the conservation of the energy-momentum tensor $\partial_\mu T^{\mu \nu}=0$ yields in the Fourier space
+\[
+- \partial_m \qty( \ten ^{m k})  = i \omega \ten ^{0 k}
+\] 
+Thus,
+\bea
+\int \ten ^{j k} (\omega , \vb{y}) \dd ^{3} y 
+&=&
+i \omega \int y^{j} \ten ^{0 k} \; \dd ^{3} y \\
+\text{symmetry of } \ten_{k \nu} \rightarrow &=& 
+\dfrac{i \omega}{2} \int \qty(
+y^{j} \ten ^{0 k} + y^{k} \ten ^{0 j}
+) \dd ^{3} y
+\\
+\partial _l \qty(y^{k} y^{j} \ten ^{0 l}) = \delta ^{k} _{l} y^{j} \ten ^{0l}+
+\delta ^{j} _{l} y^{k} \ten ^{0l}+ 
+y^{k} y^{j}  \partial _l \ten ^{0 l}
+\rightarrow
+&=&
+\dfrac{i \omega}{2} \int 
+\qty[
+\partial _l \qty(y^{k} y^{j} \ten ^{0 l})
+- 
+y^{k} y^{j}  \partial _l \ten ^{0 l}
+]
+\, \dd ^{3} y
+\\
+ \partial _l \ten ^{0 l} = \partial _l \ten ^{ l 0} = -i\omega \ten ^{00} \rightarrow &=&
+ -
+\dfrac{\omega^{2}}{2}
+\int
+y^{k} y^{j} 
+\ten ^{00} (\omega , \vb{y}) \;
+\dd ^{3} y
+\\
+\eea
+Then, equation(\ref{F(h)}) becomes
+\bea
+\h _{k j} &=& 
+-\dfrac{4 \, e^{i \omega r}}{r}  
+\dfrac{\omega^{2}}{2}
+\int
+y^{k} y^{j} 
+\ten ^{00} (\omega , \vb{y}) \;
+\dd ^{3} y
+\\
+\mathcal{F}\qty[\pdv[2]{T^{00}}{t}] = - \omega ^2 \mathcal{F}[T^{00}]
+\rightarrow
+&=&
+\dfrac{2}{r} \int y^{k} y^{j}
+\mathcal{F}\qty[\pdv[2]{}{t}T^{00}(t_r,\vb{y})]
+\; 	\dd[3] y 
+\\
+&=&
+\mathcal{F} \qty[\dfrac{2}{r}\, \pdv[2]{}{t} \qty(
+ \int
+y^{k} y^{j} 
+T ^{00} (t_r , \vb{y}) \;
+\dd ^{3} y
+)
+]
+\eea
+We can transform back the above result to obtain the original metric perturbation
+\beq
+\label{h_bar_quadrupole_formula}
+\bar{h}_{kj} = \dfrac{2}{r} \dv[2]{}{t} I_{kj} (t_r)
+\eeq
+where we defined the \textbf{quadrupole moment tensor} 
+\begin{equation}
+\label{quadrupole_moment_tensor}
+I_{k j} (t) =
+ \int
+y_{k} y_{j} 
+T ^{00} (t , \vb{y}) \;
+\dd ^{3} y
+\end{equation}
+To complete the derivation we need to express the metric perturbation in the TT gauge, so we must make the right hand side of equation(\ref{h_bar_quadrupole_formula}) traceless and transverse.\\
+We begin by introducing the spatial projection tensor
+\begin{equation}
+\label{projection_tensor}
+P_{i j} = \delta_{i j} - n_{i} n_{j}
+\end{equation}
+which projects the components of a tensor (with rank 2) into a surface orthogonal to the unit vector $n^{i}$
+\[
+(P_{i j} X^{i l}) n^{j} = X^{ j l} n_{j}-  n_{i} n_{j} X^{i l} n^{j} = 0
+\]
+We can us the \textbf{projection tensor} to construct the transverse-traceless version of a symmetric spatial tensor $X_{ij}$ via
+\begin{equation}
+\label{TT_projection}
+X^{TT} _{ij} = \qty(:P_{i}^{k}::P_{j}^{l}: - \dfrac{1}{2} P_{ij} P^{kl}) X_{kl}
+\end{equation}
+where the first and second terms make the tensor, respectively, transverse and tracless.\\
+In addition, we define the \textbf{reduced quadrupole moment tensor} as
+\begin{equation}
+\label{quadrupole_moment_tensor}
+\mathcal{I}_{kj} = I_{kj} - \dfrac{1}{3} \delta_{kj} I \hspace{1.5cm} \text{where } I=\eta^{ l m} I_{l m} = I^{m} _{m}
+\end{equation}
+which is traceless, and, for $T^{00} = \rho$, it assume the expression
+\[
+\mathcal{I} _{kj} = \int \rho(\vb{y}) \qty(y_{k} y_{j} - \dfrac{1}{3}\delta_{kj} y^{l} y_{l} ) \; \dd[3] y
+\]
+We now have all the concepts to write down 
+the \textbf{quadrupole formula}
+\begin{equation}
+\label{h_TT_quadrupole_formula}
+h^{\T}_{ij} = \dfrac{2}{r} \dv[2]{\mathcal{I}_{kl}(t_r)}{t} \qty(:P_{i}^{k}::P_{j}^{l}: - \dfrac{1}{2} P_{ij} P^{kl})
+\end{equation}
+which represents the metric perturbation of equation(\ref{h_bar_quadrupole_formula}) in the TT gauge.
