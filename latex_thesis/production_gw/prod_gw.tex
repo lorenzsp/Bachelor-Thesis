@@ -3,5 +3,74 @@ We now want to understand the relation between the gravitational waves and their
 In order to study the solutions of the linearized Einstein's field equation(\ref{linear_einstein_eq})
 we make a crucial approximation
 
-\subsection{Solution of the linearized Einstein's equation}
-The 
+\subsection{Solution of the linearized Einstein's field equation}
+The generation of gravitational radiation depends on the movements of objects in spacetime. 
+So far, we have neglected the presence of matter and we solved the linearized the Einstein's field equation in vaccum. However, if we want to analyze the relation between sources and gravitational waves we need to consider $T_{\mu \nu} \neq 0$ and solve equation(\ref{linear_einstein_eq}):
+\[
+\square \bar{h}_{\mu \nu} = - 16 \pi \, T_{\mu \nu}
+\]
+It is possible to solve this equation using a Green function $G(x^{\sigma} -y^{\sigma})$, such that
+\beq
+\label{green_equation}
+\square_{x} G \qty(x^\sigma - y^{\sigma}) =
+\delta^{(4)}  \qty(x^\sigma - y^{\sigma})
+\eeq
+And the general solution is, then, given by
+\begin{eqnarray}
+\label{h_green_function}
+\bar{h}_{\mu \nu} (x^{\sigma}) =
+-16 \pi \int
+ G \qty(x^\sigma - y^{\sigma})
+ T_{\mu \nu} (y^{\sigma}) 
+ \, \dd[4] y 
+ \\
+ \square_{x} \bar{h}_{\mu \nu} (x^{\sigma}) 
+ = 
+-16 \pi \int   \square_{x}  G \qty(x^\sigma - y^{\sigma})
+ T_{\mu \nu} (y^{\sigma}) 
+ \, \dd[4] y 
+ =
+ - 16 \pi \, T_{\mu \nu} (x^{\sigma})
+ \notag
+\end{eqnarray}
+There are two solutions of equation(\ref{green_equation}): one solution represents a wave travelling forward in time and, the other represents a wave travelling backward in time. The two solutions are called, respectively, retarded and advanced. We are interested in the retarded Green function, which represents the accumulated effect of signals received at $(x^{0},x^{1},x^{2},x^{3})$ from a source at $(y^{0},y^{1},y^{2},y^{3})$: %mathematical methods in physics
+\[
+G \qty(x^\sigma - y^{\sigma}) =
+-\dfrac{1}{4 \pi\abs{\vb{x} - \vb{y}}} \, \mathlarger{\delta} \qty[\abs{\vb{x} - \vb{y}} - (x^{0}- y^{0})]
+\, \theta(x^{0} -y^{0})
+\]
+where have used boldface to denote the patial vectors $\vb{x} = (x^{1}, x^{2}, x^{3})$ and $\vb{y} =(y^{1}, y^{2}, y^{3})$, with norm $\abs{\vb{x}-\vb{y}} = \qty[\delta_{ij}(x^{i}-y^{i})(x^{j}-y^{j})]^{1/2}$. The Heaviside step function $\theta(x^{0} - y^{0})$ is 1 when $x^{0}>y^{0}$, and zero otherwise. \\
+Plugging the retarded Green function into equation(\ref{h_green_function}) 
+\beq
+\label{h_retarded_solution}
+\bar{h}_{\mu \nu} (t,\vb{x}) = 4 \int
+\dfrac{1}{\abs{\vb{x}- \vb{y}}} T_{\mu \nu} \qty(t-\abs{\vb{x}-\vb{y}},\vb{y}) \, \dd[3]y 
+\eeq
+where $t=x^{0}$ and the integration is made over the spatial coordinates. 
+From equation(\ref{h_retarded_solution}) we notice that the metric perturbation is influenced by the matter and energy distribution, $T_{\mu \nu}$, at time $t-\abs{\vb{x}-\vb{y}}$. 
+Since the gravitational radiation travels at the speed of light $c=1$, the metric perturbation at $(t,\vb{x})$ is influenced by the radiation that was produced by the source at the retarded time $t_r = t-\abs{\vb{x}-\vb{y}}$.\\
+We have obtained a general solution, however it possible to derive a formula that reaveals the quadrupole nature of the gravitational radiation if we assume:
+\begin{itemize}
+\item \textbf{far field approximation}: the metric perturbation (\ref{h_retarded_solution}) is evaluated at large distances from the source
+\begin{equation}
+\label{far_field_approx}
+\abs{\vb{x}-\vb{y}} \approx \abs{x} \equiv r
+\end{equation}
+The fractional error of this approximation scales as $\sim L/r$, where $L$ is the size of the source.
+
+\item \textbf{slowly moving source}: the light traverses the source much faster than the components of the cource itself do. Therefore, the source moves at non relativistic speeds.
+
+\item \textbf{isolated system}: the source of the gravitational radiation is an isolated and compact. We assume that our system and the radiation are not gravitationally influenced by other bodies.
+
+\end{itemize}
+So we rewrite equation(\ref{h_retarded_solution}) using the far field approximation:
+\[
+\label{h_retarded_solution}
+\bar{h}_{\mu \nu} (t,\vb{x}) = \dfrac{4}{r} \int
+ T_{\mu \nu} \qty(t-r,\vb{y}) \, \dd[3]y
+\]
+
+
+
+
+

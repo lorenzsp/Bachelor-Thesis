@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  26 JUN 2018 22:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  27 JUN 2018 15:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1915,6 +1915,9 @@ LaTeX Warning: Label `sub@times_cont' multiply defined.
 
 LaTeX Warning: Label `plus_and_times' multiply defined.
 
+
+LaTeX Warning: Label `h_retarded_solution' multiply defined.
+
 )
 \openout1 = `thesis.aux'.
 
@@ -2060,7 +2063,7 @@ Package tikz-feynman Warning: LuaTeX is required if you wish to have vertices a
 utomatically placed. You can disable this warning by setting /tikzfeynman/warn 
 luatex=false on input line 20.
 
-(./shared/custom_commands.tex) <shared/logo.png, id=51, 1204.5pt x 1204.5pt>
+(./shared/custom_commands.tex) <shared/logo.png, id=63, 1204.5pt x 1204.5pt>
 File: shared/logo.png Graphic file (type png)
 
 <use shared/logo.png>
@@ -2190,7 +2193,7 @@ on-eps-converted-to.pdf effects_gw/plus_polarization.eps>
 (epstopdf)             \includegraphics on input line 113.
 Package epstopdf Info: Output file is already uptodate.
 
-<effects_gw/plus_polarization-eps-converted-to.pdf, id=168, 1237.62375pt x 107.
+<effects_gw/plus_polarization-eps-converted-to.pdf, id=183, 1237.62375pt x 107.
 40125pt>
 File: effects_gw/plus_polarization-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2210,7 +2213,7 @@ ion-eps-converted-to.pdf effects_gw/times_polarization.eps>
 (epstopdf)             \includegraphics on input line 120.
 Package epstopdf Info: Output file is already uptodate.
 
-<effects_gw/times_polarization-eps-converted-to.pdf, id=169, 1138.2525pt x 128.
+<effects_gw/times_polarization-eps-converted-to.pdf, id=184, 1138.2525pt x 128.
 48pt>
 File: effects_gw/times_polarization-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -2232,7 +2235,7 @@ ps-converted-to.pdf effects_gw/plus_pol_cont.eps>
 (epstopdf)             \includegraphics on input line 162.
 Package epstopdf Info: Output file is already uptodate.
 
-<effects_gw/plus_pol_cont-eps-converted-to.pdf, id=194, 562.1pt x 421.575pt>
+<effects_gw/plus_pol_cont-eps-converted-to.pdf, id=209, 562.1pt x 421.575pt>
 File: effects_gw/plus_pol_cont-eps-converted-to.pdf Graphic file (type pdf)
 
 <use effects_gw/plus_pol_cont-eps-converted-to.pdf>
@@ -2251,7 +2254,7 @@ eps-converted-to.pdf effects_gw/times_pol_cont.eps>
 (epstopdf)             \includegraphics on input line 165.
 Package epstopdf Info: Output file is already uptodate.
 
-<effects_gw/times_pol_cont-eps-converted-to.pdf, id=195, 562.1pt x 421.575pt>
+<effects_gw/times_pol_cont-eps-converted-to.pdf, id=210, 562.1pt x 421.575pt>
 File: effects_gw/times_pol_cont-eps-converted-to.pdf Graphic file (type pdf)
 
 <use effects_gw/times_pol_cont-eps-converted-to.pdf>
@@ -2273,7 +2276,7 @@ Package epstopdf Info: Source file: <effects_gw/r_pol.eps>
 rted-to.pdf effects_gw/r_pol.eps>
 (epstopdf)             \includegraphics on input line 187.
 Package epstopdf Info: Output file is already uptodate.
-<effects_gw/r_pol-eps-converted-to.pdf, id=196, 562.1pt x 421.575pt>
+<effects_gw/r_pol-eps-converted-to.pdf, id=211, 562.1pt x 421.575pt>
 File: effects_gw/r_pol-eps-converted-to.pdf Graphic file (type pdf)
 
 <use effects_gw/r_pol-eps-converted-to.pdf>
@@ -2291,7 +2294,7 @@ rted-to.pdf effects_gw/l_pol.eps>
 (epstopdf)             \includegraphics on input line 190.
 Package epstopdf Info: Output file is already uptodate.
 
-<effects_gw/l_pol-eps-converted-to.pdf, id=197, 562.1pt x 421.575pt>
+<effects_gw/l_pol-eps-converted-to.pdf, id=212, 562.1pt x 421.575pt>
 File: effects_gw/l_pol-eps-converted-to.pdf Graphic file (type pdf)
 
 <use effects_gw/l_pol-eps-converted-to.pdf>
@@ -2301,33 +2304,36 @@ ne 190.
  [13]) [14 <./effects_gw/plus_pol_cont-eps-converted-to.pdf> <./effects_gw/time
 s_pol_cont-eps-converted-to.pdf>]
 [15 <./effects_gw/r_pol-eps-converted-to.pdf> <./effects_gw/l_pol-eps-converted
--to.pdf>] (./production_gw/prod_gw.tex) [16
+-to.pdf>] (./production_gw/prod_gw.tex [16
 
-] [17
+]) [17]
+(./numerical_evolution/num_ev.tex) [18
+
+] [19
 
 ] (./appendix/resampling.tex)
 No file thesis.bbl.
-[18
+[20
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 66.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 70.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 66.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 70.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 70.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: BE0E05B513822013A4083824A0A5B59A;849.
+(rerunfilecheck)             Checksum: 501AF0D05A0203271507690B9F7D5818;1068.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 66.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
  ) 
 Here is how much of TeX's memory you used:
- 31470 strings out of 493033
- 611436 string characters out of 6134139
+ 31491 strings out of 493033
+ 611757 string characters out of 6134139
  815212 words of memory out of 5000000
- 34400 multiletter control sequences out of 15000+600000
+ 34408 multiletter control sequences out of 15000+600000
  20274 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,19n,80p,10426b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2345,10 +2351,10 @@ exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on thesis.pdf (21 pages, 7573373 bytes).
+Output written on thesis.pdf (23 pages, 7580712 bytes).
 PDF statistics:
- 307 PDF objects out of 1000 (max. 8388607)
- 257 compressed objects within 3 object streams
- 63 named destinations out of 1000 (max. 500000)
- 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 341 PDF objects out of 1000 (max. 8388607)
+ 289 compressed objects within 3 object streams
+ 72 named destinations out of 1000 (max. 500000)
+ 160 words of extra memory for PDF output out of 10000 (max. 10000000)
 

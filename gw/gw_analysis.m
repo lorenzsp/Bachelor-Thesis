@@ -15,10 +15,32 @@ CU_to_energy    = M_sun*c*c  ;        % kg m^2/s^2
 
 
 %% positions of black holes
-filename = ('BH_diagnostics.ah1.gp');
-BH1 = importdata(filename);
-filename = ('BH_diagnostics.ah2.gp');
-BH2 = importdata(filename, '\t',42);
+filename = ('positions-b7.csv');
+pos = importdata(filename);
+hold on
+plot(pos(:,2),pos(:,3),'.');
+plot(-pos(:,2),-pos(:,3),'-');
+
+
+%% angular velocity
+
+t = pos(:,1)-115;
+y = pos(:,3);
+x = pos(:,2);
+v_x = gradient(x,t);
+v_y = gradient(y,t);
+omega = (x.*v_y - y.*v_x)./(x.^2 + y.^2);
+figure();
+plot(t,omega,'.')
+h_t_p = -8.*0.49.*sqrt((x.^2 + y.^2)).*(omega.^2).*cos(2.*omega.*t)./115;
+figure();
+plot(t,h_t_p)
+%%
+t = H(:,1);
+int_var = (gradient( H(:,2),t)).^2 + (gradient( H(:,3),t)).^2;
+plot(t,int_var,'.')
+
+
 %%
 plot(BH1.data(:,3),BH1.data(:,4))
 

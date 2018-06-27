@@ -1,0 +1,5 @@
+function omega=omega_f(y,x)
+   %returns the value of the angular veolcity
+   
+end
+
