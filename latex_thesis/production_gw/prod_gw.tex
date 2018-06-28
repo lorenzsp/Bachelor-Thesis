@@ -33,14 +33,16 @@ And the general solution is, then, given by
  - 16 \pi \, T_{\mu \nu} (x^{\sigma})
  \notag
 \end{eqnarray}
-There are two solutions of equation(\ref{green_equation}): one solution represents a wave travelling forward in time and, the other represents a wave travelling backward in time. The two solutions are called, respectively, retarded and advanced. We are interested in the retarded Green function, which represents the accumulated effect of signals received at $(x^{0},x^{1},x^{2},x^{3})$ from a source at $(y^{0},y^{1},y^{2},y^{3})$: %mathematical methods in physics
+There are two solutions of equation(\ref{green_equation}): one solution represents a wave travelling forward in time and, the other represents a wave travelling backward in time. 
+The two solutions are called, respectively, retarded and advanced. 
+We are interested in the \textbf{retarded Green function}, which represents the accumulated effect of signals received at $(x^{0},x^{1},x^{2},x^{3})$ from a source at $(y^{0},y^{1},y^{2},y^{3})$: %mathematical methods in physics
 \[
 G \qty(x^\sigma - y^{\sigma}) =
 -\dfrac{1}{4 \pi\abs{\vb{x} - \vb{y}}} \, \mathlarger{\delta} \qty[\abs{\vb{x} - \vb{y}} - (x^{0}- y^{0})]
 \, \theta(x^{0} -y^{0})
 \]
 where have used boldface to denote the patial vectors $\vb{x} = (x^{1}, x^{2}, x^{3})$ and $\vb{y} =(y^{1}, y^{2}, y^{3})$, with norm $\abs{\vb{x}-\vb{y}} = \qty[\delta_{ij}(x^{i}-y^{i})(x^{j}-y^{j})]^{1/2}$. The Heaviside step function $\theta(x^{0} - y^{0})$ is 1 when $x^{0}>y^{0}$, and zero otherwise. \\
-Plugging the retarded Green function into equation(\ref{h_green_function}) 
+Plugging the retarded Green function into equation(\ref{h_green_function}) and integrating on the $y^{0}$ coordinate we obtain
 \beq
 \label{h_retarded_solution}
 \bar{h}_{\mu \nu} (t,\vb{x}) = 4 \int
@@ -120,6 +122,7 @@ Whereas, the conservation of the energy-momentum tensor $\partial_\mu T^{\mu \nu
 \[
 - \partial_m \qty( \ten ^{m k})  = i \omega \ten ^{0 k}
 \] 
+Notice that the conservation of the energy-momentum tensor is a very strong assumption, because the motion of bodies is governed by non-gravitational interactions. However, 
 Thus,
 \bea
 \int \ten ^{j k} (\omega , \vb{y}) \dd ^{3} y 
@@ -223,4 +226,12 @@ the \textbf{quadrupole formula}
 \label{h_TT_quadrupole_formula}
 h^{\T}_{ij} = \dfrac{2}{r} \dv[2]{\mathcal{I}_{kl}(t_r)}{t} \qty(:P_{i}^{k}::P_{j}^{l}: - \dfrac{1}{2} P_{ij} P^{kl})
 \end{equation}
-which represents the metric perturbation of equation(\ref{h_bar_quadrupole_formula}) in the TT gauge.
+which represents the metric perturbation of equation(\ref{h_bar_quadrupole_formula}) in the TT gauge, since $h^{\T}_{\mu \nu} = \bar{h} ^{\T}_{\mu \nu}$.\\
+
+
+\subsubsection{The nature of the gravitational radiation}
+The quadrupole formula (\ref{h_TT_quadrupole_formula}) gives
+
+
+
+

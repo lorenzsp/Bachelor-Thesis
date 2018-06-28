@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  27 JUN 2018 20:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  28 JUN 2018 08:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2316,7 +2316,7 @@ s_pol_cont-eps-converted-to.pdf>]
 -to.pdf>] (./production_gw/prod_gw.tex [16
 
 ] [17]
-Overfull \hbox (18.99855pt too wide) in alignment at lines 124--154
+Overfull \hbox (18.99855pt too wide) in alignment at lines 126--156
  [][][] []
  []
 
@@ -2366,7 +2366,7 @@ xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/l
 ocal/texlive/2015/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on thesis.pdf (25 pages, 7594299 bytes).
+Output written on thesis.pdf (25 pages, 7594400 bytes).
 PDF statistics:
  369 PDF objects out of 1000 (max. 8388607)
  313 compressed objects within 4 object streams
