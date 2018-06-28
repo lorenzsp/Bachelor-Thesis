@@ -122,7 +122,8 @@ Whereas, the conservation of the energy-momentum tensor $\partial_\mu T^{\mu \nu
 \[
 - \partial_m \qty( \ten ^{m k})  = i \omega \ten ^{0 k}
 \] 
-Notice that the conservation of the energy-momentum tensor is a very strong assumption, because the motion of bodies is governed by non-gravitational interactions. However, 
+Notice that the conservation of the energy-momentum tensor is a very strong assumption, because the motion of bodies is governed by non-gravitational interactions. 
+However, and remarkably, the result depends only on the sources motion and not on the forces acting on them.
 Thus,
 \bea
 \int \ten ^{j k} (\omega , \vb{y}) \dd ^{3} y 
@@ -213,7 +214,7 @@ X^{TT} _{ij} = \qty(:P_{i}^{k}::P_{j}^{l}: - \dfrac{1}{2} P_{ij} P^{kl}) X_{kl}
 where the first and second terms make the tensor, respectively, transverse and tracless.\\
 In addition, we define the \textbf{reduced quadrupole moment tensor} as
 \begin{equation}
-\label{quadrupole_moment_tensor}
+\label{reduced_quadrupole_moment_tensor}
 \mathcal{I}_{kj} = I_{kj} - \dfrac{1}{3} \delta_{kj} I \hspace{1.5cm} \text{where } I=\eta^{ l m} I_{l m} = I^{m} _{m}
 \end{equation}
 which is traceless, and, for $T^{00} = \rho$, it assume the expression
@@ -226,12 +227,108 @@ the \textbf{quadrupole formula}
 \label{h_TT_quadrupole_formula}
 h^{\T}_{ij} = \dfrac{2}{r} \dv[2]{\mathcal{I}_{kl}(t_r)}{t} \qty(:P_{i}^{k}::P_{j}^{l}: - \dfrac{1}{2} P_{ij} P^{kl})
 \end{equation}
-which represents the metric perturbation of equation(\ref{h_bar_quadrupole_formula}) in the TT gauge, since $h^{\T}_{\mu \nu} = \bar{h} ^{\T}_{\mu \nu}$.\\
+which represents the metric perturbation of equation(\ref{h_bar_quadrupole_formula}) in the TT gauge, since $h^{\T}_{\mu \nu} = \bar{h} ^{\T}_{\mu \nu}$.
+Notice that the gravitational wave scales as $\sim 1/r$.
+\\
 
 
 \subsubsection{The nature of the gravitational radiation}
-The quadrupole formula (\ref{h_TT_quadrupole_formula}) gives
-
-
-
-
+The quadrupole formula (\ref{h_TT_quadrupole_formula}) and its derivation gives a  first insight into the properties of the gravitational waves and their sources.\\
+Firstly, the gravitational radiation has a \textbf{quadrupolar nature}, because the GW produced by an isolated nonrelativisitc object is proportional to the second derivative of the reduced quadrupole moment of the energy density. 
+It is possible to justify qualitatively
+the quadrupole nature, defining the gravitational analogue of the dipole moment: \textbf{mass dipole moment}
+\begin{equation}
+\label{mass_dipole_moment}
+\vb{D} = \sum _{i} m_{i} \vb{x}_i
+\end{equation}
+where the $m_i$ is the rest mass and $\vb{x}_{i}$ is the spatial postion of particle $i$.\\
+The leading contribution to the electromagnetic radiation comes from the changing dipole moment. 
+However, the first derivative of the mass dipole moment is the total linear momentum
+\[
+\dv{\vb{D}}{t} = \sum _{i} m_i \dv{\vb{x}_i}{t} = \vb{p}
+\]
+Since the total linear momentum is conserved, there can be no mass dipole radiation from any source.\\
+Similiarly, the gravitational analogue of the magnetic dipole moment is 
+\[
+\vb{\mu} = \sum_{i} \vb{x}_i \times \qty(m_i \dv{\vb{x}_i}{t}) =\vb{J}
+\]
+where $\vb{J}$ is the total angular momentum of the system. 
+Since the total angular momentum is conserved. Hence, there can be no dipole radiation of any sort from a gravitational source.
+It should be stressed that for a spherical  distribution of matter (or energy) the quadrupole moment is a constant, even if the body is rotating: thus, a spherical star does not emit gravitational waves.\\
+We now study the GW-emission of a binary system in circular orbit with radius $R$.
+We assume that two equal-mass stars are orbiting far from each others with an angular frequency $\omega$ and they can be trated as point particles on the $x^{1}-x^{2}$ plane. Thus,
+\[
+T^{00} (t,\vb{x}) = M \delta(x^{3}) \qty[
+\delta\qty(x^{1}-R\cos \omega t)
+\delta\qty(x^{2}-R\sin \omega t)
++
+\delta\qty(x^{1}+R\cos \omega t)
+\delta\qty(x^{2}+R\sin \omega t)
+]
+\]
+The motion of the system is studied using the Newtonian approximations, so using the  Kepler third law we obtain the link between the angular frequency and the radius of the orbit:
+\[
+\omega ^{2} 
+a^{3} = M_T G 
+\qquad
+\rightarrow
+\qquad 
+\omega = \qty(\dfrac{M}{4R^{3}})^{1/2}
+\]
+where we used as total mass of the system $M_T = 2M$, semi-major axis $a=2R$ and $G=1$.\\
+The quadrupole moment tensor (\ref{quadrupole_moment_tensor}) becomes
+\[
+I_{ij}(t) =
+2 M R^{2}
+\begin{bmatrix}
+ \cos ^{2} \omega t  &
+ \cos \omega t \sin \omega t &
+0
+\\
+ \cos \omega t \sin \omega t &
+ \sin ^{2} \omega t &
+0
+\\
+0 & 0 & 0\\
+\end{bmatrix} 
+\]
+Then, the reduced quadrupole moment (\ref{reduced_quadrupole_moment_tensor}) is easily found to be
+\[
+\mathcal{I} _{ij}(t) =
+2 M R^{2}
+\begin{bmatrix}
+ \cos ^{2} \omega t -1/3  &
+ \cos \omega t \sin \omega t &
+0
+\\
+ \cos \omega t \sin \omega t &
+ \sin ^{2} \omega t -1/3&
+0
+\\
+0 & 0 & -1/3\\
+\end{bmatrix} 
+\]
+Taking the second derivative of the above tensor and using the projection tensor with $n_{j} =\delta_{j3} \rightarrow \vb{n} = (0,0,1)$:
+\[
+P_{jk} = \delta_{jk}- n_{j} n_{k}
+\]
+we obtain the gravitational wave through the the quadrupole formula(\ref{h_TT_quadrupole_formula}):
+\[
+h^{\T} _{ij} = \dfrac{8\,G M \,R^{2} \omega^{2}}{c^{4}\, r} \,
+\begin{bmatrix}
+- \cos 2 \omega t   &
+ - \sin 2 \omega t &
+0
+\\
+  \sin 2 \omega t &
+ \cos 2 \omega t &
+0
+\\
+0 & 0 & 0\\
+\end{bmatrix}
+\]
+where we inserted $G$ and $c$ in order to give an estimates of the intensity:
+\[
+\]
+The gravitational radiation is emitted at  twice the angular frequency at which the system rotates.
+In addition, $h_{+} ^{\T}= i h_{\times} ^{\T}$ so the wave is circularly polarized.

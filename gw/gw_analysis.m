@@ -15,7 +15,7 @@ CU_to_energy    = M_sun*c*c  ;        % kg m^2/s^2
 
 
 %% positions of black holes
-filename = ('positions-b7.csv');
+filename = ('position_analysis/positions-b5.csv');
 pos = importdata(filename);
 hold on
 plot(pos(:,2),pos(:,3),'.');
@@ -208,4 +208,41 @@ end
 %    ['m_2 = ',num2str(m2),' m_e'],...
 %    ['m_3 = ',num2str(m3),' m_e']};
 
+%% theoretical binary sources
+%angular frequency
+omeg=2*pi;
+%radius
+R=1;
 
+% t time
+time =0:0.01:2;
+for n=1:length(time)
+    
+    
+    plot(cos(omeg .*t(n)),sin(omeg.*t(n)),'.');
+    hold on;
+    plot(-cos(omeg .*t(n)),-sin(omeg.*t(n)),'.');
+    xlim([-2 2]);
+    ylim([-2 2]);
+    pause(0.5)
+    clf;
+end
+%% 3D animation
+%x=-100:1:100;
+%y=x;
+for omeg =0:1:100
+for n=1:length(x)
+    for m = 1:length(y)
+        z(n,m)=(60.*cos(2.*atan2(y(m),x(n)+0.0001)- omeg +0.2.*sqrt(x(n).^2+y(m).^2))./(20 + sqrt(x(n).^2+y(m).^2)));
+    end
+end
+
+surface(z);
+%xlim([0 200]);
+%ylim([0 200]);
+shading interp
+
+
+pause(0.5)
+clf
+end
