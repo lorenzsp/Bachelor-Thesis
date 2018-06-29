@@ -45,7 +45,7 @@ plot(t,int_var,'.')
 plot(BH1.data(:,3),BH1.data(:,4))
 
 %%
-H = gw_strain('mp_psi4_l2_m2_r115.00.asc',115);
+H = gw_strain('mp_psi4_l2_m2_r110.00.asc',115);
 t = H(:,1);
 new_h_x = H(:,2);
 new_h_p = H(:,3);
@@ -143,13 +143,13 @@ n=1;
 ii=1;
 for t=500:3000
     % plus polarization
-    h_plus = 0.5.*cos(omega.*t);
-    h_times = 0.5.*cos(omega.*t + pi/2);
+    h_plus = 0.*cos(omega.*t);
+    h_times = 0.5*cos(omega.*t + pi/2);
     X = cos(theta) .* (1 + 0.5.*h_plus) + sin(theta).*(0.5.*h_times);
     Y = sin(theta) .* (1 - 0.5.*h_plus) + cos(theta).*(0.5.*h_times);
 
     CM = jet(120); % n+10 
-    plot3(X,Y,ii.*ones(size(X)),'.','color',CM(n,:));
+    plot(X,Y,'.','color',CM(n,:));%,ii.*ones(size(X))
     grid on;
     %set(gca,'Visible','off')
     pbaspect([1 1 1]);
@@ -166,7 +166,7 @@ for t=500:3000
     ylim([-2 2]);
     pause(0.1)
     
-    hold on;
+    %hold on;
     n=n+1;
     %clf;
     ii = ii + 0.2;
@@ -178,6 +178,7 @@ for ii=1:n
 end
 
 %% wave polarization for BBH
+theta = 0:0.03:2*pi;
 
 % t time
 for n=10:300:57001%t=0.1:3000
@@ -228,9 +229,9 @@ for n=1:length(time)
     clf;
 end
 %% 3D animation
-%x=-100:1:100;
-%y=x;
-for omeg =0:1:100
+x=-100:1:100;
+y=x;
+for omeg =0:0.1:2*pi
 for n=1:length(x)
     for m = 1:length(y)
         z(n,m)=(60.*cos(2.*atan2(y(m),x(n)+0.0001)- omeg +0.2.*sqrt(x(n).^2+y(m).^2))./(20 + sqrt(x(n).^2+y(m).^2)));
@@ -238,8 +239,8 @@ for n=1:length(x)
 end
 
 surface(z);
-%xlim([0 200]);
-%ylim([0 200]);
+xlim([0 200]);
+ylim([0 200]);
 shading interp
 
 
