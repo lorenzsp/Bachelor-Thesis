@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  29 JUN 2018 00:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  29 JUN 2018 16:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2262,11 +2262,6 @@ File: effects_gw/times_pol_cont-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: effects_gw/times_pol_cont-eps-converted-to.pdf used on
  input line 165.
 (pdftex.def)             Requested size: 203.83417pt x 152.8733pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 177--179
-
- []
-
 Package epstopdf Info: Source file: <effects_gw/r_pol.eps>
 (epstopdf)                    date: 2018-06-26 17:49:40
 (epstopdf)                    size: 1734641 bytes
@@ -2277,6 +2272,7 @@ Package epstopdf Info: Source file: <effects_gw/r_pol.eps>
 rted-to.pdf effects_gw/r_pol.eps>
 (epstopdf)             \includegraphics on input line 187.
 Package epstopdf Info: Output file is already uptodate.
+
 <effects_gw/r_pol-eps-converted-to.pdf, id=216, 562.1pt x 421.575pt>
 File: effects_gw/r_pol-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2302,10 +2298,9 @@ File: effects_gw/l_pol-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: effects_gw/l_pol-eps-converted-to.pdf used on input li
 ne 190.
 (pdftex.def)             Requested size: 203.83417pt x 152.8733pt.
- [13]) [14 <./effects_gw/plus_pol_cont-eps-converted-to.pdf> <./effects_gw/time
-s_pol_cont-eps-converted-to.pdf>]
-[15 <./effects_gw/r_pol-eps-converted-to.pdf> <./effects_gw/l_pol-eps-converted
--to.pdf>] (./production_gw/prod_gw.tex [16
+) [13] [14 <./effects_gw/plus_pol_cont-eps-converted-to.pdf> <./effects_gw/time
+s_pol_cont-eps-converted-to.pdf> <./effects_gw/r_pol-eps-converted-to.pdf> <./e
+ffects_gw/l_pol-eps-converted-to.pdf>] [15] (./production_gw/prod_gw.tex [16
 
 ] [17]
 Overfull \hbox (18.99855pt too wide) in alignment at lines 128--158
@@ -2350,7 +2345,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
 Here is how much of TeX's memory you used:
  31550 strings out of 493033
  612864 string characters out of 6134139
- 815290 words of memory out of 5000000
+ 815291 words of memory out of 5000000
  34444 multiletter control sequences out of 15000+600000
  21593 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2370,7 +2365,7 @@ xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/l
 ocal/texlive/2015/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on thesis.pdf (27 pages, 7601840 bytes).
+Output written on thesis.pdf (27 pages, 7603128 bytes).
 PDF statistics:
  388 PDF objects out of 1000 (max. 8388607)
  330 compressed objects within 4 object streams
