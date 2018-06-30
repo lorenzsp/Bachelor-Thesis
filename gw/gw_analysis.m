@@ -15,7 +15,7 @@ CU_to_energy    = M_sun*c*c  ;        % kg m^2/s^2
 
 
 %% positions of black holes
-filename = ('position_analysis/positions-b5.csv');
+filename = ('../BBH-b5/positions-b5.csv');
 pos = importdata(filename);
 hold on
 plot(pos(:,2),pos(:,3),'.');
@@ -35,10 +35,7 @@ plot(t,omega,'.')
 h_t_p = -8.*0.49.*sqrt((x.^2 + y.^2)).*(omega.^2).*cos(2.*omega.*t)./115;
 figure();
 plot(t,(x.^2 + y.^2).*omega.^3)
-%%
-t = H(:,1);
-int_var = (gradient( H(:,2),t)).^2 + (gradient( H(:,3),t)).^2;
-plot(t,int_var,'.')
+
 
 
 %%
