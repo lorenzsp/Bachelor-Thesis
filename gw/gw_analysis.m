@@ -13,39 +13,76 @@ CU_to_dens = c*c*c*c*c*c / (G*G*G * M_sun*M_sun); % kg/m^3
 
 CU_to_energy    = M_sun*c*c  ;        % kg m^2/s^2
 
-%% positions of black holes
+%% positions data of black holes
+% positions info of the different simulations
+% time x y radius and omega
 filename = ('../BBH-b3/positions-b3.csv');
-b3_t_x_y_r_w = positions_f(filename);
+b3_p = positions_f(filename);
 filename = ('../BBH-b4/positions-b4.csv');
-b4_t_x_y_r_w = positions_f(filename);
+b4_p = positions_f(filename);
 filename = ('../BBH-b5/positions-b5.csv');
-b5_t_x_y_r_w = positions_f(filename);
+b5_p = positions_f(filename);
 filename = ('../BBH-b6/positions-b6.csv');
-b6_t_x_y_r_w = positions_f(filename);
+b6_p = positions_f(filename);
 filename = ('../BBH-b7/positions-b7.csv');
-b7_t_x_y_r_w = positions_f(filename);
+b7_p = positions_f(filename);
 filename = ('../BBH-b10/positions-b10.csv');
-b10_t_x_y_r_w = positions_f(filename);
+b10_p = positions_f(filename);
 
+%% GW data
+% distance from the detector = r
+filename = '../BBH-b3/mp_psi4_l2_m2_r110.00.asc';
+r = 110;
+b3_h = gw_strain(filename,r);
+
+filename = '../BBH-b4/mp_psi4_l2_m2_r115.00.asc';
+r = 115;
+b4_h = gw_strain(filename,r);
+
+filename = '../BBH-b5/mp_psi4_l2_m2_r115.00.asc';
+r = 115;
+b5_h = gw_strain(filename,r);
+
+filename = '../BBH-b6/mp_psi4_l2_m2_r115.00.asc';
+r = 115;
+b6_h = gw_strain(filename,r);
+
+filename = '../BBH-b7/mp_psi4_l2_m2_r115.00.asc';
+r = 115;
+b7_h = gw_strain(filename,r);
+
+filename = '../BBH-b10/mp_psi4_l2_m2_r115.00.asc';
+r = 115;
+b10_h = gw_strain(filename,r);
 
 
 %% GW analysis
-filename = '../BBH-b4/mp_psi4_l2_m2_r115.00.asc';
-% distance from the detector
-r = 115;
+figure();
+hold on;
+plot_f('\psi_4','t [M_\odot]','\psi_4',16)
+plot(t,psi4_r,'.');
+plot(t,psi4_i,'.');
+s= {['Re{\psi_4}'],...
+    ['Im{\psi_4}']};
+legend_f(s);
 
-%H = gw_strain(filename,r);
+
+figure();
+hold on;
+plot(t,h_p);
+plot(t,h_x);
+grid on;
+plot_f('Metric perturbation h','t [M_\odot]','h',16)
+s= {['h_+'],...
+    ['h_x']};
+legend_f(s);
+
 
 % energy balance
 % variable in the integral over the angles proportional to the energy
-int_var = diff(new_h_x).^2 + diff(new_h_p).^2;
+%int_var = diff(new_h_x).^2 + diff(new_h_p).^2;
 %figure();
-plot(t(2:end,1),1e5*int_var.*r^2/(16*pi),'.')
-
-
-
-
-
+%plot(t(2:end,1),1e5*int_var.*r^2/(16*pi),'.')
 
 
 

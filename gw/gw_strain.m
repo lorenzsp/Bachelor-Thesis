@@ -14,15 +14,6 @@ t= x(k,1)-r;
 psi4_r = x(k,2); 
 psi4_i = x(k,3);
 
-figure();
-hold on;
-plot_f('\psi_4','t [M_\odot]','\psi_4',16)
-plot(t,psi4_r,'.');
-plot(t,psi4_i,'.');
-s= {['Re{\psi_4}'],...
-    ['Im{\psi_4}']};
-legend_f(s);
-
  R = zeros(size(psi4_r));
  I = zeros(size(psi4_i));
 for i=2:length(t)
@@ -43,15 +34,6 @@ p_i = polyfit(t,ii,2);
 h_p = rr-(polyval(p_r,t)); %h_+
 h_x = -(ii-(polyval(p_i,t))); %h_x
 
-figure();
-hold on;
-plot(t,h_p);
-plot(t,h_x);
-grid on;
-plot_f('Metric perturbation h','t [M_\odot]','h',16)
-s= {['h_+'],...
-    ['h_x']};
-legend_f(s);
 
 output_args=[t h_p h_x psi4_r psi4_i];
 end

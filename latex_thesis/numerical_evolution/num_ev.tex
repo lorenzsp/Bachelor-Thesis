@@ -13,7 +13,7 @@ The parameter file is a simple text file, containing the desired settings within
 A thorough description of the numerical methods used to perform the simulations can be found here, we depict the initial conditions of our simulations and we briefly mention the used thorns.
 Rather than analyzing the algorithms of th Einstein Toolkit, the purpose of the following sections is to study the gravitational-wave signals of binaries black holes (BBH) and neutron stars (BNS). 
 
-\subsection{Binary Black holes}
+\subsection{Binary Black Hole}
 We simulate the evolution of equal-mass binary black holes with different quasi-equilirbium initial conditions.
 The thorn \texttt{TwoPunctures} is used to set up the initial data for the two black holes located at the x-axis with opposite linear momentum along the y-axis.
 Due to the symmetry of the problem, it is possible to reduce the computational cost by a factor of 2 by not evolving the domain with $z < 0$, and by another factor 2 evolving points with $x > 0$ and populating the missing part by rotating the existing domain for 180 degrees along the z-axis.
@@ -88,8 +88,12 @@ h_{\times}(t) = - \qty[
 \qty(Q_0 ^{I} + Q_1 ^{I} t + Q_2 ^{I} t^{2})
 ]
 \eea
-where the $Q$ values are the coefficients of the fitted polynomials for the real $Q^{R}$ and the imaginary $Q^{I}$ parts of $\tilde{h}(t)$.
+where the $Q$ values are the coefficients of the fitted polynomials for the real $Q^{R}$ and the imaginary $Q^{I}$ parts of $\tilde{h}(t)$.\\
+In addition, we also define the energy carried away by the GW per unit of second as
+\begin{equation}
+\dv{E}{t} = \dfrac{r^{2}}{16 \pi} \, \int \abs{\pdv{h}{t}}^{2}\, \dd \Omega
+\end{equation}
 
 
 
-\subsection{Binary Neutron stars}
+\subsection{Binary Neutron Star}
