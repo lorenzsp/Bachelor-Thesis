@@ -5,17 +5,89 @@ Therefore, gravitational-wave detectors find more likely an event which has a po
 Thus, it is important to be able to calculate gravitational-wave emission accurately for processes such as black hole or neutron star inspiral and merger.
 Such problems cannot be solved analytically and instead are modeled by numerical relativity to compute the gravitational field near the source.\\
 In this section we study the gravitational-wave signals obtained from numerical simulations of compact binaries, using the Einstein Toolkit, an open-source computational infrastructure for numerical relativity based on Cactus Framework.\\
-The Cactus framework [11–13] is a general framework for the development of portable, modular applications, wherein programs are split into components (called thorns) with clearly defined dependencies and interactions. 
+The Cactus framework [ref] is a general framework for the development of portable, modular applications, wherein programs are split into components (called thorns) with clearly defined dependencies and interactions. 
 Thorns are typically developed independently and do not directly interact with each other. 
-Cactus simulations require an ex
+Cactus simulations require an executable to be compiled, and this executable has one mandatory argument: a parameter file.
+The parameter file is a simple text file, containing the desired settings within the simulation, it is used not only to set up the initial conditions and the necessary thorns for the simulation, but also to choose outputs and their format.
 \\
 A thorough description of the numerical methods used to perform the simulations can be found here, we depict the initial conditions of our simulations and we briefly mention the used thorns.
 Rather than analyzing the algorithms of th Einstein Toolkit, the purpose of the following sections is to study the gravitational-wave signals of binaries black holes (BBH) and neutron stars (BNS). 
 
 \subsection{Binary Black holes}
-We simulate the evolution of two equal-mass black holes with quasi-equilirbium initial conditions.
-We use the 
-
+We simulate the evolution of equal-mass binary black holes with different quasi-equilirbium initial conditions.
+The thorn \texttt{TwoPunctures} is used to set up the initial data for the two black holes located at the x-axis with opposite linear momentum along the y-axis.
+Due to the symmetry of the problem, it is possible to reduce the computational cost by a factor of 2 by not evolving the domain with $z < 0$, and by another factor 2 evolving points with $x > 0$ and populating the missing part by rotating the existing domain for 180 degrees along the z-axis.
+An example of initial data set in the parameter file is
+\linebreak
+\texttt{\\
+TwoPunctures::par\_b             =  3.0 \\
+TwoPunctures::par\_m\_plus        =  0.47656 \\
+TwoPunctures::par\_m\_minus       =  0.47656 \\
+TwoPunctures::par\_P\_plus [1]    = +0.13808 \\
+TwoPunctures::par\_P\_minus[1]    = -0.13808
+\\
+}
+\linebreak
+where the parameter \texttt{par\_b} defines the locations of the two black holes at $(x,y,z) = (\pm 3,0,0)$. 
+\texttt{par\_m\_plus} and \texttt{par\_m\_minus} set the "bare mass" parameter, and \texttt{par\_P\_plus[1]} and \texttt{par\_P\_minus[1]} set the Bowen-York linear momentum parameter.
+We let evolve the binary black hole using six different quasi-equilibrium initial conditions, as shown in Table(\ref{initial_conditions_bbh})
+\begin{table}
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline 
+simulation name & \texttt{par\_b} & \texttt{par\_m\_plus} & \texttt{par\_P\_plus[1]} \\ 
+\hline 
+BBH-b3 & 3 & 0.47656
+ & +0.13808 \\ 
+%\hline 
+BBH-b4 & 4 & 0.48243 & +0.11148 \\ 
+%\hline 
+BBH-b5 & 5 & 0.48595 & +0.095433 \\ 
+%\hline 
+BBH-b6 & 6 & 0.48830 & +0.084541 \\ 
+%\hline 
+BBH-b7 & 7 &  0.48997 & +0.076578 \\ 
+%\hline 
+BBH-b10 & 8 & 0.49299 & +0.061542 \\ 
+\hline 
+\end{tabular} 
+\caption{The table shows the quasi-equilibrium initial conditions for the numerical simulations.}
+\label{initial_conditions_bbh}
+\end{table}
+Each initial configuration is then evolved using the \texttt{ML\_BSSN} (\texttt{McLachlan} BSSN) thorn, the gravitational wave information is extracted using \texttt{WeylScal4} thorn.
+Using \texttt{WeylScal4}, the Einstein Toolkit calculates the  Newman-Penrose scalar $\psi_4$ [REF], which is linked to the GW strain by the following relation, valid only at spatial infinity:
+\begin{equation}
+\label{psi_4_strain}
+\psi_{4} = \pdv[2]{}{t} \qty(h_{+} - i h_{\times})
+\end{equation}
+In order for equation(\ref{psi_4_strain}) to be valid, the signal has to be extracted as furthest as possible from the source.
+The signal is then decomposed in spin-weighted spherical harmonics of spin $ - 2$ by the thorn \texttt{Multipole} [% K. S. Thorne, Rev. Mod. Phys. 52, 299 (1980). Multipole expansions of gravitational radiation
+] 
+\[
+\psi_4 (t',r,\theta,\phi)= \sum_{l=2} ^{\infty} \, \sum _{m=-l} ^{l=2} \psi^{lm} _4 (t',r) \, _{-2} Y _{lm} (\theta, \phi) 
+\]
+The output given by the Einstein Toolkit is therefore $\psi_{4} ^{lm} (t',r)$, however, in this work we only focus on the dominant $l = m = 2$ mode and we get the GW strain form following a procedure similiar to REF%modeling equal and un
+%mergers
+Since $\psi^{lm} _4 (t',r)$ is extracted at a distance $r$ from the source center,  our data detect the signal at a time $t'$, which is different from the instant when the radiation was emitted.
+So, we subtract from the output time $t'$ the distance from the source $r$
+in order to compute the gravitational radiation as if the signal would have been emitted at the coordinate origin.\\
+We are interested in the behavior of the gravitational wave at a given time and distance $(t,r) = (t'-r,r)$, so we neglect the numerical factor $_{-2} Y _{lm} (\theta, \phi)$ given by choosing an arbitrary angle $(\theta,\phi)$ for the spin-weighted spherical harmonics.
+Thus, we integrate twice in time in order to get the complex-valued gravitational strain
+\[
+\tilde{h}(t) = \int _0 ^{t} \int _0 ^{\hat{t}} \psi_4 ^{2,2} (t^{*},r)
+\, \dd t^{*} \,  \dd \hat{t}
+\]
+where we used the trapezodail rule for the numeric integration.
+The resulting quantity obtained with the procedure described above show a left-over non-linear drift, which can be eliminated  performing a fit to a second order polynomial for both the real and the imaginary parts of $\tilde{h}(t)$.
+The two polarizations (plus and times) of the gravitational wave are finally obtained subtracting the noise
+\bea
+h_{+} (t)= \Re {\tilde{h}} -  \qty(Q_0 ^{R} + Q_1 ^{R} t + Q_2 ^{R} t^{2}) \\
+h_{\times}(t) = - \qty[
+\Im {\tilde{h}} -
+\qty(Q_0 ^{I} + Q_1 ^{I} t + Q_2 ^{I} t^{2})
+]
+\eea
+where the $Q$ values are the coefficients of the fitted polynomials for the real $Q^{R}$ and the imaginary $Q^{I}$ parts of $\tilde{h}(t)$.
 
 
 

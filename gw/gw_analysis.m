@@ -1,5 +1,5 @@
 %% units
-G     = 6.673e-11;       % m^3/(kg s^2)
+G     = 6.674e-11;       % m^3/(kg s^2)
 c     = 299792458 ;      % m/s
 M_sun = 1.98892e30 ;     % kg
 mu0   = 1.2566370614e-6; % Newton/Ampere^2
@@ -12,6 +12,7 @@ CU_to_s    = (M_sun*G/(c*c*c))      ;             % s
 CU_to_dens = c*c*c*c*c*c / (G*G*G * M_sun*M_sun); % kg/m^3
 
 CU_to_energy    = M_sun*c*c  ;        % kg m^2/s^2
+
 
 
 %% positions of black holes
