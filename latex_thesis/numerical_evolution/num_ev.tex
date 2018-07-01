@@ -12,6 +12,42 @@ The parameter file is a simple text file, containing the desired settings within
 \\
 A thorough description of the numerical methods used to perform the simulations can be found here, we depict the initial conditions of our simulations and we briefly mention the used thorns.
 Rather than analyzing the algorithms of th Einstein Toolkit, the purpose of the following sections is to study the gravitational-wave signals of binaries black holes (BBH) and neutron stars (BNS). 
+Throughout the following sections, as we have done so far, we set $G=c=1$, and therefore we express time and space in solar masses $M_{\odot}$
+
+\subsection{Gravitational Wave Extraction}
+Using \texttt{WeylScal4}, the Einstein Toolkit calculates the  Newman-Penrose scalar $\psi_4$ [REF], which is linked to the GW strain by the following relation, valid only at spatial infinity:
+\begin{equation}
+\label{psi_4_strain}
+\psi_{4} = \pdv[2]{}{t} \qty(h_{+} - i h_{\times})
+\end{equation}
+In order for equation(\ref{psi_4_strain}) to be valid, the signal has to be extracted as furthest as possible from the source.
+The signal is then decomposed in spin-weighted spherical harmonics of spin $ - 2$ by the thorn \texttt{Multipole} [% K. S. Thorne, Rev. Mod. Phys. 52, 299 (1980). Multipole expansions of gravitational radiation
+] 
+\[
+\psi_4 (t',r,\theta,\phi)= \sum_{l=2} ^{\infty} \, \sum _{m=-l} ^{l=2} \psi^{lm} _4 (t',r) \, _{-2} Y _{lm} (\theta, \phi) 
+\]
+The output given by the Einstein Toolkit is therefore $\psi_{4} ^{lm} (t',r)$, however, in this work we only focus on the dominant $l = m = 2$ mode and we get the GW strain form following a procedure similiar to REF%modeling equal and un
+%mergers
+Since $\psi^{lm} _4 (t',r)$ is extracted at a distance $r$ from the source center,  our data detect the signal at a time $t'$, which is different from the instant when the radiation was emitted.
+So, we subtract from the output time $t'$ the distance from the source $r$
+in order to compute the gravitational radiation as if the signal would have been emitted at the coordinate origin.\\
+We are interested in the behavior of the gravitational wave at a given time and distance $(t,r) = (t'-r,r)$, so we neglect the numerical factor $_{-2} Y _{lm} (\theta, \phi)$ given by choosing an arbitrary angle $(\theta,\phi)$ for the spin-weighted spherical harmonics.
+Thus, we integrate twice in time in order to get the complex-valued gravitational strain
+\[
+\tilde{h}(t) = \int _0 ^{t} \int _0 ^{\hat{t}} \psi_4 ^{2,2} (t^{*},r)
+\, \dd t^{*} \,  \dd \hat{t}
+\]
+where we used the trapezodail rule for the numeric integration.
+The resulting quantity obtained with the procedure described above show a left-over non-linear drift, which can be eliminated  performing a fit to a second order polynomial for both the real and the imaginary parts of $\tilde{h}(t)$.
+The two polarizations (plus and times) of the gravitational wave are finally obtained subtracting the noise
+\bea
+h_{+} (t)= \Re {\tilde{h}} -  \qty(Q_0 ^{R} + Q_1 ^{R} t + Q_2 ^{R} t^{2}) \\
+h_{\times}(t) = - \qty[
+\Im {\tilde{h}} -
+\qty(Q_0 ^{I} + Q_1 ^{I} t + Q_2 ^{I} t^{2})
+]
+\eea
+where the $Q$ values are the coefficients of the fitted polynomials for the real $Q^{R}$ and the imaginary $Q^{I}$ parts of $\tilde{h}(t)$.\\
 
 \subsection{Binary Black Hole}
 We simulate the evolution of equal-mass binary black holes with different quasi-equilirbium initial conditions.
@@ -48,51 +84,45 @@ BBH-b6 & 6 & 0.48830 & +0.084541 \\
 %\hline 
 BBH-b7 & 7 &  0.48997 & +0.076578 \\ 
 %\hline 
-BBH-b10 & 8 & 0.49299 & +0.061542 \\ 
+BBH-b10 & 10 & 0.49299 & +0.061542 \\ 
 \hline 
+
 \end{tabular} 
-\caption{The table shows the quasi-equilibrium initial conditions for the numerical simulations.}
+\caption{The table shows the quasi-equilibrium initial conditions used in the \texttt{TwoPuncture} thorn. Since the two balck holes have equal masses \texttt{par\_m\_plus}$=$\texttt{par\_m\_minus} and opposite momentum \texttt{par\_P\_plus[1]}$=- $\texttt{par\_P\_minus[1]}, we do not report in the table the obvious initial conditions of the second black hole.}
 \label{initial_conditions_bbh}
 \end{table}
 Each initial configuration is then evolved using the \texttt{ML\_BSSN} (\texttt{McLachlan} BSSN) thorn, the gravitational wave information is extracted using \texttt{WeylScal4} thorn.
-% GW analysis
-Using \texttt{WeylScal4}, the Einstein Toolkit calculates the  Newman-Penrose scalar $\psi_4$ [REF], which is linked to the GW strain by the following relation, valid only at spatial infinity:
-\begin{equation}
-\label{psi_4_strain}
-\psi_{4} = \pdv[2]{}{t} \qty(h_{+} - i h_{\times})
-\end{equation}
-In order for equation(\ref{psi_4_strain}) to be valid, the signal has to be extracted as furthest as possible from the source.
-The signal is then decomposed in spin-weighted spherical harmonics of spin $ - 2$ by the thorn \texttt{Multipole} [% K. S. Thorne, Rev. Mod. Phys. 52, 299 (1980). Multipole expansions of gravitational radiation
-] 
-\[
-\psi_4 (t',r,\theta,\phi)= \sum_{l=2} ^{\infty} \, \sum _{m=-l} ^{l=2} \psi^{lm} _4 (t',r) \, _{-2} Y _{lm} (\theta, \phi) 
-\]
-The output given by the Einstein Toolkit is therefore $\psi_{4} ^{lm} (t',r)$, however, in this work we only focus on the dominant $l = m = 2$ mode and we get the GW strain form following a procedure similiar to REF%modeling equal and un
-%mergers
-Since $\psi^{lm} _4 (t',r)$ is extracted at a distance $r$ from the source center,  our data detect the signal at a time $t'$, which is different from the instant when the radiation was emitted.
-So, we subtract from the output time $t'$ the distance from the source $r$
-in order to compute the gravitational radiation as if the signal would have been emitted at the coordinate origin.\\
-We are interested in the behavior of the gravitational wave at a given time and distance $(t,r) = (t'-r,r)$, so we neglect the numerical factor $_{-2} Y _{lm} (\theta, \phi)$ given by choosing an arbitrary angle $(\theta,\phi)$ for the spin-weighted spherical harmonics.
-Thus, we integrate twice in time in order to get the complex-valued gravitational strain
-\[
-\tilde{h}(t) = \int _0 ^{t} \int _0 ^{\hat{t}} \psi_4 ^{2,2} (t^{*},r)
-\, \dd t^{*} \,  \dd \hat{t}
-\]
-where we used the trapezodail rule for the numeric integration.
-The resulting quantity obtained with the procedure described above show a left-over non-linear drift, which can be eliminated  performing a fit to a second order polynomial for both the real and the imaginary parts of $\tilde{h}(t)$.
-The two polarizations (plus and times) of the gravitational wave are finally obtained subtracting the noise
-\bea
-h_{+} (t)= \Re {\tilde{h}} -  \qty(Q_0 ^{R} + Q_1 ^{R} t + Q_2 ^{R} t^{2}) \\
-h_{\times}(t) = - \qty[
-\Im {\tilde{h}} -
-\qty(Q_0 ^{I} + Q_1 ^{I} t + Q_2 ^{I} t^{2})
-]
-\eea
-where the $Q$ values are the coefficients of the fitted polynomials for the real $Q^{R}$ and the imaginary $Q^{I}$ parts of $\tilde{h}(t)$.\\
-In addition, we also define the energy carried away by the GW per unit of second as
-\begin{equation}
-\dv{E}{t} = \dfrac{r^{2}}{16 \pi} \, \int \abs{\pdv{h}{t}}^{2}\, \dd \Omega
-\end{equation}
+
+
+
+
+\begin{figure}
+\centering
+    \textbf{Orbits of different  configurations of BBH}\par\medskip
+\centering
+\subfloat[][Trajectory of the BBH with initial distance from the origin $b=3 \, M_{\odot}$.]
+   {\includegraphics[width=.45\textwidth]{numerical_evolution/trajectory_b3.eps}
+   \label{trajectory_b3}} \quad
+   \subfloat[][Trajectory of the BBH with initial distance from the origin $b=4 \, M_{\odot}$.]
+   {\includegraphics[width=.45\textwidth]{numerical_evolution/trajectory_b4.eps}
+   \label{trajectory_b4}} \quad
+\subfloat[][Trajectory of the BBH with initial distance from the origin $b=5 \, M_{\odot}$.]
+   {\includegraphics[width=.45\textwidth]{numerical_evolution/trajectory_b5.eps}
+   \label{trajectory_b5}} \quad
+\subfloat[][Trajectory of the BBH with initial distance from the origin $b=6 \, M_{\odot}$.]
+   {\includegraphics[width=.45\textwidth]{numerical_evolution/trajectory_b6.eps}
+   \label{trajectory_b6}} \quad
+\subfloat[][Trajectory of the BBH with initial distance from the origin $b=7 \, M_{\odot}$.]
+   {\includegraphics[width=.45\textwidth]{numerical_evolution/trajectory_b7.eps}
+   \label{trajectory_b7}} \quad
+\subfloat[][Trajectory of the BBH with initial distance from the origin $b=10 \, M_{\odot}$.]
+   {\includegraphics[width=.45\textwidth]{numerical_evolution/trajectory_b10.eps}
+   \label{trajectory_b10}} \quad
+ \\
+\caption{Spatial positions occupied by a ring of free-falling test particles disturbed by a gravitational wave.}
+\label{plus_and_times}
+\end{figure}
+
 
 
 

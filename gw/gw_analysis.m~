@@ -28,6 +28,62 @@ filename = ('../BBH-b7/positions-b7.csv');
 b7_p = positions_f(filename);
 filename = ('../BBH-b10/positions-b10.csv');
 b10_p = positions_f(filename);
+%% trajectories
+% b3
+figure();
+plot(b3_p(:,2),b3_p(:,3));
+hold on;
+plot(-b3_p(:,2),-b3_p(:,3));
+plot_f('','$$x \; [M_{\odot}]$$','$$y \;[M_{\odot}]$$',16)
+xlim([-3.5 3.5]);
+ylim([-3.5 3.5]);
+pbaspect([1 1 1]);
+% b4
+figure();
+plot(b4_p(:,2),b4_p(:,3));
+hold on;
+plot(-b4_p(:,2),-b4_p(:,3));
+plot_f('','$$x \; [M_{\odot}]$$','$$y \;[M_{\odot}]$$',16)
+xlim([-4.5 4.5]);
+ylim([-4.5 4.5]);
+pbaspect([1 1 1]);
+% b5
+figure();
+plot(b5_p(:,2),b5_p(:,3));
+hold on;
+plot(-b5_p(:,2),-b5_p(:,3));
+plot_f('','$$x \; [M_{\odot}]$$','$$y \;[M_{\odot}]$$',16)
+axis([-5.5 5.5 -5.5 5.5]);
+pbaspect([1 1 1]);
+% b6
+figure();
+plot(b6_p(:,2),b6_p(:,3));
+hold on;
+plot(-b6_p(:,2),-b6_p(:,3));
+plot_f('','$$x \; [M_{\odot}]$$','$$y \;[M_{\odot}]$$',16)
+xlim([-6.5 6.5]);
+ylim([-6.5 6.5]);
+pbaspect([1 1 1]);
+% b7
+figure();
+plot(b7_p(:,2),b7_p(:,3));
+hold on;
+plot(-b7_p(:,2),-b7_p(:,3));
+plot_f('','$$x \; [M_{\odot}]$$','$$y \;[M_{\odot}]$$',16)
+axis([-7.5 7.5 -7.5 7.5])
+pbaspect([1 1 1]);
+% b10
+figure();
+plot(b10_p(:,2),b10_p(:,3),'-');
+hold on;
+plot(-b10_p(:,2),-b10_p(:,3),'-');
+plot_f('','$$x \; [M_{\odot}]$$','$$y \;[M_{\odot}]$$',16)
+axis([-10.5 10.5 -10.5 10.5])
+pbaspect([1 1 1]);
+%%
+figure();
+plot(b3_p(:,1),b3_p(:,4));
+
 
 %% GW data
 % distance from the detector = r
@@ -61,8 +117,8 @@ b10_h = gw_strain(filename,r);
 figure();
 hold on;
 plot_f('\psi_4','t [M_\odot]','\psi_4',16)
-plot(t,psi4_r,'.');
-plot(t,psi4_i,'.');
+plot(b10_h(:,1),b10_h(:,4),'.');
+plot(b10_h(:,1),b10_h(:,5),'.');
 s= {['Re{\psi_4}'],...
     ['Im{\psi_4}']};
 legend_f(s);
@@ -85,18 +141,16 @@ legend_f(s);
 %figure();
 %plot(t(2:end,1),1e5*int_var.*r^2/(16*pi),'.')
 
-%%
-t = b7_h(:,1);                   
+%% Fourier trabsform
+t = b10_h(:,1);                   
+Fs = 1./abs(b10_h(1,1)-b10_h(2,1));            % Sampling frequency
+y = fft(b10_h(:,2));     
+w_f = ((0:length(y)-1)*Fs/length(y))*(2*pi); % omega fourier
 
-y = fft(x);     
-f = (0:length(y)-1)*Fs/length(y);
-plot(f,abs(y))
-title('Magnitude')
+figure();
+plot(w_f,abs(y));
+
 %%
-Fs = 1./abs(b7_h(1,1)-b7_h(2,1));            % Sampling frequency                    
-T = 1/Fs;             % Sampling period       
-L = b7_h(end,1);  % Length of signal
-t = (0:L-1)*T;
 
 figure();
 plot(Fs*t,b7_h(:,2))
@@ -253,24 +307,29 @@ end
 %    ['m_2 = ',num2str(m2),' m_e'],...
 %    ['m_3 = ',num2str(m3),' m_e']};
 
-%% theoretical binary sources
-%angular frequency
-omeg=2*pi;
-%radius
-R=1;
-
-% t time
-time =0:0.01:2;
-for n=1:length(time)
+%% binary sources and GW
+[C,ia,ib] = intersect(b4_p(:,1),b4_h(:,1));
+t=C;
+for n=1:10:length(C)
     
-    
-    plot(cos(omeg .*t(n)),sin(omeg.*t(n)),'.');
+    subplot(2,1,1),
+    plot(b4_p(ia(n),2),b4_p(ia(n),3),'.');
     hold on;
-    plot(-cos(omeg .*t(n)),-sin(omeg.*t(n)),'.');
-    xlim([-2 2]);
-    ylim([-2 2]);
-    pause(0.5)
+    plot(-b4_p(ia(n),2),-b4_p(ia(n),3),'.');
+    xlim([-11 11]);
+    ylim([-11 11]);
+    
+    subplot(2,1,2), 
+    hold on;
+    plot(t,b4_h(ib,2),'r');
+    plot(t,b4_h(ib,3),'b');
+    plot(t(n),b4_h(ib(n),2),'or','MarkerSize',4,'MarkerFaceColor','m') ;   
+    plot(t(n),b4_h(ib(n),3),'or','MarkerSize',4,'MarkerFaceColor','m');
+
+    
+    pause(0.01)
     clf;
+
 end
 %% 3D animation
 x=-100:1:100;
@@ -291,3 +350,8 @@ shading interp
 pause(0.5)
 clf
 end
+
+%%
+    
+ b10_p(ia,1)-b10_h(ib,1)
+
