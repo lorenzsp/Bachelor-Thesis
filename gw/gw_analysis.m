@@ -13,52 +13,43 @@ CU_to_dens = c*c*c*c*c*c / (G*G*G * M_sun*M_sun); % kg/m^3
 
 CU_to_energy    = M_sun*c*c  ;        % kg m^2/s^2
 
-
-
 %% positions of black holes
+filename = ('../BBH-b3/positions-b3.csv');
+b3_t_x_y_r_w = positions_f(filename);
+filename = ('../BBH-b4/positions-b4.csv');
+b4_t_x_y_r_w = positions_f(filename);
 filename = ('../BBH-b5/positions-b5.csv');
-pos = importdata(filename);
-hold on
-plot(pos(:,2),pos(:,3),'.');
-plot(-pos(:,2),-pos(:,3),'-');
-
-
-%% angular velocity
-
-t = pos(:,1)-115;
-y = pos(:,3);
-x = pos(:,2);
-v_x = gradient(x,t);
-v_y = gradient(y,t);
-omega = (x.*v_y - y.*v_x)./(x.^2 + y.^2);
-figure();
-plot(t,omega,'.')
-h_t_p = -8.*0.49.*sqrt((x.^2 + y.^2)).*(omega.^2).*cos(2.*omega.*t)./115;
-figure();
-plot(t,(x.^2 + y.^2).*omega.^3)
+b5_t_x_y_r_w = positions_f(filename);
+filename = ('../BBH-b6/positions-b6.csv');
+b6_t_x_y_r_w = positions_f(filename);
+filename = ('../BBH-b7/positions-b7.csv');
+b7_t_x_y_r_w = positions_f(filename);
+filename = ('../BBH-b10/positions-b10.csv');
+b10_t_x_y_r_w = positions_f(filename);
 
 
 
-%%
-plot(BH1.data(:,3),BH1.data(:,4))
+%% GW analysis
+filename = '../BBH-b4/mp_psi4_l2_m2_r115.00.asc';
+% distance from the detector
+r = 115;
 
-%%
-H = gw_strain('mp_psi4_l2_m2_r110.00.asc',115);
-t = H(:,1);
-new_h_x = H(:,2);
-new_h_p = H(:,3);
-%% energy balance
+%H = gw_strain(filename,r);
+
+% energy balance
 % variable in the integral over the angles proportional to the energy
 int_var = diff(new_h_x).^2 + diff(new_h_p).^2;
-plot(t(2:end),int_var,'.')
+%figure();
+plot(t(2:end,1),1e5*int_var.*r^2/(16*pi),'.')
 
-%% spectrum
-figure();
 
-plot(t,fft(new_h_p));
-hold on;
-%% 
-plot(t,fft(new_h_x));
+
+
+
+
+
+
+
 
 %% BINARY NEUTRON star
 % considerazioni

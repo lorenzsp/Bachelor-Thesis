@@ -8,9 +8,11 @@ function [ output_args ] = gw_strain(filename,r)
 x = importdata(filename, ' ');
 % time in solar masses
 t = x(:,1)-r;
+k=find(t>0);
+t= x(k,1)-r;
 % psi4 weyl scalar psi4 = second derivative of (h_+ - i h_x)
-psi4_r = x(:,2); 
-psi4_i = x(:,3);
+psi4_r = x(k,2); 
+psi4_i = x(k,3);
 
 figure();
 hold on;
@@ -51,6 +53,6 @@ s= {['h_+'],...
     ['h_x']};
 legend_f(s);
 
-output_args=[t h_p h_x];
+output_args=[t h_p h_x psi4_r psi4_i];
 end
 
