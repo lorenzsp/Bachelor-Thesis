@@ -64,9 +64,13 @@ TwoPunctures::par\_P\_minus[1]    = -0.13808
 \\
 }
 \linebreak
-where the parameter \texttt{par\_b} defines the locations of the two black holes at $(x,y,z) = (\pm 3,0,0)$. 
+We call parameter $b$ the parameter \texttt{par\_b} which defines the initial distance of the two black holes at $(x,y,z) = (\pm 3,0,0)$ from the origin of the axes. 
 \texttt{par\_m\_plus} and \texttt{par\_m\_minus} set the "bare mass" parameter, and \texttt{par\_P\_plus[1]} and \texttt{par\_P\_minus[1]} set the Bowen-York linear momentum parameter.
-We let evolve the binary black hole using six different quasi-equilibrium initial conditions, as shown in Table(\ref{initial_conditions_bbh})
+We let evolve the binary black hole using six different quasi-equilibrium initial conditions, as shown in Table(\ref{initial_conditions_bbh}).
+%%
+%%
+%%
+%%
 \begin{table}
 \centering
 \begin{tabular}{|c|c|c|c|}
@@ -86,16 +90,20 @@ BBH-b7 & 7 &  0.48997 & +0.076578 \\
 %\hline 
 BBH-b10 & 10 & 0.49299 & +0.061542 \\ 
 \hline 
-
 \end{tabular} 
 \caption{The table shows the quasi-equilibrium initial conditions used in the \texttt{TwoPuncture} thorn. Since the two balck holes have equal masses \texttt{par\_m\_plus}$=$\texttt{par\_m\_minus} and opposite momentum \texttt{par\_P\_plus[1]}$=- $\texttt{par\_P\_minus[1]}, we do not report in the table the obvious initial conditions of the second black hole.}
 \label{initial_conditions_bbh}
 \end{table}
-Each initial configuration is then evolved using the \texttt{ML\_BSSN} (\texttt{McLachlan} BSSN) thorn, the gravitational wave information is extracted using \texttt{WeylScal4} thorn.
-
-
-
-
+%%
+%%
+%%
+%%
+Each initial configuration is then evolved using the \texttt{ML\_BSSN} (\texttt{McLachlan} BSSN) thorn, the gravitational wave information is extracted using \texttt{WeylScal4} thorn.\\
+The orbits of covered by the binaries black hole are shown in Figure(\ref{orbits}).
+%%
+%%
+%%
+%%
 \begin{figure}
 \centering
     \textbf{Orbits of different  configurations of BBH}\par\medskip
@@ -119,11 +127,38 @@ Each initial configuration is then evolved using the \texttt{ML\_BSSN} (\texttt{
    {\includegraphics[width=.45\textwidth]{numerical_evolution/trajectory_b10.eps}
    \label{trajectory_b10}} \quad
  \\
-\caption{Spatial positions occupied by a ring of free-falling test particles disturbed by a gravitational wave.}
-\label{plus_and_times}
+\caption{It is shown the evolution of the BBH using the quasi-equilibrium initial conditions of Table(\ref{initial_conditions_bbh}). As the parameter $b$ increases, the orbits of the BBH tend to be more stable, where with stable we mean that the difference between the previous and the next orbit is small.}
+\label{orbits}
 \end{figure}
-
-
+%%
+%%
+%%
+%%
+Due to the short initial distance from the origin, the BBHs with a  with low $b$ merge after few revolutions, for instance BBH-b3 merges after $2$ revolutions; BBH-b4 merges after
+$3.5$ revolutions; BBH-b5 merges after $6$ revolutions.
+Whereas the BBHs with an high parameter$b$ have orbits close to each other, such that they form a ring shape.\\
+Notice that as the $b$ increases, the two black holes have orbits that drift apart from the coil-shaped path of Figure(\ref{trajectory_b3}).
+This behavior can be better understood analyzing the distance of one of the balck hole from the origin as a function of time. 
+For this reason, we plot in Figure(\ref{radius_evolution}) the normalized radial distance
+\[
+R(t)/b = \frac{\sqrt{x ^{2} (t) + y^{2} (t)}}{b}
+\]
+which depicts a new feature of the orbits. There are evident oscillations of the time-evolution of the radius $R(t)$.
+%%
+%%
+%%
+%%
+\begin{figure}
+\centering
+    \textbf{Normalized Radial evolution of the BBH}\par\medskip
+\makebox[\textwidth][c]{\includegraphics[width=1.1\textwidth]{numerical_evolution/radius_evolution.eps}}
+\caption{Time evolution of the distance $R(t)$ between a black hole and the origin of the axes. The values are normalized to the initial separation from the origin $b$. The figure shows oscillation modes especially for BBHs with high $b$.}
+\label{radius_evolution}
+\end{figure}
+%%
+%%
+%%
+%%
 
 
 \subsection{Binary Neutron Star}

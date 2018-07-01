@@ -28,7 +28,34 @@ filename = ('../BBH-b7/positions-b7.csv');
 b7_p = positions_f(filename);
 filename = ('../BBH-b10/positions-b10.csv');
 b10_p = positions_f(filename);
-%% trajectories
+%% GW data
+% distance from the detector = r
+% structure t h_p h_x psi4_r psi4_i
+filename = '../BBH-b3/mp_psi4_l2_m2_r110.00.asc';
+r = 110;
+b3_h = gw_strain(filename,r);
+
+filename = '../BBH-b4/mp_psi4_l2_m2_r115.00.asc';
+r = 115;
+b4_h = gw_strain(filename,r);
+
+filename = '../BBH-b5/mp_psi4_l2_m2_r115.00.asc';
+r = 115;
+b5_h = gw_strain(filename,r);
+
+filename = '../BBH-b6/mp_psi4_l2_m2_r115.00.asc';
+r = 115;
+b6_h = gw_strain(filename,r);
+
+filename = '../BBH-b7/mp_psi4_l2_m2_r115.00.asc';
+r = 115;
+b7_h = gw_strain(filename,r);
+
+filename = '../BBH-b10/mp_psi4_l2_m2_r115.00.asc';
+r = 115;
+b10_h = gw_strain(filename,r);
+
+%% orbits
 % b3
 figure();
 plot(b3_p(:,2),b3_p(:,3));
@@ -80,38 +107,28 @@ plot(-b10_p(:,2),-b10_p(:,3),'-');
 plot_f('','$$x \; [M_{\odot}]$$','$$y \;[M_{\odot}]$$',16)
 axis([-10.5 10.5 -10.5 10.5])
 pbaspect([1 1 1]);
-%%
+
+%% radius
+% b3
 figure();
-plot(b3_p(:,1),b3_p(:,4));
+col=jet(6);
+plot(b3_p(:,1),(b3_p(:,4)/3),'color',col(1,:));
+hold on;
+plot(b4_p(:,1),(b4_p(:,4)/4),'color',col(2,:));
+plot(b5_p(:,1),b5_p(:,4)/5,'color',col(3,:));
+plot(b6_p(:,1),b6_p(:,4)/6,'color',col(4,:));
+plot(b7_p(:,1),b7_p(:,4)/7,'r');
+plot(b10_p(:,1),b10_p(:,4)/10,'color',col(6,:));
 
-
-%% GW data
-% distance from the detector = r
-% structure t h_p h_x psi4_r psi4_i
-filename = '../BBH-b3/mp_psi4_l2_m2_r110.00.asc';
-r = 110;
-b3_h = gw_strain(filename,r);
-
-filename = '../BBH-b4/mp_psi4_l2_m2_r115.00.asc';
-r = 115;
-b4_h = gw_strain(filename,r);
-
-filename = '../BBH-b5/mp_psi4_l2_m2_r115.00.asc';
-r = 115;
-b5_h = gw_strain(filename,r);
-
-filename = '../BBH-b6/mp_psi4_l2_m2_r115.00.asc';
-r = 115;
-b6_h = gw_strain(filename,r);
-
-filename = '../BBH-b7/mp_psi4_l2_m2_r115.00.asc';
-r = 115;
-b7_h = gw_strain(filename,r);
-
-filename = '../BBH-b10/mp_psi4_l2_m2_r115.00.asc';
-r = 115;
-b10_h = gw_strain(filename,r);
-
+plot_f('','$$t \; [M_{\odot}]$$','$$R/b$$',16)
+s= {['BBH-b3'],...
+    ['BBH-b4'],...
+    ['BBH-b5'],...
+    ['BBH-b6'],...
+    ['BBH-b7'],...
+    ['BBH-b10'],...
+    };
+legend_f(s);
 
 %% GW analysis
 figure();
@@ -148,7 +165,7 @@ y = fft(b10_h(:,2));
 w_f = ((0:length(y)-1)*Fs/length(y))*(2*pi); % omega fourier
 
 figure();
-plot(w_f,abs(y));
+plot(w_f,abs(y)/max(abs(y)));
 
 %%
 

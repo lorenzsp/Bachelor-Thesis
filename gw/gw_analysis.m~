@@ -28,7 +28,7 @@ filename = ('../BBH-b7/positions-b7.csv');
 b7_p = positions_f(filename);
 filename = ('../BBH-b10/positions-b10.csv');
 b10_p = positions_f(filename);
-%% trajectories
+%% orbits
 % b3
 figure();
 plot(b3_p(:,2),b3_p(:,3));
@@ -80,10 +80,28 @@ plot(-b10_p(:,2),-b10_p(:,3),'-');
 plot_f('','$$x \; [M_{\odot}]$$','$$y \;[M_{\odot}]$$',16)
 axis([-10.5 10.5 -10.5 10.5])
 pbaspect([1 1 1]);
-%%
-figure();
-plot(b3_p(:,1),b3_p(:,4));
 
+%% radius
+% b3
+figure();
+col=jet(1);
+plot(b3_p(:,1),(b3_p(:,4)/3),'color',col(1,:));
+hold on;
+plot(b4_p(:,1),(b4_p(:,4)/4),'color',col(2,:));
+plot(b5_p(:,1),b5_p(:,4)/5,'color',col(3,:));
+plot(b6_p(:,1),b6_p(:,4)/6,'color',col(4,:));
+plot(b7_p(:,1),b7_p(:,4)/7,'color',col(5,:));
+plot(b10_p(:,1),b10_p(:,4)/10,'color',col(6,:));
+
+plot_f('','$$t [M_{\odot}]$$','$$R [M_{\odot}]$$',16)
+s= {['BBH-b3'],...
+    ['BBH-b4'],...
+    ['BBH-b5'],...
+    ['BBH-b6'],...
+    ['BBH-b7'],...
+    ['BBH-b10'],...
+    };
+legend_f(s);
 
 %% GW data
 % distance from the detector = r
