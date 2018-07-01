@@ -15,7 +15,7 @@ CU_to_energy    = M_sun*c*c  ;        % kg m^2/s^2
 
 %% positions data of black holes
 % positions info of the different simulations
-% time x y radius and omega
+%structure time x y radius and omega
 filename = ('../BBH-b3/positions-b3.csv');
 b3_p = positions_f(filename);
 filename = ('../BBH-b4/positions-b4.csv');
@@ -31,6 +31,7 @@ b10_p = positions_f(filename);
 
 %% GW data
 % distance from the detector = r
+% structure t h_p h_x psi4_r psi4_i
 filename = '../BBH-b3/mp_psi4_l2_m2_r110.00.asc';
 r = 110;
 b3_h = gw_strain(filename,r);
@@ -84,9 +85,27 @@ legend_f(s);
 %figure();
 %plot(t(2:end,1),1e5*int_var.*r^2/(16*pi),'.')
 
+%% Fourier trabsform
+t = b7_h(:,1);                   
+Fs = 1./abs(b7_h(1,1)-b7_h(2,1));            % Sampling frequency
+y = fft(b7_h(:,2));     
+w_f = ((0:length(y)-1)*Fs/length(y))*(2*pi); % omega fourier
 
+figure();
+plot(w_f,abs(y));
+%%
 
-
+figure();
+plot(Fs*t,b7_h(:,2))
+Y = fft(b7_h(:,2));
+P2 = abs(Y/L);
+P1 = P2(1:L/2+1);
+P1(2:end-1) = 2*P1(2:end-1);
+f = Fs*(0:(L/2))/L;
+plot(f,P1) 
+title('Single-Sided Amplitude Spectrum of X(t)')
+xlabel('f (Hz)')
+ylabel('|P1(f)|')
 
 %% BINARY NEUTRON star
 % considerazioni
@@ -112,8 +131,8 @@ figure();
 plot(t(2:end),int_var,'.')
 
 
-%% plot polarizations
-%% wave polarizations
+
+%% wave polarizations plot 
 %angle parameter of the ring
 theta = 0:0.01:2*pi;
 %frequency of the wave
@@ -158,7 +177,7 @@ end
 
 
 
-%% wave polarizations
+%% wave polarizations animated
 %angle parameter of the ring
 theta = 0:0.03:2*pi;
 %frequency of the wave
@@ -169,7 +188,7 @@ n=1;
 ii=1;
 for t=500:3000
     % plus polarization
-    h_plus = 0.*cos(omega.*t);
+    h_plus = 0.5*cos(omega.*t);
     h_times = 0.5*cos(omega.*t + pi/2);
     X = cos(theta) .* (1 + 0.5.*h_plus) + sin(theta).*(0.5.*h_times);
     Y = sin(theta) .* (1 - 0.5.*h_plus) + cos(theta).*(0.5.*h_times);
@@ -197,11 +216,7 @@ for t=500:3000
     %clf;
     ii = ii + 0.2;
 end
-%%
-CM = jet(n);  % See the help for COLORMAP to see other choices.
-for ii=1:n
-   plot(array1(:,ii),array2(:,ii),'color',CM(ii,:),'marker','o')
-end
+
 
 %% wave polarization for BBH
 theta = 0:0.03:2*pi;
