@@ -14,7 +14,7 @@ A thorough description of the numerical methods used to perform the simulations 
 Rather than analyzing the algorithms of th Einstein Toolkit, the purpose of the following sections is to study the gravitational-wave signals of binaries black holes (BBH) and neutron stars (BNS). 
 \subsection{Gravitational Wave Extraction}
 \label{gw_extraction}
-Using \texttt{WeylScal4}, the Einstein Toolkit calculates the  Newman-Penrose scalar $\psi_4$ [REF], which is linked to the GW strain by the following relation, valid only at spatial infinity:
+Using \texttt{WeylScal4}, the Einstein Toolkit calculates the  Newman-Penrose scalar $\psi_4$ (also called Weyl scalar 4)[REF], which is linked to the GW strain by the following relation, valid only at spatial infinity:
 \begin{equation}
 \label{psi_4_strain}
 \psi_{4} = \pdv[2]{}{t} \qty(h_{+} - i h_{\times})
@@ -169,60 +169,123 @@ Therefore, in order to have an order of magnitude of the gravitational wave stra
 h(t) = h_{+} - i h_{\times}
 \] 
 where $h_{+}$ and $h_{\times}$ are taken from equations(\ref{h_+_numerical}) and (\ref{h_x_numerical}), we multiply $h(t)$ by the distance at which it is was measured and we divide it by a typical cosmological distance of binary sources $r=100 \, \mega \text{pc} \approx 3.1 \times 10^{19} \, \kilo \meter$.
-In addition, the units of time will be expressed in millisecond in order to easily compare the frequency of the signals with the sensitivities of the gravitational wave detetctors.
-
-
-
+In addition, the units of time will be expressed in millisecond in order to easily compare the frequency of the signals with the sensitivities of the gravitational wave detetctors.\\
+The gravitational singals are shown in Figure(\ref{gw_b3}), (\ref{gw_b4}), (\ref{gw_b5}), (\ref{gw_b6}), (\ref{gw_b7}) and (\ref{gw_b10}).
+In the time interval $t \in (0,0.1)\milli \second$ the gravitational wave of all simulations $\psi_4$ shows an irregular perturbation. 
+In [REF] it is pointed out that there is a numerical noise that could be reduced using a more refined simulations. However,   the simulations are enough accurate for our purpose after that time interval.\\ 
 %%
 %%
 %%
 %%
+\begin{figure}[h]
+\centering
+    \textbf{Gravitational Wave emitted by BBH-b3}\par\medskip
+\centering
+\includegraphics[width=1\textwidth]{numerical_evolution/gw_b3.eps}
+\caption{The first and the second panels show, respectively the gravitational signal $\psi_4=\psi_4 ^{2,2}$ and the gravitational strain produced by the BBH-b3.}
+   \label{gw_b3}
+ \end{figure}
+   %%
+   %%
+   %%
+   %%
+The GW radiated by the binary black hole with parameter $b=3$, in Figure(\ref{gw_b3}), has a short duration with respect to the others due to the intial conditions.
+In fact, due to the strong interaction between the two bodies, the black holes merge quickly after $125 \, M_{\odot} \approx 0.616 \, \milli \second$ from Figure(\ref{radius_evolution}). 
+The radius of the orbit decreases rapidly and the inspiralling phase lasts only $0.6 \milli \second$ and, as a consequence the waveform is a sinusoid with a noticeable varying frequency.
+After $6.1 \milli \second$ the gravitational wave aplitude starts decreasing and oscillating around zero as expected in the ring-down phase, in which the black holes are already merged. 
+\\
+The gravitational radiations emitted of BBH-b4 and BBH-b5 are pretty similiar, they both show the typical phase of insipralling that can be approximated with a sinusoid analogue to the quadrupole formula.
+   %%
+   %%
+   %%
+   %%
+\begin{figure}[h!]
+\centering
+    \textbf{Gravitational waves emitted by BBH-b4}\par\medskip
+\centering
+   \includegraphics[width=1\textwidth]{numerical_evolution/gw_b4.eps}
+   
+   \caption{The first and the second panels show, respectively the gravitational signal $\psi_4=\psi_4 ^{2,2}$ and the gravitational strain produced by the BBH-b4.}
+\label{gw_b4} 
+\end{figure}
+      %%
+   %%
+   %%
+   %%
+   \begin{figure}[h!]
+\centering
+    \textbf{Gravitational waves emitted by BBH-b5}\par\medskip
+\centering
+\includegraphics[width=1\textwidth]{numerical_evolution/gw_b5.eps}
+   \caption{The first and the second panels show, respectively the gravitational signal $\psi_4=\psi_4 ^{2,2}$ and the gravitational strain produced by the BBH-b5.}
+\label{gw_b5}
+\end{figure}
+   %%
+   %%
+   %%
+   %%
+Since the BBH-b5 has a initial configuration with further initial separation than BBH-b4, the signal of BBH-b5 lasts longer $4.5 \milli \second$ than the GW radiaition of BBH-b4 lasting $2 \milli \second$.\\
+The gravitational strains $h$ of BBH-b3, BBH-b4 and BBH-b5 have similiar amplitudes, the strain increases its vale from $\approx 0.5 \times 10^{-22}$ up to $\approx1.5 \times 10^{-22}$ during the inspiralling, and the ring-doww phase lasts approximately $0.5 \, \milli \second$.\\
+The gravitational signal $\psi_4$ radiated by the BBH-b6 source has big initial noise and it is affected by perturbations between $(1,1.5) \milli \second$. 
+Alothough the gravitational strain $h$ will be affected by this perturbations, its oscillation modes in Figure(\ref{gw_b6}) are rather smooth. 
+In a time interval of $5 \milli \second$ the amplitudes of the two polarizations $h_+$ and $h_{\times}$ vary, respectively, from $3.9\times 10^{-23}$ to $5\times 10^{-23}$, and from $3\times 10^{-23}$ up t $4.5\times 10^{-23}$. 
+These small variations shows similiar features with the quadrupole formula approximation, which could roughly describe the inspiralling phase.\\
+As expected, by increasing the parameter $b$, the gravitational strain decreases in intensity in the first part of the black hole evolution.\\
+   %%
+   %%
+   %%
+   %%
 \begin{figure}
 \centering
-    \textbf{Gravitational waves emitted by BBH}\par\medskip
+    \textbf{Gravitational waves emitted by BBH-b6}\par\medskip
 \centering
-\subfloat[][$b=3 \, M_{\odot}$.]
-   {\includegraphics[width=0.9\textwidth]{numerical_evolution/gw_b3.eps}
-   \label{gw_b3}} \quad
-   \subfloat[][ $b=4 \, M_{\odot}$.]
-   {\includegraphics[width=0.9\textwidth]{numerical_evolution/gw_b4.eps}
-   \label{gw_b4}} \quad
-   \caption{.}
-\label{}
+\includegraphics[width=0.9\textwidth]{numerical_evolution/gw_b6.eps}
+   \caption{The first and the second panels show, respectively the gravitational signal $\psi_4=\psi_4 ^{2,2}$ and the gravitational strain produced by the BBH-b6.}
+      \label{gw_b6}
 \end{figure}
-   
-   
+   %%
+   %%
+   %%
+   %%
    \begin{figure}
 \centering
-    \textbf{Gravitational waves emitted by BBH}\par\medskip
+    \textbf{Gravitational waves emitted by BBH-b7}\par\medskip
 \centering
-\subfloat[][$b=5 \, M_{\odot}$.]
-   {\includegraphics[width=0.9\textwidth]{numerical_evolution/gw_b5.eps}
-   \label{gw_b5}}
-   \\
-\subfloat[][ $b=6 \, M_{\odot}$.]
-   {\includegraphics[width=0.9\textwidth]{numerical_evolution/gw_b6.eps}
-   \label{gw_b6}} 
-   \label{}
-\end{figure}
-   \begin{figure}
+\includegraphics[width=0.9\textwidth]{numerical_evolution/gw_b7.eps}
+\caption{The first and the second panels show, respectively the gravitational signal $\psi_4=\psi_4 ^{2,2}$ and the gravitational strain produced by the BBH-b7.}   
+   \label{gw_b7}
+   \end{figure}
+   %%
+   %%
+   %%
+   %%
+      \begin{figure}
 \centering
-    \textbf{Gravitational waves emitted by BBH}\par\medskip
-\centering
-\subfloat[][ $b=7 \, M_{\odot}$.]
-   {\includegraphics[width=0.9\textwidth]{numerical_evolution/gw_b7.eps}
-   \label{gw_b7}} \quad
-\subfloat[][ $b=10 \, M_{\odot}$.]
-   {\includegraphics[width=0.9\textwidth]{numerical_evolution/gw_b10.eps}
-   \label{gw_b10}} \quad
- \\
-\caption{.}
-\label{}
+    \textbf{Gravitational waves emitted by BBH-b10}\par\medskip
+\centering   
+\includegraphics[width=0.9\textwidth]{numerical_evolution/gw_b10.eps}
+\caption{The first and the second panels show, respectively the gravitational signal $\psi_4=\psi_4 ^{2,2}$ and the gravitational strain produced by the BBH-b10.}
+\label{gw_b10}
 \end{figure}
 %%
 %%
 %%
 %%
+The $\psi_4$ signals produced by BBH-b7 and BBH-b10 have noises analogue to those of BBH-b6, however they manifest  a new feature in the gravitational strain $h$.
+Indeed, it is evident from Figures (\ref{gw_b10}) and (\ref{gw_b7}) that the two polarization $h_{+}$ and $h_{\times}$ have another oscillation mode with larger period that the typical sinusoidal oscillation mode.\\
+The consequence of such behavior could be due to a rough numerical exctraction, or to the oscillations in the radial distance from the center in Figure(\ref{radius_evolution}).\\
+As a matter of fact, the waveform that can be better approximated using our rudimentary methods of analysis is that on of BBH-b6.\\
+An important result obtained through the quadrupole formula applied to a binary source was that the frequency of the gravitational wave is twice the orbital frequency of rotating bodies.
+Using the Fourier transform of the gravitational strain and the angular frequency data of the black holes we can test this hypothesis.
+
+
+
+
+
+
+
+FEATURES OF ALL OF THEM
+PHASE OF THE REAL AND OF THE IMAG
 
 
 \subsection{Binary Neutron Star}

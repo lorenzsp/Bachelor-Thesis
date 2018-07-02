@@ -141,6 +141,8 @@ plot(b3_h(:,1).*CU_to_ms,110*b3_h(:,5)/(100.*Mparsec),'.');
 s= {['Re{$$( \psi_4)$$}'],...
     ['Im{$$( \psi_4)$$}']};
 legend_f(s);
+ylim([-2.5 2.5].*1e-23);
+
 subplot(2,1,2),
 hold on;
 plot_f('$$ h $$','$$t \,[ms]$$','$$ h(t,r=100 Mpc) $$',16)
