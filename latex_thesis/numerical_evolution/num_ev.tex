@@ -12,9 +12,8 @@ The parameter file is a simple text file, containing the desired settings within
 \\
 A thorough description of the numerical methods used to perform the simulations can be found here, we depict the initial conditions of our simulations and we briefly mention the used thorns.
 Rather than analyzing the algorithms of th Einstein Toolkit, the purpose of the following sections is to study the gravitational-wave signals of binaries black holes (BBH) and neutron stars (BNS). 
-Throughout the following sections, as we have done so far, we set $G=c=1$, and therefore we express time and space in solar masses $M_{\odot}$
-
 \subsection{Gravitational Wave Extraction}
+\label{gw_extraction}
 Using \texttt{WeylScal4}, the Einstein Toolkit calculates the  Newman-Penrose scalar $\psi_4$ [REF], which is linked to the GW strain by the following relation, valid only at spatial infinity:
 \begin{equation}
 \label{psi_4_strain}
@@ -40,16 +39,19 @@ Thus, we integrate twice in time in order to get the complex-valued gravitationa
 where we used the trapezodail rule for the numeric integration.
 The resulting quantity obtained with the procedure described above show a left-over non-linear drift, which can be eliminated  performing a fit to a second order polynomial for both the real and the imaginary parts of $\tilde{h}(t)$.
 The two polarizations (plus and times) of the gravitational wave are finally obtained subtracting the noise
-\bea
+\begin{eqnarray}
+\label{h_+_numerical}
 h_{+} (t)= \Re {\tilde{h}} -  \qty(Q_0 ^{R} + Q_1 ^{R} t + Q_2 ^{R} t^{2}) \\
+\label{h_x_numerical}
 h_{\times}(t) = - \qty[
 \Im {\tilde{h}} -
 \qty(Q_0 ^{I} + Q_1 ^{I} t + Q_2 ^{I} t^{2})
 ]
-\eea
+\end{eqnarray}
 where the $Q$ values are the coefficients of the fitted polynomials for the real $Q^{R}$ and the imaginary $Q^{I}$ parts of $\tilde{h}(t)$.\\
 
 \subsection{Binary Black Hole}
+As we have done so far and following the Einstein Tookit conventions, we set $G=c=1$, and therefore we express time and space in units of solar masses $M_{\odot}$, i.e. $1 t [M_{\odot}] \approx 0.005 \milli \second$ and $1 x [M_{\odot}] \approx 1.5 \kilo \meter$.\\
 We simulate the evolution of equal-mass binary black holes with different quasi-equilirbium initial conditions.
 The thorn \texttt{TwoPunctures} is used to set up the initial data for the two black holes located at the x-axis with opposite linear momentum along the y-axis.
 Due to the symmetry of the problem, it is possible to reduce the computational cost by a factor of 2 by not evolving the domain with $z < 0$, and by another factor 2 evolving points with $x > 0$ and populating the missing part by rotating the existing domain for 180 degrees along the z-axis.
@@ -154,6 +156,68 @@ which depicts a new feature of the orbits. There are evident oscillations of the
 \makebox[\textwidth][c]{\includegraphics[width=1.1\textwidth]{numerical_evolution/radius_evolution.eps}}
 \caption{Time evolution of the distance $R(t)$ between a black hole and the origin of the axes. The values are normalized to the initial separation from the origin $b$. The figure shows oscillation modes especially for BBHs with high $b$.}
 \label{radius_evolution}
+\end{figure}
+%%
+%%
+%%
+%%
+\par
+We now stufy the gravitational radiation emitted by the different binary sources is extracted following to the procedure described in section(\ref{gw_extraction}).\\
+As we have seen in section(\ref{solution_linearized_einstein_eq}) the gravitational radiation scales with the distance from the source as $1/r$.
+Therefore, in order to have an order of magnitude of the gravitational wave strain 
+\[
+h(t) = h_{+} - i h_{\times}
+\] 
+where $h_{+}$ and $h_{\times}$ are taken from equations(\ref{h_+_numerical}) and (\ref{h_x_numerical}), we multiply $h(t)$ by the distance at which it is was measured and we divide it by a typical cosmological distance of binary sources $r=100 \, \mega \text{pc} \approx 3.1 \times 10^{19} \, \kilo \meter$.
+In addition, the units of time will be expressed in millisecond in order to easily compare the frequency of the signals with the sensitivities of the gravitational wave detetctors.
+
+
+
+%%
+%%
+%%
+%%
+\begin{figure}
+\centering
+    \textbf{Gravitational waves emitted by BBH}\par\medskip
+\centering
+\subfloat[][$b=3 \, M_{\odot}$.]
+   {\includegraphics[width=0.9\textwidth]{numerical_evolution/gw_b3.eps}
+   \label{gw_b3}} \quad
+   \subfloat[][ $b=4 \, M_{\odot}$.]
+   {\includegraphics[width=0.9\textwidth]{numerical_evolution/gw_b4.eps}
+   \label{gw_b4}} \quad
+   \caption{.}
+\label{}
+\end{figure}
+   
+   
+   \begin{figure}
+\centering
+    \textbf{Gravitational waves emitted by BBH}\par\medskip
+\centering
+\subfloat[][$b=5 \, M_{\odot}$.]
+   {\includegraphics[width=0.9\textwidth]{numerical_evolution/gw_b5.eps}
+   \label{gw_b5}}
+   \\
+\subfloat[][ $b=6 \, M_{\odot}$.]
+   {\includegraphics[width=0.9\textwidth]{numerical_evolution/gw_b6.eps}
+   \label{gw_b6}} 
+   \label{}
+\end{figure}
+   \begin{figure}
+\centering
+    \textbf{Gravitational waves emitted by BBH}\par\medskip
+\centering
+\subfloat[][ $b=7 \, M_{\odot}$.]
+   {\includegraphics[width=0.9\textwidth]{numerical_evolution/gw_b7.eps}
+   \label{gw_b7}} \quad
+\subfloat[][ $b=10 \, M_{\odot}$.]
+   {\includegraphics[width=0.9\textwidth]{numerical_evolution/gw_b10.eps}
+   \label{gw_b10}} \quad
+ \\
+\caption{.}
+\label{}
 \end{figure}
 %%
 %%

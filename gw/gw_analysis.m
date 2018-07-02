@@ -131,16 +131,182 @@ s= {['BBH-b3'],...
 legend_f(s);
 
 %% GW analysis
+%b3
 figure();
+subplot(2,1,1),
 hold on;
-plot_f('\psi_4','t [M_\odot]','\psi_4',16)
-plot(b10_h(:,1),b10_h(:,4),'.');
-plot(b10_h(:,1),b10_h(:,5),'.');
-s= {['Re{\psi_4}'],...
-    ['Im{\psi_4}']};
+plot_f('$$ \psi_4$$','$$t \,[ms]$$','$$ \psi_4(t,r=100 Mpc)$$',16)
+plot(b3_h(:,1).*CU_to_ms,110*b3_h(:,4)/(100.*Mparsec),'.');
+plot(b3_h(:,1).*CU_to_ms,110*b3_h(:,5)/(100.*Mparsec),'.');
+s= {['Re{$$( \psi_4)$$}'],...
+    ['Im{$$( \psi_4)$$}']};
+legend_f(s);
+subplot(2,1,2),
+hold on;
+plot_f('$$ h $$','$$t \,[ms]$$','$$ h(t,r=100 Mpc) $$',16)
+plot(b3_h(:,1).*CU_to_ms,110*b3_h(:,2)/(100.*Mparsec),'.');
+plot(b3_h(:,1).*CU_to_ms,110*b3_h(:,3)/(100.*Mparsec),'.');
+s= {['$$ h_+$$'],...
+    ['$$ h_{\times}$$']};
+%ylim([-0.6 0.6])
 legend_f(s);
 
+%% b4
+figure();
+subplot(2,1,1),
+hold on;
+plot_f('$$ \psi_4$$','$$t \,[ms]$$','$$ \psi_4(t,r=100 Mpc)$$',16)
+plot(b4_h(:,1).*CU_to_ms,115*b4_h(:,4)/(100.*Mparsec),'.');
+plot(b4_h(:,1).*CU_to_ms,115*b4_h(:,5)/(100.*Mparsec),'.');
+s= {['Re{$$( \psi_4)$$}'],...
+    ['Im{$$( \psi_4)$$}']};
+legend_f(s);
+xlim([0 2]);
 
+subplot(2,1,2),
+hold on;
+plot_f('$$ h $$','$$t \,[ms]$$','$$ h(t,r=100 Mpc) $$',16)
+plot(b4_h(:,1).*CU_to_ms,115*b4_h(:,2)/(100.*Mparsec),'.');
+plot(b4_h(:,1).*CU_to_ms,115*b4_h(:,3)/(100.*Mparsec),'.');
+s= {['$$h_+$$'],...
+    ['$$h_{\times}$$']};
+legend_f(s);
+xlim([0 2]);
+
+%% b5
+figure();
+subplot(2,1,1),
+hold on;
+plot_f('$$ \psi_4$$','$$t \,[ms]$$','$$ \psi_4(t,r=100 Mpc)$$',16)
+plot(b5_h(:,1).*CU_to_ms,115*b5_h(:,4)/(100.*Mparsec),'.');
+plot(b5_h(:,1).*CU_to_ms,115*b5_h(:,5)/(100.*Mparsec),'.');
+s= {['Re{$$( \psi_4)$$}'],...
+    ['Im{$$( \psi_4)$$}']};
+legend_f(s);
+xlim([0 4.35]);
+ylim([-2.5 2.5].*1e-23)
+
+subplot(2,1,2),
+hold on;
+plot_f('$$ h $$','$$t \,[ms]$$','$$ h(t,r=100 Mpc) $$',16)
+plot(b5_h(:,1).*CU_to_ms,115*b5_h(:,2)/(100.*Mparsec),'.');
+plot(b5_h(:,1).*CU_to_ms,115*b5_h(:,3)/(100.*Mparsec),'.');
+s= {['$$h_+$$'],...
+    ['$$h_{\times}$$']};
+legend_f(s);
+xlim([0 4.35]);
+
+%% b6
+figure();
+subplot(2,1,1),
+hold on;
+plot_f('$$ \psi_4$$','$$t \,[ms]$$','$$ \psi_4(t,r=100 Mpc)$$',16)
+plot(b6_h(:,1).*CU_to_ms,115*b6_h(:,4)/(100.*Mparsec),'.');
+plot(b6_h(:,1).*CU_to_ms,115*b6_h(:,5)/(100.*Mparsec),'.');
+s= {['Re{$$( \psi_4)$$}'],...
+    ['Im{$$( \psi_4)$$}']};
+legend_f(s);
+xlim([0 5.4]);
+
+subplot(2,1,2),
+hold on;
+plot_f('$$ h $$','$$t \,[ms]$$','$$ h(t,r=100 Mpc) $$',16)
+plot(b6_h(:,1).*CU_to_ms,115*b6_h(:,2)/(100.*Mparsec),'.');
+plot(b6_h(:,1).*CU_to_ms,115*b6_h(:,3)/(100.*Mparsec),'.');
+s= {['$$h_+$$'],...
+    ['$$h_{\times}$$']};
+legend_f(s);
+xlim([0 5.4]);
+ylim([-5.2 5.2].*1e-23);
+
+%% b7
+figure();
+subplot(2,1,1),
+hold on;
+plot_f('$$ \psi_4$$','$$t \,[ms]$$','$$ \psi_4(t,r=100 Mpc)$$',16)
+plot(b7_h(:,1).*CU_to_ms,115*b7_h(:,4)/(100.*Mparsec),'.');
+plot(b7_h(:,1).*CU_to_ms,115*b7_h(:,5)/(100.*Mparsec),'.');
+s= {['Re{$$( \psi_4)$$}'],...
+    ['Im{$$( \psi_4)$$}']};
+legend_f(s);
+xlim([0 8.1]);
+
+subplot(2,1,2),
+hold on;
+plot_f('$$ h $$','$$t \,[ms]$$','$$ h(t,r=100 Mpc) $$',16)
+plot(b7_h(:,1).*CU_to_ms,115*b7_h(:,2)/(100.*Mparsec),'.');
+plot(b7_h(:,1).*CU_to_ms,115*b7_h(:,3)/(100.*Mparsec),'.');
+s= {['$$h_+$$'],...
+    ['$$h_{\times}$$']};
+legend_f(s);
+xlim([0 8.1]);
+%ylim([-5.2 5].*1e-23)
+
+%% b10
+figure();
+subplot(2,1,1),
+hold on;
+plot_f('$$ \psi_4$$','$$t \,[ms]$$','$$ \psi_4(t,r=100 Mpc)$$',16)
+plot(b10_h(:,1).*CU_to_ms,115*b10_h(:,4)/(100.*Mparsec),'.');
+plot(b10_h(:,1).*CU_to_ms,115*b10_h(:,5)/(100.*Mparsec),'.');
+s= {['Re{$$( \psi_4)$$}'],...
+    ['Im{$$( \psi_4)$$}']};
+legend_f(s);
+xlim([0 7.5]);
+
+subplot(2,1,2),
+hold on;
+plot_f('$$ h $$','$$t \,[ms]$$','$$ h(t,r=100 Mpc) $$',16)
+plot(b10_h(:,1).*CU_to_ms,115*b10_h(:,2)/(100.*Mparsec),'.');
+plot(b10_h(:,1).*CU_to_ms,115*b10_h(:,3)/(100.*Mparsec),'.');
+s= {['$$h_+$$'],...
+    ['$$h_{\times}$$']};
+legend_f(s);
+xlim([0 7.5]);
+%ylim([-5.2 5].*1e-23)
+
+
+%% ring tube visualization
+%angle parameter of the ring
+theta = 0:0.03:2*pi;
+%frequency of the wave
+n=1;
+final_t = length(b3_h(:,1));
+for ii=1:50:final_t
+    % plus polarization
+    h_plus = 200.*b3_h(ii,2);
+    h_times = 200.*b3_h(ii,3);
+    X = cos(theta) .* (1 + 0.5.*h_plus) + sin(theta).*(0.5.*h_times);
+    Y = sin(theta) .* (1 - 0.5.*h_plus) + cos(theta).*(0.5.*h_times);
+
+    CM = jet(length(1:50:final_t)); % n+10 
+    plot3(X,b3_h(ii,1).*ones(size(X)),Y,'.','color',CM(n,:));
+    grid on;
+    %set(gca,'Visible','off')
+    %pbaspect([1 1 1]);
+    %set(gca,'zticklabel',[])
+    %set(gca,'xticklabel',[])
+    %set(gca,'yticklabel',[])
+    xlabel('x');
+    ylabel('t');
+    zlabel('y');
+    %set(gca,'xtick',[])
+    %set(gca,'ytick',[])
+    %set(gca,'ztick',[])
+    %xlim([-2 2]);
+    %ylim([-2 2]);
+    hold on;
+    %pause(0.01)
+    
+    
+    n=n+1;
+    %clf;
+end
+
+
+
+
+%%
 figure();
 hold on;
 plot(t,h_p);
@@ -167,6 +333,8 @@ w_f = ((0:length(y)-1)*Fs/length(y))*(2*pi); % omega fourier
 figure();
 plot(w_f,abs(y)/max(abs(y)));
 
+figure();
+plot(b10_p(:,1), b10_p(:,5))
 %%
 
 figure();
@@ -250,7 +418,6 @@ ylim([-2 2]);
 end
 
 
-
 %% wave polarizations animated
 %angle parameter of the ring
 theta = 0:0.03:2*pi;
@@ -268,10 +435,10 @@ for t=500:3000
     Y = sin(theta) .* (1 - 0.5.*h_plus) + cos(theta).*(0.5.*h_times);
 
     CM = jet(120); % n+10 
-    plot(X,Y,'.','color',CM(n,:));%,ii.*ones(size(X))
+    plot3(X,ii.*ones(size(X)),Y,'.','color',CM(n,:));
     grid on;
     %set(gca,'Visible','off')
-    pbaspect([1 1 1]);
+    %pbaspect([1 1 1]);
     set(gca,'zticklabel',[])
     set(gca,'xticklabel',[])
     set(gca,'yticklabel',[])
@@ -281,11 +448,11 @@ for t=500:3000
     %set(gca,'xtick',[])
     %set(gca,'ytick',[])
     %set(gca,'ztick',[])
-    xlim([-2 2]);
-    ylim([-2 2]);
+    %xlim([-2 2]);
+    %ylim([-2 2]);
     pause(0.1)
     
-    %hold on;
+    hold on;
     n=n+1;
     %clf;
     ii = ii + 0.2;
@@ -367,8 +534,4 @@ shading interp
 pause(0.5)
 clf
 end
-
-%%
-    
- b10_p(ia,1)-b10_h(ib,1)
 

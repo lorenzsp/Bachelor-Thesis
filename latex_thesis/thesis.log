@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  2 JUL 2018 00:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  2 JUL 2018 03:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1919,6 +1919,12 @@ LaTeX Warning: Label `sub@times_cont' multiply defined.
 
 LaTeX Warning: Label `plus_and_times' multiply defined.
 
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
 )
 \openout1 = `thesis.aux'.
 
@@ -2302,32 +2308,42 @@ ne 211.
 s_pol_cont-eps-converted-to.pdf> <./effects_gw/r_pol-eps-converted-to.pdf> <./e
 ffects_gw/l_pol-eps-converted-to.pdf>] [15] (./production_gw/prod_gw.tex [16
 
-] [17]
-Overfull \hbox (18.99855pt too wide) in alignment at lines 128--158
+]
+Underfull \vbox (badness 2980) has occurred while \output is active []
+
+ [17]
+Overfull \hbox (18.99855pt too wide) in alignment at lines 130--160
  [][][] []
  []
 
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 229--233
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 231--235
 
  []
 
-[19]
-Overfull \hbox (0.48743pt too wide) detected at line 268
+[20]
+Overfull \hbox (0.48743pt too wide) detected at line 270
 \OML/cmm/m/it/12 T[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t; \OT1/cmr/bx/n/12 x\OT1
 /cmr/m/n/12 ) = \OML/cmm/m/it/12 M^^N\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]\OT1/
 cmr/m/n/12 )[]
  []
 
-[20])
-Underfull \hbox (badness 10000) in paragraph at lines 332--50
+)
+Underfull \hbox (badness 10000) in paragraph at lines 334--50
 
  []
 
-[21] (./numerical_evolution/num_ev.tex [22
+[21] (./numerical_evolution/num_ev.tex
+Underfull \vbox (badness 2818) has occurred while \output is active []
+
+ [22
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 49--51
+Underfull \hbox (badness 10000) in paragraph at lines 50--52
 
  []
 
@@ -2340,7 +2356,7 @@ erted-to.pdf>
 (epstopdf)                    size: 31026 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/trajec
 tory_b3-eps-converted-to.pdf numerical_evolution/trajectory_b3.eps>
-(epstopdf)             \includegraphics on input line 113.
+(epstopdf)             \includegraphics on input line 115.
 Package epstopdf Info: Output file is already uptodate.
 
 <numerical_evolution/trajectory_b3-eps-converted-to.pdf, id=320, 562.1pt x 421.
@@ -2349,7 +2365,7 @@ File: numerical_evolution/trajectory_b3-eps-converted-to.pdf Graphic file (type
  pdf)
  <use numerical_evolution/trajectory_b3-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/trajectory_b3-eps-converted-to.pdf
- used on input line 113.
+ used on input line 115.
 (pdftex.def)             Requested size: 203.83417pt x 152.8733pt.
 Package epstopdf Info: Source file: <numerical_evolution/trajectory_b4.eps>
 (epstopdf)                    date: 2018-07-01 22:26:46
@@ -2360,7 +2376,7 @@ erted-to.pdf>
 (epstopdf)                    size: 52034 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/trajec
 tory_b4-eps-converted-to.pdf numerical_evolution/trajectory_b4.eps>
-(epstopdf)             \includegraphics on input line 116.
+(epstopdf)             \includegraphics on input line 118.
 Package epstopdf Info: Output file is already uptodate.
 
 <numerical_evolution/trajectory_b4-eps-converted-to.pdf, id=321, 562.1pt x 421.
@@ -2369,7 +2385,7 @@ File: numerical_evolution/trajectory_b4-eps-converted-to.pdf Graphic file (type
  pdf)
  <use numerical_evolution/trajectory_b4-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/trajectory_b4-eps-converted-to.pdf
- used on input line 116.
+ used on input line 118.
 (pdftex.def)             Requested size: 203.83417pt x 152.8733pt.
 Package epstopdf Info: Source file: <numerical_evolution/trajectory_b5.eps>
 (epstopdf)                    date: 2018-07-01 22:26:24
@@ -2380,7 +2396,7 @@ erted-to.pdf>
 (epstopdf)                    size: 103949 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/trajec
 tory_b5-eps-converted-to.pdf numerical_evolution/trajectory_b5.eps>
-(epstopdf)             \includegraphics on input line 119.
+(epstopdf)             \includegraphics on input line 121.
 Package epstopdf Info: Output file is already uptodate.
 
 <numerical_evolution/trajectory_b5-eps-converted-to.pdf, id=322, 562.1pt x 421.
@@ -2389,7 +2405,7 @@ File: numerical_evolution/trajectory_b5-eps-converted-to.pdf Graphic file (type
  pdf)
  <use numerical_evolution/trajectory_b5-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/trajectory_b5-eps-converted-to.pdf
- used on input line 119.
+ used on input line 121.
 (pdftex.def)             Requested size: 203.83417pt x 152.8733pt.
 Package epstopdf Info: Source file: <numerical_evolution/trajectory_b6.eps>
 (epstopdf)                    date: 2018-07-01 22:26:07
@@ -2400,7 +2416,7 @@ erted-to.pdf>
 (epstopdf)                    size: 151185 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/trajec
 tory_b6-eps-converted-to.pdf numerical_evolution/trajectory_b6.eps>
-(epstopdf)             \includegraphics on input line 122.
+(epstopdf)             \includegraphics on input line 124.
 Package epstopdf Info: Output file is already uptodate.
 
 <numerical_evolution/trajectory_b6-eps-converted-to.pdf, id=323, 562.1pt x 421.
@@ -2409,7 +2425,7 @@ File: numerical_evolution/trajectory_b6-eps-converted-to.pdf Graphic file (type
  pdf)
  <use numerical_evolution/trajectory_b6-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/trajectory_b6-eps-converted-to.pdf
- used on input line 122.
+ used on input line 124.
 (pdftex.def)             Requested size: 203.83417pt x 152.8733pt.
 Package epstopdf Info: Source file: <numerical_evolution/trajectory_b7.eps>
 (epstopdf)                    date: 2018-07-01 22:25:41
@@ -2420,7 +2436,7 @@ erted-to.pdf>
 (epstopdf)                    size: 211812 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/trajec
 tory_b7-eps-converted-to.pdf numerical_evolution/trajectory_b7.eps>
-(epstopdf)             \includegraphics on input line 125.
+(epstopdf)             \includegraphics on input line 127.
 Package epstopdf Info: Output file is already uptodate.
 
 <numerical_evolution/trajectory_b7-eps-converted-to.pdf, id=324, 562.1pt x 421.
@@ -2429,7 +2445,7 @@ File: numerical_evolution/trajectory_b7-eps-converted-to.pdf Graphic file (type
  pdf)
  <use numerical_evolution/trajectory_b7-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/trajectory_b7-eps-converted-to.pdf
- used on input line 125.
+ used on input line 127.
 (pdftex.def)             Requested size: 203.83417pt x 152.8733pt.
 Package epstopdf Info: Source file: <numerical_evolution/trajectory_b10.eps>
 (epstopdf)                    date: 2018-07-01 22:25:21
@@ -2440,7 +2456,7 @@ verted-to.pdf>
 (epstopdf)                    size: 192139 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/trajec
 tory_b10-eps-converted-to.pdf numerical_evolution/trajectory_b10.eps>
-(epstopdf)             \includegraphics on input line 128.
+(epstopdf)             \includegraphics on input line 130.
 Package epstopdf Info: Output file is already uptodate.
 
 <numerical_evolution/trajectory_b10-eps-converted-to.pdf, id=325, 562.1pt x 421
@@ -2449,25 +2465,25 @@ File: numerical_evolution/trajectory_b10-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use numerical_evolution/trajectory_b10-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/trajectory_b10-eps-converted-to.pd
-f used on input line 128.
+f used on input line 130.
 (pdftex.def)             Requested size: 203.83417pt x 152.8733pt.
 
 
-LaTeX Warning: Float too large for page by 32.04968pt on input line 132.
+LaTeX Warning: Float too large for page by 32.04968pt on input line 134.
 
 
-Overfull \hbox (2.98848pt too wide) in paragraph at lines 53--143
+Overfull \hbox (2.98848pt too wide) in paragraph at lines 54--145
 \OT1/cmr/m/n/12 We sim-u-late the evo-lu-tion of equal-mass bi-nary black holes
  with dif-fer-ent quasi-equilirbium
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--143
+Underfull \hbox (badness 10000) in paragraph at lines 54--145
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--143
+Underfull \hbox (badness 10000) in paragraph at lines 54--145
 
  []
 
@@ -2481,28 +2497,159 @@ onverted-to.pdf>
 (epstopdf)                    size: 286662 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/radius
 _evolution-eps-converted-to.pdf numerical_evolution/radius_evolution.eps>
-(epstopdf)             \includegraphics on input line 154.
+(epstopdf)             \includegraphics on input line 156.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/radius_evolution-eps-converted-to.pdf, id=334, 1066.98625p
+<numerical_evolution/radius_evolution-eps-converted-to.pdf, id=335, 1066.98625p
 t x 433.62pt>
 File: numerical_evolution/radius_evolution-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use numerical_evolution/radius_evolution-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/radius_evolution-eps-converted-to.
-pdf used on input line 154.
+pdf used on input line 156.
 (pdftex.def)             Requested size: 498.26744pt x 202.49136pt.
-)
+
 [24] [25 <./numerical_evolution/trajectory_b3-eps-converted-to.pdf> <./numerica
 l_evolution/trajectory_b4-eps-converted-to.pdf> <./numerical_evolution/trajecto
 ry_b5-eps-converted-to.pdf> <./numerical_evolution/trajectory_b6-eps-converted-
 to.pdf> <./numerical_evolution/trajectory_b7-eps-converted-to.pdf> <./numerical
-_evolution/trajectory_b10-eps-converted-to.pdf>] [26 <./numerical_evolution/rad
-ius_evolution-eps-converted-to.pdf>] [27
+_evolution/trajectory_b10-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <numerical_evolution/gw_b3.eps>
+(epstopdf)                    date: 2018-07-02 03:19:16
+(epstopdf)                    size: 3832753 bytes
+(epstopdf)             Output file: <numerical_evolution/gw_b3-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2018-07-02 03:19:54
+(epstopdf)                    size: 2779166 bytes
+(epstopdf)             Command: <repstopdf --outfile=numerical_evolution/gw_b3-
+eps-converted-to.pdf numerical_evolution/gw_b3.eps>
+(epstopdf)             \includegraphics on input line 186.
+Package epstopdf Info: Output file is already uptodate.
+
+<numerical_evolution/gw_b3-eps-converted-to.pdf, id=371, 1284.8pt x 751.80875pt
+>
+File: numerical_evolution/gw_b3-eps-converted-to.pdf Graphic file (type pdf)
+ <use numerical_evolution/gw_b3-eps-converted-to.pdf>
+Package pdftex.def Info: numerical_evolution/gw_b3-eps-converted-to.pdf used on
+ input line 186.
+(pdftex.def)             Requested size: 407.66833pt x 238.54175pt.
+Package epstopdf Info: Source file: <numerical_evolution/gw_b4.eps>
+(epstopdf)                    date: 2018-07-02 03:11:55
+(epstopdf)                    size: 731258 bytes
+(epstopdf)             Output file: <numerical_evolution/gw_b4-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2018-07-02 03:16:43
+(epstopdf)                    size: 261238 bytes
+(epstopdf)             Command: <repstopdf --outfile=numerical_evolution/gw_b4-
+eps-converted-to.pdf numerical_evolution/gw_b4.eps>
+(epstopdf)             \includegraphics on input line 189.
+Package epstopdf Info: Output file is already uptodate.
+
+<numerical_evolution/gw_b4-eps-converted-to.pdf, id=372, 1284.8pt x 751.80875pt
+>
+File: numerical_evolution/gw_b4-eps-converted-to.pdf Graphic file (type pdf)
+ <use numerical_evolution/gw_b4-eps-converted-to.pdf>
+Package pdftex.def Info: numerical_evolution/gw_b4-eps-converted-to.pdf used on
+ input line 189.
+(pdftex.def)             Requested size: 407.66833pt x 238.54175pt.
+Package epstopdf Info: Source file: <numerical_evolution/gw_b5.eps>
+(epstopdf)                    date: 2018-07-02 03:12:23
+(epstopdf)                    size: 799261 bytes
+(epstopdf)             Output file: <numerical_evolution/gw_b5-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2018-07-02 03:16:44
+(epstopdf)                    size: 255875 bytes
+(epstopdf)             Command: <repstopdf --outfile=numerical_evolution/gw_b5-
+eps-converted-to.pdf numerical_evolution/gw_b5.eps>
+(epstopdf)             \includegraphics on input line 201.
+Package epstopdf Info: Output file is already uptodate.
+
+<numerical_evolution/gw_b5-eps-converted-to.pdf, id=373, 1284.8pt x 751.80875pt
+>
+File: numerical_evolution/gw_b5-eps-converted-to.pdf Graphic file (type pdf)
+ <use numerical_evolution/gw_b5-eps-converted-to.pdf>
+Package pdftex.def Info: numerical_evolution/gw_b5-eps-converted-to.pdf used on
+ input line 201.
+(pdftex.def)             Requested size: 407.66833pt x 238.54175pt.
+Package epstopdf Info: Source file: <numerical_evolution/gw_b6.eps>
+(epstopdf)                    date: 2018-07-02 03:13:05
+(epstopdf)                    size: 835527 bytes
+(epstopdf)             Output file: <numerical_evolution/gw_b6-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2018-07-02 03:16:45
+(epstopdf)                    size: 250038 bytes
+(epstopdf)             Command: <repstopdf --outfile=numerical_evolution/gw_b6-
+eps-converted-to.pdf numerical_evolution/gw_b6.eps>
+(epstopdf)             \includegraphics on input line 205.
+Package epstopdf Info: Output file is already uptodate.
+
+<numerical_evolution/gw_b6-eps-converted-to.pdf, id=374, 1284.8pt x 751.80875pt
+>
+File: numerical_evolution/gw_b6-eps-converted-to.pdf Graphic file (type pdf)
+ <use numerical_evolution/gw_b6-eps-converted-to.pdf>
+Package pdftex.def Info: numerical_evolution/gw_b6-eps-converted-to.pdf used on
+ input line 205.
+(pdftex.def)             Requested size: 407.66833pt x 238.54175pt.
+Package epstopdf Info: Source file: <numerical_evolution/gw_b7.eps>
+(epstopdf)                    date: 2018-07-02 03:13:37
+(epstopdf)                    size: 807568 bytes
+(epstopdf)             Output file: <numerical_evolution/gw_b7-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2018-07-02 03:16:46
+(epstopdf)                    size: 231024 bytes
+(epstopdf)             Command: <repstopdf --outfile=numerical_evolution/gw_b7-
+eps-converted-to.pdf numerical_evolution/gw_b7.eps>
+(epstopdf)             \includegraphics on input line 214.
+Package epstopdf Info: Output file is already uptodate.
+
+<numerical_evolution/gw_b7-eps-converted-to.pdf, id=375, 1284.8pt x 751.80875pt
+>
+File: numerical_evolution/gw_b7-eps-converted-to.pdf Graphic file (type pdf)
+ <use numerical_evolution/gw_b7-eps-converted-to.pdf>
+Package pdftex.def Info: numerical_evolution/gw_b7-eps-converted-to.pdf used on
+ input line 214.
+(pdftex.def)             Requested size: 407.66833pt x 238.54175pt.
+Package epstopdf Info: Source file: <numerical_evolution/gw_b10.eps>
+(epstopdf)                    date: 2018-07-02 03:14:21
+(epstopdf)                    size: 603947 bytes
+(epstopdf)             Output file: <numerical_evolution/gw_b10-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2018-07-02 03:16:47
+(epstopdf)                    size: 166949 bytes
+(epstopdf)             Command: <repstopdf --outfile=numerical_evolution/gw_b10
+-eps-converted-to.pdf numerical_evolution/gw_b10.eps>
+(epstopdf)             \includegraphics on input line 217.
+Package epstopdf Info: Output file is already uptodate.
+
+<numerical_evolution/gw_b10-eps-converted-to.pdf, id=376, 1284.8pt x 751.80875p
+t>
+File: numerical_evolution/gw_b10-eps-converted-to.pdf Graphic file (type pdf)
+ <use numerical_evolution/gw_b10-eps-converted-to.pdf>
+Package pdftex.def Info: numerical_evolution/gw_b10-eps-converted-to.pdf used o
+n input line 217.
+(pdftex.def)             Requested size: 407.66833pt x 238.54175pt.
+) [26 <./numerical_evolution/radius_evolution-eps-converted-to.pdf>] [27 <./num
+erical_evolution/gw_b3-eps-converted-to.pdf> <./numerical_evolution/gw_b4-eps-c
+onverted-to.pdf>]
+[28 <./numerical_evolution/gw_b5-eps-converted-to.pdf> <./numerical_evolution/g
+w_b6-eps-converted-to.pdf>] [29pdfTeX warning (ext4): destination with the same
+ identifier (name{subfigure.8.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.55 \clearpage
+               pdfTeX warning (ext4): destination with the same identifier (nam
+e{subfigure.8.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.55 \clearpage
+                <./numerical_evolution/gw_b7-eps-converted-to.pdf> <./numerical
+_evolution/gw_b10-eps-converted-to.pdf>] [30
 
 ] (./appendix/resampling.tex)
 No file thesis.bbl.
-[28
+[31
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 70.
@@ -2519,10 +2666,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
  ) 
 Here is how much of TeX's memory you used:
- 31622 strings out of 493033
- 615176 string characters out of 6134139
- 819289 words of memory out of 5000000
- 34493 multiletter control sequences out of 15000+600000
+ 31680 strings out of 493033
+ 616778 string characters out of 6134139
+ 820290 words of memory out of 5000000
+ 34534 multiletter control sequences out of 15000+600000
  21762 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,19n,80p,10426b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2544,10 +2691,10 @@ ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
 2015/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on thesis.pdf (31 pages, 8656278 bytes).
+Output written on thesis.pdf (34 pages, 12590366 bytes).
 PDF statistics:
- 465 PDF objects out of 1000 (max. 8388607)
- 391 compressed objects within 4 object streams
- 100 named destinations out of 1000 (max. 500000)
- 211 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 546 PDF objects out of 1000 (max. 8388607)
+ 427 compressed objects within 5 object streams
+ 111 named destinations out of 1000 (max. 500000)
+ 241 words of extra memory for PDF output out of 10000 (max. 10000000)
 
