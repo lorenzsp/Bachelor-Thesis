@@ -268,81 +268,10 @@ xlim([0 7.5]);
 %ylim([-5.2 5].*1e-23)
 
 
-%% ring tube visualization
-%angle parameter of the ring
-theta = 0:0.03:2*pi;
-%frequency of the wave
-n=1;
-final_t = length(b5_h(:,1));
-for ii=1:50:final_t
-    % plus polarization
-    h_plus = 200.*b5_h(ii,2);
-    h_times = 200.*b5_h(ii,3);
-    X = cos(theta) .* (1 + 0.5.*h_plus) + sin(theta).*(0.5.*h_times);
-    Y = sin(theta) .* (1 - 0.5.*h_plus) + cos(theta).*(0.5.*h_times);
-
-    CM = jet(length(1:50:final_t)); % n+10 
-    plot3(X,b5_h(ii,1).*ones(size(X)),Y,'.','color',CM(n,:));
-    grid on;
-    %set(gca,'Visible','off')
-    %pbaspect([1 1 1]);
-    %set(gca,'zticklabel',[])
-    %set(gca,'xticklabel',[])
-    %set(gca,'yticklabel',[])
-    xlabel('x');
-    ylabel('t');
-    zlabel('y');
-    %set(gca,'xtick',[])
-    %set(gca,'ytick',[])
-    %set(gca,'ztick',[])
-    %xlim([-2 2]);
-    %ylim([-2 2]);
-    hold on;
-    %pause(0.01)
-    
-    
-    n=n+1;
-    %clf;
-end
 
 
 
-
-%%
-figure();
-hold on;
-plot(t,h_p);
-plot(t,h_x);
-grid on;
-plot_f('Metric perturbation h','t [M_\odot]','h',16)
-s= {['h_+'],...
-    ['h_x']};
-legend_f(s);
-
-
-% energy balance
-% variable in the integral over the angles proportional to the energy
-%int_var = diff(new_h_x).^2 + diff(new_h_p).^2;
-%figure();
-%plot(t(2:end,1),1e5*int_var.*r^2/(16*pi),'.')
-
-%% angular frequency
-% b3 b4 b5
-figure();
-hold on;
-plot(b5_p(:,1), b5_p(:,5),'.')
-plot(b4_p(:,1), b4_p(:,5),'.')
-plot(b3_p(:,1), b3_p(:,5),'.')
-
-% b10 b6 b7
-figure();
-plot(b10_p(:,1), b10_p(:,5),'.')
-hold on;
-plot(b7_p(:,1), b7_p(:,5),'.')
-plot(b6_p(:,1), b6_p(:,5),'.')
-
-
-%% Fourier transform
+%% Fourier transform and orbital angular frequency
 % b3
 t = b3_h(:,1);                   
 Fs = 1./abs(b3_h(1,1)-b3_h(2,1));            % Sampling frequency
@@ -466,30 +395,46 @@ title('Single-Sided Amplitude Spectrum of X(t)')
 xlabel('f (Hz)')
 ylabel('|P1(f)|')
 
-%% BINARY NEUTRON star
-% considerazioni
-% andamento 1/r che misuriamo
-%2 omega 
-%
-
-d = gw_strain('mp_Psi4_l2_m2_r300.00.asc');
-% moltiplicare per 110 e dividere per 100Mpc
-x = importdata('mp_Psi4_l2_m2_r300.00.asc', ' ');
-% time in solar masses
-t = x(:,1);
-% sepctrum
-figure();
-plot(t,fft(d(:,1)));
-hold on;
-plot(t,fft(d(:,2)));
-
-% energy balance
-% variable in the integral over the angles proportional to the energy
-int_var = diff(d(:,1)).^2 + diff(d(:,2)).^2;
-figure();
-plot(t(2:end),int_var,'.')
 
 
+%% ANIMATED PLOTS
+%% ANIMATED PLOTS
+%% ring tube visualization
+%angle parameter of the ring
+theta = 0:0.03:2*pi;
+%frequency of the wave
+n=1;
+final_t = length(b5_h(:,1));
+for ii=1:50:final_t
+    % plus polarization
+    h_plus = 200.*b5_h(ii,2);
+    h_times = 200.*b5_h(ii,3);
+    X = cos(theta) .* (1 + 0.5.*h_plus) + sin(theta).*(0.5.*h_times);
+    Y = sin(theta) .* (1 - 0.5.*h_plus) + cos(theta).*(0.5.*h_times);
+
+    CM = jet(length(1:50:final_t)); % n+10 
+    plot3(X,b5_h(ii,1).*ones(size(X)),Y,'.','color',CM(n,:));
+    grid on;
+    %set(gca,'Visible','off')
+    %pbaspect([1 1 1]);
+    %set(gca,'zticklabel',[])
+    %set(gca,'xticklabel',[])
+    %set(gca,'yticklabel',[])
+    xlabel('x');
+    ylabel('t');
+    zlabel('y');
+    %set(gca,'xtick',[])
+    %set(gca,'ytick',[])
+    %set(gca,'ztick',[])
+    %xlim([-2 2]);
+    %ylim([-2 2]);
+    hold on;
+    %pause(0.01)
+    
+    
+    n=n+1;
+    %clf;
+end
 
 %% wave polarizations plot 
 %angle parameter of the ring
