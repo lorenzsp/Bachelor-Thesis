@@ -1,6 +1,6 @@
 function [] = plot_f(name, xax, yax, tick_size)
 %
-%title(name);
+title(name,'interpreter','latex');
 xlabel(xax,'interpreter','latex');
 ylabel(yax,'interpreter','latex');
 set(gca,'TickLabelInterpreter','latex');

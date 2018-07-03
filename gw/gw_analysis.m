@@ -273,16 +273,16 @@ xlim([0 7.5]);
 theta = 0:0.03:2*pi;
 %frequency of the wave
 n=1;
-final_t = length(b3_h(:,1));
+final_t = length(b5_h(:,1));
 for ii=1:50:final_t
     % plus polarization
-    h_plus = 200.*b3_h(ii,2);
-    h_times = 200.*b3_h(ii,3);
+    h_plus = 200.*b5_h(ii,2);
+    h_times = 200.*b5_h(ii,3);
     X = cos(theta) .* (1 + 0.5.*h_plus) + sin(theta).*(0.5.*h_times);
     Y = sin(theta) .* (1 - 0.5.*h_plus) + cos(theta).*(0.5.*h_times);
 
     CM = jet(length(1:50:final_t)); % n+10 
-    plot3(X,b3_h(ii,1).*ones(size(X)),Y,'.','color',CM(n,:));
+    plot3(X,b5_h(ii,1).*ones(size(X)),Y,'.','color',CM(n,:));
     grid on;
     %set(gca,'Visible','off')
     %pbaspect([1 1 1]);
@@ -343,6 +343,105 @@ plot(b6_p(:,1), b6_p(:,5),'.')
 
 
 %% Fourier transform
+% b3
+t = b3_h(:,1);                   
+Fs = 1./abs(b3_h(1,1)-b3_h(2,1));            % Sampling frequency
+y = fft(b3_h(:,2)+1i.*b3_h(:,3));     
+w_f = ((0:length(y)-1)*Fs/length(y))*(2*pi); % omega fourier
+
+figure();
+hold on;
+plot(w_f,abs(y)/max(abs(y)));
+plot_f('\textbf{Fourier transform of the gravitational strain of BBH-b3}','$$\omega \,[1/ms]$$','$$ |\mathcal{F}[ h (t,r=100 Mpc)](\omega)|$$',16);
+xlim([0 0.8]);
+
+figure();
+plot(b3_p(:,1).*CU_to_ms, b3_p(:,5))
+plot_f('\textbf{Angular velocity $\omega$ of BBH-b3}','$$t \, [ms]$$','$$\omega \,[1/ms]$$',16);
+
+%% b4
+t = b4_h(:,1);                   
+Fs = 1./abs(b4_h(1,1)-b4_h(2,1));            % Sampling frequency
+y = fft(b4_h(:,2)+1i.*b4_h(:,3));     
+w_f = ((0:length(y)-1)*Fs/length(y))*(2*pi); % omega fourier
+
+figure();
+hold on;
+plot(w_f,abs(y)/max(abs(y)));
+plot_f('\textbf{Fourier transform of the gravitational strain of BBH-b4}','$$\omega \,[1/ms]$$','$$ |\mathcal{F}[ h (t,r=100 Mpc)](\omega)|$$',16);
+xlim([0 0.8]);
+
+figure();
+plot(b4_p(:,1).*CU_to_ms, b4_p(:,5))
+plot_f('\textbf{Angular velocity $\omega$ of BBH-b4}','$$t \, [ms]$$','$$\omega \,[1/ms]$$',16);
+
+%% b5
+t = b5_h(:,1);                   
+Fs = 1./abs(b5_h(1,1)-b5_h(2,1));            % Sampling frequency
+y = fft(b5_h(:,2)+1i.*b5_h(:,3));     
+w_f = ((0:length(y)-1)*Fs/length(y))*(2*pi); % omega fourier
+
+figure();
+hold on;
+plot(w_f,abs(y)/max(abs(y)));
+plot_f('\textbf{Fourier transform of the gravitational strain of BBH-b5}','$$\omega \,[1/ms]$$','$$ |\mathcal{F}[ h (t,r=100 Mpc)](\omega)|$$',16);
+xlim([0 0.8]);
+
+figure();
+plot(b5_p(:,1).*CU_to_ms, b5_p(:,5))
+plot_f('\textbf{Angular velocity $\omega$ of BBH-b5}','$$t \, [ms]$$','$$\omega \,[1/ms]$$',16);
+
+%% b6
+t = b6_h(:,1);                   
+Fs = 1./abs(b6_h(1,1)-b6_h(2,1));            % Sampling frequency
+y = fft(b6_h(:,2)+1i.*b6_h(:,3));     
+w_f = ((0:length(y)-1)*Fs/length(y))*(2*pi); % omega fourier
+
+figure();
+hold on;
+plot(w_f,abs(y)/max(abs(y)));
+plot_f('\textbf{Fourier transform of the gravitational strain of BBH-b6}','$$\omega \,[1/ms]$$','$$ |\mathcal{F}[ h (t,r=100 Mpc)](\omega)|$$',16);
+xlim([0 0.2]);
+
+figure();
+plot(b6_p(:,1).*CU_to_ms, b6_p(:,5))
+plot_f('\textbf{Angular velocity $\omega$ of BBH-b6}','$$t \, [ms]$$','$$\omega \,[1/ms]$$',16);
+
+%% b7
+t = b7_h(:,1);                   
+Fs = 1./abs(b7_h(1,1)-b7_h(2,1));            % Sampling frequency
+y = fft(b7_h(:,2)+1i.*b7_h(:,3));     
+w_f = ((0:length(y)-1)*Fs/length(y))*(2*pi); % omega fourier
+
+figure();
+hold on;
+plot(w_f,abs(y)/max(abs(y)));
+plot_f('\textbf{Fourier transform of the gravitational strain of BBH-b7}','$$\omega \,[1/ms]$$','$$ |\mathcal{F}[ h (t,r=100 Mpc)](\omega)|$$',16);
+xlim([0 0.1]);
+
+figure();
+plot(b7_p(:,1).*CU_to_ms, b7_p(:,5))
+plot_f('\textbf{Angular velocity $\omega$ of BBH-b7}','$$t \, [ms]$$','$$\omega \,[1/ms]$$',16);
+
+%% b10
+t = b10_h(:,1);                   
+Fs = 1./abs(b10_h(1,1)-b10_h(2,1));            % Sampling frequency
+y = fft(b10_h(:,2)+1i.*b10_h(:,3));     
+w_f = ((0:length(y)-1)*Fs/length(y))*(2*pi); % omega fourier
+
+figure();
+hold on;
+plot(w_f,abs(y)/max(abs(y)));
+plot_f('\textbf{Fourier transform of the gravitational strain of BBH-b10}','$$\omega \,[1/ms]$$','$$ |\mathcal{F}[ h (t,r=100 Mpc)](\omega)|$$',16);
+xlim([0 0.1]);
+
+figure();
+plot(b10_p(:,1).*CU_to_ms, b10_p(:,5))
+plot_f('\textbf{Angular velocity $\omega$ of BBH-b10}','$$t \, [ms]$$','$$\omega \,[1/ms]$$',16);
+
+
+
+%%
 t = b10_h(:,1);                   
 Fs = 1./abs(b10_h(1,1)-b10_h(2,1));            % Sampling frequency
 y = fft(b10_h(:,2));     
