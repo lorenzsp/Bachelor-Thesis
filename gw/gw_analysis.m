@@ -326,7 +326,23 @@ legend_f(s);
 %figure();
 %plot(t(2:end,1),1e5*int_var.*r^2/(16*pi),'.')
 
-%% Fourier trabsform
+%% angular frequency
+% b3 b4 b5
+figure();
+hold on;
+plot(b5_p(:,1), b5_p(:,5),'.')
+plot(b4_p(:,1), b4_p(:,5),'.')
+plot(b3_p(:,1), b3_p(:,5),'.')
+
+% b10 b6 b7
+figure();
+plot(b10_p(:,1), b10_p(:,5),'.')
+hold on;
+plot(b7_p(:,1), b7_p(:,5),'.')
+plot(b6_p(:,1), b6_p(:,5),'.')
+
+
+%% Fourier transform
 t = b10_h(:,1);                   
 Fs = 1./abs(b10_h(1,1)-b10_h(2,1));            % Sampling frequency
 y = fft(b10_h(:,2));     
