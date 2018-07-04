@@ -366,22 +366,95 @@ Such phenomenon could be due to the oscillations of the BBH orbits, however, a m
 \pagebreak
 
 \subsection{Binary Neutron Star}
-We now study the evolution of a binary neutron star made of two equal-mass objects rotating with an quasi-equilibrium initial conditions obtained using the software \textbf{Lorene} [REF]. 
-The \\
-The hydrodynamic evolution of the neutron stars is accomplished using the ideal fluid approximation, provided with the following equation of state (EOS)
+We now study the evolution of a binary neutron star made of two equal-mass objects rotating with an quasi-equilibrium initial conditions obtained using the software \texttt{Lorene} [REF].
+Since the two neutron stars are placed at in symmetric initial conditions with respect to the z axis, as in the binary black holes, the problem has a $\pi$ symmetry that reduces the computational cost.\\
+The hydrodynamics evolution of the neutron stars is accomplished using the ideal fluid approximation. 
+The link between pressure $P$ and density $\rho$ is provided by the following equation of state (EOS)
 \begin{equation}
 \label{eos}
 P = K \, \rho ^{\Gamma}
 \end{equation}
 where $K$ is the polytropic constant and $\Gamma$ is the adiabatic index.\\
 The initial separation between the two neutron stars is set to be $45 \, \kilo \meter \approx 30.47 \, M_{\odot}$, whereas we set $K=123.6$ and $\Gamma=2$.\\
-A neutron star is a compact object with a density distribution $\rho$, varying from the barycenter up to the surface. 
-We plot in Figure() the trajectory of the neutron star 
+We plot different snapshots of the time evolution of the binary in Figure()
+   %%
+   %%
+   %%
+   %%
+      \begin{figure}[H]
+\centering
+    \textbf{Gravitational wave and orbital radius of the BNS}\par\medskip
+\centering   
+\includegraphics[width=1\textwidth]{numerical_evolution/gw_r_bns.eps}
+\caption{The first and the second panels show, respectively the gravitational signal $\psi_4=\psi_4 ^{2,2}$ and the gravitational strain produced by the BBH-b10.}
+\label{gw_r_bns}
+\end{figure}
+%%
+%%
+%%
+%%
 
 
 
 
 
+%%
+%%
+%%
+%%
+\begin{figure}
+\centering
+    \textbf{Orbits of different  configurations of BBH}\par\medskip
+\centering
+\subfloat[][Trajectory of the BBH with initial distance from the origin $b=3 \, M_{\odot}$.]
+   {\includegraphics[width=.45\textwidth]{numerical_evolution/f1.eps}
+   \label{trajectory_b3}} \quad
+   \subfloat[][Trajectory of the BBH with initial distance from the origin $b=4 \, M_{\odot}$.]
+   {\includegraphics[width=.45\textwidth]{numerical_evolution/f2.eps}
+   \label{trajectory_b4}} \quad
+\subfloat[][Trajectory of the BBH with initial distance from the origin $b=5 \, M_{\odot}$.]
+   {\includegraphics[width=.45\textwidth]{numerical_evolution/f3.eps}
+   \label{trajectory_b5}} \quad
+\subfloat[][Trajectory of the BBH with initial distance from the origin $b=6 \, M_{\odot}$.]
+   {\includegraphics[width=.45\textwidth]{numerical_evolution/f4.eps}
+   \label{trajectory_b6}} \quad
+ \\
+\caption{.}
+\label{}
+\end{figure}
+%%
+%%
+%%
+%%
+
+%%
+%%
+%%
+%%
+\begin{figure}
+\centering
+    \textbf{Orbits of different  configurations of BBH}\par\medskip
+\centering
+\subfloat[][Trajectory of the BBH with initial distance from the origin $b=3 \, M_{\odot}$.]
+   {\includegraphics[width=.45\textwidth]{numerical_evolution/f5.eps}
+   \label{trajectory_b3}} \quad
+   \subfloat[][Trajectory of the BBH with initial distance from the origin $b=4 \, M_{\odot}$.]
+   {\includegraphics[width=.45\textwidth]{numerical_evolution/f6.eps}
+   \label{trajectory_b4}} \quad
+\subfloat[][Trajectory of the BBH with initial distance from the origin $b=5 \, M_{\odot}$.]
+   {\includegraphics[width=.45\textwidth]{numerical_evolution/f7.eps}
+   \label{trajectory_b5}} \quad
+\subfloat[][Trajectory of the BBH with initial distance from the origin $b=6 \, M_{\odot}$.]
+   {\includegraphics[width=.45\textwidth]{numerical_evolution/f8.eps}
+   \label{trajectory_b6}} \quad
+ \\
+\caption{.}
+\label{}
+\end{figure}
+%%
+%%
+%%
+%%
 
 
  

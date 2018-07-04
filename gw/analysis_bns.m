@@ -19,25 +19,37 @@ CU_to_energy    = M_sun*c*c  ;        % kg m^2/s^2
 t_h_psi = gw_strain('../nsnstohmns/mp_Psi4_l2_m2_r300.00.asc',300);
 
 figure();
-subplot(2,1,1),
+subplot(3,1,1),
 hold on;
-plot_f('$$ \psi_4$$','$$t \,[ms]$$','$$ \psi_4(t,r=100 Mpc)$$',16)
+plot_f('Weyl Scalar $$\psi_4$$','$$t \,[ms]$$','$$ \psi_4(t,r=100 Mpc)$$',20)
 plot(t_h_psi(:,1).*CU_to_ms,300*t_h_psi(:,4)/(100.*Mparsec),'-');
 plot(t_h_psi(:,1).*CU_to_ms,300*t_h_psi(:,5)/(100.*Mparsec),'-');
 s= {['Re{$$( \psi_4)$$}'],...
     ['Im{$$( \psi_4)$$}']};
 legend_f(s);
-%ylim([-2.5 2.5].*1e-23);
+ylim([-3 3].*1e-25);
+xlim([0 20]);
 
-subplot(2,1,2),
+subplot(3,1,2),
 hold on;
-plot_f('$$ h $$','$$t \,[ms]$$','$$ h(t,r=100 Mpc) $$',16)
+plot_f('Gravitational wave strain $$h$$','$$t \,[ms]$$','$$ h(t,r=100 Mpc) $$',20)
 plot(t_h_psi(:,1).*CU_to_ms,300*t_h_psi(:,2)/(100.*Mparsec),'-');
 plot(t_h_psi(:,1).*CU_to_ms,300*t_h_psi(:,3)/(100.*Mparsec),'-');
 s= {['$$ h_+$$'],...
     ['$$ h_{\times}$$']};
 %ylim([-0.6 0.6])
+ylim([-2.2 2.2].*1e-22);
 legend_f(s);
+xlim([0 20]);
+
+
+subplot(3,1,3),
+hold on;
+plot_f('Radius of the orbit $$R(t)$$','$$t \,[ms]$$','$$ R \, [M_{\odot}] $$',20)
+%ylim([-0.6 0.6])
+plot(t(1:540).*CU_to_ms,A(1:540,4))
+xlim([0 20]);
+
 
 %% positions importing
 A=positions_f('../nsnstohmns/rho_max_loc.csv');
@@ -46,7 +58,7 @@ x=A(:,4).*cos(4*atan(A(:,3)./A(:,2)));
 y=A(:,4).*sin(4*atan(A(:,3)./A(:,2)));
 
 hold on;
-plot(x, y,'-')  
+plot(x(450:end), y(450:end),'-')  
 %plot(-x,-y,'-');
 % velocities
 v_x = gradient(x,t);
@@ -55,10 +67,10 @@ v_y = gradient(y,t);
 R = sqrt((x.^2 + y.^2));
 % angular frequency
 omega = (x.*v_y - y.*v_x)./(R.^2);
-%% positions max density rho
 
 
-%% Foruier
+
+%% Fourier
                
 Fs = 1./abs(t(1)-t(2));            % Sampling frequency
 y = fft(t_h_psi(:,2)+1i.*t_h_psi(:,3));     
@@ -73,4 +85,42 @@ xlim([0 0.8]);
 figure();
 plot(t.*CU_to_ms, omega,'.')
 plot_f('\textbf{Angular velocity $\omega$ of BBH-b3}','$$t \, [ms]$$','$$\omega \,[1/ms]$$',16);
+
+%% snapshots
+i1=imread('../nsnstohmns/rho_000000003.png');
+i1=imcrop(i1,[30.5 62.5 546 460]);
+imshow(i1)
+print('../latex_thesis/numerical_evolution/f1','-depsc')%
+i2=imread('../nsnstohmns/rho_000000075.png');
+i2=imcrop(i2,[30.5 62.5 546 460]);
+print('f2','-depsc')%imshow(i1)
+imshow(i2)
+print('../latex_thesis/numerical_evolution/f2','-depsc')%
+i3=imread('../nsnstohmns/rho_000000123.png');
+i3=imcrop(i3,[30.5 62.5 546 460]);
+print('f3','-depsc')%imshow(i1)
+imshow(i3)
+print('../latex_thesis/numerical_evolution/f3','-depsc')%
+i4=imread('../nsnstohmns/rho_000000175.png');
+i4=imcrop(i4,[30.5 62.5 546 460]);
+print('f1','-depsc')%imshow(i1)
+imshow(i4)
+print('../latex_thesis/numerical_evolution/f4','-depsc')%
+i5=imread('../nsnstohmns/rho_000000205.png');
+i5=imcrop(i5,[30.5 62.5 546 460]);
+imshow(i5)
+print('../latex_thesis/numerical_evolution/f5','-depsc')%
+i6=imread('../nsnstohmns/rho_000000217.png');
+i6=imcrop(i6,[30.5 62.5 546 460]);
+imshow(i6)
+print('../latex_thesis/numerical_evolution/f6','-depsc')%
+i7=imread('../nsnstohmns/rho_000000254.png');
+i7=imcrop(i7,[30.5 62.5 546 460]);
+imshow(i7)
+print('../latex_thesis/numerical_evolution/f7','-depsc')%
+i8=imread('../nsnstohmns/rho_000000362.png');
+i8=imcrop(i8,[30.5 62.5 546 460]);
+imshow(i8)
+print('../latex_thesis/numerical_evolution/f8','-depsc')%
+
 
