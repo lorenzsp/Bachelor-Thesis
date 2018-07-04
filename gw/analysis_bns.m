@@ -22,8 +22,8 @@ figure();
 subplot(2,1,1),
 hold on;
 plot_f('$$ \psi_4$$','$$t \,[ms]$$','$$ \psi_4(t,r=100 Mpc)$$',16)
-plot(t_h_psi(:,1).*CU_to_ms,300*t_h_psi(:,4)/(100.*Mparsec),'.');
-plot(t_h_psi(:,1).*CU_to_ms,300*t_h_psi(:,5)/(100.*Mparsec),'.');
+plot(t_h_psi(:,1).*CU_to_ms,300*t_h_psi(:,4)/(100.*Mparsec),'-');
+plot(t_h_psi(:,1).*CU_to_ms,300*t_h_psi(:,5)/(100.*Mparsec),'-');
 s= {['Re{$$( \psi_4)$$}'],...
     ['Im{$$( \psi_4)$$}']};
 legend_f(s);
@@ -32,8 +32,8 @@ legend_f(s);
 subplot(2,1,2),
 hold on;
 plot_f('$$ h $$','$$t \,[ms]$$','$$ h(t,r=100 Mpc) $$',16)
-plot(t_h_psi(:,1).*CU_to_ms,300*t_h_psi(:,2)/(100.*Mparsec),'.');
-plot(t_h_psi(:,1).*CU_to_ms,300*t_h_psi(:,3)/(100.*Mparsec),'.');
+plot(t_h_psi(:,1).*CU_to_ms,300*t_h_psi(:,2)/(100.*Mparsec),'-');
+plot(t_h_psi(:,1).*CU_to_ms,300*t_h_psi(:,3)/(100.*Mparsec),'-');
 s= {['$$ h_+$$'],...
     ['$$ h_{\times}$$']};
 %ylim([-0.6 0.6])
@@ -47,7 +47,7 @@ y=A(:,4).*sin(4*atan(A(:,3)./A(:,2)));
 
 hold on;
 plot(x, y,'-')  
-plot(-x,-y,'-');
+%plot(-x,-y,'-');
 % velocities
 v_x = gradient(x,t);
 v_y = gradient(y,t);
