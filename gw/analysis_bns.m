@@ -68,11 +68,9 @@ R = sqrt((x.^2 + y.^2));
 % angular frequency
 omega = (x.*v_y - y.*v_x)./(R.^2);
 
-
-
 %% Fourier
                
-Fs = 1./abs(t(1)-t(2));            % Sampling frequency
+Fs = 1./abs(A(1,1)-A(2,1));            % Sampling frequency
 y = fft(t_h_psi(:,2)+1i.*t_h_psi(:,3));     
 w_f = ((0:length(y)-1)*Fs/length(y))*(2*pi); % omega fourier
 

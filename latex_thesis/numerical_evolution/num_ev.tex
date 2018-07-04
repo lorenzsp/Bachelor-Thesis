@@ -366,27 +366,27 @@ Such phenomenon could be due to the oscillations of the BBH orbits, however, a m
 \pagebreak
 
 \subsection{Binary Neutron Star}
-We now study the evolution of a binary neutron star made of two equal-mass objects rotating with an quasi-equilibrium initial conditions obtained using the software \texttt{Lorene} [REF].
-Since the two neutron stars are placed at in symmetric initial conditions with respect to the z axis, as in the binary black holes, the problem has a $\pi$ symmetry that reduces the computational cost.\\
-The hydrodynamics evolution of the neutron stars is accomplished using the ideal fluid approximation. 
+We now study the evolution of a binary neutron star (BNS) made of two equal-mass objects rotating with an quasi-equilibrium initial conditions obtained using the software \texttt{Lorene} [REF].
+The total ADM mass of the system is $M_{\text{ADM}} = 3.251 \, M_{\odot}$.
+Since the two neutron stars are placed at in symmetric initial conditions with respect to the z axis, as in the binary black holes, the problem has a $\pi$ symmetry that reduces the computational cost.
+The hydrodynamics evolution of the neutron stars is achieved using the ideal fluid approximation. 
 The link between pressure $P$ and density $\rho$ is provided by the following equation of state (EOS)
-\begin{equation}
-\label{eos}
+\[
 P = K \, \rho ^{\Gamma}
-\end{equation}
+\]
 where $K$ is the polytropic constant and $\Gamma$ is the adiabatic index.\\
 The initial separation between the two neutron stars is set to be $45 \, \kilo \meter \approx 30.47 \, M_{\odot}$, whereas we set $K=123.6$ and $\Gamma=2$.\\
-We plot different snapshots of the time evolution of the binary in Figure()
+
    %%
    %%
    %%
    %%
-      \begin{figure}[H]
+\begin{figure}[H]
 \centering
     \textbf{Gravitational wave and orbital radius of the BNS}\par\medskip
 \centering   
 \includegraphics[width=1\textwidth]{numerical_evolution/gw_r_bns.eps}
-\caption{The first and the second panels show, respectively the gravitational signal $\psi_4=\psi_4 ^{2,2}$ and the gravitational strain produced by the BBH-b10.}
+\caption{The first and the second panels show, respectively the gravitational signal $\psi_4=\psi_4 ^{2,2}$ produced by the BNS, whereas the third pane shows the orbital radius obtained defined as the highest value of the density. Notice the bouncing behavior after $t \approx 9 \milli \second$, when the stars start bouncing and the gravitational wave decreases slowly its amplitude.}
 \label{gw_r_bns}
 \end{figure}
 %%
@@ -394,8 +394,24 @@ We plot different snapshots of the time evolution of the binary in Figure()
 %%
 %%
 
-
-
+The gravitational wave strain $h$ is extracted following the procedure in section(\ref{gw_extraction}), whereas the orbital radius $R$ is obtained calculating the highest value of density $\rho$ at each time step.\\
+The gravitational wave and the orbital radius are shown in Figure(\ref{gw_r_bns}).
+During the inspiralling phase $t \in (0, 8.5) \, \milli \second$, the gravitational wave is similiar to that one of the binary black holes, indeed, BNS and BBH both show a sinusoid with an increasing frequency.
+However, when the strain reaches the highest value approximately at $t\approx 9 \milli \second$, the signal does not drop off as rapidly as for the black holes one, but it rebounds while slowly decreasing.
+The orbital radius $R$ shows an analogue behavior, in fact, it reaches the lowest value right at $t \approx 9.9 \milli \second$ and then it oscillates aroud $R \approx 4 \, M _{\odot}$.\\
+The reason of such behavior relies on the differences between a black hole and a neutron star.
+Due to the nature of balck holes,  the ring-down phase is short because when the events of horizon are enough close the black holes merge into single black hole which  shrinks quickly.
+In general, massive objects such neutron stars could collapse under their own weighst, forming a black hole, however when this happens the gravitational wave strain manifests ring-down phase similiar to that one of the binary black holes.
+ In our case, the binary neutron stars do not form a black hole, but, instead, they transfer matter between themselves.
+ In order to analyze such process, let us study the rest mass density during the time evolution of the BNS.\\
+In Figure (\ref{f_1234}) it is shown the intial stage of the BNS evolution.
+From Figure(\ref{f1}) it is possible to notice how the gravitational attraction between the two objects slighlty reshapes their surfaces.
+After $t = 3.83 \milli \second = 777.6 \, M _{\odot}$ the stars start tranfering matter between themselves, meanwhile a stream of matter is being ejected (Figure(\ref{f3})).\\
+When the gravitational strain reaches the highest amplitude $\approx 9 \milli \second$, the neutron stars have a prolate shape (Figure(\ref{f4})).
+Instead of merging, the matter bounces off again and again during the final stage of the evolution Figure(\ref{f_5678}).
+Such behavior and the high rotational velocity lead the system to eject a big amount of matter, during the ring-down phase (Figures(\ref{f5}) and (\ref{f6})). 
+The matter, that does not overcome the "centrifugal force", is thrown away in a spiralling shape.\\
+The gravitational wave strain contains crucial information about the evoltuion of a system, indeed, it can give a clue on the matter evolution of our binary system.
 
 
 %%
@@ -404,52 +420,51 @@ We plot different snapshots of the time evolution of the binary in Figure()
 %%
 \begin{figure}
 \centering
-    \textbf{Orbits of different  configurations of BBH}\par\medskip
+    \textbf{Initial stage of the rest mass density evolution}\par\medskip
 \centering
-\subfloat[][Trajectory of the BBH with initial distance from the origin $b=3 \, M_{\odot}$.]
+\subfloat[][$t=0 \, M_{\odot} = 0 \, \milli \second$.]
    {\includegraphics[width=.45\textwidth]{numerical_evolution/f1.eps}
-   \label{trajectory_b3}} \quad
-   \subfloat[][Trajectory of the BBH with initial distance from the origin $b=4 \, M_{\odot}$.]
+   \label{f1}} \quad
+   \subfloat[][$t=777.6 \, M_{\odot} = 3.83 \, \milli \second$.]
    {\includegraphics[width=.45\textwidth]{numerical_evolution/f2.eps}
-   \label{trajectory_b4}} \quad
-\subfloat[][Trajectory of the BBH with initial distance from the origin $b=5 \, M_{\odot}$.]
+   \label{f2}} \quad
+\subfloat[][$t=1296 \, M_{\odot} = 6.38 \, \milli \second$.]
    {\includegraphics[width=.45\textwidth]{numerical_evolution/f3.eps}
-   \label{trajectory_b5}} \quad
-\subfloat[][Trajectory of the BBH with initial distance from the origin $b=6 \, M_{\odot}$.]
+   \label{f3}} \quad
+\subfloat[][$t=1857.6 \, M_{\odot} = 9.1515 \, \milli \second$.]
    {\includegraphics[width=.45\textwidth]{numerical_evolution/f4.eps}
-   \label{trajectory_b6}} \quad
+   \label{f4}} \quad
  \\
 \caption{.}
-\label{}
+\label{f_1234}
 \end{figure}
 %%
 %%
 %%
 %%
-
 %%
 %%
 %%
 %%
 \begin{figure}
 \centering
-    \textbf{Orbits of different  configurations of BBH}\par\medskip
+    \textbf{Final stage of the rest mass density evolution}\par\medskip
 \centering
-\subfloat[][Trajectory of the BBH with initial distance from the origin $b=3 \, M_{\odot}$.]
+\subfloat[][$t=2203.2 \, M_{\odot} = 10.85 \, \milli \second$.]
    {\includegraphics[width=.45\textwidth]{numerical_evolution/f5.eps}
-   \label{trajectory_b3}} \quad
-   \subfloat[][Trajectory of the BBH with initial distance from the origin $b=4 \, M_{\odot}$.]
+   \label{f5}} \quad
+   \subfloat[][$t=2332.8 \, M_{\odot} = 11.49 \, \milli \second$.]
    {\includegraphics[width=.45\textwidth]{numerical_evolution/f6.eps}
-   \label{trajectory_b4}} \quad
-\subfloat[][Trajectory of the BBH with initial distance from the origin $b=5 \, M_{\odot}$.]
+   \label{f6}} \quad
+\subfloat[][$t=2721.6 \, M_{\odot} = 13.41 \, \milli \second$.]
    {\includegraphics[width=.45\textwidth]{numerical_evolution/f7.eps}
-   \label{trajectory_b5}} \quad
-\subfloat[][Trajectory of the BBH with initial distance from the origin $b=6 \, M_{\odot}$.]
+   \label{f7}} \quad
+\subfloat[][$t=3888 \, M_{\odot} = 19.15 \, \milli \second$.]
    {\includegraphics[width=.45\textwidth]{numerical_evolution/f8.eps}
-   \label{trajectory_b6}} \quad
+   \label{f8}} \quad
  \\
 \caption{.}
-\label{}
+\label{f_5678}
 \end{figure}
 %%
 %%
