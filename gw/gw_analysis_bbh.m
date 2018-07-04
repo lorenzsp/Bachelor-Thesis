@@ -288,6 +288,7 @@ figure();
 plot(b3_p(:,1).*CU_to_ms, b3_p(:,5))
 plot_f('\textbf{Angular velocity $\omega$ of BBH-b3}','$$t \, [ms]$$','$$\omega \,[1/ms]$$',16);
 
+
 %% b4
 t = b4_h(:,1);                   
 Fs = 1./abs(b4_h(1,1)-b4_h(2,1));            % Sampling frequency
@@ -367,8 +368,6 @@ xlim([0 0.1]);
 figure();
 plot(b10_p(:,1).*CU_to_ms, b10_p(:,5))
 plot_f('\textbf{Angular velocity $\omega$ of BBH-b10}','$$t \, [ms]$$','$$\omega \,[1/ms]$$',16);
-
-
 
 %%
 t = b10_h(:,1);                   
