@@ -40,7 +40,7 @@
 \newcommand*{\university}[1]{\def\universityname{#1}}
 \def\universitynameno{Universitetet i Oslo}
 \newcommand*{\universityno}[1]{\def\universitynameno{#1}}
-\def\facultyname{Faculty of Physics}
+\def\facultyname{Physics}
 \newcommand*{\faculty}[1]{\def\facultyname{#1}}
 \def\facultynameno{Det matematisk- naturvitenskapelige fakultet}
 \newcommand*{\facultyno}[1]{\def\facultynameno{#1}}

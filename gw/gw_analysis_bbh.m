@@ -13,6 +13,13 @@ CU_to_dens = c*c*c*c*c*c / (G*G*G * M_sun*M_sun); % kg/m^3
 
 CU_to_energy    = M_sun*c*c  ;        % kg m^2/s^2
 
+% order of magnitude of a gw (quadrupole formula of a binary system equal mass = Msun)
+% distance between the stars 100 times the swarzschild radius of the source
+r_s = 2*G*M_sun/c^2;
+R = 10*r_s;
+% omega
+angular_frequency= sqrt(G*M_sun/(4*R^3)); % kepler's third law
+H = (G/c^4)*8*M_sun*R^2*angular_frequency^2/(100*Mparsec*1e3)
 %% positions data of black holes
 % positions info of the different simulations
 %structure time x y radius and omega
