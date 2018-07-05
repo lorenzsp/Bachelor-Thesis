@@ -3,8 +3,8 @@
 \contentsline {subsection}{\numberline {2.1}Linearized Einstein's field equation}{3}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Gauge transformations and GW polarizations}{6}{subsection.2.2}
 \contentsline {section}{\numberline {3}Effects of Gravitational Waves}{9}{section.3}
-\contentsline {subsection}{\numberline {3.1}Free particles and detetction principles}{9}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}From the geodesic deviation equation to the $+$ and $\times $ polarizations}{10}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.1}Free particles and detection principles}{9}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}From the geodesic deviation equation to the $+$ and $\times $ polarizations}{11}{subsection.3.2}
 \contentsline {section}{\numberline {4}Production of Gravitational Waves}{16}{section.4}
 \contentsline {subsection}{\numberline {4.1}Solution of the linearized Einstein's field equation}{16}{subsection.4.1}
 \contentsline {subsubsection}{\numberline {4.1.1}The nature of the gravitational radiation}{20}{subsubsection.4.1.1}

@@ -3,7 +3,7 @@ By using the transverse traceless gauge we introduced crucial semplifications.
 We want now to explain the important physical consequences of the theoretical results obtained in the previous part.
 Throughout the next sections we will use the linearized theory of gravitatinal waves and we consider our metric to be in the TT gauge.
 %%in the second section we giva a coordinate-independent measure of the gravitational wave effects.
-\subsection{Free particles and detetction principles}
+\subsection{Free particles and detection principles}
 In general relativity the trajectory of a free falling particle is described by the \textbf{geodesic equation}
 \begin{equation}
 \label{geodesic_eq}
@@ -46,25 +46,45 @@ L &=& \int _0 ^{L_c} \abs{g_{\mu \nu} \, \dd x^{\mu }\dd x^{\nu }}^{1/2}
 &\approx &
 \int _0 ^{L_c} \qty(1 +\dfrac{1}{2} h_{+} (t,z=0) ) \dd x = L_c \qty(1 + \dfrac{1}{2} h_{+} (t,z=0))
 \eea
-The proper distance is streched by the passing gravitational wave and the two particles oscillate with a fractional length change given by
-\begin{equation}
-\dfrac{\delta L}{L} \approx \dfrac{1}{2} h_{+} (t,z=0)
-\end{equation}
-The proper distance is a very important quantity for a laser interferometer gravitational wave detector, because the phase $\delta \phi$ accumualated by a photon that travels down and back the arm of a laser interferometer is
-\[
-\delta \phi = \dfrac{4 \pi \delta L}{\lambda}
-\]
-where $\lambda$ is the wavelength and $\delta L$ is the distance the mirror moves relative to the beam splitter.
-Although we used TT gauge to calculate the above formula, it can be shown that this result is gauge independent.\\
 If we had considered two particles on the y axis separated by the same coordinate distance, the proper distance would have been
 \[
 L \approx  L_c \qty(1 - \dfrac{1}{2} h_{+} (t,z=0))
 \]
 Therefore, recalling the expression of the plus polarization for a plane wave 
-$$h_{+} =  A^{\T} _{11} \cos \qty(\omega(t-z))$$ we notice that the particles along x axis are streched, whereas the particles along the y axis are squeezed. 
-This is one of the features of the plus polarization, that we will thoroughly analyze in the next section.\\
+$$h_{+} =  A^{\T} _{11} \cos \qty(\omega(t-z))$$ we notice that the particles along x axis are streched, whereas the particles along the y axis are squeezed.\\
+The proper distance is streched by the passing gravitational wave and the two particles oscillate with a fractional length change given by
+\begin{equation}
+\dfrac{\delta L}{L} \approx \dfrac{1}{2} h_{+} (t,z=0)
+\end{equation}
+The proper distance is a very important quantity which has a crucial experimental use. 
+For instance, a laser interferometer gravitational wave detector consists of four masses that hang from vibration-isolated supports as shown in Figure(\ref{interferometer}).
+When a gravitational wave passes through the detector, it changes the arm-length difference, $\Delta L = L_2 -L_1$, thereby an optical system monitors the separations between the masses in such a way that the variations in the output of the photodiode are directly proportional to $\Delta L$.
+The value of $\Delta L$ is a composition of the two polarizations of the gravitational wave $h_{+}$ and $h_{\times}$, and it also contains terms that weigh the direction of the GW.
+One adjusts the reflectivities of the interferometer’s corner mirrors such that a typical photon travles up and down the cavity of order 100 times before returning to the beamsplitter and being directed into the photodiode.
+So, the accumulated phase shift in each arm will be
+\[
+\delta \phi \sim 100 \dfrac{4 \pi \delta L}{\lambda}
+\]
+where $\lambda$ is the wavelength and $\delta L$ is the distance the mirror moves relative to the beam splitter.
+Although we used TT gauge to calculate the above formula, it can be shown that this result is gauge independent.\\
+%%
+%%
+%%
+%%
+\begin{figure}[H]
+\centering
+    \textbf{Laser interferometer gravitational wave detector}\par\medskip
+\makebox[\textwidth][c]{\includegraphics[width=0.9\textwidth]{effects_gw/interferometer}}
+\caption{Schematic representation of a laser interferomenter gravitational wave detector (from REF).}
+%A. Abramovici et. al. Science, 256:325, 1992: name in zoteroLIGO: The Laser Interferometer Gravitational-Wave Observatory
+\label{interferometer}
+\end{figure}
+%%
+%%
+%%
+%%
 
-ADD DETECTION PRINCIPLES
+
 
 \subsection{From the geodesic deviation equation to the $+$ and $\times$ polarizations}
 Since free-falling bodies obey to the geodesic equation(\ref{geodesic_eq}), in this section we study the physical effects of the two polarizations plus $+$ and times $\times$ of the gravitational waves through relative motions of geodesics.\\
@@ -213,8 +233,6 @@ The effect of a pure $h_R$ wave would be to rotate the particles in a right-hand
 \label{plus_and_times}
 
 \end{figure}
-
-ADD GRAVITON PREDICTION
 
 
 
