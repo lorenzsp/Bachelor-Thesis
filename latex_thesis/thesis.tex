@@ -15,12 +15,11 @@
 %% LOAD PACKAGES
 \input{shared/preamble}
 
-% format sections
-\usepackage{titlesec}
-\titleformat{\section}[block]
-{\Large\bfseries}
-{\thesection}{0.5em}{}
- 
+
+
+
+
+
 %% MAIN DOCUMENT BEGINNING
 \begin{document}
 
@@ -43,18 +42,22 @@ A really interesting and fascinating abstract
 
 \clearpage
 \section{From the Einstein's field equation\\ to gravitational wave solutions}
+\label{from_equation_to_solution}
 \input{einstein_eq/einstein_eq_gw.tex}
 
 \clearpage
 \section{Effects of Gravitational Waves}
+\label{effects_gw}
 \input{effects_gw/ef_gw.tex}
 
 \clearpage
 \section{Production of Gravitational Waves}
+\label{production_gw}
 \input{production_gw/prod_gw.tex}
 
 \clearpage
 \section{Numerical Evolution of Compact Binaries}
+\label{numerical_evolution}
 \input{numerical_evolution/num_ev.tex}
 
 \clearpage
@@ -67,6 +70,7 @@ A really interesting and fascinating abstract
 \input{appendix/resampling}
 jajdc.,jdac amdadada
 \cite{taniguchiVariousFeaturesQuasiequilibrium2003}
+
 %% MAKE BIBLIOGRAPHY
 %\bibliographystyle{unsrt}
 

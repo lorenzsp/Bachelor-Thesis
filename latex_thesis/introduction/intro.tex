@@ -1,17 +1,32 @@
 Albert Einstein developed the General Theory of Relativity between and 1907 and 1917, creating a new tool to observe the universe. 
 The General Theory of Relativity has changed the way we describe and study the gravitational phenomena. 
-In particular, the new theory of gravitation was not only able to solve unexplained observations, as for instance, anomalies in the newtonian description of planets' orbits as Mercury, but it also predictied new  phenomena such as gravitational time dilation, gravitational lensing and gravitational waves.
-The first indirect detection of general relativity was made by Hulse and Taylor.
-One of the most important test of the General Theory of Relativity was the discovery of the gravitational waves (GW) at LIGO.\\
+In particular, the new theory of gravitation was not only able to solve unexplained observations, as for instance, anomalies in the newtonian description of planets' orbits as Mercury, but it also predictied new  phenomena such as gravitational time dilation, gravitational lensing and gravitational waves.\\
+The first indirect evidence of the existence of gravitational waves was given by Hulse and Taylor in 1993 \cite{weisberg_relativistic_2004,weisberg_timing_2010}. 
+The two scientists, through the study of the orbital decay of a binary pulsar, inferred the emission of gravitational waves, since the binary’s two neutron stars are spiraling together at just the rate predicted by general relativity’s theory of gravitational radiation reaction.\\
+Subsequently in 2016, the laser interferometer gravitational wave detector LIGO measured directly the signal of a gravitational wave produced by a binary black hole \cite{abbott_observation_2016}.
+And, one year later LIGO-Virgo detector network observed a gravitational-wave signal from the inspiral of two low-mass compact objects consistent with a binary neutron star (BNS) merger \cite{abbott_gw170817:_2017}.\\
+The gravitational waves are not only the triumph of the General Relativity, but they also give us a completely new approach to the investigate the nature of binary systems. 
+Binary neutron stars and black holes can imprint a large amount of information in the produced gravitational radiations.
+However, a thorough study of a gravitational signals needs to be combined with accurate numerical simulations of binary mergers in order to fully understand the link between the  gravitational wave production and their sources.\\
+Therefore, we propose in  section(\ref{from_equation_to_solution}) the derivation of the gravitational wave solution from the Einstein's field equation using the linearized approximation, and, applying the transverse traceless gauge, we find the two raditative degrees of freedom of the general theory of relativity.\\
+In section(\ref{effects_gw}) we study how the gravitational waves perturb free falling particles, and a physical interpretation of the two polarization states of the GWs is given through the study of a ring of free falling test particles.\\
+The linearized Einstein's field equation is solved with the presence of matter in section(\ref{production_gw}), and, by using different approximations, we also derive the quadrupole formula. 
+In addition, we study the physical implications of the quadrupole formula for a slowly-moving binary source, giving also an order-of-magnitude estimate of the typical amplitude of the GWs.\\
+In the last section(\ref{numerical_evolution}), by using the open-source computational infrastructure Einstein Tookit\cite{loffler_einstein_2012}, we study the relativistic numerical simulations of compact binaries.
+After explaining a simple gravitational wave extraction method, we analyze the gravitational radiations emitted by the evolution of binary black holes with six different quasi-equilibrium initial configurations and from a binary neutron star.
+In addition, we also analyze the rest mass density of the binary neutron in order to find the link between the gravitational wave behavior and the matter evolution.
 
-
-
-
-
-\textbf{NOTATION:} we use a system of geometrized units $G=c=1$.\\
-Greek letters for summing over all the indeces from 0 up to 3.
-Latin letters summing only on the spatial indeces 1 2 and 3.
-Sometimes we use boldface to denote the spatial vectors $\vb{x} =(x,y,z)$ and we rewrtie the four-vectors as 
+\textbf{NOTATION}\\
+Throughout, we will use a spacelike signature $(-,+,+,+)$ and a system of geometrised units in which $G=c=1$, however depending on the need we will also indicate explicitely the speed of light $c=299\,792\,458 \,\metre \per \second$, and the Newton constant of gravitation $G=6.67408 \times 10^{-11} \, \newton \usk \metre^2 \usk \kilogram^{-2}$ \cite{codata_blog_codata_nodate}.\\
+We use the Einstein summation convention for  reapeted indeces.
+Greek letters are used for summing over all the indeces from 0 up to 3,
+whereas latin letters sum only on the spatial indeces 1 2 and 3.\\
+We use the controviariant notation of a four-vector
+\[
+x^{\sigma} = (x^{0},x^{1}, x^{2},x^{3})
+\]
+or, when we want to aid the comparison with classical Newtonian expression, we use boldface to denote the spatial vectors $\vb{x} =(x,y,z)$ and we rewrtie the four-vectors as 
 \[
 x^{\sigma} = (x^{0},x^{1}, x^{2},x^{3}) = (t,\vb{x}) = (t,x,y,z)
 \]
+The four-dimensional covariant and partial derivatives will be indicated respectively with $\nabla _{\mu}$ and $\partial _\mu$.

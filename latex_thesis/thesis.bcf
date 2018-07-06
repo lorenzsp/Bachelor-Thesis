@@ -2215,7 +2215,21 @@
     <bcf:datasource type="file" datatype="bibtex">bibliography/trial.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">taniguchiVariousFeaturesQuasiequilibrium2003</bcf:citekey>
+    <bcf:citekey order="1">weisberg_relativistic_2004</bcf:citekey>
+    <bcf:citekey order="1">weisberg_timing_2010</bcf:citekey>
+    <bcf:citekey order="2">abbott_observation_2016</bcf:citekey>
+    <bcf:citekey order="3">abbott_gw170817:_2017</bcf:citekey>
+    <bcf:citekey order="4">loffler_einstein_2012</bcf:citekey>
+    <bcf:citekey order="5">codata_blog_codata_nodate</bcf:citekey>
+    <bcf:citekey order="6">weinsteinEinsteinDiscoveryGravitational2016</bcf:citekey>
+    <bcf:citekey order="7">carroll_spacetime_2003</bcf:citekey>
+    <bcf:citekey order="8">flanagan_basics_2005</bcf:citekey>
+    <bcf:citekey order="8">carroll_spacetime_2003</bcf:citekey>
+    <bcf:citekey order="9">bishop_extraction_2016</bcf:citekey>
+    <bcf:citekey order="10">flanagan_basics_2005</bcf:citekey>
+    <bcf:citekey order="11">martin_notes</bcf:citekey>
+    <bcf:citekey order="12">thorne_gravitational_1995</bcf:citekey>
+    <bcf:citekey order="13">taniguchiVariousFeaturesQuasiequilibrium2003</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none" type="entry" sortscheme="none">
   <bcf:sorting>

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  6 JUL 2018 15:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  6 JUL 2018 20:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1674,6 +1674,21 @@ Package: tensind 1998/05/01 v1.0 Tensorial Indexes
 \tsi@dimen=\dimen177
 \primes=\dimen178
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box52
+\beforetitleunit=\skip91
+\aftertitleunit=\skip92
+\ttl@plus=\dimen179
+\ttl@minus=\dimen180
+\ttl@toksa=\toks32
+\titlewidth=\dimen181
+\titlewidthlast=\dimen182
+\titlewidthfirst=\dimen183
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/titlesec/block.tss
+File: block.tss 2011/12/15
+)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tikz-feynman/tikz-feynman.sty
 Package: tikz-feynman 2016/02/05v1.1.0Feynman diagrams with TikZ
 
@@ -1682,14 +1697,14 @@ Package: tikz-feynman 2016/02/05v1.1.0Feynman diagrams with TikZ
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks32
-\pgfutil@tempdima=\dimen179
-\pgfutil@tempdimb=\dimen180
+\pgfutil@everybye=\toks33
+\pgfutil@tempdima=\dimen184
+\pgfutil@tempdimb=\dimen185
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
 sts.tex))
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box52
+\pgfutil@abb=\box53
 (/usr/local/texlive/2015/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
@@ -1702,30 +1717,30 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks33
-\pgfkeys@temptoks=\toks34
+\pgfkeys@pathtoks=\toks34
+\pgfkeys@temptoks=\toks35
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
 ode.tex
-\pgfkeys@tmptoks=\toks35
+\pgfkeys@tmptoks=\toks36
 ))
-\pgf@x=\dimen181
-\pgf@y=\dimen182
-\pgf@xa=\dimen183
-\pgf@ya=\dimen184
-\pgf@xb=\dimen185
-\pgf@yb=\dimen186
-\pgf@xc=\dimen187
-\pgf@yc=\dimen188
+\pgf@x=\dimen186
+\pgf@y=\dimen187
+\pgf@xa=\dimen188
+\pgf@ya=\dimen189
+\pgf@xb=\dimen190
+\pgf@yb=\dimen191
+\pgf@xc=\dimen192
+\pgf@yc=\dimen193
 \w@pgf@writea=\write4
 \r@pgf@reada=\read3
 \c@pgf@counta=\count352
 \c@pgf@countb=\count353
 \c@pgf@countc=\count354
 \c@pgf@countd=\count355
-\t@pgf@toka=\toks36
-\t@pgf@tokb=\toks37
-\t@pgf@tokc=\toks38
+\t@pgf@toka=\toks37
+\t@pgf@tokb=\toks38
+\t@pgf@tokc=\toks39
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
@@ -1756,12 +1771,12 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen189
+\pgfmath@dimen=\dimen194
 \pgfmath@count=\count358
-\pgfmath@box=\box53
-\pgfmath@toks=\toks39
-\pgfmath@stack@operand=\toks40
-\pgfmath@stack@operation=\toks41
+\pgfmath@box=\box54
+\pgfmath@toks=\toks40
+\pgfmath@stack@operand=\toks41
+\pgfmath@stack@operation=\toks42
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex
@@ -1787,52 +1802,52 @@ erarithmetics.code.tex)))
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen190
-\pgf@picmaxx=\dimen191
-\pgf@picminy=\dimen192
-\pgf@picmaxy=\dimen193
-\pgf@pathminx=\dimen194
-\pgf@pathmaxx=\dimen195
-\pgf@pathminy=\dimen196
-\pgf@pathmaxy=\dimen197
-\pgf@xx=\dimen198
-\pgf@xy=\dimen199
-\pgf@yx=\dimen256
-\pgf@yy=\dimen257
-\pgf@zx=\dimen258
-\pgf@zy=\dimen259
+\pgf@picminx=\dimen195
+\pgf@picmaxx=\dimen196
+\pgf@picminy=\dimen197
+\pgf@picmaxy=\dimen198
+\pgf@pathminx=\dimen199
+\pgf@pathmaxx=\dimen256
+\pgf@pathminy=\dimen257
+\pgf@pathmaxy=\dimen258
+\pgf@xx=\dimen259
+\pgf@xy=\dimen260
+\pgf@yx=\dimen261
+\pgf@yy=\dimen262
+\pgf@zx=\dimen263
+\pgf@zy=\dimen264
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
 ruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen260
-\pgf@path@lasty=\dimen261
+\pgf@path@lastx=\dimen265
+\pgf@path@lasty=\dimen266
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
 .code.tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen262
-\pgf@shorten@start@additional=\dimen263
+\pgf@shorten@end@additional=\dimen267
+\pgf@shorten@start@additional=\dimen268
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box54
-\pgf@hbox=\box55
-\pgf@layerbox@main=\box56
+\pgfpic=\box55
+\pgf@hbox=\box56
+\pgf@layerbox@main=\box57
 \pgf@picture@serial@count=\count360
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen264
+\pgflinewidth=\dimen269
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
 ations.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen265
-\pgf@pt@y=\dimen266
-\pgf@pt@temp=\dimen267
+\pgf@pt@x=\dimen270
+\pgf@pt@y=\dimen271
+\pgf@pt@temp=\dimen272
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
 e.tex
@@ -1849,12 +1864,12 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
 de.tex
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen268
+\pgfarrowsep=\dimen273
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
 e.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen269
+\pgf@max=\dimen274
 \pgf@sys@shading@range@num=\count361
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
@@ -1864,7 +1879,7 @@ File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
 code.tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box57
+\pgfexternal@startupbox=\box58
 ))
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
 de.tex
@@ -1881,7 +1896,7 @@ File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
 e.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box58
+\pgfnodeparttextbox=\box59
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
 tex
@@ -1890,8 +1905,8 @@ File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen270
-\pgf@nodesepend=\dimen271
+\pgf@nodesepstart=\dimen275
+\pgf@nodesepend=\dimen276
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -1-18.sty
@@ -1906,10 +1921,10 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen272
-\pgffor@skip=\dimen273
-\pgffor@stack=\toks42
-\pgffor@toks=\toks43
+\pgffor@iter=\dimen277
+\pgffor@skip=\dimen278
+\pgffor@stack=\toks43
+\pgffor@toks=\toks44
 ))
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -1919,18 +1934,18 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \pgf@plot@mark@count=\count362
-\pgfplotmarksize=\dimen274
+\pgfplotmarksize=\dimen279
 )
-\tikz@lastx=\dimen275
-\tikz@lasty=\dimen276
-\tikz@lastxsaved=\dimen277
-\tikz@lastysaved=\dimen278
-\tikzleveldistance=\dimen279
-\tikzsiblingdistance=\dimen280
-\tikz@figbox=\box59
-\tikz@figbox@bg=\box60
-\tikz@tempbox=\box61
-\tikz@tempbox@bg=\box62
+\tikz@lastx=\dimen280
+\tikz@lasty=\dimen281
+\tikz@lastxsaved=\dimen282
+\tikz@lastysaved=\dimen283
+\tikzleveldistance=\dimen284
+\tikzsiblingdistance=\dimen285
+\tikz@figbox=\box60
+\tikz@figbox@bg=\box61
+\tikz@tempbox=\box62
+\tikz@tempbox@bg=\box63
 \tikztreelevel=\count363
 \tikznumberofchildren=\count364
 \tikznumberofcurrentchild=\count365
@@ -1951,18 +1966,18 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pgfopts/pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
-\pgfopts@list@add@a@toks=\toks44
-\pgfopts@list@add@b@toks=\toks45
+\pgfopts@list@add@a@toks=\toks45
+\pgfopts@list@add@b@toks=\toks46
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tikz-feynman/tikzlibraryfeynman.c
 ode.tex
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
 meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2015/05/13 v3.0.1a (rcs-revision 1.13)
-\pgfarrowinset=\dimen281
-\pgfarrowlength=\dimen282
-\pgfarrowwidth=\dimen283
-\pgfarrowlinewidth=\dimen284
+\pgfarrowinset=\dimen286
+\pgfarrowlength=\dimen287
+\pgfarrowwidth=\dimen288
+\pgfarrowlinewidth=\dimen289
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarycalc.code.tex
@@ -1972,16 +1987,16 @@ File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 s/tikzlibrarydecorations.code.tex
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
 s.code.tex
-\pgfdecoratedcompleteddistance=\dimen285
-\pgfdecoratedremainingdistance=\dimen286
-\pgfdecoratedinputsegmentcompleteddistance=\dimen287
-\pgfdecoratedinputsegmentremainingdistance=\dimen288
-\pgf@decorate@distancetomove=\dimen289
+\pgfdecoratedcompleteddistance=\dimen290
+\pgfdecoratedremainingdistance=\dimen291
+\pgfdecoratedinputsegmentcompleteddistance=\dimen292
+\pgfdecoratedinputsegmentremainingdistance=\dimen293
+\pgf@decorate@distancetomove=\dimen294
 \pgf@decorate@repeatstate=\count371
-\pgfdecorationsegmentamplitude=\dimen290
-\pgfdecorationsegmentlength=\dimen291
+\pgfdecorationsegmentamplitude=\dimen295
+\pgfdecorationsegmentlength=\dimen296
 )
-\tikz@lib@dec@box=\box63
+\tikz@lib@dec@box=\box64
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarydecorations.markings.code.tex
@@ -2027,27 +2042,26 @@ File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
 e.tex))) (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
 \c@tracingmulticols=\count374
-\mult@box=\box64
-\multicol@leftmargin=\dimen292
+\mult@box=\box65
+\multicol@leftmargin=\dimen297
 \c@unbalance=\count375
 \c@collectmore=\count376
 \doublecol@number=\count377
 \multicoltolerance=\count378
 \multicolpretolerance=\count379
-\full@width=\dimen293
-\page@free=\dimen294
-\premulticols=\dimen295
-\postmulticols=\dimen296
-\multicolsep=\skip91
-\multicolbaselineskip=\skip92
-\partial@page=\box65
-\last@line=\box66
-\maxbalancingoverflow=\dimen297
-\mult@rightbox=\box67
-\mult@grightbox=\box68
-\mult@gfirstbox=\box69
-\mult@firstbox=\box70
-\@tempa=\box71
+\full@width=\dimen298
+\page@free=\dimen299
+\premulticols=\dimen300
+\postmulticols=\dimen301
+\multicolsep=\skip93
+\multicolbaselineskip=\skip94
+\partial@page=\box66
+\last@line=\box67
+\maxbalancingoverflow=\dimen302
+\mult@rightbox=\box68
+\mult@grightbox=\box69
+\mult@gfirstbox=\box70
+\mult@firstbox=\box71
 \@tempa=\box72
 \@tempa=\box73
 \@tempa=\box74
@@ -2064,13 +2078,14 @@ Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
 \@tempa=\box85
 \@tempa=\box86
 \@tempa=\box87
+\@tempa=\box88
 \c@columnbadness=\count380
 \c@finalcolumnbadness=\count381
-\last@try=\dimen298
-\multicolovershoot=\dimen299
-\multicolundershoot=\dimen300
-\mult@nat@firstbox=\box88
-\colbreak@box=\box89
+\last@try=\dimen303
+\multicolovershoot=\dimen304
+\multicolundershoot=\dimen305
+\mult@nat@firstbox=\box89
+\colbreak@box=\box90
 \mc@col@check@num=\count382
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -2085,21 +2100,6 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/titlesec/titlesec.sty
-Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
-\ttl@box=\box90
-\beforetitleunit=\skip93
-\aftertitleunit=\skip94
-\ttl@plus=\dimen301
-\ttl@minus=\dimen302
-\ttl@toksa=\toks46
-\titlewidth=\dimen303
-\titlewidthlast=\dimen304
-\titlewidthfirst=\dimen305
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/titlesec/block.tss
-File: block.tss 2011/12/15
-)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -2128,26 +2128,26 @@ LaTeX Warning: Label `plus_and_times' multiply defined.
 )
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 24.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    ... okay on input line 24.
 \c@lstlisting=\count385
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -2165,7 +2165,7 @@ LaTeX Font Info:    ... okay on input line 25.
 \everyMPtoPDFconversion=\toks48
 )
 \AtBeginShipoutBox=\box92
-Package hyperref Info: Link coloring ON on input line 25.
+Package hyperref Info: Link coloring ON on input line 24.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -2174,9 +2174,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count392
 )
-LaTeX Info: Redefining \ref on input line 25.
-LaTeX Info: Redefining \pageref on input line 25.
-LaTeX Info: Redefining \nameref on input line 25.
+LaTeX Info: Redefining \ref on input line 24.
+LaTeX Info: Redefining \pageref on input line 24.
+LaTeX Info: Redefining \nameref on input line 24.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write5
@@ -2246,9 +2246,17 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
-(./thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 25.
-Package biblatex Info: Reference segment=0 on input line 25.
+(./thesis.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                martin_notes
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
+Package biblatex Info: Reference section=0 on input line 24.
+Package biblatex Info: Reference segment=0 on input line 24.
 
 Option `squaren' provided! 
  Command \squaren defined by SIunits package!
@@ -2281,13 +2289,13 @@ ABD: EveryShipout initializing macros
 
 Package tikz-feynman Warning: LuaTeX is required if you wish to have vertices a
 utomatically placed. You can disable this warning by setting /tikzfeynman/warn 
-luatex=false on input line 25.
+luatex=false on input line 24.
 
 (./shared/custom_commands.tex) <shared/logo.png, id=71, 1204.5pt x 1204.5pt>
 File: shared/logo.png Graphic file (type png)
 
 <use shared/logo.png>
-Package pdftex.def Info: shared/logo.png used on input line 29.
+Package pdftex.def Info: shared/logo.png used on input line 28.
 (pdftex.def)             Requested size: 142.25475pt x 142.25475pt.
  [1
 
@@ -2327,58 +2335,72 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 ] (./introduction/intro.tex
-Underfull \hbox (badness 10000) in paragraph at lines 1--6
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
 
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) [2
+ [2
 
 
-]
+])
+[3]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 45.
+(hyperref)                removing `\\' on input line 44.
 
 (./einstein_eq/einstein_eq_gw.tex
-Underfull \hbox (badness 10000) in paragraph at lines 1--6
+Underfull \hbox (badness 10000) in paragraph at lines 1--3
 
  []
 
-[3
+[4
 
-] [4]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 254.
+] [5]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 252.
 
  (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 254.
- [5]
-Underfull \hbox (badness 10000) in paragraph at lines 273--275
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 252.
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--254
 
  []
 
 [6]
-Overfull \hbox (15.07211pt too wide) in paragraph at lines 323--324
+Underfull \hbox (badness 10000) in paragraph at lines 270--272
+
+ []
+
+
+Underfull \vbox (badness 1502) has occurred while \output is active []
+
+ [7]
+Overfull \hbox (15.07211pt too wide) in paragraph at lines 320--321
 []\OT1/cmr/m/n/12 Three com-po-nents of the apli-tude ten-sor can be elim-i-nat
 ed se-lect-ing $\OML/cmm/m/it/12 ^^X[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 C[] [
 ][][]$
  []
 
 
-Overfull \hbox (1.29865pt too wide) in paragraph at lines 325--326
+Overfull \hbox (1.29865pt too wide) in paragraph at lines 322--323
 []\OT1/cmr/m/n/12 One com-po-nent of the apli-tude ten-sor can be elim-i-nated 
 se-lect-ing $\OML/cmm/m/it/12 ^^X[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 C[] [][]
 []$
  []
 
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 369--372
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 366--369
 
  []
 
-) [8] (./effects_gw/ef_gw.tex [9
+[9]) [10] (./effects_gw/ef_gw.tex [11
 
 ]
 Missing character: There is no â in font cmr12!
@@ -2388,34 +2410,37 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<effects_gw/interferometer.jpeg, id=184, 997.7275pt x 539.01375pt>
+<effects_gw/interferometer.jpeg, id=220, 997.7275pt x 539.01375pt>
 File: effects_gw/interferometer.jpeg Graphic file (type jpg)
 
 <use effects_gw/interferometer.jpeg>
-Package pdftex.def Info: effects_gw/interferometer.jpeg used on input line 78.
+Package pdftex.def Info: effects_gw/interferometer.jpeg used on input line 77.
 (pdftex.def)             Requested size: 407.66833pt x 220.24039pt.
- [10]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 90.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 90.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 90.
+(hyperref)                removing `math shift' on input line 89.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\times' on input line 90.
+(hyperref)                removing `math shift' on input line 89.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 90.
+(hyperref)                removing `math shift' on input line 89.
 
-[11 <./effects_gw/interferometer.jpeg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\times' on input line 89.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 89.
+
+[13 <./effects_gw/interferometer.jpeg>]
 Package epstopdf Info: Source file: <effects_gw/plus_polarization.eps>
 (epstopdf)                    date: 2018-06-25 17:23:45
 (epstopdf)                    size: 545135 bytes
@@ -2425,16 +2450,16 @@ Package epstopdf Info: Source file: <effects_gw/plus_polarization.eps>
 (epstopdf)                    size: 420654 bytes
 (epstopdf)             Command: <repstopdf --outfile=effects_gw/plus_polarizati
 on-eps-converted-to.pdf effects_gw/plus_polarization.eps>
-(epstopdf)             \includegraphics on input line 138.
+(epstopdf)             \includegraphics on input line 137.
 Package epstopdf Info: Output file is already uptodate.
 
-<effects_gw/plus_polarization-eps-converted-to.pdf, id=201, 1237.62375pt x 107.
+<effects_gw/plus_polarization-eps-converted-to.pdf, id=237, 1237.62375pt x 107.
 40125pt>
 File: effects_gw/plus_polarization-eps-converted-to.pdf Graphic file (type pdf)
 
  <use effects_gw/plus_polarization-eps-converted-to.pdf>
 Package pdftex.def Info: effects_gw/plus_polarization-eps-converted-to.pdf used
- on input line 138.
+ on input line 137.
 (pdftex.def)             Requested size: 588.85963pt x 51.10297pt.
 Package epstopdf Info: Source file: <effects_gw/times_polarization.eps>
 (epstopdf)                    date: 2018-06-25 18:16:38
@@ -2445,18 +2470,18 @@ d-to.pdf>
 (epstopdf)                    size: 423596 bytes
 (epstopdf)             Command: <repstopdf --outfile=effects_gw/times_polarizat
 ion-eps-converted-to.pdf effects_gw/times_polarization.eps>
-(epstopdf)             \includegraphics on input line 149.
+(epstopdf)             \includegraphics on input line 148.
 Package epstopdf Info: Output file is already uptodate.
 
-<effects_gw/times_polarization-eps-converted-to.pdf, id=202, 1138.2525pt x 128.
+<effects_gw/times_polarization-eps-converted-to.pdf, id=238, 1138.2525pt x 128.
 48pt>
 File: effects_gw/times_polarization-eps-converted-to.pdf Graphic file (type pdf
 )
  <use effects_gw/times_polarization-eps-converted-to.pdf>
 Package pdftex.def Info: effects_gw/times_polarization-eps-converted-to.pdf use
-d on input line 149.
+d on input line 148.
 (pdftex.def)             Requested size: 588.85963pt x 66.47081pt.
- [12] [13 <./effects_gw/plus_polarization-eps-converted-to.pdf> <./effects_gw/t
+ [14] [15 <./effects_gw/plus_polarization-eps-converted-to.pdf> <./effects_gw/t
 imes_polarization-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <effects_gw/plus_pol_cont.eps>
 (epstopdf)                    date: 2018-06-25 18:30:11
@@ -2467,15 +2492,15 @@ pdf>
 (epstopdf)                    size: 1346795 bytes
 (epstopdf)             Command: <repstopdf --outfile=effects_gw/plus_pol_cont-e
 ps-converted-to.pdf effects_gw/plus_pol_cont.eps>
-(epstopdf)             \includegraphics on input line 198.
+(epstopdf)             \includegraphics on input line 197.
 Package epstopdf Info: Output file is already uptodate.
 
-<effects_gw/plus_pol_cont-eps-converted-to.pdf, id=227, 562.1pt x 421.575pt>
+<effects_gw/plus_pol_cont-eps-converted-to.pdf, id=263, 562.1pt x 421.575pt>
 File: effects_gw/plus_pol_cont-eps-converted-to.pdf Graphic file (type pdf)
 
 <use effects_gw/plus_pol_cont-eps-converted-to.pdf>
 Package pdftex.def Info: effects_gw/plus_pol_cont-eps-converted-to.pdf used on 
-input line 198.
+input line 197.
 (pdftex.def)             Requested size: 203.83417pt x 152.8733pt.
 Package epstopdf Info: Source file: <effects_gw/times_pol_cont.eps>
 (epstopdf)                    date: 2018-06-25 18:25:39
@@ -2486,15 +2511,15 @@ Package epstopdf Info: Source file: <effects_gw/times_pol_cont.eps>
 (epstopdf)                    size: 1960314 bytes
 (epstopdf)             Command: <repstopdf --outfile=effects_gw/times_pol_cont-
 eps-converted-to.pdf effects_gw/times_pol_cont.eps>
-(epstopdf)             \includegraphics on input line 201.
+(epstopdf)             \includegraphics on input line 200.
 Package epstopdf Info: Output file is already uptodate.
 
-<effects_gw/times_pol_cont-eps-converted-to.pdf, id=228, 562.1pt x 421.575pt>
+<effects_gw/times_pol_cont-eps-converted-to.pdf, id=264, 562.1pt x 421.575pt>
 File: effects_gw/times_pol_cont-eps-converted-to.pdf Graphic file (type pdf)
 
 <use effects_gw/times_pol_cont-eps-converted-to.pdf>
 Package pdftex.def Info: effects_gw/times_pol_cont-eps-converted-to.pdf used on
- input line 201.
+ input line 200.
 (pdftex.def)             Requested size: 203.83417pt x 152.8733pt.
 Package epstopdf Info: Source file: <effects_gw/r_pol.eps>
 (epstopdf)                    date: 2018-06-26 17:49:40
@@ -2504,15 +2529,15 @@ Package epstopdf Info: Source file: <effects_gw/r_pol.eps>
 (epstopdf)                    size: 1532756 bytes
 (epstopdf)             Command: <repstopdf --outfile=effects_gw/r_pol-eps-conve
 rted-to.pdf effects_gw/r_pol.eps>
-(epstopdf)             \includegraphics on input line 230.
+(epstopdf)             \includegraphics on input line 229.
 Package epstopdf Info: Output file is already uptodate.
 
-<effects_gw/r_pol-eps-converted-to.pdf, id=229, 562.1pt x 421.575pt>
+<effects_gw/r_pol-eps-converted-to.pdf, id=265, 562.1pt x 421.575pt>
 File: effects_gw/r_pol-eps-converted-to.pdf Graphic file (type pdf)
 
 <use effects_gw/r_pol-eps-converted-to.pdf>
 Package pdftex.def Info: effects_gw/r_pol-eps-converted-to.pdf used on input li
-ne 230.
+ne 229.
 (pdftex.def)             Requested size: 203.83417pt x 152.8733pt.
 Package epstopdf Info: Source file: <effects_gw/l_pol.eps>
 (epstopdf)                    date: 2018-06-26 17:50:51
@@ -2522,25 +2547,25 @@ Package epstopdf Info: Source file: <effects_gw/l_pol.eps>
 (epstopdf)                    size: 1533146 bytes
 (epstopdf)             Command: <repstopdf --outfile=effects_gw/l_pol-eps-conve
 rted-to.pdf effects_gw/l_pol.eps>
-(epstopdf)             \includegraphics on input line 233.
+(epstopdf)             \includegraphics on input line 232.
 Package epstopdf Info: Output file is already uptodate.
 
-<effects_gw/l_pol-eps-converted-to.pdf, id=230, 562.1pt x 421.575pt>
+<effects_gw/l_pol-eps-converted-to.pdf, id=266, 562.1pt x 421.575pt>
 File: effects_gw/l_pol-eps-converted-to.pdf Graphic file (type pdf)
 
 <use effects_gw/l_pol-eps-converted-to.pdf>
 Package pdftex.def Info: effects_gw/l_pol-eps-converted-to.pdf used on input li
-ne 233.
+ne 232.
 (pdftex.def)             Requested size: 203.83417pt x 152.8733pt.
- [14 <./effects_gw/plus_pol_cont-eps-converted-to.pdf> <./effects_gw/times_pol_
+ [16 <./effects_gw/plus_pol_cont-eps-converted-to.pdf> <./effects_gw/times_pol_
 cont-eps-converted-to.pdf>])
-[15 <./effects_gw/r_pol-eps-converted-to.pdf> <./effects_gw/l_pol-eps-converted
--to.pdf>] (./production_gw/prod_gw.tex [16
+[17 <./effects_gw/r_pol-eps-converted-to.pdf> <./effects_gw/l_pol-eps-converted
+-to.pdf>] (./production_gw/prod_gw.tex [18
 
 ]
 Underfull \vbox (badness 2980) has occurred while \output is active []
 
- [17]
+ [19]
 Overfull \hbox (18.99855pt too wide) in alignment at lines 130--160
  [][][] []
  []
@@ -2548,25 +2573,25 @@ Overfull \hbox (18.99855pt too wide) in alignment at lines 130--160
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18]
-[19]
+ [20]
+[21]
 Underfull \hbox (badness 10000) in paragraph at lines 231--235
 
  []
 
-[20]
+[22]
 Overfull \hbox (0.48743pt too wide) detected at line 270
 \OML/cmm/m/it/12 T[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t; \OT1/cmr/bx/n/12 x\OT1
 /cmr/m/n/12 ) = \OML/cmm/m/it/12 M^^N\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]\OT1/
 cmr/m/n/12 )[]
  []
 
-[21]) [22] (./numerical_evolution/num_ev.tex
+[23]) [24] (./numerical_evolution/num_ev.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--15
 
  []
 
-[23
+[25
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 57--60
@@ -2585,7 +2610,7 @@ tory_b3-eps-converted-to.pdf numerical_evolution/trajectory_b3.eps>
 (epstopdf)             \includegraphics on input line 123.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/trajectory_b3-eps-converted-to.pdf, id=331, 562.1pt x 421.
+<numerical_evolution/trajectory_b3-eps-converted-to.pdf, id=367, 562.1pt x 421.
 575pt>
 File: numerical_evolution/trajectory_b3-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2605,7 +2630,7 @@ tory_b4-eps-converted-to.pdf numerical_evolution/trajectory_b4.eps>
 (epstopdf)             \includegraphics on input line 126.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/trajectory_b4-eps-converted-to.pdf, id=332, 562.1pt x 421.
+<numerical_evolution/trajectory_b4-eps-converted-to.pdf, id=368, 562.1pt x 421.
 575pt>
 File: numerical_evolution/trajectory_b4-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2625,7 +2650,7 @@ tory_b5-eps-converted-to.pdf numerical_evolution/trajectory_b5.eps>
 (epstopdf)             \includegraphics on input line 129.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/trajectory_b5-eps-converted-to.pdf, id=333, 562.1pt x 421.
+<numerical_evolution/trajectory_b5-eps-converted-to.pdf, id=369, 562.1pt x 421.
 575pt>
 File: numerical_evolution/trajectory_b5-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2645,7 +2670,7 @@ tory_b6-eps-converted-to.pdf numerical_evolution/trajectory_b6.eps>
 (epstopdf)             \includegraphics on input line 132.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/trajectory_b6-eps-converted-to.pdf, id=334, 562.1pt x 421.
+<numerical_evolution/trajectory_b6-eps-converted-to.pdf, id=370, 562.1pt x 421.
 575pt>
 File: numerical_evolution/trajectory_b6-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2665,7 +2690,7 @@ tory_b7-eps-converted-to.pdf numerical_evolution/trajectory_b7.eps>
 (epstopdf)             \includegraphics on input line 135.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/trajectory_b7-eps-converted-to.pdf, id=335, 562.1pt x 421.
+<numerical_evolution/trajectory_b7-eps-converted-to.pdf, id=371, 562.1pt x 421.
 575pt>
 File: numerical_evolution/trajectory_b7-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2685,7 +2710,7 @@ tory_b10-eps-converted-to.pdf numerical_evolution/trajectory_b10.eps>
 (epstopdf)             \includegraphics on input line 138.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/trajectory_b10-eps-converted-to.pdf, id=336, 562.1pt x 421
+<numerical_evolution/trajectory_b10-eps-converted-to.pdf, id=372, 562.1pt x 421
 .575pt>
 File: numerical_evolution/trajectory_b10-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -2713,7 +2738,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--153
 
  []
 
-[24] [25] [26 <./numerical_evolution/trajectory_b3-eps-converted-to.pdf> <./num
+[26] [27] [28 <./numerical_evolution/trajectory_b3-eps-converted-to.pdf> <./num
 erical_evolution/trajectory_b4-eps-converted-to.pdf> <./numerical_evolution/tra
 jectory_b5-eps-converted-to.pdf> <./numerical_evolution/trajectory_b6-eps-conve
 rted-to.pdf> <./numerical_evolution/trajectory_b7-eps-converted-to.pdf> <./nume
@@ -2730,7 +2755,7 @@ _evolution-eps-converted-to.pdf numerical_evolution/radius_evolution.eps>
 (epstopdf)             \includegraphics on input line 164.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/radius_evolution-eps-converted-to.pdf, id=377, 1066.98625p
+<numerical_evolution/radius_evolution-eps-converted-to.pdf, id=415, 1066.98625p
 t x 433.62pt>
 File: numerical_evolution/radius_evolution-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2750,7 +2775,7 @@ eps-converted-to.pdf numerical_evolution/gw_b3.eps>
 (epstopdf)             \includegraphics on input line 185.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/gw_b3-eps-converted-to.pdf, id=385, 1284.8pt x 751.80875pt
+<numerical_evolution/gw_b3-eps-converted-to.pdf, id=423, 1284.8pt x 751.80875pt
 >
 File: numerical_evolution/gw_b3-eps-converted-to.pdf Graphic file (type pdf)
  <use numerical_evolution/gw_b3-eps-converted-to.pdf>
@@ -2774,7 +2799,7 @@ eps-converted-to.pdf numerical_evolution/gw_b4.eps>
 (epstopdf)             \includegraphics on input line 193.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/gw_b4-eps-converted-to.pdf, id=386, 1284.8pt x 751.80875pt
+<numerical_evolution/gw_b4-eps-converted-to.pdf, id=424, 1284.8pt x 751.80875pt
 >
 File: numerical_evolution/gw_b4-eps-converted-to.pdf Graphic file (type pdf)
  <use numerical_evolution/gw_b4-eps-converted-to.pdf>
@@ -2784,7 +2809,7 @@ Package pdftex.def Info: numerical_evolution/gw_b4-eps-converted-to.pdf used on
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27 <./numerical_evolution/radius_evolution-eps-converted-to.pdf>]
+ [29 <./numerical_evolution/radius_evolution-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <numerical_evolution/gw_b5.eps>
 (epstopdf)                    date: 2018-07-02 03:12:23
 (epstopdf)                    size: 799261 bytes
@@ -2797,7 +2822,7 @@ eps-converted-to.pdf numerical_evolution/gw_b5.eps>
 (epstopdf)             \includegraphics on input line 205.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/gw_b5-eps-converted-to.pdf, id=403, 1284.8pt x 751.80875pt
+<numerical_evolution/gw_b5-eps-converted-to.pdf, id=441, 1284.8pt x 751.80875pt
 >
 File: numerical_evolution/gw_b5-eps-converted-to.pdf Graphic file (type pdf)
  <use numerical_evolution/gw_b5-eps-converted-to.pdf>
@@ -2808,11 +2833,11 @@ Package pdftex.def Info: numerical_evolution/gw_b5-eps-converted-to.pdf used on
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[28 <./numerical_evolution/gw_b3-eps-converted-to.pdf> <./numerical_evolution/g
+[30 <./numerical_evolution/gw_b3-eps-converted-to.pdf> <./numerical_evolution/g
 w_b4-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29 <./numerical_evolution/gw_b5-eps-converted-to.pdf>]
+ [31 <./numerical_evolution/gw_b5-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <numerical_evolution/gw_b6.eps>
 (epstopdf)                    date: 2018-07-02 03:13:05
 (epstopdf)                    size: 835527 bytes
@@ -2825,7 +2850,7 @@ eps-converted-to.pdf numerical_evolution/gw_b6.eps>
 (epstopdf)             \includegraphics on input line 238.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/gw_b6-eps-converted-to.pdf, id=440, 1284.8pt x 751.80875pt
+<numerical_evolution/gw_b6-eps-converted-to.pdf, id=476, 1284.8pt x 751.80875pt
 >
 File: numerical_evolution/gw_b6-eps-converted-to.pdf Graphic file (type pdf)
  <use numerical_evolution/gw_b6-eps-converted-to.pdf>
@@ -2844,7 +2869,7 @@ eps-converted-to.pdf numerical_evolution/gw_b7.eps>
 (epstopdf)             \includegraphics on input line 250.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/gw_b7-eps-converted-to.pdf, id=441, 1284.8pt x 751.80875pt
+<numerical_evolution/gw_b7-eps-converted-to.pdf, id=477, 1284.8pt x 751.80875pt
 >
 File: numerical_evolution/gw_b7-eps-converted-to.pdf Graphic file (type pdf)
  <use numerical_evolution/gw_b7-eps-converted-to.pdf>
@@ -2863,7 +2888,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 262.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/gw_b10-eps-converted-to.pdf, id=442, 1284.8pt x 751.80875p
+<numerical_evolution/gw_b10-eps-converted-to.pdf, id=478, 1284.8pt x 751.80875p
 t>
 File: numerical_evolution/gw_b10-eps-converted-to.pdf Graphic file (type pdf)
  <use numerical_evolution/gw_b10-eps-converted-to.pdf>
@@ -2873,7 +2898,7 @@ n input line 262.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30 <./numerical_evolution/gw_b6-eps-converted-to.pdf>]
+ [32 <./numerical_evolution/gw_b6-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <numerical_evolution/fourier_b3.eps>
 (epstopdf)                    date: 2018-07-03 17:48:22
 (epstopdf)                    size: 100794 bytes
@@ -2886,7 +2911,7 @@ r_b3-eps-converted-to.pdf numerical_evolution/fourier_b3.eps>
 (epstopdf)             \includegraphics on input line 283.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/fourier_b3-eps-converted-to.pdf, id=456, 562.1pt x 421.575
+<numerical_evolution/fourier_b3-eps-converted-to.pdf, id=492, 562.1pt x 421.575
 pt>
 File: numerical_evolution/fourier_b3-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2906,7 +2931,7 @@ b3-eps-converted-to.pdf numerical_evolution/omega_b3.eps>
 (epstopdf)             \includegraphics on input line 285.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/omega_b3-eps-converted-to.pdf, id=457, 562.1pt x 421.575pt
+<numerical_evolution/omega_b3-eps-converted-to.pdf, id=493, 562.1pt x 421.575pt
 >
 File: numerical_evolution/omega_b3-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2926,7 +2951,7 @@ r_b4-eps-converted-to.pdf numerical_evolution/fourier_b4.eps>
 (epstopdf)             \includegraphics on input line 291.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/fourier_b4-eps-converted-to.pdf, id=458, 562.1pt x 421.575
+<numerical_evolution/fourier_b4-eps-converted-to.pdf, id=494, 562.1pt x 421.575
 pt>
 File: numerical_evolution/fourier_b4-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2946,7 +2971,7 @@ b4-eps-converted-to.pdf numerical_evolution/omega_b4.eps>
 (epstopdf)             \includegraphics on input line 293.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/omega_b4-eps-converted-to.pdf, id=459, 562.1pt x 421.575pt
+<numerical_evolution/omega_b4-eps-converted-to.pdf, id=495, 562.1pt x 421.575pt
 >
 File: numerical_evolution/omega_b4-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2966,7 +2991,7 @@ r_b5-eps-converted-to.pdf numerical_evolution/fourier_b5.eps>
 (epstopdf)             \includegraphics on input line 299.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/fourier_b5-eps-converted-to.pdf, id=460, 562.1pt x 421.575
+<numerical_evolution/fourier_b5-eps-converted-to.pdf, id=496, 562.1pt x 421.575
 pt>
 File: numerical_evolution/fourier_b5-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2986,7 +3011,7 @@ b5-eps-converted-to.pdf numerical_evolution/omega_b5.eps>
 (epstopdf)             \includegraphics on input line 301.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/omega_b5-eps-converted-to.pdf, id=461, 562.1pt x 421.575pt
+<numerical_evolution/omega_b5-eps-converted-to.pdf, id=497, 562.1pt x 421.575pt
 >
 File: numerical_evolution/omega_b5-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3011,7 +3036,7 @@ r_b6-eps-converted-to.pdf numerical_evolution/fourier_b6.eps>
 (epstopdf)             \includegraphics on input line 319.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/fourier_b6-eps-converted-to.pdf, id=462, 562.1pt x 421.575
+<numerical_evolution/fourier_b6-eps-converted-to.pdf, id=498, 562.1pt x 421.575
 pt>
 File: numerical_evolution/fourier_b6-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -3031,7 +3056,7 @@ b6-eps-converted-to.pdf numerical_evolution/omega_b6.eps>
 (epstopdf)             \includegraphics on input line 321.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/omega_b6-eps-converted-to.pdf, id=463, 562.1pt x 421.575pt
+<numerical_evolution/omega_b6-eps-converted-to.pdf, id=499, 562.1pt x 421.575pt
 >
 File: numerical_evolution/omega_b6-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3051,7 +3076,7 @@ r_b7-eps-converted-to.pdf numerical_evolution/fourier_b7.eps>
 (epstopdf)             \includegraphics on input line 327.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/fourier_b7-eps-converted-to.pdf, id=464, 562.1pt x 421.575
+<numerical_evolution/fourier_b7-eps-converted-to.pdf, id=500, 562.1pt x 421.575
 pt>
 File: numerical_evolution/fourier_b7-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -3071,7 +3096,7 @@ b7-eps-converted-to.pdf numerical_evolution/omega_b7.eps>
 (epstopdf)             \includegraphics on input line 329.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/omega_b7-eps-converted-to.pdf, id=465, 562.1pt x 421.575pt
+<numerical_evolution/omega_b7-eps-converted-to.pdf, id=501, 562.1pt x 421.575pt
 >
 File: numerical_evolution/omega_b7-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3091,7 +3116,7 @@ r_b10-eps-converted-to.pdf numerical_evolution/fourier_b10.eps>
 (epstopdf)             \includegraphics on input line 335.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/fourier_b10-eps-converted-to.pdf, id=466, 562.1pt x 421.57
+<numerical_evolution/fourier_b10-eps-converted-to.pdf, id=502, 562.1pt x 421.57
 5pt>
 File: numerical_evolution/fourier_b10-eps-converted-to.pdf Graphic file (type p
 df)
@@ -3111,7 +3136,7 @@ b10-eps-converted-to.pdf numerical_evolution/omega_b10.eps>
 (epstopdf)             \includegraphics on input line 337.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/omega_b10-eps-converted-to.pdf, id=467, 562.1pt x 421.575p
+<numerical_evolution/omega_b10-eps-converted-to.pdf, id=503, 562.1pt x 421.575p
 t>
 File: numerical_evolution/omega_b10-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -3119,7 +3144,7 @@ File: numerical_evolution/omega_b10-eps-converted-to.pdf Graphic file (type pdf
 Package pdftex.def Info: numerical_evolution/omega_b10-eps-converted-to.pdf use
 d on input line 337.
 (pdftex.def)             Requested size: 181.18439pt x 135.88452pt.
- [31 <./numerical_evolution/gw_b7-eps-converted-to.pdf> <./numerical_evolution/
+ [33 <./numerical_evolution/gw_b7-eps-converted-to.pdf> <./numerical_evolution/
 gw_b10-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 353--365
 
@@ -3128,12 +3153,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 353--365
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32]
-[33 <./numerical_evolution/fourier_b3-eps-converted-to.pdf> <./numerical_evolut
+ [34]
+[35 <./numerical_evolution/fourier_b3-eps-converted-to.pdf> <./numerical_evolut
 ion/omega_b3-eps-converted-to.pdf> <./numerical_evolution/fourier_b4-eps-conver
 ted-to.pdf> <./numerical_evolution/omega_b4-eps-converted-to.pdf> <./numerical_
 evolution/fourier_b5-eps-converted-to.pdf> <./numerical_evolution/omega_b5-eps-
-converted-to.pdf>] [34 <./numerical_evolution/fourier_b6-eps-converted-to.pdf> 
+converted-to.pdf>] [36 <./numerical_evolution/fourier_b6-eps-converted-to.pdf> 
 <./numerical_evolution/omega_b6-eps-converted-to.pdf> <./numerical_evolution/fo
 urier_b7-eps-converted-to.pdf> <./numerical_evolution/omega_b7-eps-converted-to
 .pdf> <./numerical_evolution/fourier_b10-eps-converted-to.pdf> <./numerical_evo
@@ -3154,7 +3179,7 @@ ns-eps-converted-to.pdf numerical_evolution/gw_r_bns.eps>
 (epstopdf)             \includegraphics on input line 388.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/gw_r_bns-eps-converted-to.pdf, id=558, 1284.8pt x 751.8087
+<numerical_evolution/gw_r_bns-eps-converted-to.pdf, id=595, 1284.8pt x 751.8087
 5pt>
 File: numerical_evolution/gw_r_bns-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3162,7 +3187,7 @@ File: numerical_evolution/gw_r_bns-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: numerical_evolution/gw_r_bns-eps-converted-to.pdf used
  on input line 388.
 (pdftex.def)             Requested size: 452.9679pt x 265.05276pt.
- [35 <./numerical_evolution/gw_r_bns-eps-converted-to.pdf>]
+ [37 <./numerical_evolution/gw_r_bns-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <numerical_evolution/f1.eps>
 (epstopdf)                    date: 2018-07-04 20:01:28
 (epstopdf)                    size: 34173 bytes
@@ -3175,7 +3200,7 @@ f>
 (epstopdf)             \includegraphics on input line 431.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f1-eps-converted-to.pdf, id=576, 550.055pt x 463.7325pt>
+<numerical_evolution/f1-eps-converted-to.pdf, id=612, 550.055pt x 463.7325pt>
 File: numerical_evolution/f1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f1-eps-converted-to.pdf>
@@ -3194,7 +3219,7 @@ f>
 (epstopdf)             \includegraphics on input line 434.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f2-eps-converted-to.pdf, id=577, 550.055pt x 463.7325pt>
+<numerical_evolution/f2-eps-converted-to.pdf, id=613, 550.055pt x 463.7325pt>
 File: numerical_evolution/f2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f2-eps-converted-to.pdf>
@@ -3213,7 +3238,7 @@ f>
 (epstopdf)             \includegraphics on input line 437.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f3-eps-converted-to.pdf, id=578, 550.055pt x 463.7325pt>
+<numerical_evolution/f3-eps-converted-to.pdf, id=614, 550.055pt x 463.7325pt>
 File: numerical_evolution/f3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f3-eps-converted-to.pdf>
@@ -3232,7 +3257,7 @@ f>
 (epstopdf)             \includegraphics on input line 440.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f4-eps-converted-to.pdf, id=579, 550.055pt x 463.7325pt>
+<numerical_evolution/f4-eps-converted-to.pdf, id=615, 550.055pt x 463.7325pt>
 File: numerical_evolution/f4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f4-eps-converted-to.pdf>
@@ -3251,7 +3276,7 @@ f>
 (epstopdf)             \includegraphics on input line 459.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f5-eps-converted-to.pdf, id=580, 550.055pt x 463.7325pt>
+<numerical_evolution/f5-eps-converted-to.pdf, id=616, 550.055pt x 463.7325pt>
 File: numerical_evolution/f5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f5-eps-converted-to.pdf>
@@ -3270,7 +3295,7 @@ f>
 (epstopdf)             \includegraphics on input line 462.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f6-eps-converted-to.pdf, id=581, 550.055pt x 463.7325pt>
+<numerical_evolution/f6-eps-converted-to.pdf, id=617, 550.055pt x 463.7325pt>
 File: numerical_evolution/f6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f6-eps-converted-to.pdf>
@@ -3289,7 +3314,7 @@ f>
 (epstopdf)             \includegraphics on input line 465.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f7-eps-converted-to.pdf, id=582, 550.055pt x 463.7325pt>
+<numerical_evolution/f7-eps-converted-to.pdf, id=618, 550.055pt x 463.7325pt>
 File: numerical_evolution/f7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f7-eps-converted-to.pdf>
@@ -3308,30 +3333,55 @@ f>
 (epstopdf)             \includegraphics on input line 468.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f8-eps-converted-to.pdf, id=583, 550.055pt x 463.7325pt>
+<numerical_evolution/f8-eps-converted-to.pdf, id=619, 550.055pt x 463.7325pt>
 File: numerical_evolution/f8-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f8-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/f8-eps-converted-to.pdf used on in
 put line 468.
 (pdftex.def)             Requested size: 203.83417pt x 171.84721pt.
-) [36] [37 <./numerical_evolution/f1-eps-converted-to.pdf> <./numerical_evoluti
+) [38] [39 <./numerical_evolution/f1-eps-converted-to.pdf> <./numerical_evoluti
 on/f2-eps-converted-to.pdf> <./numerical_evolution/f3-eps-converted-to.pdf> <./
-numerical_evolution/f4-eps-converted-to.pdf>] [38 <./numerical_evolution/f5-eps
+numerical_evolution/f4-eps-converted-to.pdf>] [40 <./numerical_evolution/f5-eps
 -converted-to.pdf> <./numerical_evolution/f6-eps-converted-to.pdf> <./numerical
 _evolution/f7-eps-converted-to.pdf> <./numerical_evolution/f8-eps-converted-to.
 pdf>]
-(./conclusion/conclusion.tex) [39
+(./conclusion/conclusion.tex) [41
 
-] (./appendix/resampling.tex) [40
+] (./appendix/resampling.tex)
+Missing character: There is no ï in font cmr12!
+Missing character: There is no ¿ in font cmr12!
+Missing character: There is no ½ in font cmr12!
+Missing character: There is no ï in font cmr12!
+Missing character: There is no ¿ in font cmr12!
+Missing character: There is no ½ in font cmr12!
+Missing character: There is no ï in font cmr12!
+Missing character: There is no ¿ in font cmr12!
+Missing character: There is no ½ in font cmr12!
+Missing character: There is no ï in font cmr12!
+Missing character: There is no ¿ in font cmr12!
+Missing character: There is no ½ in font cmr12!
+Missing character: There is no ï in font cmr12!
+Missing character: There is no ¿ in font cmr12!
+Missing character: There is no ½ in font cmr12!
+Missing character: There is no ï in font cmr12!
+Missing character: There is no ¿ in font cmr12!
+Missing character: There is no ½ in font cmr12!
+Missing character: There is no ï in font cmr12!
+Missing character: There is no ¿ in font cmr12!
+Missing character: There is no ½ in font cmr12!
+Missing character: There is no ï in font cmr12!
+Missing character: There is no ¿ in font cmr12!
+Missing character: There is no ½ in font cmr12!
+ [42
 
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 77.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 77.
+] [43]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
 
 (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 77.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 77.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 81.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 722D8005BFB56FD91E16B9C3FFE0E662;1235.
 
@@ -3341,16 +3391,16 @@ LaTeX Warning: There were multiply-defined labels.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 77.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 81.
  ) 
 Here is how much of TeX's memory you used:
- 36513 strings out of 493033
- 707694 string characters out of 6134139
- 1239316 words of memory out of 5000000
- 39258 multiletter control sequences out of 15000+600000
+ 36551 strings out of 493033
+ 708839 string characters out of 6134139
+ 1453442 words of memory out of 5000000
+ 39282 multiletter control sequences out of 15000+600000
  22410 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,19n,80p,10426b,1050s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,19n,80p,10426b,1133s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
@@ -3370,10 +3420,10 @@ ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
 015/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/
 texlive/2015/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on thesis.pdf (43 pages, 13852234 bytes).
+Output written on thesis.pdf (46 pages, 13870713 bytes).
 PDF statistics:
- 740 PDF objects out of 1000 (max. 8388607)
- 580 compressed objects within 6 object streams
- 147 named destinations out of 1000 (max. 500000)
+ 812 PDF objects out of 1000 (max. 8388607)
+ 648 compressed objects within 7 object streams
+ 161 named destinations out of 1000 (max. 500000)
  351 words of extra memory for PDF output out of 10000 (max. 10000000)
 
