@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  5 JUL 2018 12:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  6 JUL 2018 15:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -387,47 +387,233 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \f@ncyO@olf=\skip68
 \f@ncyO@orf=\skip69
 )
-(./shared/package-config/fancyhdr.tex)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/mathtools/mhsetup.sty
-Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
-)
-LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
-LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
-LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
-LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count130
-\l_MT_multwidth_dim=\dimen132
-\origjot=\skip70
-\l_MT_shortvdotswithinadjustabove_dim=\dimen133
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen134
-\l_MT_above_intertext_sep=\dimen135
-\l_MT_below_intertext_sep=\dimen136
-\l_MT_above_shortintertext_sep=\dimen137
-\l_MT_below_shortintertext_sep=\dimen138
-))
-\c@theorem=\count131
-
-(./shared/commands.tex
-\seccount=\count132
+(./shared/package-config/fancyhdr.tex))
+\c@theorem=\count130
+ (./shared/commands.tex
+\seccount=\count131
 ))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count133
-\Gm@cntv=\count134
-\c@Gm@tempcnt=\count135
-\Gm@bindingoffset=\dimen139
-\Gm@wd@mp=\dimen140
-\Gm@odd@mp=\dimen141
-\Gm@even@mp=\dimen142
-\Gm@layoutwidth=\dimen143
-\Gm@layoutheight=\dimen144
-\Gm@layouthoffset=\dimen145
-\Gm@layoutvoffset=\dimen146
+\Gm@cnth=\count132
+\Gm@cntv=\count133
+\c@Gm@tempcnt=\count134
+\Gm@bindingoffset=\dimen132
+\Gm@wd@mp=\dimen133
+\Gm@odd@mp=\dimen134
+\Gm@even@mp=\dimen135
+\Gm@layoutwidth=\dimen136
+\Gm@layoutheight=\dimen137
+\Gm@layouthoffset=\dimen138
+\Gm@layoutvoffset=\dimen139
 \Gm@dimlist=\toks31
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2015/12/22 v3.2 programmable bibliographies (PK/JW/AB)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/biblatex2.sty
+Package: biblatex2 2015/12/22 v3.2 programmable bibliographies (biber) (PK/JW/A
+B)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count135
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count136
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count137
+\c@listtotal=\count138
+\c@listcount=\count139
+\c@liststart=\count140
+\c@liststop=\count141
+\c@citecount=\count142
+\c@citetotal=\count143
+\c@multicitecount=\count144
+\c@multicitetotal=\count145
+\c@instcount=\count146
+\c@maxnames=\count147
+\c@minnames=\count148
+\c@maxitems=\count149
+\c@minitems=\count150
+\c@citecounter=\count151
+\c@savedcitecounter=\count152
+\c@uniquelist=\count153
+\c@uniquename=\count154
+\c@refsection=\count155
+\c@refsegment=\count156
+\c@maxextratitle=\count157
+\c@maxextratitleyear=\count158
+\c@maxextrayear=\count159
+\c@maxextraalpha=\count160
+\c@abbrvpenalty=\count161
+\c@highnamepenalty=\count162
+\c@lownamepenalty=\count163
+\c@maxparens=\count164
+\c@parenlevel=\count165
+\blx@tempcnta=\count166
+\blx@tempcntb=\count167
+\blx@tempcntc=\count168
+\blx@maxsection=\count169
+\blx@maxsegment@0=\count170
+\blx@notetype=\count171
+\blx@parenlevel@text=\count172
+\blx@parenlevel@foot=\count173
+\blx@sectionciteorder@0=\count174
+\labelnumberwidth=\skip70
+\labelalphawidth=\skip71
+\biblabelsep=\skip72
+\bibitemsep=\skip73
+\bibnamesep=\skip74
+\bibinitsep=\skip75
+\bibparsep=\skip76
+\bibhang=\skip77
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\c@mincomprange=\count175
+\c@maxcomprange=\count176
+\c@mincompwidth=\count177
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/blx-dm.def)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count178
+\c@savedafterword=\count179
+\c@annotator=\count180
+\c@savedannotator=\count181
+\c@author=\count182
+\c@savedauthor=\count183
+\c@bookauthor=\count184
+\c@savedbookauthor=\count185
+\c@commentator=\count186
+\c@savedcommentator=\count187
+\c@editor=\count188
+\c@savededitor=\count189
+\c@editora=\count190
+\c@savededitora=\count191
+\c@editorb=\count192
+\c@savededitorb=\count193
+\c@editorc=\count194
+\c@savededitorc=\count195
+\c@foreword=\count196
+\c@savedforeword=\count197
+\c@holder=\count198
+\c@savedholder=\count199
+\c@introduction=\count266
+\c@savedintroduction=\count267
+\c@namea=\count268
+\c@savednamea=\count269
+\c@nameb=\count270
+\c@savednameb=\count271
+\c@namec=\count272
+\c@savednamec=\count273
+\c@translator=\count274
+\c@savedtranslator=\count275
+\c@shortauthor=\count276
+\c@savedshortauthor=\count277
+\c@shorteditor=\count278
+\c@savedshorteditor=\count279
+\c@labelname=\count280
+\c@savedlabelname=\count281
+\c@institution=\count282
+\c@savedinstitution=\count283
+\c@lista=\count284
+\c@savedlista=\count285
+\c@listb=\count286
+\c@savedlistb=\count287
+\c@listc=\count288
+\c@savedlistc=\count289
+\c@listd=\count290
+\c@savedlistd=\count291
+\c@liste=\count292
+\c@savedliste=\count293
+\c@listf=\count294
+\c@savedlistf=\count295
+\c@location=\count296
+\c@savedlocation=\count297
+\c@organization=\count298
+\c@savedorganization=\count299
+\c@origlocation=\count300
+\c@savedoriglocation=\count301
+\c@origpublisher=\count302
+\c@savedorigpublisher=\count303
+\c@publisher=\count304
+\c@savedpublisher=\count305
+\c@language=\count306
+\c@savedlanguage=\count307
+\c@pageref=\count308
+\c@savedpageref=\count309
+\shorthandwidth=\skip78
+\shortjournalwidth=\skip79
+\shortserieswidth=\skip80
+\shorttitlewidth=\skip81
+\shortauthorwidth=\skip82
+\shorteditorwidth=\skip83
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2015/12/22 v3.2 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 
+\c@textcitecount=\count310
+\c@textcitetotal=\count311
+\c@textcitemaxnames=\count312
+\c@biburlnumpenalty=\count313
+\c@biburlucpenalty=\count314
+\c@biburllcpenalty=\count315
+\c@smartand=\count316
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2015/12/22 v3.2 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2015/12/22 v3.2 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count317
+\c@bbx:relatedtotal=\count318
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2015/12/22 v3.2 biblatex citation style (PK/JW/AB)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)))
 (./shared/preamble.tex
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -441,7 +627,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count136
+\c@lips@count=\count319
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/carlisle/slashed.sty
 Package: slashed 1997/01/16 v0.01 Feynman Slashed Character Notation (DPC)
@@ -454,35 +640,31 @@ Package: simplewick v1.2a (2007/11/23)
 \swb@xtwo=\box33
 \swb@xthree=\box34
 \swb@xfour=\box35
-\swdimen@ne=\dimen147
-\swdimentw@=\dimen148
+\swdimen@ne=\dimen140
+\swdimentw@=\dimen141
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/SIunits/SIunits.sty
 Package: SIunits 2007/12/02 v1.36 Support for the International System of units
  (MH)
 
 
-\@qskwidth=\skip71
+\@qskwidth=\skip84
 \symgreek=\mathgroup7
 (/usr/local/texlive/2015/texmf-dist/tex/latex/SIunits/SIunits.cfg)
 Option `squaren' provided!
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/sidecap/sidecap.sty
 Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-\SC@BOXWD=\dimen149
-\SC@CAPWD=\dimen150
-\SC@tempdima=\dimen151
-\SC@tempdimb=\dimen152
-\c@SC@C=\count137
+\SC@BOXWD=\dimen142
+\SC@CAPWD=\dimen143
+\SC@tempdima=\dimen144
+\SC@tempdimb=\dimen145
+\c@SC@C=\count320
 \SC@BOX=\box36
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count138
-\c@@ppsavesec=\count139
-\c@@ppsaveapp=\count140
+\c@@pps=\count321
+\c@@ppsavesec=\count322
+\c@@ppsaveapp=\count323
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/physics/physics.sty
 Package: physics 
@@ -501,37 +683,37 @@ L3 Module: l3tl 2015/09/29 v6121 L3 Token lists
 L3 Module: l3str 2016/01/03 v6357 L3 Strings
 L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
 L3 Module: l3int 2016/01/05 v6366 L3 Integers
-\c_max_int=\count141
-\l_tmpa_int=\count142
-\l_tmpb_int=\count143
-\g_tmpa_int=\count144
-\g_tmpb_int=\count145
+\c_max_int=\count324
+\l_tmpa_int=\count325
+\l_tmpb_int=\count326
+\g_tmpa_int=\count327
+\g_tmpb_int=\count328
 L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
 L3 Module: l3prg 2015/11/01 v6216 L3 Control structures
-\g__prg_map_int=\count146
+\g__prg_map_int=\count329
 L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
 L3 Module: l3token 2015/11/11 v6249 L3 Experimental token manipulation
 L3 Module: l3prop 2016/01/05 v6366 L3 Property lists
 L3 Module: l3msg 2015/09/28 v6113 L3 Messages
 L3 Module: l3file 2015/12/03 v6317 L3 File and I/O operations
-\l_iow_line_count_int=\count147
-\l__iow_target_count_int=\count148
-\l__iow_current_line_int=\count149
-\l__iow_current_word_int=\count150
-\l__iow_current_indentation_int=\count151
+\l_iow_line_count_int=\count330
+\l__iow_target_count_int=\count331
+\l__iow_current_line_int=\count332
+\l__iow_current_word_int=\count333
+\l__iow_current_indentation_int=\count334
 L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
-\c_zero_dim=\dimen153
-\c_max_dim=\dimen154
-\l_tmpa_dim=\dimen155
-\l_tmpb_dim=\dimen156
-\g_tmpa_dim=\dimen157
-\g_tmpb_dim=\dimen158
-\c_zero_skip=\skip72
-\c_max_skip=\skip73
-\l_tmpa_skip=\skip74
-\l_tmpb_skip=\skip75
-\g_tmpa_skip=\skip76
-\g_tmpb_skip=\skip77
+\c_zero_dim=\dimen146
+\c_max_dim=\dimen147
+\l_tmpa_dim=\dimen148
+\l_tmpb_dim=\dimen149
+\g_tmpa_dim=\dimen150
+\g_tmpb_dim=\dimen151
+\c_zero_skip=\skip85
+\c_max_skip=\skip86
+\l_tmpa_skip=\skip87
+\l_tmpb_skip=\skip88
+\g_tmpa_skip=\skip89
+\g_tmpb_skip=\skip90
 \c_zero_muskip=\muskip12
 \c_max_muskip=\muskip13
 \l_tmpa_muskip=\muskip14
@@ -539,18 +721,18 @@ L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
 L3 Module: l3keys 2015/11/17 v6284 L3 Key-value interfaces
-\g__keyval_level_int=\count152
-\l_keys_choice_int=\count153
+\g__keyval_level_int=\count335
+\l_keys_choice_int=\count336
 L3 Module: l3fp 2015/08/25 v5890 L3 Floating points
-\c__fp_leading_shift_int=\count154
-\c__fp_middle_shift_int=\count155
-\c__fp_trailing_shift_int=\count156
-\c__fp_big_leading_shift_int=\count157
-\c__fp_big_middle_shift_int=\count158
-\c__fp_big_trailing_shift_int=\count159
-\c__fp_Bigg_leading_shift_int=\count160
-\c__fp_Bigg_middle_shift_int=\count161
-\c__fp_Bigg_trailing_shift_int=\count162
+\c__fp_leading_shift_int=\count337
+\c__fp_middle_shift_int=\count338
+\c__fp_trailing_shift_int=\count339
+\c__fp_big_leading_shift_int=\count340
+\c__fp_big_middle_shift_int=\count341
+\c__fp_big_trailing_shift_int=\count342
+\c__fp_Bigg_leading_shift_int=\count343
+\c__fp_Bigg_middle_shift_int=\count344
+\c__fp_Bigg_trailing_shift_int=\count345
 L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
 \c_empty_box=\box37
 \l_tmpa_box=\box38
@@ -559,13 +741,13 @@ L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
 \g_tmpb_box=\box41
 L3 Module: l3coffins 2015/08/06 v5789 L3 Coffin code layer
 \l__coffin_internal_box=\box42
-\l__coffin_internal_dim=\dimen159
-\l__coffin_offset_x_dim=\dimen160
-\l__coffin_offset_y_dim=\dimen161
-\l__coffin_x_dim=\dimen162
-\l__coffin_y_dim=\dimen163
-\l__coffin_x_prime_dim=\dimen164
-\l__coffin_y_prime_dim=\dimen165
+\l__coffin_internal_dim=\dimen152
+\l__coffin_offset_x_dim=\dimen153
+\l__coffin_offset_y_dim=\dimen154
+\l__coffin_x_dim=\dimen155
+\l__coffin_y_dim=\dimen156
+\l__coffin_x_prime_dim=\dimen157
+\l__coffin_y_prime_dim=\dimen158
 \c_empty_coffin=\box43
 \l__coffin_aligned_coffin=\box44
 \l__coffin_aligned_internal_coffin=\box45
@@ -574,40 +756,40 @@ L3 Module: l3coffins 2015/08/06 v5789 L3 Coffin code layer
 \l__coffin_display_coffin=\box48
 \l__coffin_display_coord_coffin=\box49
 \l__coffin_display_pole_coffin=\box50
-\l__coffin_display_offset_dim=\dimen166
-\l__coffin_display_x_dim=\dimen167
-\l__coffin_display_y_dim=\dimen168
+\l__coffin_display_offset_dim=\dimen159
+\l__coffin_display_x_dim=\dimen160
+\l__coffin_display_y_dim=\dimen161
 L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
 L3 Module: l3sys 2015/09/25 v6087 L3 Experimental system/runtime functions
 L3 Module: l3candidates 2016/01/14 v6376 L3 Experimental additions to l3kernel
-\l__box_top_dim=\dimen169
-\l__box_bottom_dim=\dimen170
-\l__box_left_dim=\dimen171
-\l__box_right_dim=\dimen172
-\l__box_top_new_dim=\dimen173
-\l__box_bottom_new_dim=\dimen174
-\l__box_left_new_dim=\dimen175
-\l__box_right_new_dim=\dimen176
+\l__box_top_dim=\dimen162
+\l__box_bottom_dim=\dimen163
+\l__box_left_dim=\dimen164
+\l__box_right_dim=\dimen165
+\l__box_top_new_dim=\dimen166
+\l__box_bottom_new_dim=\dimen167
+\l__box_left_new_dim=\dimen168
+\l__box_right_new_dim=\dimen169
 \l__box_internal_box=\box51
-\l__coffin_bounding_shift_dim=\dimen177
-\l__coffin_left_corner_dim=\dimen178
-\l__coffin_right_corner_dim=\dimen179
-\l__coffin_bottom_corner_dim=\dimen180
-\l__coffin_top_corner_dim=\dimen181
-\l__coffin_scaled_total_height_dim=\dimen182
-\l__coffin_scaled_width_dim=\dimen183
+\l__coffin_bounding_shift_dim=\dimen170
+\l__coffin_left_corner_dim=\dimen171
+\l__coffin_right_corner_dim=\dimen172
+\l__coffin_bottom_corner_dim=\dimen173
+\l__coffin_top_corner_dim=\dimen174
+\l__coffin_scaled_total_height_dim=\dimen175
+\l__coffin_scaled_width_dim=\dimen176
 L3 Module: l3luatex 2015/11/11 v6250 L3 Experimental LuaTeX-specific functions
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2015/11/11 v6250 L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count163
+\l__driver_color_stack_int=\count346
 ))
 Package: xparse 2016/01/19 v6377 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count164
-\l__xparse_m_args_int=\count165
-\l__xparse_mandatory_args_int=\count166
-\l__xparse_processor_int=\count167
-\l__xparse_v_nesting_int=\count168
+\l__xparse_current_arg_int=\count347
+\l__xparse_m_args_int=\count348
+\l__xparse_mandatory_args_int=\count349
+\l__xparse_processor_int=\count350
+\l__xparse_v_nesting_int=\count351
 )
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -623,6 +805,16 @@ Package: xparse 2016/01/19 v6377 L3 Experimental document command parser
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \ordersymbol with sig. '' on line 30.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \lparen with sig. '' on line 31.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \rparen with sig. '' on line 32.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -1479,12 +1671,8 @@ Package: xparse 2016/01/19 v6377 L3 Experimental document command parser
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/bezos/tensind.sty
 Package: tensind 1998/05/01 v1.0 Tensorial Indexes
-\tsi@dimen=\dimen184
-\primes=\dimen185
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count169
+\tsi@dimen=\dimen177
+\primes=\dimen178
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tikz-feynman/tikz-feynman.sty
 Package: tikz-feynman 2016/02/05v1.1.0Feynman diagrams with TikZ
@@ -1495,8 +1683,8 @@ Package: tikz-feynman 2016/02/05v1.1.0Feynman diagrams with TikZ
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
 \pgfutil@everybye=\toks32
-\pgfutil@tempdima=\dimen186
-\pgfutil@tempdimb=\dimen187
+\pgfutil@tempdima=\dimen179
+\pgfutil@tempdimb=\dimen180
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
 sts.tex))
@@ -1521,20 +1709,20 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 ode.tex
 \pgfkeys@tmptoks=\toks35
 ))
-\pgf@x=\dimen188
-\pgf@y=\dimen189
-\pgf@xa=\dimen190
-\pgf@ya=\dimen191
-\pgf@xb=\dimen192
-\pgf@yb=\dimen193
-\pgf@xc=\dimen194
-\pgf@yc=\dimen195
-\w@pgf@writea=\write3
-\r@pgf@reada=\read2
-\c@pgf@counta=\count170
-\c@pgf@countb=\count171
-\c@pgf@countc=\count172
-\c@pgf@countd=\count173
+\pgf@x=\dimen181
+\pgf@y=\dimen182
+\pgf@xa=\dimen183
+\pgf@ya=\dimen184
+\pgf@xb=\dimen185
+\pgf@yb=\dimen186
+\pgf@xc=\dimen187
+\pgf@yc=\dimen188
+\w@pgf@writea=\write4
+\r@pgf@reada=\read3
+\c@pgf@counta=\count352
+\c@pgf@countb=\count353
+\c@pgf@countc=\count354
+\c@pgf@countd=\count355
 \t@pgf@toka=\toks36
 \t@pgf@tokb=\toks37
 \t@pgf@tokc=\toks38
@@ -1555,8 +1743,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count174
-\pgfsyssoftpath@bigbuffer@items=\count175
+\pgfsyssoftpath@smallbuffer@items=\count356
+\pgfsyssoftpath@bigbuffer@items=\count357
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -1568,8 +1756,8 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen196
-\pgfmath@count=\count176
+\pgfmath@dimen=\dimen189
+\pgfmath@count=\count358
 \pgfmath@box=\box53
 \pgfmath@toks=\toks39
 \pgfmath@stack@operand=\toks40
@@ -1594,37 +1782,37 @@ code.tex)
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
 erarithmetics.code.tex)))
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count177
+\c@pgfmathroundto@lastzeros=\count359
 ))
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen197
-\pgf@picmaxx=\dimen198
-\pgf@picminy=\dimen199
-\pgf@picmaxy=\dimen256
-\pgf@pathminx=\dimen257
-\pgf@pathmaxx=\dimen258
-\pgf@pathminy=\dimen259
-\pgf@pathmaxy=\dimen260
-\pgf@xx=\dimen261
-\pgf@xy=\dimen262
-\pgf@yx=\dimen263
-\pgf@yy=\dimen264
-\pgf@zx=\dimen265
-\pgf@zy=\dimen266
+\pgf@picminx=\dimen190
+\pgf@picmaxx=\dimen191
+\pgf@picminy=\dimen192
+\pgf@picmaxy=\dimen193
+\pgf@pathminx=\dimen194
+\pgf@pathmaxx=\dimen195
+\pgf@pathminy=\dimen196
+\pgf@pathmaxy=\dimen197
+\pgf@xx=\dimen198
+\pgf@xy=\dimen199
+\pgf@yx=\dimen256
+\pgf@yy=\dimen257
+\pgf@zx=\dimen258
+\pgf@zy=\dimen259
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
 ruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen267
-\pgf@path@lasty=\dimen268
+\pgf@path@lastx=\dimen260
+\pgf@path@lasty=\dimen261
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
 .code.tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen269
-\pgf@shorten@start@additional=\dimen270
+\pgf@shorten@end@additional=\dimen262
+\pgf@shorten@start@additional=\dimen263
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
@@ -1632,19 +1820,19 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box54
 \pgf@hbox=\box55
 \pgf@layerbox@main=\box56
-\pgf@picture@serial@count=\count178
+\pgf@picture@serial@count=\count360
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen271
+\pgflinewidth=\dimen264
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
 ations.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen272
-\pgf@pt@y=\dimen273
-\pgf@pt@temp=\dimen274
+\pgf@pt@x=\dimen265
+\pgf@pt@y=\dimen266
+\pgf@pt@temp=\dimen267
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
 e.tex
@@ -1661,13 +1849,13 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
 de.tex
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen275
+\pgfarrowsep=\dimen268
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
 e.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen276
-\pgf@sys@shading@range@num=\count179
+\pgf@max=\dimen269
+\pgf@sys@shading@range@num=\count361
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -1702,8 +1890,8 @@ File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen277
-\pgf@nodesepend=\dimen278
+\pgf@nodesepstart=\dimen270
+\pgf@nodesepend=\dimen271
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -1-18.sty
@@ -1718,8 +1906,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen279
-\pgffor@skip=\dimen280
+\pgffor@iter=\dimen272
+\pgffor@skip=\dimen273
 \pgffor@stack=\toks42
 \pgffor@toks=\toks43
 ))
@@ -1730,32 +1918,32 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count180
-\pgfplotmarksize=\dimen281
+\pgf@plot@mark@count=\count362
+\pgfplotmarksize=\dimen274
 )
-\tikz@lastx=\dimen282
-\tikz@lasty=\dimen283
-\tikz@lastxsaved=\dimen284
-\tikz@lastysaved=\dimen285
-\tikzleveldistance=\dimen286
-\tikzsiblingdistance=\dimen287
+\tikz@lastx=\dimen275
+\tikz@lasty=\dimen276
+\tikz@lastxsaved=\dimen277
+\tikz@lastysaved=\dimen278
+\tikzleveldistance=\dimen279
+\tikzsiblingdistance=\dimen280
 \tikz@figbox=\box59
 \tikz@figbox@bg=\box60
 \tikz@tempbox=\box61
 \tikz@tempbox@bg=\box62
-\tikztreelevel=\count181
-\tikznumberofchildren=\count182
-\tikznumberofcurrentchild=\count183
-\tikz@fig@count=\count184
+\tikztreelevel=\count363
+\tikznumberofchildren=\count364
+\tikznumberofcurrentchild=\count365
+\tikz@fig@count=\count366
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count185
-\pgfmatrixcurrentcolumn=\count186
-\pgf@matrix@numberofcolumns=\count187
+\pgfmatrixcurrentrow=\count367
+\pgfmatrixcurrentcolumn=\count368
+\pgf@matrix@numberofcolumns=\count369
 )
-\tikz@expandcount=\count188
+\tikz@expandcount=\count370
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -1771,10 +1959,10 @@ ode.tex
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
 meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2015/05/13 v3.0.1a (rcs-revision 1.13)
-\pgfarrowinset=\dimen288
-\pgfarrowlength=\dimen289
-\pgfarrowwidth=\dimen290
-\pgfarrowlinewidth=\dimen291
+\pgfarrowinset=\dimen281
+\pgfarrowlength=\dimen282
+\pgfarrowwidth=\dimen283
+\pgfarrowlinewidth=\dimen284
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarycalc.code.tex
@@ -1784,14 +1972,14 @@ File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 s/tikzlibrarydecorations.code.tex
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
 s.code.tex
-\pgfdecoratedcompleteddistance=\dimen292
-\pgfdecoratedremainingdistance=\dimen293
-\pgfdecoratedinputsegmentcompleteddistance=\dimen294
-\pgfdecoratedinputsegmentremainingdistance=\dimen295
-\pgf@decorate@distancetomove=\dimen296
-\pgf@decorate@repeatstate=\count189
-\pgfdecorationsegmentamplitude=\dimen297
-\pgfdecorationsegmentlength=\dimen298
+\pgfdecoratedcompleteddistance=\dimen285
+\pgfdecoratedremainingdistance=\dimen286
+\pgfdecoratedinputsegmentcompleteddistance=\dimen287
+\pgfdecoratedinputsegmentremainingdistance=\dimen288
+\pgf@decorate@distancetomove=\dimen289
+\pgf@decorate@repeatstate=\count371
+\pgfdecorationsegmentamplitude=\dimen290
+\pgfdecorationsegmentlength=\dimen291
 )
 \tikz@lib@dec@box=\box63
 )
@@ -1810,8 +1998,8 @@ brarydecorations.pathreplacing.code.tex))
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/graphs/tikzlibrarygraphs.code.tex
 File: tikzlibrarygraphs.code.tex 2015/06/05 v3.0.1a (rcs-revision 1.44)
-\tikz@lib@auto@number=\count190
-\tikz@qnode@count=\count191
+\tikz@lib@auto@number=\count372
+\tikz@qnode@count=\count373
 )
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarypatterns.code.tex
@@ -1838,23 +2026,23 @@ File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tikz-feynman/tikzfeynman.keys.cod
 e.tex))) (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
-\c@tracingmulticols=\count192
+\c@tracingmulticols=\count374
 \mult@box=\box64
-\multicol@leftmargin=\dimen299
-\c@unbalance=\count193
-\c@collectmore=\count194
-\doublecol@number=\count195
-\multicoltolerance=\count196
-\multicolpretolerance=\count197
-\full@width=\dimen300
-\page@free=\dimen301
-\premulticols=\dimen302
-\postmulticols=\dimen303
-\multicolsep=\skip78
-\multicolbaselineskip=\skip79
+\multicol@leftmargin=\dimen292
+\c@unbalance=\count375
+\c@collectmore=\count376
+\doublecol@number=\count377
+\multicoltolerance=\count378
+\multicolpretolerance=\count379
+\full@width=\dimen293
+\page@free=\dimen294
+\premulticols=\dimen295
+\postmulticols=\dimen296
+\multicolsep=\skip91
+\multicolbaselineskip=\skip92
 \partial@page=\box65
 \last@line=\box66
-\maxbalancingoverflow=\dimen304
+\maxbalancingoverflow=\dimen297
 \mult@rightbox=\box67
 \mult@grightbox=\box68
 \mult@gfirstbox=\box69
@@ -1876,14 +2064,14 @@ Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
 \@tempa=\box85
 \@tempa=\box86
 \@tempa=\box87
-\c@columnbadness=\count198
-\c@finalcolumnbadness=\count199
-\last@try=\dimen305
-\multicolovershoot=\dimen306
-\multicolundershoot=\dimen307
+\c@columnbadness=\count380
+\c@finalcolumnbadness=\count381
+\last@try=\dimen298
+\multicolovershoot=\dimen299
+\multicolundershoot=\dimen300
 \mult@nat@firstbox=\box88
 \colbreak@box=\box89
-\mc@col@check@num=\count266
+\mc@col@check@num=\count382
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
@@ -1900,18 +2088,28 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 (/usr/local/texlive/2015/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \ttl@box=\box90
-\beforetitleunit=\skip80
-\aftertitleunit=\skip81
-\ttl@plus=\dimen308
-\ttl@minus=\dimen309
+\beforetitleunit=\skip93
+\aftertitleunit=\skip94
+\ttl@plus=\dimen301
+\ttl@minus=\dimen302
 \ttl@toksa=\toks46
-\titlewidth=\dimen310
-\titlewidthlast=\dimen311
-\titlewidthfirst=\dimen312
+\titlewidth=\dimen303
+\titlewidthlast=\dimen304
+\titlewidthfirst=\dimen305
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/titlesec/block.tss
 File: block.tss 2011/12/15
-) (./thesis.aux
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2015/12/22 v3.2 biblatex localization (PK/JW/AB)
+)
+\@quotelevel=\count383
+\@quotereset=\count384
+
+(./thesis.aux
 
 LaTeX Warning: Label `plus_cont' multiply defined.
 
@@ -1930,59 +2128,59 @@ LaTeX Warning: Label `plus_and_times' multiply defined.
 )
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 25.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 20.
-\c@lstlisting=\count267
+LaTeX Font Info:    ... okay on input line 25.
+\c@lstlisting=\count385
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count268
-\scratchdimen=\dimen313
+\scratchcounter=\count386
+\scratchdimen=\dimen306
 \scratchbox=\box91
-\nofMPsegments=\count269
-\nofMParguments=\count270
+\nofMPsegments=\count387
+\nofMParguments=\count388
 \everyMPshowfont=\toks47
-\MPscratchCnt=\count271
-\MPscratchDim=\dimen314
-\MPnumerator=\count272
-\makeMPintoPDFobject=\count273
+\MPscratchCnt=\count389
+\MPscratchDim=\dimen307
+\MPnumerator=\count390
+\makeMPintoPDFobject=\count391
 \everyMPtoPDFconversion=\toks48
 )
 \AtBeginShipoutBox=\box92
-Package hyperref Info: Link coloring ON on input line 20.
+Package hyperref Info: Link coloring ON on input line 25.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count274
+\c@section@level=\count392
 )
-LaTeX Info: Redefining \ref on input line 20.
-LaTeX Info: Redefining \pageref on input line 20.
-LaTeX Info: Redefining \nameref on input line 20.
+LaTeX Info: Redefining \ref on input line 25.
+LaTeX Info: Redefining \pageref on input line 25.
+LaTeX Info: Redefining \nameref on input line 25.
 
 (./thesis.out) (./thesis.out)
-\@outlinefile=\write4
-\openout4 = `thesis.out'.
+\@outlinefile=\write5
+\openout5 = `thesis.out'.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
@@ -2040,6 +2238,18 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+Package biblatex Info: No input encoding detected.
+(biblatex)             Assuming 'ascii'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'ascii'.
+\openout3 = `thesis.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'thesis.bbl' found.
+(./thesis.bbl)
+Package biblatex Info: Reference section=0 on input line 25.
+Package biblatex Info: Reference segment=0 on input line 25.
+
 Option `squaren' provided! 
  Command \squaren defined by SIunits package!
 
@@ -2052,32 +2262,32 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 126.
 )
-\CenteringLeftskip=\skip82
-\RaggedLeftLeftskip=\skip83
-\RaggedRightLeftskip=\skip84
-\CenteringRightskip=\skip85
-\RaggedLeftRightskip=\skip86
-\RaggedRightRightskip=\skip87
-\CenteringParfillskip=\skip88
-\RaggedLeftParfillskip=\skip89
-\RaggedRightParfillskip=\skip90
-\JustifyingParfillskip=\skip91
-\CenteringParindent=\skip92
-\RaggedLeftParindent=\skip93
-\RaggedRightParindent=\skip94
-\JustifyingParindent=\skip95
+\CenteringLeftskip=\skip95
+\RaggedLeftLeftskip=\skip96
+\RaggedRightLeftskip=\skip97
+\CenteringRightskip=\skip98
+\RaggedLeftRightskip=\skip99
+\RaggedRightRightskip=\skip100
+\CenteringParfillskip=\skip101
+\RaggedLeftParfillskip=\skip102
+\RaggedRightParfillskip=\skip103
+\JustifyingParfillskip=\skip104
+\CenteringParindent=\skip105
+\RaggedLeftParindent=\skip106
+\RaggedRightParindent=\skip107
+\JustifyingParindent=\skip108
 )
 ABD: EveryShipout initializing macros
 
 Package tikz-feynman Warning: LuaTeX is required if you wish to have vertices a
 utomatically placed. You can disable this warning by setting /tikzfeynman/warn 
-luatex=false on input line 20.
+luatex=false on input line 25.
 
 (./shared/custom_commands.tex) <shared/logo.png, id=71, 1204.5pt x 1204.5pt>
 File: shared/logo.png Graphic file (type png)
 
 <use shared/logo.png>
-Package pdftex.def Info: shared/logo.png used on input line 24.
+Package pdftex.def Info: shared/logo.png used on input line 29.
 (pdftex.def)             Requested size: 142.25475pt x 142.25475pt.
  [1
 
@@ -2086,23 +2296,23 @@ d/logo.png>] [2
 
 
 ] (./thesis.toc
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 3.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 7.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+LaTeX Font Info:    Try loading font information for U+msa on input line 7.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+LaTeX Font Info:    Try loading font information for U+msb on input line 7.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
-\tf@toc=\write5
-\openout5 = `thesis.toc'.
+\tf@toc=\write6
+\openout6 = `thesis.toc'.
 
 
 
@@ -2116,13 +2326,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ] [1
 
 
-] (./introduction/intro.tex) [2
+] (./introduction/intro.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--6
+
+ []
+
+) [2
 
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 40.
+(hyperref)                removing `\\' on input line 45.
 
 (./einstein_eq/einstein_eq_gw.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--6
@@ -2177,28 +2392,28 @@ Missing character: There is no ™ in font cmr12!
 File: effects_gw/interferometer.jpeg Graphic file (type jpg)
 
 <use effects_gw/interferometer.jpeg>
-Package pdftex.def Info: effects_gw/interferometer.jpeg used on input line 77.
+Package pdftex.def Info: effects_gw/interferometer.jpeg used on input line 78.
 (pdftex.def)             Requested size: 407.66833pt x 220.24039pt.
  [10]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 89.
+(hyperref)                removing `math shift' on input line 90.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 89.
+(hyperref)                removing `math shift' on input line 90.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 89.
+(hyperref)                removing `math shift' on input line 90.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\times' on input line 89.
+(hyperref)                removing `\times' on input line 90.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 89.
+(hyperref)                removing `math shift' on input line 90.
 
 [11 <./effects_gw/interferometer.jpeg>]
 Package epstopdf Info: Source file: <effects_gw/plus_polarization.eps>
@@ -2210,7 +2425,7 @@ Package epstopdf Info: Source file: <effects_gw/plus_polarization.eps>
 (epstopdf)                    size: 420654 bytes
 (epstopdf)             Command: <repstopdf --outfile=effects_gw/plus_polarizati
 on-eps-converted-to.pdf effects_gw/plus_polarization.eps>
-(epstopdf)             \includegraphics on input line 137.
+(epstopdf)             \includegraphics on input line 138.
 Package epstopdf Info: Output file is already uptodate.
 
 <effects_gw/plus_polarization-eps-converted-to.pdf, id=201, 1237.62375pt x 107.
@@ -2219,7 +2434,7 @@ File: effects_gw/plus_polarization-eps-converted-to.pdf Graphic file (type pdf)
 
  <use effects_gw/plus_polarization-eps-converted-to.pdf>
 Package pdftex.def Info: effects_gw/plus_polarization-eps-converted-to.pdf used
- on input line 137.
+ on input line 138.
 (pdftex.def)             Requested size: 588.85963pt x 51.10297pt.
 Package epstopdf Info: Source file: <effects_gw/times_polarization.eps>
 (epstopdf)                    date: 2018-06-25 18:16:38
@@ -2230,7 +2445,7 @@ d-to.pdf>
 (epstopdf)                    size: 423596 bytes
 (epstopdf)             Command: <repstopdf --outfile=effects_gw/times_polarizat
 ion-eps-converted-to.pdf effects_gw/times_polarization.eps>
-(epstopdf)             \includegraphics on input line 148.
+(epstopdf)             \includegraphics on input line 149.
 Package epstopdf Info: Output file is already uptodate.
 
 <effects_gw/times_polarization-eps-converted-to.pdf, id=202, 1138.2525pt x 128.
@@ -2239,7 +2454,7 @@ File: effects_gw/times_polarization-eps-converted-to.pdf Graphic file (type pdf
 )
  <use effects_gw/times_polarization-eps-converted-to.pdf>
 Package pdftex.def Info: effects_gw/times_polarization-eps-converted-to.pdf use
-d on input line 148.
+d on input line 149.
 (pdftex.def)             Requested size: 588.85963pt x 66.47081pt.
  [12] [13 <./effects_gw/plus_polarization-eps-converted-to.pdf> <./effects_gw/t
 imes_polarization-eps-converted-to.pdf>]
@@ -2252,7 +2467,7 @@ pdf>
 (epstopdf)                    size: 1346795 bytes
 (epstopdf)             Command: <repstopdf --outfile=effects_gw/plus_pol_cont-e
 ps-converted-to.pdf effects_gw/plus_pol_cont.eps>
-(epstopdf)             \includegraphics on input line 197.
+(epstopdf)             \includegraphics on input line 198.
 Package epstopdf Info: Output file is already uptodate.
 
 <effects_gw/plus_pol_cont-eps-converted-to.pdf, id=227, 562.1pt x 421.575pt>
@@ -2260,7 +2475,7 @@ File: effects_gw/plus_pol_cont-eps-converted-to.pdf Graphic file (type pdf)
 
 <use effects_gw/plus_pol_cont-eps-converted-to.pdf>
 Package pdftex.def Info: effects_gw/plus_pol_cont-eps-converted-to.pdf used on 
-input line 197.
+input line 198.
 (pdftex.def)             Requested size: 203.83417pt x 152.8733pt.
 Package epstopdf Info: Source file: <effects_gw/times_pol_cont.eps>
 (epstopdf)                    date: 2018-06-25 18:25:39
@@ -2271,7 +2486,7 @@ Package epstopdf Info: Source file: <effects_gw/times_pol_cont.eps>
 (epstopdf)                    size: 1960314 bytes
 (epstopdf)             Command: <repstopdf --outfile=effects_gw/times_pol_cont-
 eps-converted-to.pdf effects_gw/times_pol_cont.eps>
-(epstopdf)             \includegraphics on input line 200.
+(epstopdf)             \includegraphics on input line 201.
 Package epstopdf Info: Output file is already uptodate.
 
 <effects_gw/times_pol_cont-eps-converted-to.pdf, id=228, 562.1pt x 421.575pt>
@@ -2279,7 +2494,7 @@ File: effects_gw/times_pol_cont-eps-converted-to.pdf Graphic file (type pdf)
 
 <use effects_gw/times_pol_cont-eps-converted-to.pdf>
 Package pdftex.def Info: effects_gw/times_pol_cont-eps-converted-to.pdf used on
- input line 200.
+ input line 201.
 (pdftex.def)             Requested size: 203.83417pt x 152.8733pt.
 Package epstopdf Info: Source file: <effects_gw/r_pol.eps>
 (epstopdf)                    date: 2018-06-26 17:49:40
@@ -2289,7 +2504,7 @@ Package epstopdf Info: Source file: <effects_gw/r_pol.eps>
 (epstopdf)                    size: 1532756 bytes
 (epstopdf)             Command: <repstopdf --outfile=effects_gw/r_pol-eps-conve
 rted-to.pdf effects_gw/r_pol.eps>
-(epstopdf)             \includegraphics on input line 229.
+(epstopdf)             \includegraphics on input line 230.
 Package epstopdf Info: Output file is already uptodate.
 
 <effects_gw/r_pol-eps-converted-to.pdf, id=229, 562.1pt x 421.575pt>
@@ -2297,7 +2512,7 @@ File: effects_gw/r_pol-eps-converted-to.pdf Graphic file (type pdf)
 
 <use effects_gw/r_pol-eps-converted-to.pdf>
 Package pdftex.def Info: effects_gw/r_pol-eps-converted-to.pdf used on input li
-ne 229.
+ne 230.
 (pdftex.def)             Requested size: 203.83417pt x 152.8733pt.
 Package epstopdf Info: Source file: <effects_gw/l_pol.eps>
 (epstopdf)                    date: 2018-06-26 17:50:51
@@ -2307,7 +2522,7 @@ Package epstopdf Info: Source file: <effects_gw/l_pol.eps>
 (epstopdf)                    size: 1533146 bytes
 (epstopdf)             Command: <repstopdf --outfile=effects_gw/l_pol-eps-conve
 rted-to.pdf effects_gw/l_pol.eps>
-(epstopdf)             \includegraphics on input line 232.
+(epstopdf)             \includegraphics on input line 233.
 Package epstopdf Info: Output file is already uptodate.
 
 <effects_gw/l_pol-eps-converted-to.pdf, id=230, 562.1pt x 421.575pt>
@@ -2315,7 +2530,7 @@ File: effects_gw/l_pol-eps-converted-to.pdf Graphic file (type pdf)
 
 <use effects_gw/l_pol-eps-converted-to.pdf>
 Package pdftex.def Info: effects_gw/l_pol-eps-converted-to.pdf used on input li
-ne 232.
+ne 233.
 (pdftex.def)             Requested size: 203.83417pt x 152.8733pt.
  [14 <./effects_gw/plus_pol_cont-eps-converted-to.pdf> <./effects_gw/times_pol_
 cont-eps-converted-to.pdf>])
@@ -2354,7 +2569,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--15
 [23
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 50--52
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
 
  []
 
@@ -2367,16 +2582,16 @@ erted-to.pdf>
 (epstopdf)                    size: 31026 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/trajec
 tory_b3-eps-converted-to.pdf numerical_evolution/trajectory_b3.eps>
-(epstopdf)             \includegraphics on input line 115.
+(epstopdf)             \includegraphics on input line 123.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/trajectory_b3-eps-converted-to.pdf, id=327, 562.1pt x 421.
+<numerical_evolution/trajectory_b3-eps-converted-to.pdf, id=331, 562.1pt x 421.
 575pt>
 File: numerical_evolution/trajectory_b3-eps-converted-to.pdf Graphic file (type
  pdf)
  <use numerical_evolution/trajectory_b3-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/trajectory_b3-eps-converted-to.pdf
- used on input line 115.
+ used on input line 123.
 (pdftex.def)             Requested size: 203.83417pt x 152.8733pt.
 Package epstopdf Info: Source file: <numerical_evolution/trajectory_b4.eps>
 (epstopdf)                    date: 2018-07-01 22:26:46
@@ -2387,16 +2602,16 @@ erted-to.pdf>
 (epstopdf)                    size: 52034 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/trajec
 tory_b4-eps-converted-to.pdf numerical_evolution/trajectory_b4.eps>
-(epstopdf)             \includegraphics on input line 118.
+(epstopdf)             \includegraphics on input line 126.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/trajectory_b4-eps-converted-to.pdf, id=328, 562.1pt x 421.
+<numerical_evolution/trajectory_b4-eps-converted-to.pdf, id=332, 562.1pt x 421.
 575pt>
 File: numerical_evolution/trajectory_b4-eps-converted-to.pdf Graphic file (type
  pdf)
  <use numerical_evolution/trajectory_b4-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/trajectory_b4-eps-converted-to.pdf
- used on input line 118.
+ used on input line 126.
 (pdftex.def)             Requested size: 203.83417pt x 152.8733pt.
 Package epstopdf Info: Source file: <numerical_evolution/trajectory_b5.eps>
 (epstopdf)                    date: 2018-07-01 22:26:24
@@ -2407,16 +2622,16 @@ erted-to.pdf>
 (epstopdf)                    size: 103949 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/trajec
 tory_b5-eps-converted-to.pdf numerical_evolution/trajectory_b5.eps>
-(epstopdf)             \includegraphics on input line 121.
+(epstopdf)             \includegraphics on input line 129.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/trajectory_b5-eps-converted-to.pdf, id=329, 562.1pt x 421.
+<numerical_evolution/trajectory_b5-eps-converted-to.pdf, id=333, 562.1pt x 421.
 575pt>
 File: numerical_evolution/trajectory_b5-eps-converted-to.pdf Graphic file (type
  pdf)
  <use numerical_evolution/trajectory_b5-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/trajectory_b5-eps-converted-to.pdf
- used on input line 121.
+ used on input line 129.
 (pdftex.def)             Requested size: 203.83417pt x 152.8733pt.
 Package epstopdf Info: Source file: <numerical_evolution/trajectory_b6.eps>
 (epstopdf)                    date: 2018-07-01 22:26:07
@@ -2427,16 +2642,16 @@ erted-to.pdf>
 (epstopdf)                    size: 151185 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/trajec
 tory_b6-eps-converted-to.pdf numerical_evolution/trajectory_b6.eps>
-(epstopdf)             \includegraphics on input line 124.
+(epstopdf)             \includegraphics on input line 132.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/trajectory_b6-eps-converted-to.pdf, id=330, 562.1pt x 421.
+<numerical_evolution/trajectory_b6-eps-converted-to.pdf, id=334, 562.1pt x 421.
 575pt>
 File: numerical_evolution/trajectory_b6-eps-converted-to.pdf Graphic file (type
  pdf)
  <use numerical_evolution/trajectory_b6-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/trajectory_b6-eps-converted-to.pdf
- used on input line 124.
+ used on input line 132.
 (pdftex.def)             Requested size: 203.83417pt x 152.8733pt.
 Package epstopdf Info: Source file: <numerical_evolution/trajectory_b7.eps>
 (epstopdf)                    date: 2018-07-01 22:25:41
@@ -2447,16 +2662,16 @@ erted-to.pdf>
 (epstopdf)                    size: 211812 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/trajec
 tory_b7-eps-converted-to.pdf numerical_evolution/trajectory_b7.eps>
-(epstopdf)             \includegraphics on input line 127.
+(epstopdf)             \includegraphics on input line 135.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/trajectory_b7-eps-converted-to.pdf, id=331, 562.1pt x 421.
+<numerical_evolution/trajectory_b7-eps-converted-to.pdf, id=335, 562.1pt x 421.
 575pt>
 File: numerical_evolution/trajectory_b7-eps-converted-to.pdf Graphic file (type
  pdf)
  <use numerical_evolution/trajectory_b7-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/trajectory_b7-eps-converted-to.pdf
- used on input line 127.
+ used on input line 135.
 (pdftex.def)             Requested size: 203.83417pt x 152.8733pt.
 Package epstopdf Info: Source file: <numerical_evolution/trajectory_b10.eps>
 (epstopdf)                    date: 2018-07-01 22:25:21
@@ -2467,38 +2682,42 @@ verted-to.pdf>
 (epstopdf)                    size: 192139 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/trajec
 tory_b10-eps-converted-to.pdf numerical_evolution/trajectory_b10.eps>
-(epstopdf)             \includegraphics on input line 130.
+(epstopdf)             \includegraphics on input line 138.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/trajectory_b10-eps-converted-to.pdf, id=332, 562.1pt x 421
+<numerical_evolution/trajectory_b10-eps-converted-to.pdf, id=336, 562.1pt x 421
 .575pt>
 File: numerical_evolution/trajectory_b10-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use numerical_evolution/trajectory_b10-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/trajectory_b10-eps-converted-to.pd
-f used on input line 130.
+f used on input line 138.
 (pdftex.def)             Requested size: 203.83417pt x 152.8733pt.
 
 
-LaTeX Warning: Float too large for page by 32.04968pt on input line 134.
+LaTeX Warning: Float too large for page by 32.04968pt on input line 142.
 
 
-Overfull \hbox (2.98848pt too wide) in paragraph at lines 54--145
+Overfull \hbox (2.98848pt too wide) in paragraph at lines 62--153
 \OT1/cmr/m/n/12 We sim-u-late the evo-lu-tion of equal-mass bi-nary black holes
  with dif-fer-ent quasi-equilirbium
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--145
+Underfull \hbox (badness 10000) in paragraph at lines 62--153
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--145
+Underfull \hbox (badness 10000) in paragraph at lines 62--153
 
  []
 
-[24]
+[24] [25] [26 <./numerical_evolution/trajectory_b3-eps-converted-to.pdf> <./num
+erical_evolution/trajectory_b4-eps-converted-to.pdf> <./numerical_evolution/tra
+jectory_b5-eps-converted-to.pdf> <./numerical_evolution/trajectory_b6-eps-conve
+rted-to.pdf> <./numerical_evolution/trajectory_b7-eps-converted-to.pdf> <./nume
+rical_evolution/trajectory_b10-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <numerical_evolution/radius_evolution.eps>
 (epstopdf)                    date: 2018-07-01 23:09:49
 (epstopdf)                    size: 865846 bytes
@@ -2508,23 +2727,17 @@ onverted-to.pdf>
 (epstopdf)                    size: 286662 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/radius
 _evolution-eps-converted-to.pdf numerical_evolution/radius_evolution.eps>
-(epstopdf)             \includegraphics on input line 156.
+(epstopdf)             \includegraphics on input line 164.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/radius_evolution-eps-converted-to.pdf, id=342, 1066.98625p
+<numerical_evolution/radius_evolution-eps-converted-to.pdf, id=377, 1066.98625p
 t x 433.62pt>
 File: numerical_evolution/radius_evolution-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use numerical_evolution/radius_evolution-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/radius_evolution-eps-converted-to.
-pdf used on input line 156.
+pdf used on input line 164.
 (pdftex.def)             Requested size: 498.26744pt x 202.49136pt.
-
-[25] [26 <./numerical_evolution/trajectory_b3-eps-converted-to.pdf> <./numerica
-l_evolution/trajectory_b4-eps-converted-to.pdf> <./numerical_evolution/trajecto
-ry_b5-eps-converted-to.pdf> <./numerical_evolution/trajectory_b6-eps-converted-
-to.pdf> <./numerical_evolution/trajectory_b7-eps-converted-to.pdf> <./numerical
-_evolution/trajectory_b10-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <numerical_evolution/gw_b3.eps>
 (epstopdf)                    date: 2018-07-02 12:18:10
 (epstopdf)                    size: 3830433 bytes
@@ -2537,7 +2750,7 @@ eps-converted-to.pdf numerical_evolution/gw_b3.eps>
 (epstopdf)             \includegraphics on input line 185.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/gw_b3-eps-converted-to.pdf, id=384, 1284.8pt x 751.80875pt
+<numerical_evolution/gw_b3-eps-converted-to.pdf, id=385, 1284.8pt x 751.80875pt
 >
 File: numerical_evolution/gw_b3-eps-converted-to.pdf Graphic file (type pdf)
  <use numerical_evolution/gw_b3-eps-converted-to.pdf>
@@ -2545,7 +2758,7 @@ Package pdftex.def Info: numerical_evolution/gw_b3-eps-converted-to.pdf used on
  input line 185.
 (pdftex.def)             Requested size: 407.66833pt x 238.54175pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--188
+Underfull \hbox (badness 10000) in paragraph at lines 173--188
 
  []
 
@@ -2561,7 +2774,7 @@ eps-converted-to.pdf numerical_evolution/gw_b4.eps>
 (epstopdf)             \includegraphics on input line 193.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/gw_b4-eps-converted-to.pdf, id=385, 1284.8pt x 751.80875pt
+<numerical_evolution/gw_b4-eps-converted-to.pdf, id=386, 1284.8pt x 751.80875pt
 >
 File: numerical_evolution/gw_b4-eps-converted-to.pdf Graphic file (type pdf)
  <use numerical_evolution/gw_b4-eps-converted-to.pdf>
@@ -2584,7 +2797,7 @@ eps-converted-to.pdf numerical_evolution/gw_b5.eps>
 (epstopdf)             \includegraphics on input line 205.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/gw_b5-eps-converted-to.pdf, id=402, 1284.8pt x 751.80875pt
+<numerical_evolution/gw_b5-eps-converted-to.pdf, id=403, 1284.8pt x 751.80875pt
 >
 File: numerical_evolution/gw_b5-eps-converted-to.pdf Graphic file (type pdf)
  <use numerical_evolution/gw_b5-eps-converted-to.pdf>
@@ -2612,7 +2825,7 @@ eps-converted-to.pdf numerical_evolution/gw_b6.eps>
 (epstopdf)             \includegraphics on input line 238.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/gw_b6-eps-converted-to.pdf, id=439, 1284.8pt x 751.80875pt
+<numerical_evolution/gw_b6-eps-converted-to.pdf, id=440, 1284.8pt x 751.80875pt
 >
 File: numerical_evolution/gw_b6-eps-converted-to.pdf Graphic file (type pdf)
  <use numerical_evolution/gw_b6-eps-converted-to.pdf>
@@ -2631,7 +2844,7 @@ eps-converted-to.pdf numerical_evolution/gw_b7.eps>
 (epstopdf)             \includegraphics on input line 250.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/gw_b7-eps-converted-to.pdf, id=440, 1284.8pt x 751.80875pt
+<numerical_evolution/gw_b7-eps-converted-to.pdf, id=441, 1284.8pt x 751.80875pt
 >
 File: numerical_evolution/gw_b7-eps-converted-to.pdf Graphic file (type pdf)
  <use numerical_evolution/gw_b7-eps-converted-to.pdf>
@@ -2650,7 +2863,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 262.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/gw_b10-eps-converted-to.pdf, id=441, 1284.8pt x 751.80875p
+<numerical_evolution/gw_b10-eps-converted-to.pdf, id=442, 1284.8pt x 751.80875p
 t>
 File: numerical_evolution/gw_b10-eps-converted-to.pdf Graphic file (type pdf)
  <use numerical_evolution/gw_b10-eps-converted-to.pdf>
@@ -2673,7 +2886,7 @@ r_b3-eps-converted-to.pdf numerical_evolution/fourier_b3.eps>
 (epstopdf)             \includegraphics on input line 283.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/fourier_b3-eps-converted-to.pdf, id=455, 562.1pt x 421.575
+<numerical_evolution/fourier_b3-eps-converted-to.pdf, id=456, 562.1pt x 421.575
 pt>
 File: numerical_evolution/fourier_b3-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2693,7 +2906,7 @@ b3-eps-converted-to.pdf numerical_evolution/omega_b3.eps>
 (epstopdf)             \includegraphics on input line 285.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/omega_b3-eps-converted-to.pdf, id=456, 562.1pt x 421.575pt
+<numerical_evolution/omega_b3-eps-converted-to.pdf, id=457, 562.1pt x 421.575pt
 >
 File: numerical_evolution/omega_b3-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2713,7 +2926,7 @@ r_b4-eps-converted-to.pdf numerical_evolution/fourier_b4.eps>
 (epstopdf)             \includegraphics on input line 291.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/fourier_b4-eps-converted-to.pdf, id=457, 562.1pt x 421.575
+<numerical_evolution/fourier_b4-eps-converted-to.pdf, id=458, 562.1pt x 421.575
 pt>
 File: numerical_evolution/fourier_b4-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2733,7 +2946,7 @@ b4-eps-converted-to.pdf numerical_evolution/omega_b4.eps>
 (epstopdf)             \includegraphics on input line 293.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/omega_b4-eps-converted-to.pdf, id=458, 562.1pt x 421.575pt
+<numerical_evolution/omega_b4-eps-converted-to.pdf, id=459, 562.1pt x 421.575pt
 >
 File: numerical_evolution/omega_b4-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2753,7 +2966,7 @@ r_b5-eps-converted-to.pdf numerical_evolution/fourier_b5.eps>
 (epstopdf)             \includegraphics on input line 299.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/fourier_b5-eps-converted-to.pdf, id=459, 562.1pt x 421.575
+<numerical_evolution/fourier_b5-eps-converted-to.pdf, id=460, 562.1pt x 421.575
 pt>
 File: numerical_evolution/fourier_b5-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2773,7 +2986,7 @@ b5-eps-converted-to.pdf numerical_evolution/omega_b5.eps>
 (epstopdf)             \includegraphics on input line 301.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/omega_b5-eps-converted-to.pdf, id=460, 562.1pt x 421.575pt
+<numerical_evolution/omega_b5-eps-converted-to.pdf, id=461, 562.1pt x 421.575pt
 >
 File: numerical_evolution/omega_b5-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2798,7 +3011,7 @@ r_b6-eps-converted-to.pdf numerical_evolution/fourier_b6.eps>
 (epstopdf)             \includegraphics on input line 319.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/fourier_b6-eps-converted-to.pdf, id=461, 562.1pt x 421.575
+<numerical_evolution/fourier_b6-eps-converted-to.pdf, id=462, 562.1pt x 421.575
 pt>
 File: numerical_evolution/fourier_b6-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2818,7 +3031,7 @@ b6-eps-converted-to.pdf numerical_evolution/omega_b6.eps>
 (epstopdf)             \includegraphics on input line 321.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/omega_b6-eps-converted-to.pdf, id=462, 562.1pt x 421.575pt
+<numerical_evolution/omega_b6-eps-converted-to.pdf, id=463, 562.1pt x 421.575pt
 >
 File: numerical_evolution/omega_b6-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2838,7 +3051,7 @@ r_b7-eps-converted-to.pdf numerical_evolution/fourier_b7.eps>
 (epstopdf)             \includegraphics on input line 327.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/fourier_b7-eps-converted-to.pdf, id=463, 562.1pt x 421.575
+<numerical_evolution/fourier_b7-eps-converted-to.pdf, id=464, 562.1pt x 421.575
 pt>
 File: numerical_evolution/fourier_b7-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2858,7 +3071,7 @@ b7-eps-converted-to.pdf numerical_evolution/omega_b7.eps>
 (epstopdf)             \includegraphics on input line 329.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/omega_b7-eps-converted-to.pdf, id=464, 562.1pt x 421.575pt
+<numerical_evolution/omega_b7-eps-converted-to.pdf, id=465, 562.1pt x 421.575pt
 >
 File: numerical_evolution/omega_b7-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2878,7 +3091,7 @@ r_b10-eps-converted-to.pdf numerical_evolution/fourier_b10.eps>
 (epstopdf)             \includegraphics on input line 335.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/fourier_b10-eps-converted-to.pdf, id=465, 562.1pt x 421.57
+<numerical_evolution/fourier_b10-eps-converted-to.pdf, id=466, 562.1pt x 421.57
 5pt>
 File: numerical_evolution/fourier_b10-eps-converted-to.pdf Graphic file (type p
 df)
@@ -2898,7 +3111,7 @@ b10-eps-converted-to.pdf numerical_evolution/omega_b10.eps>
 (epstopdf)             \includegraphics on input line 337.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/omega_b10-eps-converted-to.pdf, id=466, 562.1pt x 421.575p
+<numerical_evolution/omega_b10-eps-converted-to.pdf, id=467, 562.1pt x 421.575p
 t>
 File: numerical_evolution/omega_b10-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -2941,7 +3154,7 @@ ns-eps-converted-to.pdf numerical_evolution/gw_r_bns.eps>
 (epstopdf)             \includegraphics on input line 388.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/gw_r_bns-eps-converted-to.pdf, id=557, 1284.8pt x 751.8087
+<numerical_evolution/gw_r_bns-eps-converted-to.pdf, id=558, 1284.8pt x 751.8087
 5pt>
 File: numerical_evolution/gw_r_bns-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2959,15 +3172,15 @@ f>
 (epstopdf)                    size: 23839 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/f1-eps
 -converted-to.pdf numerical_evolution/f1.eps>
-(epstopdf)             \includegraphics on input line 428.
+(epstopdf)             \includegraphics on input line 431.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f1-eps-converted-to.pdf, id=575, 550.055pt x 463.7325pt>
+<numerical_evolution/f1-eps-converted-to.pdf, id=576, 550.055pt x 463.7325pt>
 File: numerical_evolution/f1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f1-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/f1-eps-converted-to.pdf used on in
-put line 428.
+put line 431.
 (pdftex.def)             Requested size: 203.83417pt x 171.84721pt.
 Package epstopdf Info: Source file: <numerical_evolution/f2.eps>
 (epstopdf)                    date: 2018-07-04 20:01:29
@@ -2978,15 +3191,15 @@ f>
 (epstopdf)                    size: 42740 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/f2-eps
 -converted-to.pdf numerical_evolution/f2.eps>
-(epstopdf)             \includegraphics on input line 431.
+(epstopdf)             \includegraphics on input line 434.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f2-eps-converted-to.pdf, id=576, 550.055pt x 463.7325pt>
+<numerical_evolution/f2-eps-converted-to.pdf, id=577, 550.055pt x 463.7325pt>
 File: numerical_evolution/f2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f2-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/f2-eps-converted-to.pdf used on in
-put line 431.
+put line 434.
 (pdftex.def)             Requested size: 203.83417pt x 171.84721pt.
 Package epstopdf Info: Source file: <numerical_evolution/f3.eps>
 (epstopdf)                    date: 2018-07-04 20:01:30
@@ -2997,15 +3210,15 @@ f>
 (epstopdf)                    size: 48193 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/f3-eps
 -converted-to.pdf numerical_evolution/f3.eps>
-(epstopdf)             \includegraphics on input line 434.
+(epstopdf)             \includegraphics on input line 437.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f3-eps-converted-to.pdf, id=577, 550.055pt x 463.7325pt>
+<numerical_evolution/f3-eps-converted-to.pdf, id=578, 550.055pt x 463.7325pt>
 File: numerical_evolution/f3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f3-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/f3-eps-converted-to.pdf used on in
-put line 434.
+put line 437.
 (pdftex.def)             Requested size: 203.83417pt x 171.84721pt.
 Package epstopdf Info: Source file: <numerical_evolution/f4.eps>
 (epstopdf)                    date: 2018-07-04 20:01:31
@@ -3016,15 +3229,15 @@ f>
 (epstopdf)                    size: 44659 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/f4-eps
 -converted-to.pdf numerical_evolution/f4.eps>
-(epstopdf)             \includegraphics on input line 437.
+(epstopdf)             \includegraphics on input line 440.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f4-eps-converted-to.pdf, id=578, 550.055pt x 463.7325pt>
+<numerical_evolution/f4-eps-converted-to.pdf, id=579, 550.055pt x 463.7325pt>
 File: numerical_evolution/f4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f4-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/f4-eps-converted-to.pdf used on in
-put line 437.
+put line 440.
 (pdftex.def)             Requested size: 203.83417pt x 171.84721pt.
 Package epstopdf Info: Source file: <numerical_evolution/f5.eps>
 (epstopdf)                    date: 2018-07-04 20:01:31
@@ -3035,15 +3248,15 @@ f>
 (epstopdf)                    size: 46583 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/f5-eps
 -converted-to.pdf numerical_evolution/f5.eps>
-(epstopdf)             \includegraphics on input line 456.
+(epstopdf)             \includegraphics on input line 459.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f5-eps-converted-to.pdf, id=579, 550.055pt x 463.7325pt>
+<numerical_evolution/f5-eps-converted-to.pdf, id=580, 550.055pt x 463.7325pt>
 File: numerical_evolution/f5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f5-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/f5-eps-converted-to.pdf used on in
-put line 456.
+put line 459.
 (pdftex.def)             Requested size: 203.83417pt x 171.84721pt.
 Package epstopdf Info: Source file: <numerical_evolution/f6.eps>
 (epstopdf)                    date: 2018-07-04 20:01:31
@@ -3054,15 +3267,15 @@ f>
 (epstopdf)                    size: 46695 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/f6-eps
 -converted-to.pdf numerical_evolution/f6.eps>
-(epstopdf)             \includegraphics on input line 459.
+(epstopdf)             \includegraphics on input line 462.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f6-eps-converted-to.pdf, id=580, 550.055pt x 463.7325pt>
+<numerical_evolution/f6-eps-converted-to.pdf, id=581, 550.055pt x 463.7325pt>
 File: numerical_evolution/f6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f6-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/f6-eps-converted-to.pdf used on in
-put line 459.
+put line 462.
 (pdftex.def)             Requested size: 203.83417pt x 171.84721pt.
 Package epstopdf Info: Source file: <numerical_evolution/f7.eps>
 (epstopdf)                    date: 2018-07-04 20:01:32
@@ -3073,15 +3286,15 @@ f>
 (epstopdf)                    size: 43878 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/f7-eps
 -converted-to.pdf numerical_evolution/f7.eps>
-(epstopdf)             \includegraphics on input line 462.
+(epstopdf)             \includegraphics on input line 465.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f7-eps-converted-to.pdf, id=581, 550.055pt x 463.7325pt>
+<numerical_evolution/f7-eps-converted-to.pdf, id=582, 550.055pt x 463.7325pt>
 File: numerical_evolution/f7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f7-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/f7-eps-converted-to.pdf used on in
-put line 462.
+put line 465.
 (pdftex.def)             Requested size: 203.83417pt x 171.84721pt.
 Package epstopdf Info: Source file: <numerical_evolution/f8.eps>
 (epstopdf)                    date: 2018-07-04 20:01:32
@@ -3092,15 +3305,15 @@ f>
 (epstopdf)                    size: 38485 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/f8-eps
 -converted-to.pdf numerical_evolution/f8.eps>
-(epstopdf)             \includegraphics on input line 465.
+(epstopdf)             \includegraphics on input line 468.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f8-eps-converted-to.pdf, id=582, 550.055pt x 463.7325pt>
+<numerical_evolution/f8-eps-converted-to.pdf, id=583, 550.055pt x 463.7325pt>
 File: numerical_evolution/f8-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f8-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/f8-eps-converted-to.pdf used on in
-put line 465.
+put line 468.
 (pdftex.def)             Requested size: 203.83417pt x 171.84721pt.
 ) [36] [37 <./numerical_evolution/f1-eps-converted-to.pdf> <./numerical_evoluti
 on/f2-eps-converted-to.pdf> <./numerical_evolution/f3-eps-converted-to.pdf> <./
@@ -3110,32 +3323,34 @@ _evolution/f7-eps-converted-to.pdf> <./numerical_evolution/f8-eps-converted-to.
 pdf>]
 (./conclusion/conclusion.tex) [39
 
-] (./appendix/resampling.tex)
-No file thesis.bbl.
-[40
+] (./appendix/resampling.tex) [40
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 71.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 71.
- (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 71.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 71.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 77.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 77.
+
+(./thesis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 77.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 77.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 722D8005BFB56FD91E16B9C3FFE0E662;1235.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 71.
+Package logreq Info: Writing requests to 'thesis.run.xml'.
+\openout1 = `thesis.run.xml'.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 77.
  ) 
 Here is how much of TeX's memory you used:
- 31913 strings out of 493033
- 623033 string characters out of 6134139
- 821637 words of memory out of 5000000
- 34699 multiletter control sequences out of 15000+600000
- 21762 words of font info for 85 fonts, out of 8000000 for 9000
+ 36513 strings out of 493033
+ 707694 string characters out of 6134139
+ 1239316 words of memory out of 5000000
+ 39258 multiletter control sequences out of 15000+600000
+ 22410 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,19n,80p,10426b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,19n,80p,10426b,1050s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
@@ -3150,14 +3365,15 @@ exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on thesis.pdf (43 pages, 13838858 bytes).
+/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
+Output written on thesis.pdf (43 pages, 13852234 bytes).
 PDF statistics:
- 731 PDF objects out of 1000 (max. 8388607)
- 572 compressed objects within 6 object streams
- 146 named destinations out of 1000 (max. 500000)
+ 740 PDF objects out of 1000 (max. 8388607)
+ 580 compressed objects within 6 object streams
+ 147 named destinations out of 1000 (max. 500000)
  351 words of extra memory for PDF output out of 10000 (max. 10000000)
 

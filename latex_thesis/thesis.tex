@@ -2,6 +2,11 @@
 \documentclass[twoside,english, a4paper, 12pt]{shared/uiofysmaster}
 \usepackage[top=1.5in, bottom=1.5in, left=1in, right=1in]{geometry}
 
+
+% le righe importanti
+\usepackage[backend=biber,style=numeric,sorting=none]{biblatex}
+\addbibresource{bibliography/trial.bib} % qui metti il path del file .bib 
+
 %% TITLE
 \author{Lorenzo Speri}
 \title{\bf{Understanding Gravitational Waves through Numerical Simulations}}
@@ -60,12 +65,13 @@ A really interesting and fascinating abstract
 %% APPENDICES
 \section{Appendices}
 \input{appendix/resampling}
-jajdc.,jdac amdadadadadadad ad ad a  d a d a d a d a  d a d a d a
-
-
+jajdc.,jdac amdadada
+\cite{taniguchiVariousFeaturesQuasiequilibrium2003}
 %% MAKE BIBLIOGRAPHY
-\bibliographystyle{unsrt}
-\bibliography{bibliography/master_thesis}
+%\bibliographystyle{unsrt}
+
+\printbibliography
+
 
 %% AND SO WE END
 \end{document}

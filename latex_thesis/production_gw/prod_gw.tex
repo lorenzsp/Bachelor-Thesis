@@ -331,25 +331,32 @@ h^{\T} _{ij} = \dfrac{8\,G M \,R^{2} \omega^{2}}{c^{4}\, r} \,
 \]
 where we inserted $G$ and $c$ in order to give an estimates of the coefficient.\\
 Two remarkable aspects of the above formula are that the gravitational radiation is emitted at  twice the angular frequency at which the system rotates, and $h_{+} ^{\T}= i h_{\times} ^{\T}$ so the wave is circularly polarized.\\
-We will see again these aspects when we will treat the numerical simulations, but let us now give an order-of-magnitude estimate of the coefficient
+We will see again these aspects when we will treat the numerical simulations, but let us now give an order-of-magnitude estimate of the amplitude of the gravitational wave
 \[
 \mathcal{H} = 
  \dfrac{8\,G M \,R^{2} \omega^{2}}{c^{4}\, r} \,
 \]
-We assume that the two objects to be separated by a distance $R$ equal ten times their Schwarzschild radii $r_s=2 G M/c^{2}$.
+We assume that the two objects to be separated by a distance $R$ equal three times their Schwarzschild radii $r_s=2 G M/c^{2}$.
 In addition we consider that the two objects have approximately the mass of the Sun $M=M_{\odot}=2\times 10^{30} \kilo \gram $ and they rotate with an angular frequency given by the Kepler's third law $\omega = \sqrt{GM/(4R^{3})}$.
 \bea
 \dfrac{G}{c^{4}} = 8.26 \times 10^{-45} \kilo \gram^{-1} \, \second ^{2} \meter ^{-1} 
 \\
 r_s=2.95 \times 10^{3} \, \meter
 \\
-R  = 10 r_s = 2.95 \times 10 ^{4} \, \meter
+R  = 3 r_s = 8.86 \times 10 ^{3} \, \meter
 \\
-\omega = 1.13 \time 10 ^{3} \second ^{-1}
+\omega = 6.9 \times 10 ^{3} \second ^{-1}
 \eea
 Pluging into $\mathcal{H}$ and considering the source at the a cosmological distance $r= 100 \, \mega pc \approx 3.09 \times 10^{24} \meter$ we have
 \[
-\mathcal{H} = 4.79 \times 10^{-23}
+\mathcal{H} = 1.6 \times 10^{-22}
 \]
-
-
+Altough we used Newtonian formulae in a regime where the GR becomes to be important, we obtained an estimate of the gravitational wave amplitude.\\
+Taking into account the discussion we made in section(\ref{free_particles_detection_principles}), if an interferometer of length $L=4 \, \kilo \meter$ was affected by a gravitational wave with intensity $\mathcal{h}$, the strecthing in the arm-length would be of order
+\[
+\delta L = L \, \mathcal{H} = 6.38 \times 10^{-19} \, \meter
+\]
+and the laser light with wavelength $\lambda=10^{-6} \meter$ would acquire a phase shift
+\[
+\delta \phi = 100 \dfrac{4 \pi}{\lambda} \delta L= 8.02 \times 10 ^{-10}
+\]

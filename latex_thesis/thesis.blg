@@ -1,0 +1,15 @@
+[0] Config.pm:327> INFO - This is Biber 2.3
+[1] Config.pm:330> INFO - Logfile is 'thesis.blg'
+[77] biber-darwin:287> INFO - === Fri Jul  6, 2018, 15:57:32
+[105] Biber.pm:346> INFO - Reading 'thesis.bcf'
+[234] Biber.pm:689> INFO - Found 1 citekeys in bib section 0
+[241] Biber.pm:3066> INFO - Processing section 0
+[261] Biber.pm:3206> INFO - Looking for bibtex format file 'bibliography/trial.bib' for section 0
+[266] bibtex.pm:1062> INFO - Decoding LaTeX character macros into UTF-8
+[268] bibtex.pm:923> INFO - Found BibTeX data source 'bibliography/trial.bib'
+[298] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[298] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[298] Biber.pm:2943> INFO - Sorting list 'none' of type 'entry' with scheme 'none' and locale 'en-US'
+[298] Biber.pm:2947> INFO - No sort tailoring available for locale 'en-US'
+[300] bbl.pm:505> INFO - Writing 'thesis.bbl' with encoding 'ascii'
+[301] bbl.pm:596> INFO - Output to thesis.bbl

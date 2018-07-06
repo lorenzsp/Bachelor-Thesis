@@ -49,6 +49,14 @@ h_{\times}(t) = - \qty[
 ]
 \end{eqnarray}
 where the $Q$ values are the coefficients of the fitted polynomials for the real $Q^{R}$ and the imaginary $Q^{I}$ parts of $\tilde{h}(t)$.\\
+As we have seen in section(\ref{solution_linearized_einstein_eq}) the gravitational radiation scales with the distance from the source as $1/r$.
+Therefore, in order to have an order of magnitude of the \textbf{gravitational wave strain} 
+\begin{equation}
+\label{gravitational_wave_strain}
+h(t) = h_{+} - i h_{\times}
+\end{equation} 
+where $h_{+}$ and $h_{\times}$ are taken from equations(\ref{h_+_numerical}) and (\ref{h_x_numerical}), we multiply $h(t)$ by the distance at which it is was measured and we divide it by a typical cosmological distance of binary sources $r=100 \, \mega \text{pc} \approx 3.1 \times 10^{19} \, \kilo \meter$.
+In addition, the units of time will be expressed in millisecond in order to easily compare the frequency of the signals with the sensitivities of the gravitational wave detetctors.\\
 
 \subsection{Binary Black Hole}
 As we have done so far and following the Einstein Tookit conventions, we set $G=c=1$, and therefore we express time and space in units of solar masses $M_{\odot}$, i.e. $1 t [M_{\odot}] \approx 0.005 \milli \second$ and $1 x [M_{\odot}] \approx 1.5 \kilo \meter$.\\
@@ -162,15 +170,7 @@ which depicts a new feature of the orbits. There are evident oscillations of the
 %%
 %%
 \par
-We now stufy the gravitational radiation emitted by the different binary sources is extracted following to the procedure described in section(\ref{gw_extraction}).\\
-As we have seen in section(\ref{solution_linearized_einstein_eq}) the gravitational radiation scales with the distance from the source as $1/r$.
-Therefore, in order to have an order of magnitude of the \textbf{gravitational wave strain} 
-\begin{equation}
-\label{gravitational_wave_strain}
-h(t) = h_{+} - i h_{\times}
-\end{equation} 
-where $h_{+}$ and $h_{\times}$ are taken from equations(\ref{h_+_numerical}) and (\ref{h_x_numerical}), we multiply $h(t)$ by the distance at which it is was measured and we divide it by a typical cosmological distance of binary sources $r=100 \, \mega \text{pc} \approx 3.1 \times 10^{19} \, \kilo \meter$.
-In addition, the units of time will be expressed in millisecond in order to easily compare the frequency of the signals with the sensitivities of the gravitational wave detetctors.\\
+We now study the gravitational radiation emitted by the different binary sources is extracted following to the procedure described in section(\ref{gw_extraction}).\\
 The gravitational singals are shown in Figure(\ref{gw_b3}), (\ref{gw_b4}), (\ref{gw_b5}), (\ref{gw_b6}), (\ref{gw_b7}) and (\ref{gw_b10}).
 In the time interval $t \in (0,0.1)\milli \second$ the gravitational wave of all simulations $\psi_4$ shows an irregular perturbation. 
 In [REF] it is pointed out that there is a numerical noise that could be reduced using a more refined simulations. However,   the simulations are enough accurate for our purpose after that time interval.\\ 
@@ -400,10 +400,13 @@ During the inspiralling phase $t \in (0, 8.5) \, \milli \second$, the gravitatio
 However, when the strain reaches the highest value approximately at $t\approx 9 \milli \second$, the signal does not drop off as rapidly as for the black holes one, but it rebounds while slowly decreasing.
 The orbital radius $R$ shows an analogue behavior, in fact, it reaches the lowest value right at $t \approx 9.9 \milli \second$ and then it oscillates aroud $R \approx 4 \, M _{\odot}$.\\
 The reason of such behavior relies on the differences between a black hole and a neutron star.
-Due to the nature of balck holes,  the ring-down phase is short because when the events of horizon are enough close the black holes merge into single black hole which  shrinks quickly.
-In general, massive objects such neutron stars could collapse under their own weighst, forming a black hole, however when this happens the gravitational wave strain manifests ring-down phase similiar to that one of the binary black holes.
- In our case, the binary neutron stars do not form a black hole, but, instead, they transfer matter between themselves.
- In order to analyze such process, let us study the rest mass density during the time evolution of the BNS.\\
+However, since we could not continue simulations for a longer time, we cannot describe the features of the wave form in detail, but we speculate on the expected outcome and discuss the significance of the wave forms from the observational point of view.
+Due to the nature of balck holes,  the ring-down phase is short because when the events of horizon are enough close, the black holes merge into single black hole which shrinks quickly.
+So, the gravitational waveform amplitude of the BHs damps rapidly after the merger.\\
+In general, massive objects such neutron stars could collapse under their own weight forming a black hole depending on the compactness of the neutron stars before the merger.[REF]%simulations of merging binary neutron stars in full general relativity
+If this happens, the gravitational wave strain manifests a ring-down phase similiar to that one of the binary black holes.
+In our case, we speculate that the binary neutron stars do not form a black hole, because they are not enough compact and they transfer matter between themselves and outwards.\\
+ In order to analyze the matter distribution during the simulation, let us study the rest mass density during the time evolution of the BNS.\\
 In Figure (\ref{f_1234}) it is shown the intial stage of the BNS evolution.
 From Figure(\ref{f1}) it is possible to notice how the gravitational attraction between the two objects slighlty reshapes their surfaces.
 After $t = 3.83 \milli \second = 777.6 \, M _{\odot}$ the stars start tranfering matter between themselves, meanwhile a stream of matter is being ejected (Figure(\ref{f3})).\\
