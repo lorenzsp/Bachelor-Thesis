@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  7 JUL 2018 13:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  7 JUL 2018 16:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3138,12 +3138,12 @@ d on input line 334.
 (pdftex.def)             Requested size: 181.18439pt x 135.88452pt.
  [33 <./numerical_evolution/gw_b7-eps-converted-to.pdf> <./numerical_evolution/
 gw_b10-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 350--362
+Underfull \hbox (badness 10000) in paragraph at lines 350--363
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5696) has occurred while \output is active []
 
  [34]
 [35 <./numerical_evolution/fourier_b3-eps-converted-to.pdf> <./numerical_evolut
@@ -3155,7 +3155,7 @@ converted-to.pdf>] [36 <./numerical_evolution/fourier_b6-eps-converted-to.pdf>
 urier_b7-eps-converted-to.pdf> <./numerical_evolution/omega_b7-eps-converted-to
 .pdf> <./numerical_evolution/fourier_b10-eps-converted-to.pdf> <./numerical_evo
 lution/omega_b10-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 373--376
+Underfull \hbox (badness 10000) in paragraph at lines 374--377
 
  []
 
@@ -3168,16 +3168,16 @@ Package epstopdf Info: Source file: <numerical_evolution/gw_r_bns.eps>
 (epstopdf)                    size: 124984 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/gw_r_b
 ns-eps-converted-to.pdf numerical_evolution/gw_r_bns.eps>
-(epstopdf)             \includegraphics on input line 385.
+(epstopdf)             \includegraphics on input line 386.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/gw_r_bns-eps-converted-to.pdf, id=634, 1284.8pt x 751.8087
+<numerical_evolution/gw_r_bns-eps-converted-to.pdf, id=636, 1284.8pt x 751.8087
 5pt>
 File: numerical_evolution/gw_r_bns-eps-converted-to.pdf Graphic file (type pdf)
 
  <use numerical_evolution/gw_r_bns-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/gw_r_bns-eps-converted-to.pdf used
- on input line 385.
+ on input line 386.
 (pdftex.def)             Requested size: 452.9679pt x 265.05276pt.
  [37 <./numerical_evolution/gw_r_bns-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <numerical_evolution/f1.eps>
@@ -3189,15 +3189,15 @@ f>
 (epstopdf)                    size: 23839 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/f1-eps
 -converted-to.pdf numerical_evolution/f1.eps>
-(epstopdf)             \includegraphics on input line 430.
+(epstopdf)             \includegraphics on input line 431.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f1-eps-converted-to.pdf, id=657, 550.055pt x 463.7325pt>
+<numerical_evolution/f1-eps-converted-to.pdf, id=659, 550.055pt x 463.7325pt>
 File: numerical_evolution/f1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f1-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/f1-eps-converted-to.pdf used on in
-put line 430.
+put line 431.
 (pdftex.def)             Requested size: 203.83417pt x 171.84721pt.
 Package epstopdf Info: Source file: <numerical_evolution/f2.eps>
 (epstopdf)                    date: 2018-07-04 20:01:29
@@ -3208,15 +3208,15 @@ f>
 (epstopdf)                    size: 42740 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/f2-eps
 -converted-to.pdf numerical_evolution/f2.eps>
-(epstopdf)             \includegraphics on input line 433.
+(epstopdf)             \includegraphics on input line 434.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f2-eps-converted-to.pdf, id=658, 550.055pt x 463.7325pt>
+<numerical_evolution/f2-eps-converted-to.pdf, id=660, 550.055pt x 463.7325pt>
 File: numerical_evolution/f2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f2-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/f2-eps-converted-to.pdf used on in
-put line 433.
+put line 434.
 (pdftex.def)             Requested size: 203.83417pt x 171.84721pt.
 Package epstopdf Info: Source file: <numerical_evolution/f3.eps>
 (epstopdf)                    date: 2018-07-04 20:01:30
@@ -3227,15 +3227,15 @@ f>
 (epstopdf)                    size: 48193 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/f3-eps
 -converted-to.pdf numerical_evolution/f3.eps>
-(epstopdf)             \includegraphics on input line 436.
+(epstopdf)             \includegraphics on input line 437.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f3-eps-converted-to.pdf, id=659, 550.055pt x 463.7325pt>
+<numerical_evolution/f3-eps-converted-to.pdf, id=661, 550.055pt x 463.7325pt>
 File: numerical_evolution/f3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f3-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/f3-eps-converted-to.pdf used on in
-put line 436.
+put line 437.
 (pdftex.def)             Requested size: 203.83417pt x 171.84721pt.
 Package epstopdf Info: Source file: <numerical_evolution/f4.eps>
 (epstopdf)                    date: 2018-07-04 20:01:31
@@ -3246,15 +3246,15 @@ f>
 (epstopdf)                    size: 44659 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/f4-eps
 -converted-to.pdf numerical_evolution/f4.eps>
-(epstopdf)             \includegraphics on input line 439.
+(epstopdf)             \includegraphics on input line 440.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f4-eps-converted-to.pdf, id=660, 550.055pt x 463.7325pt>
+<numerical_evolution/f4-eps-converted-to.pdf, id=662, 550.055pt x 463.7325pt>
 File: numerical_evolution/f4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f4-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/f4-eps-converted-to.pdf used on in
-put line 439.
+put line 440.
 (pdftex.def)             Requested size: 203.83417pt x 171.84721pt.
 Package epstopdf Info: Source file: <numerical_evolution/f5.eps>
 (epstopdf)                    date: 2018-07-04 20:01:31
@@ -3265,15 +3265,15 @@ f>
 (epstopdf)                    size: 46583 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/f5-eps
 -converted-to.pdf numerical_evolution/f5.eps>
-(epstopdf)             \includegraphics on input line 458.
+(epstopdf)             \includegraphics on input line 459.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f5-eps-converted-to.pdf, id=661, 550.055pt x 463.7325pt>
+<numerical_evolution/f5-eps-converted-to.pdf, id=663, 550.055pt x 463.7325pt>
 File: numerical_evolution/f5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f5-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/f5-eps-converted-to.pdf used on in
-put line 458.
+put line 459.
 (pdftex.def)             Requested size: 203.83417pt x 171.84721pt.
 Package epstopdf Info: Source file: <numerical_evolution/f6.eps>
 (epstopdf)                    date: 2018-07-04 20:01:31
@@ -3284,15 +3284,15 @@ f>
 (epstopdf)                    size: 46695 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/f6-eps
 -converted-to.pdf numerical_evolution/f6.eps>
-(epstopdf)             \includegraphics on input line 461.
+(epstopdf)             \includegraphics on input line 462.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f6-eps-converted-to.pdf, id=662, 550.055pt x 463.7325pt>
+<numerical_evolution/f6-eps-converted-to.pdf, id=664, 550.055pt x 463.7325pt>
 File: numerical_evolution/f6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f6-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/f6-eps-converted-to.pdf used on in
-put line 461.
+put line 462.
 (pdftex.def)             Requested size: 203.83417pt x 171.84721pt.
 Package epstopdf Info: Source file: <numerical_evolution/f7.eps>
 (epstopdf)                    date: 2018-07-04 20:01:32
@@ -3303,15 +3303,15 @@ f>
 (epstopdf)                    size: 43878 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/f7-eps
 -converted-to.pdf numerical_evolution/f7.eps>
-(epstopdf)             \includegraphics on input line 464.
+(epstopdf)             \includegraphics on input line 465.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f7-eps-converted-to.pdf, id=663, 550.055pt x 463.7325pt>
+<numerical_evolution/f7-eps-converted-to.pdf, id=665, 550.055pt x 463.7325pt>
 File: numerical_evolution/f7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f7-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/f7-eps-converted-to.pdf used on in
-put line 464.
+put line 465.
 (pdftex.def)             Requested size: 203.83417pt x 171.84721pt.
 Package epstopdf Info: Source file: <numerical_evolution/f8.eps>
 (epstopdf)                    date: 2018-07-04 20:01:32
@@ -3322,15 +3322,15 @@ f>
 (epstopdf)                    size: 38485 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/f8-eps
 -converted-to.pdf numerical_evolution/f8.eps>
-(epstopdf)             \includegraphics on input line 467.
+(epstopdf)             \includegraphics on input line 468.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f8-eps-converted-to.pdf, id=664, 550.055pt x 463.7325pt>
+<numerical_evolution/f8-eps-converted-to.pdf, id=666, 550.055pt x 463.7325pt>
 File: numerical_evolution/f8-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f8-eps-converted-to.pdf>
 Package pdftex.def Info: numerical_evolution/f8-eps-converted-to.pdf used on in
-put line 467.
+put line 468.
 (pdftex.def)             Requested size: 203.83417pt x 171.84721pt.
 ) [38] [39 <./numerical_evolution/f1-eps-converted-to.pdf> <./numerical_evoluti
 on/f2-eps-converted-to.pdf> <./numerical_evolution/f3-eps-converted-to.pdf> <./
@@ -3434,10 +3434,10 @@ ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
 015/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/
 texlive/2015/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on thesis.pdf (47 pages, 14707258 bytes).
+Output written on thesis.pdf (47 pages, 14707549 bytes).
 PDF statistics:
- 909 PDF objects out of 1000 (max. 8388607)
- 742 compressed objects within 8 object streams
+ 911 PDF objects out of 1000 (max. 8388607)
+ 744 compressed objects within 8 object streams
  180 named destinations out of 1000 (max. 500000)
  343 words of extra memory for PDF output out of 10000 (max. 10000000)
 
