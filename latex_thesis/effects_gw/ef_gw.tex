@@ -75,7 +75,7 @@ This phase shift can be measured at the photodiode to an accuracy that is govern
 \centering
     \textbf{Laser interferometer gravitational wave detector}\par\medskip
 \makebox[\textwidth][c]{\includegraphics[width=0.9\textwidth]{effects_gw/interferometer}}
-\caption{Schematic representation of a laser interferomenter gravitational wave detector (from REF).}
+\caption{Schematic representation of a laser interferomenter gravitational wave detector (Figure from \cite{LIGOLaserInterferometer1992}).}
 %A. Abramovici et. al. Science, 256:325, 1992: name in zoteroLIGO: The Laser Interferometer Gravitational-Wave Observatory
 \label{interferometer}
 \end{figure}
@@ -97,14 +97,16 @@ The \textbf{geodesic deviation equation}  expresses the relative acceleration be
 \[
 \dfrac{D}{d \tau} = \dv{x^{\mu}}{\tau} \, \nabla_{\mu}
 \]
-A non-zero acceleration of the deviation bewteen between neighbouring geodesics is a signature of spacetime curvature.
-In fact, geodesic deviation cannot distinguish between a zero gravitational field and a uniform grabitational field. Only tidal gravitational fields give rise to an acceleration in the geodesic deviation. \\
+A non-zero acceleration of the deviation bewteen neighbouring geodesics is a signature of spacetime curvature.
+In fact, geodesic deviation cannot distinguish between a zero gravitational field and a uniform gravitational field. 
+Only tidal gravitational fields give rise to an acceleration in the geodesic deviation. \\
 Let us consider some nearby particles with four-velocities described by a single vector field $u^{\mu}$ and separation vector field $S^{\mu}$, the geodesic deviation equation(\ref{geudesic_deviation_eq}) becomes
 \begin{equation}
 \dfrac{D^2}{d \tau ^2} S^{\mu} = :R^{\mu} _{\nu \rho \sigma}: \, u^{\nu} u^{\rho} S^{\sigma}
 \end{equation}
-The four-velocity vector can be approximated with a unit vector in the time direction plus corrections of order $h^{\T} _{\mu \nu}$ and higher, however the Reimann curvature tensor is already first order. Therefore, we ignore the corrections of the four-velocity vector and we approximate $u^{\nu} =(1,0,0,0)$.\\
-Since we have already calculated the Riemann curvature tensor in equation(\ref{reimann_tensor_TT}) taking into account the TT gauge conditions we recall the result
+The four-velocity vector can be approximated with a unit vector in the time direction plus corrections of order $h^{\T} _{\mu \nu}$ and higher, however the Reimann curvature tensor is already a first order in the metric perturbation. 
+Therefore, we ignore the corrections of the four-velocity vector and we approximate $u^{\nu} =(1,0,0,0)$.\\
+Since we have already calculated the Riemann curvature tensor in equation(\ref{reimann_tensor_TT}), taking into account the TT gauge conditions, we recall the result
 \bea
 :R^\mu _{00 \sigma }: 
 &=&
@@ -125,7 +127,7 @@ S^{1} = S^{1}(t=0) \qty(1 + \dfrac{1}{2} h_{+})+ \dfrac{1}{2} h_{\times} S^{2}(t
 S^{2} = S^{2}(t=0) \qty(1 - \dfrac{1}{2} h_{+}) +  \dfrac{1}{2} h_{\times} S^{1}(t=0)
 \eea
 Let us study the effects of the two polarizations $h_{+}$ and $h_{\times}$ of a gravitational wave, which propagates through the center of a ring of free-falling test particles. 
-So, let us use consider a plane wave travelling along the z axis, and let us place a ring of free-falling test particles on the x-y plane  with its center in $(0,0,0)$. 
+So, let us consider a plane wave travelling along the z axis, and let us place a ring of free-falling test particles on the x-y plane  with its center in $(0,0,0)$. 
 The ring is initially parametrized by $(\cos \theta, \sin \theta)$ with $\theta \in (0,2\pi]$ and the separation vector $S^{\mu}$ measures the deformation of the ring from its center.\\
 %%
 %%
@@ -183,7 +185,7 @@ S' _{+}\, ^{1} = (S^{1}_{+} - S^{2}_{+})/\sqrt{2} = \cos \qty(\theta +\pi / 4 ) 
 S' _{+}\, ^{2} = (S^{1}_{+} + S^{2}_{+})/\sqrt{2}  = \sin \qty(\theta +\pi / 4 )   +  \dfrac{1}{2}  \cos \qty(\theta +\pi / 4 )  h_{+}
 \\
 \eea
-The above equations are similiar to those with $h_{+} = 0$ and $h_{\times} \neq 0$, in fact the deviations $S^{1} _{\times}$ and $S^{2} _\times$ are nothing but the plus polarization rotated of an angle $-\pi/4$. So, in this case ($h_{+} = 0$ and $h_{\times} \neq 0$) the circle of particles bounce back and forth in the shape of $\times$ as we can see from Figures (\ref{times_polarization}) and (\ref{times_cont}).
+The above equations are similiar to those with $h_{+} = 0$ and $h_{\times} \neq 0$, in fact the deviations $S^{1} _{\times}$ and $S^{2} _\times$ are nothing but the plus polarization rotated of an angle $-\pi/4$. So, in this case ($h_{+} = 0$ and $h_{\times} \neq 0$) the circle of particles bounce back and forth in the shape of $\times$ as we can see from Figures (\ref{times_polarization}) and (\ref{times_cont}).\\
 %%
 %%
 %%
@@ -240,7 +242,7 @@ For instance, the electromagnetic field has two independent polarization states,
 Upon quantization, the theory yields the photon, a massless spin-1 particle.
 The general rule is that the spin $s$ is related to the angle $\theta$ under which the polarization modes are in invariant by $s = 360 \degree /\theta$.
 Since the gravitational field, whose waves propagate at the speed of light with polarizartion states invariant under rotations of $180 \degree$, should lead to a massless spin-2 particle: the graviton.
-Despite the fact that we are a long way from detecting such particles, any possible quantum theory of gravity should predict their existence with these properties.
+Despite the fact that we are a long way from detecting such particles, any possible quantum theory of gravity should predict their existence with these properties \cite{carroll_spacetime_2003}.
 
 
 

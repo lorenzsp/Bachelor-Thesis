@@ -1,8 +1,8 @@
-We have studied how the gravitational waves propagate in vacuum. 
-We now want to understand the relation between the gravitational waves and their source. In most of the physical scenarios the system that produces the gravitational waves is small compared to the distances with the detector. Therefore,
-in order to study the solutions of the linearized Einstein's field equation(\ref{linear_einstein_eq})
-we make a crucial approximation
-
+We now want to understand the relation between the gravitational waves and their sources. 
+ Therefore,
+we make several approximations in order to find a solution of the linearized Einstein's field equation(\ref{linear_einstein_eq}).
+In addition, we apply the solution to a slowly moving binary source and we give an estimate of the amplitude of a typical gravitational wave.\\
+We will follow a procedure similiar to \cite{carroll_spacetime_2003}, however a derivation of the same result can be found also in \cite{schutz_first_1985,flanagan_basics_2005}.
 \subsection{Solution of the linearized Einstein's field equation}
 \label{solution_linearized_einstein_eq}
 The generation of gravitational radiation depends on the movements of objects in spacetime. 
@@ -52,7 +52,7 @@ Plugging the retarded Green function into equation(\ref{h_green_function}) and i
 where $t=x^{0}$ and the integration is made over the spatial coordinates. 
 From equation(\ref{h_retarded_solution}) we notice that the metric perturbation is influenced by the matter and energy distribution, $T_{\mu \nu}$, at time $t-\abs{\vb{x}-\vb{y}}$. 
 Since the gravitational radiation travels at the speed of light $c=1$, the metric perturbation at $(t,\vb{x})$ is influenced by the radiation that was produced by the source at the retarded time $t_r = t-\abs{\vb{x}-\vb{y}}$.\\
-We have obtained a general solution, however it possible to derive a formula that reaveals the quadrupole nature of the gravitational radiation if we assume:
+We have obtained a general solution, however it possible to derive a more specific formula that will reaveal the quadrupole nature of the gravitational radiation, if we make the following assumptions:
 \begin{itemize}
 \item \textbf{far field approximation}: the metric perturbation (\ref{h_retarded_solution}) is evaluated at large distances from the source
 \begin{equation}
@@ -125,7 +125,7 @@ Whereas, the conservation of the energy-momentum tensor $\partial_\mu T^{\mu \nu
 - \partial_m \qty( \ten ^{m k})  = i \omega \ten ^{0 k}
 \] 
 Notice that the conservation of the energy-momentum tensor is a very strong assumption, because the motion of bodies is governed by non-gravitational interactions. 
-However, and remarkably, the result depends only on the sources motion and not on the forces acting on them.
+However, and remarkably, the result depends only on the sources motion and not on the forces acting on them \cite{ferrari_quadrupole_nodate}.
 Thus,
 \bea
 \int \ten ^{j k} (\omega , \vb{y}) \dd ^{3} y 
@@ -184,12 +184,12 @@ T ^{00} (t_r , \vb{y}) \;
 )
 ]
 \eea
-We can transform back the above result to obtain the original metric perturbation
+Applying the inverse Fourier-transform to the above result, we obtain the original metric perturbation
 \beq
 \label{h_bar_quadrupole_formula}
 \bar{h}_{kj} = \dfrac{2}{r} \dv[2]{}{t} I_{kj} (t_r)
 \eeq
-where we defined the \textbf{quadrupole moment tensor} 
+where we define the \textbf{quadrupole moment tensor} 
 \begin{equation}
 \label{quadrupole_moment_tensor}
 I_{k j} (t) =
@@ -229,16 +229,17 @@ the \textbf{quadrupole formula}
 \label{h_TT_quadrupole_formula}
 h^{\T}_{ij} = \dfrac{2}{r} \dv[2]{\mathcal{I}_{kl}(t_r)}{t} \qty(:P_{i}^{k}::P_{j}^{l}: - \dfrac{1}{2} P_{ij} P^{kl})
 \end{equation}
-which represents the metric perturbation of equation(\ref{h_bar_quadrupole_formula}) in the TT gauge, since $h^{\T}_{\mu \nu} = \bar{h} ^{\T}_{\mu \nu}$.
-Notice that the gravitational wave scales as $\sim 1/r$.
+which represents the metric perturbation of equation(\ref{h_bar_quadrupole_formula}) in the TT gauge, since $h^{\T}_{\mu \nu} = \bar{h} ^{\T}_{\mu \nu}$.\\
+Equation(\ref{h_TT_quadrupole_formula}) represents a general solution of the linearized Einstein's field equation, and it shows that the gravitational wave scales as $\sim 1/r$.
 \\
 
 
 \subsection{The nature of the gravitational radiation}
 The quadrupole formula (\ref{h_TT_quadrupole_formula}) and its derivation gives a  first insight into the properties of the gravitational waves and their sources.\\
 Firstly, the gravitational radiation has a \textbf{quadrupolar nature}, because the GW produced by an isolated nonrelativisitc object is proportional to the second derivative of the reduced quadrupole moment of the energy density. 
-It is possible to justify qualitatively
-the quadrupole nature, defining the gravitational analogue of the dipole moment: \textbf{mass dipole moment}
+We justify qualitatively
+the quadrupole nature of the GWs.
+Let us define the gravitational analogue of the dipole moment: \textbf{mass dipole moment}
 \begin{equation}
 \label{mass_dipole_moment}
 \vb{D} = \sum _{i} m_{i} \vb{x}_i
@@ -257,6 +258,7 @@ Similiarly, the gravitational analogue of the magnetic dipole moment is
 where $\vb{J}$ is the total angular momentum of the system. 
 Since the total angular momentum is conserved. Hence, there can be no dipole radiation of any sort from a gravitational source.
 It should be stressed that for a spherical  distribution of matter (or energy) the quadrupole moment is a constant, even if the body is rotating: thus, a spherical star does not emit gravitational waves.\\
+
 We now study the GW-emission of a binary system in circular orbit with radius $R$.
 We assume that two equal-mass stars are orbiting far from each others with an angular frequency $\omega$ and they can be trated as point particles on the $x^{1}-x^{2}$ plane. Thus,
 \[
@@ -336,7 +338,7 @@ We will see again these aspects when we will treat the numerical simulations, bu
 \mathcal{H} = 
  \dfrac{8\,G M \,R^{2} \omega^{2}}{c^{4}\, r} \,
 \]
-We assume that the two objects to be separated by a distance $R$ equal three times their Schwarzschild radii $r_s=2 G M/c^{2}$.
+We assume the two objects to be separated by a distance $R$ equal three times their Schwarzschild radii $r_s=2 G M/c^{2}$.
 In addition we consider that the two objects have approximately the mass of the Sun $M=M_{\odot}=2\times 10^{30} \kilo \gram $ and they rotate with an angular frequency given by the Kepler's third law $\omega = \sqrt{GM/(4R^{3})}$.
 \bea
 \dfrac{G}{c^{4}} = 8.26 \times 10^{-45} \kilo \gram^{-1} \, \second ^{2} \meter ^{-1} 

@@ -2229,7 +2229,31 @@
     <bcf:citekey order="10">flanagan_basics_2005</bcf:citekey>
     <bcf:citekey order="11">martin_notes</bcf:citekey>
     <bcf:citekey order="12">thorne_gravitational_1995</bcf:citekey>
-    <bcf:citekey order="13">taniguchiVariousFeaturesQuasiequilibrium2003</bcf:citekey>
+    <bcf:citekey order="13">LIGOLaserInterferometer1992</bcf:citekey>
+    <bcf:citekey order="14">LIGOLaserInterferometer1992</bcf:citekey>
+    <bcf:citekey order="15">carroll_spacetime_2003</bcf:citekey>
+    <bcf:citekey order="16">carroll_spacetime_2003</bcf:citekey>
+    <bcf:citekey order="17">schutz_first_1985</bcf:citekey>
+    <bcf:citekey order="17">flanagan_basics_2005</bcf:citekey>
+    <bcf:citekey order="18">ferrari_quadrupole_nodate</bcf:citekey>
+    <bcf:citekey order="19">bishop_extraction_2016</bcf:citekey>
+    <bcf:citekey order="20">loffler_einstein_2012</bcf:citekey>
+    <bcf:citekey order="20">EinsteinToolkit:web</bcf:citekey>
+    <bcf:citekey order="20">EinsteinToolkit:ascl</bcf:citekey>
+    <bcf:citekey order="21">noauthor_cactus_nodate</bcf:citekey>
+    <bcf:citekey order="22">newman_approach_1962</bcf:citekey>
+    <bcf:citekey order="23">thorne_multipole_1980</bcf:citekey>
+    <bcf:citekey order="24">de_pietri_modeling_2016</bcf:citekey>
+    <bcf:citekey order="25">maione_spectral_2017</bcf:citekey>
+    <bcf:citekey order="26">loffler_einstein_2012</bcf:citekey>
+    <bcf:citekey order="27">tichy_quasi-equilibrium_2004</bcf:citekey>
+    <bcf:citekey order="28">Ansorg:2004ds</bcf:citekey>
+    <bcf:citekey order="29">Brown:2008sb</bcf:citekey>
+    <bcf:citekey order="30">moesta_grhydro:_2014</bcf:citekey>
+    <bcf:citekey order="31">shibata_simulation_nodate</bcf:citekey>
+    <bcf:citekey order="31">kiuchi_long-term_2009</bcf:citekey>
+    <bcf:citekey order="32">thorne_gravitational_1995</bcf:citekey>
+    <bcf:citekey order="33">taniguchiVariousFeaturesQuasiequilibrium2003</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none" type="entry" sortscheme="none">
   <bcf:sorting>

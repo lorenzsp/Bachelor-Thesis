@@ -2498,6 +2498,24 @@
       \endverb
       \keyw{General Relativity and Quantum Cosmology}
     \endentry
+    \entry{martin_notes}{online}{}
+      \name{author}{1}{}{%
+        {{hash=5ad72e5076cd1754fdefde5e5a0514a6}{Hendry}{H\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5ad72e5076cd1754fdefde5e5a0514a6}
+      \strng{fullhash}{5ad72e5076cd1754fdefde5e5a0514a6}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An Introduction to General Relativity, Gravitational Waves and Detection Principles}
+      \field{urlday}{30}
+      \field{urlmonth}{06}
+      \field{urlyear}{2018}
+      \verb{url}
+      \verb http://www.astro.gla.ac.uk/~martin/teaching/gravitational-wave-detection/supa_gwd_mah.pdf
+      \endverb
+    \endentry
     \entry{thorne_gravitational_1995}{article}{}
       \name{author}{1}{}{%
         {{hash=707ddbbdf095969f96b32d475efb0c4d}{Thorne}{T\bibinitperiod}{Kip\bibnamedelima S.}{K\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
@@ -2522,6 +2540,426 @@
       \endverb
       \verb{url}
       \verb http://arxiv.org/abs/gr-qc/9506086
+      \endverb
+    \endentry
+    \entry{LIGOLaserInterferometer1992}{article}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science, New Series}
+      \field{number}{5055,}
+      \field{title}{{{LIGO}}: {{The Laser Interferometer Gravitational}}-{{Wave Observatory Author}}(s): {{Alex Abramovici}}, {{William E}}. {{Althouse}}, {{Ronald W}}. {{P}}. {{Drever}}, {{Yekta G\"{u}rsel}}, {{Seiji Kawamura}}, {{Frederick J}}. {{Raab}}, {{David Shoemaker}}, {{Lisa Sievers}}, {{Robert E}}. {{Spero}}, {{Kip S}}. {{Thorne}}, {{Rochus E}}. {{Vogt}}, {{Rainer Weiss}}, {{Stanley E}}. {{Whitcomb}}, {{Michael E}}. {{Zucker}}}
+      \field{volume}{256}
+      \field{year}{1992}
+      \field{pages}{325\bibrangedash 333}
+      \range{pages}{9}
+      \verb{file}
+      \verb /Users/lorenzosperi/Zotero/storage/7AJKRD7W/1992 - LIGO The Laser Interferometer Gravitational-Wave .pdf
+      \endverb
+    \endentry
+    \entry{schutz_first_1985}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ff7ea3de793ae7ae3e7c386d8b62d34c}{Schutz}{S\bibinitperiod}{Bernard\bibnamedelima F.}{B\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Cambridge [Cambridgeshire] ; New York}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{ff7ea3de793ae7ae3e7c386d8b62d34c}
+      \strng{fullhash}{ff7ea3de793ae7ae3e7c386d8b62d34c}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-521-25770-1 978-0-521-27703-7}
+      \field{langid}{english}
+      \field{pagetotal}{376}
+      \field{title}{A first course in general relativity}
+      \field{year}{1985}
+      \verb{file}
+      \verb Schutz - 1985 - A first course in general relativity.pdf:/Users/lorenzosperi/Zotero/storage/5YNF26Z9/Schutz - 1985 - A first course in general relativity.pdf:application/pdf
+      \endverb
+      \keyw{Astrophysics,General relativity (Physics)}
+    \endentry
+    \entry{ferrari_quadrupole_nodate}{article}{}
+      \name{author}{1}{}{%
+        {{hash=215c05cd3f1872040549914a2e0e1892}{Ferrari}{F\bibinitperiod}{Valeria}{V\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{215c05cd3f1872040549914a2e0e1892}
+      \strng{fullhash}{215c05cd3f1872040549914a2e0e1892}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{{THE} {QUADRUPOLE} {FORMALISM} {APPLIED} {TO} {BINARY} {SYSTEMS}}
+      \field{pages}{41}
+      \range{pages}{1}
+      \verb{file}
+      \verb Ferrari - THE QUADRUPOLE FORMALISM APPLIED TO BINARY SYSTEMS.pdf:/Users/lorenzosperi/Zotero/storage/Y9PPDVVD/Ferrari - THE QUADRUPOLE FORMALISM APPLIED TO BINARY SYSTEMS.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{EinsteinToolkit:web}{misc}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labeltitlesource}{title}
+      \field{title}{{Einstein Toolkit}: Open software for relativistic astrophysics}
+      \verb{url}
+      \verb http://einsteintoolkit.org/
+      \endverb
+    \endentry
+    \entry{EinsteinToolkit:ascl}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=628cba4e03ee84ff1745dcf731849184}{{Collaborative\bibnamedelimb Effort}}{C\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{628cba4e03ee84ff1745dcf731849184}
+      \strng{fullhash}{628cba4e03ee84ff1745dcf731849184}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Astrophysics Source Code Library}
+      \field{month}{02}
+      \field{title}{Einstein Toolkit for Relativistic Astrophysics}
+      \field{year}{2011}
+      \verb{eprint}
+      \verb ascl:1102.014
+      \endverb
+    \endentry
+    \entry{noauthor_cactus_nodate}{online}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labeltitlesource}{title}
+      \field{title}{Cactus Code}
+      \field{urlday}{30}
+      \field{urlmonth}{06}
+      \field{urlyear}{2018}
+      \verb{file}
+      \verb Cactus Code ��� Welcome:/Users/lorenzosperi/Zotero/storage/VWDWAICT/cactuscode.org.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://cactuscode.org/
+      \endverb
+    \endentry
+    \entry{newman_approach_1962}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0f1f950e6b723533b0a454df300e4b78}{Newman}{N\bibinitperiod}{Ezra}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=f51dfd339a12125d0f82a2d93e66d9b7}{Penrose}{P\bibinitperiod}{Roger}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{d1ed1100411618efa7649607553b63d2}
+      \strng{fullhash}{d1ed1100411618efa7649607553b63d2}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{01}
+      \field{issn}{0022-2488}
+      \field{journaltitle}{Journal of Mathematical Physics}
+      \field{month}{05}
+      \field{title}{An Approach to Gravitational Radiation by a Method of Spin Coefficients}
+      \field{urlday}{01}
+      \field{urlmonth}{07}
+      \field{urlyear}{2018}
+      \field{volume}{3}
+      \field{year}{1962}
+      \verb{doi}
+      \verb 10.1063/1.1724257
+      \endverb
+      \verb{file}
+      \verb Snapshot:/Users/lorenzosperi/Zotero/storage/RKYS4WM9/1.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://aip.scitation.org/doi/10.1063/1.1724257
+      \endverb
+    \endentry
+    \entry{thorne_multipole_1980}{article}{}
+      \name{author}{1}{}{%
+        {{hash=707ddbbdf095969f96b32d475efb0c4d}{Thorne}{T\bibinitperiod}{Kip\bibnamedelima S.}{K\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{707ddbbdf095969f96b32d475efb0c4d}
+      \strng{fullhash}{707ddbbdf095969f96b32d475efb0c4d}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{01}
+      \field{journaltitle}{Rev. Mod. Phys.}
+      \field{month}{04}
+      \field{title}{Multipole expansions of gravitational radiation}
+      \field{urlday}{01}
+      \field{urlmonth}{07}
+      \field{urlyear}{2018}
+      \field{volume}{52}
+      \field{year}{1980}
+      \verb{doi}
+      \verb 10.1103/RevModPhys.52.299
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/RevModPhys.52.299
+      \endverb
+    \endentry
+    \entry{de_pietri_modeling_2016}{article}{}
+      \name{author}{4}{}{%
+        {{hash=4bb709924037229f048057689ee1694b}{De\bibnamedelima Pietri}{D\bibinitperiod\bibinitdelim P\bibinitperiod}{Roberto}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=1b640939332d610c057e1d132bc237e5}{Feo}{F\bibinitperiod}{Alessandra}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=3ac2daefffbb3ce28325818f5642d417}{Maione}{M\bibinitperiod}{Francesco}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=87f8d24c3854c275e2ba4fc57d4e3dca}{L��ffler}{L\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{55fdf3958045cbcd2bb721689ac9ecf6}
+      \strng{fullhash}{0d18f6570a1a7281c590cd3b5f3423ec}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{21}
+      \field{eprinttype}{arxiv}
+      \field{issn}{2470-0010, 2470-0029}
+      \field{journaltitle}{Physical Review D}
+      \field{month}{03}
+      \field{number}{6}
+      \field{title}{Modeling Equal and Unequal Mass Binary Neutron Star Mergers Using Public Codes}
+      \field{urlday}{14}
+      \field{urlmonth}{03}
+      \field{urlyear}{2018}
+      \field{volume}{93}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.93.064047
+      \endverb
+      \verb{eprint}
+      \verb 1509.08804
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1509.08804
+      \endverb
+      \keyw{General Relativity and Quantum Cosmology,Astrophysics - High Energy Astrophysical Phenomena}
+    \endentry
+    \entry{maione_spectral_2017}{article}{}
+      \name{author}{4}{}{%
+        {{hash=3ac2daefffbb3ce28325818f5642d417}{Maione}{M\bibinitperiod}{Francesco}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=4bb709924037229f048057689ee1694b}{De\bibnamedelima Pietri}{D\bibinitperiod\bibinitdelim P\bibinitperiod}{Roberto}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=1b640939332d610c057e1d132bc237e5}{Feo}{F\bibinitperiod}{Alessandra}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=87f8d24c3854c275e2ba4fc57d4e3dca}{L��ffler}{L\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0e0b58e6a9449da744a078428c11b729}
+      \strng{fullhash}{436835d09803c08b1880789172b416e2}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Comment: 19 pages, 6 figures}
+      \field{day}{19}
+      \field{eprinttype}{arxiv}
+      \field{issn}{2470-0010, 2470-0029}
+      \field{journaltitle}{Physical Review D}
+      \field{month}{09}
+      \field{number}{6}
+      \field{title}{Spectral analysis of gravitational waves from binary neutron star merger remnants}
+      \field{urlday}{01}
+      \field{urlmonth}{07}
+      \field{urlyear}{2018}
+      \field{volume}{96}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.96.063011
+      \endverb
+      \verb{eprint}
+      \verb 1707.03368
+      \endverb
+      \verb{file}
+      \verb arXiv\:1707.03368 PDF:/Users/lorenzosperi/Zotero/storage/7IWFHYQP/Maione et al. - 2017 - Spectral analysis of gravitational waves from bina.pdf:application/pdf;arXiv.org Snapshot:/Users/lorenzosperi/Zotero/storage/4AQLSEZ9/1707.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1707.03368
+      \endverb
+      \keyw{General Relativity and Quantum Cosmology}
+    \endentry
+    \entry{tichy_quasi-equilibrium_2004}{article}{}
+      \name{author}{2}{}{%
+        {{hash=cd543469994a749de14fd65581453f1e}{Tichy}{T\bibinitperiod}{Wolfgang}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=515e409e8275608f413316cd8302f49a}{Bruegmann}{B\bibinitperiod}{Bernd}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7713af6967f8aa819a8c73c360bc8ba2}
+      \strng{fullhash}{7713af6967f8aa819a8c73c360bc8ba2}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Comment: 6 pages, 3 figures, 1 table}
+      \field{day}{22}
+      \field{eprinttype}{arxiv}
+      \field{issn}{1550-7998, 1550-2368}
+      \field{journaltitle}{Physical Review D}
+      \field{month}{01}
+      \field{number}{2}
+      \field{title}{Quasi-equilibrium binary black hole sequences for puncture data derived from helical Killing vector conditions}
+      \field{urlday}{15}
+      \field{urlmonth}{05}
+      \field{urlyear}{2018}
+      \field{volume}{69}
+      \field{year}{2004}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.69.024006
+      \endverb
+      \verb{eprint}
+      \verb gr-qc/0307027
+      \endverb
+      \verb{file}
+      \verb arXiv\:gr-qc/0307027 PDF:/Users/lorenzosperi/Zotero/storage/YIKQUMBF/Tichy e Bruegmann - 2004 - Quasi-equilibrium binary black hole sequences for .pdf:application/pdf;arXiv.org Snapshot:/Users/lorenzosperi/Zotero/storage/9L6LH467/0307027.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/gr-qc/0307027
+      \endverb
+      \keyw{General Relativity and Quantum Cosmology}
+    \endentry
+    \entry{Ansorg:2004ds}{article}{}
+      \name{author}{3}{}{%
+        {{hash=32d940f1fa0feed55d5ba69488592157}{Ansorg}{A\bibinitperiod}{Marcus}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=43e5be9ae2cfa9c075d524f580c39ff2}{Br\"{u}gmann}{B\bibinitperiod}{Bernd}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=cd543469994a749de14fd65581453f1e}{Tichy}{T\bibinitperiod}{Wolfgang}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7f2a496551664c7cbc3ef78635da72b6}
+      \strng{fullhash}{7f2a496551664c7cbc3ef78635da72b6}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{title}{A single-domain spectral method for black hole puncture data}
+      \field{volume}{70}
+      \field{year}{2004}
+      \field{pages}{064011}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.70.064011
+      \endverb
+      \verb{eprint}
+      \verb arXiv:gr-qc/0404056
+      \endverb
+    \endentry
+    \entry{Brown:2008sb}{article}{}
+      \name{author}{5}{}{%
+        {{hash=c3d6efc453fa268ccc9e613151f7a6a7}{Brown}{B\bibinitperiod}{J.\bibnamedelimi David}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=1fab9b0067b4b9314409067906679eac}{Diener}{D\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=47f17e3ea313fd85a3996726d58172e9}{Sarbach}{S\bibinitperiod}{Olivier}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=937549ffa2de880ce4feb55ddff1bf68}{Schnetter}{S\bibinitperiod}{Erik}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=e417f7fbaac6568bf556c5cdc5a4785d}{Tiglio}{T\bibinitperiod}{Manuel}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7c8a3abbbe34c02130b220cb9e3c31a6}
+      \strng{fullhash}{6227e7b13ab726b24ebd66e3726cf620}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{title}{Turduckening black holes: an analytical and computational study}
+      \verb{eprint}
+      \verb arXiv:0809.3533 [gr-qc]
+      \endverb
+    \endentry
+    \entry{moesta_grhydro:_2014}{article}{}
+      \name{author}{10}{}{%
+        {{hash=1d7269b00b0aa70fd0afd585f4018728}{Moesta}{M\bibinitperiod}{Philipp}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=24e1997e751fa393fae573dc1f7a086e}{Mundim}{M\bibinitperiod}{Bruno\bibnamedelima C.}{B\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=c757a747bf81e932fb21efa72508dcea}{Faber}{F\bibinitperiod}{Joshua\bibnamedelima A.}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=9927c753578b5d05f05c1da2e5aa2a7b}{Haas}{H\bibinitperiod}{Roland}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=8463e598b913666d82d89782e094384f}{Noble}{N\bibinitperiod}{Scott\bibnamedelima C.}{S\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=ae69daf94c17ea228b312487673a5739}{Bode}{B\bibinitperiod}{Tanja}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=0b1732e3dc7de8c3e5cf6bbf8e73b1c9}{Loeffler}{L\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=b0688db45ee6e3afd47ba043fa1eb9e8}{Ott}{O\bibinitperiod}{Christian\bibnamedelima D.}{C\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=ee3078d30b003a4e669a742f7df340a8}{Reisswig}{R\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=937549ffa2de880ce4feb55ddff1bf68}{Schnetter}{S\bibinitperiod}{Erik}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1324feb8b7b77032db021a90dfe9e414}
+      \strng{fullhash}{508222f62d8f06a3d00274b01bc8102c}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{annotation}{Comment: 58 pages, 20 figures}
+      \field{day}{07}
+      \field{eprinttype}{arxiv}
+      \field{issn}{0264-9381, 1361-6382}
+      \field{journaltitle}{Classical and Quantum Gravity}
+      \field{month}{01}
+      \field{number}{1}
+      \field{shorttitle}{{GRHydro}}
+      \field{title}{{GRHydro}: A new open source general-relativistic magnetohydrodynamics code for the Einstein Toolkit}
+      \field{urlday}{28}
+      \field{urlmonth}{04}
+      \field{urlyear}{2018}
+      \field{volume}{31}
+      \field{year}{2014}
+      \field{pages}{015005}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0264-9381/31/1/015005
+      \endverb
+      \verb{eprint}
+      \verb 1304.5544
+      \endverb
+      \verb{file}
+      \verb arXiv\:1304.5544 PDF:/Users/lorenzosperi/Zotero/storage/ZGYR5ZTD/Moesta et al. - 2014 - GRHydro A new open source general-relativistic ma.pdf:application/pdf;arXiv.org Snapshot:/Users/lorenzosperi/Zotero/storage/AYUF447U/1304.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1304.5544
+      \endverb
+      \keyw{General Relativity and Quantum Cosmology}
+    \endentry
+    \entry{shibata_simulation_nodate}{article}{}
+      \name{author}{1}{}{%
+        {{hash=41bf97ddfab7a6296d0dc3265ce94f57}{Shibata}{S\bibinitperiod}{Masaru}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{41bf97ddfab7a6296d0dc3265ce94f57}
+      \strng{fullhash}{41bf97ddfab7a6296d0dc3265ce94f57}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{PHYSICAL} {REVIEW} D}
+      \field{langid}{english}
+      \field{title}{Simulation of merging binary neutron stars in full general relativity: �����2 case}
+      \field{pages}{18}
+      \range{pages}{1}
+      \verb{file}
+      \verb Shibata - Simulation of merging binary neutron stars in full.pdf:/Users/lorenzosperi/Zotero/storage/7M2Q5ZH2/Shibata - Simulation of merging binary neutron stars in full.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{kiuchi_long-term_2009}{article}{}
+      \name{author}{4}{}{%
+        {{hash=e8516d4c3d4a964581fc57a890981b91}{Kiuchi}{K\bibinitperiod}{Kenta}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=4936a8be2d2cbf5024332bb1aae11134}{Sekiguchi}{S\bibinitperiod}{Yuichiro}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=41bf97ddfab7a6296d0dc3265ce94f57}{Shibata}{S\bibinitperiod}{Masaru}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=94bcd01a615878e069e3599359978104}{Taniguchi}{T\bibinitperiod}{Keisuke}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{b9d7e222b204b06922f4a27edf42ed95}
+      \strng{fullhash}{d438ecb0dc3614eec5b540441a613ee3}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{25}
+      \field{issn}{1550-7998, 1550-2368}
+      \field{journaltitle}{Physical Review D}
+      \field{langid}{english}
+      \field{month}{09}
+      \field{number}{6}
+      \field{title}{Long-term general relativistic simulation of binary neutron stars collapsing to a black hole}
+      \field{urlday}{18}
+      \field{urlmonth}{04}
+      \field{urlyear}{2018}
+      \field{volume}{80}
+      \field{year}{2009}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.80.064037
+      \endverb
+      \verb{file}
+      \verb Kiuchi et al. - 2009 - Long-term general relativistic simulation of binar.pdf:/Users/lorenzosperi/Zotero/storage/MEUCB5J8/Kiuchi et al. - 2009 - Long-term general relativistic simulation of binar.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevD.80.064037
       \endverb
     \endentry
     \entry{taniguchiVariousFeaturesQuasiequilibrium2003}{article}{}
@@ -2556,7 +2994,6 @@
       \keyw{Astrophysics,General Relativity and Quantum Cosmology}
     \endentry
   \endsortlist
-  \missing{martin_notes}
 \endrefsection
 \endinput
 

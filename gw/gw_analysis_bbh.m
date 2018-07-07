@@ -495,23 +495,24 @@ omega = 0.1;
 
 n=1;
 ii=1;
-for t=500:3000
+for t=80:3000
     % plus polarization
     h_plus = 0.5*cos(omega.*t);
-    h_times = 0.5*cos(omega.*t + pi/2);
+    h_times = 0.5*cos(omega.*t - pi/2);
     X = cos(theta) .* (1 + 0.5.*h_plus) + sin(theta).*(0.5.*h_times);
     Y = sin(theta) .* (1 - 0.5.*h_plus) + cos(theta).*(0.5.*h_times);
 
-    CM = jet(120); % n+10 
-    plot3(X,ii.*ones(size(X)),Y,'.','color',CM(n,:));
+    CM = jet(150); % n+10 
+    plot3(X,Y,ii.*ones(size(X)),'.','color',CM(n,:));
     grid on;
     %set(gca,'Visible','off')
     %pbaspect([1 1 1]);
     set(gca,'zticklabel',[])
     set(gca,'xticklabel',[])
     set(gca,'yticklabel',[])
-    xlabel('x');
-    ylabel('y');
+    plot_f('','x','y',20);
+    %xlabel('x');
+    %ylabel('y');
     zlabel('t');
     %set(gca,'xtick',[])
     %set(gca,'ytick',[])

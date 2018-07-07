@@ -1,33 +1,30 @@
-
 In the linearized approximation, where gravitational fields are weak and velocities are nonrelativistic, we showed that it is straightforward to derive a relationship between the matter dynamics and the emission of gravitational waves, thus obtaining the quadrupole formula.
 However, the strongest gravitational-wave signals come from highly compact systems that evolve at relativistic speeds, where the linearized assumptions do not apply. 
 Therefore, gravitational-wave detectors find more likely an event which has a powreful signals.
 Thus, it is important to be able to calculate gravitational-wave emission accurately for processes such as black hole or neutron star inspiral and merger.
-Such problems cannot be solved analytically and instead are modeled by numerical relativity to compute the gravitational field near the source.\\
-In this section we study the gravitational-wave signals obtained from numerical simulations of compact binaries, using the Einstein Toolkit, an open-source computational infrastructure for numerical relativity based on Cactus Framework.\\
-The Cactus framework [ref] is a general framework for the development of portable, modular applications, wherein programs are split into components (called thorns) with clearly defined dependencies and interactions. 
+Such problems cannot be solved analytically and instead are modeled by numerical relativity to compute the gravitational field near the source \cite{bishop_extraction_2016}.\\
+In this section we study the gravitational-wave signals obtained from numerical simulations of compact binaries, using the Einstein Toolkit \cite{loffler_einstein_2012,EinsteinToolkit:web,EinsteinToolkit:ascl}, an open-source computational infrastructure for numerical relativity based on Cactus Framework \cite{noauthor_cactus_nodate}.\\
+The Cactus framework is a general framework for the development of portable, modular applications, wherein programs are split into components (called thorns) with clearly defined dependencies and interactions. 
 Thorns are typically developed independently and do not directly interact with each other. 
 Cactus simulations require an executable to be compiled, and this executable has one mandatory argument: a parameter file.
 The parameter file is a simple text file, containing the desired settings within the simulation, it is used not only to set up the initial conditions and the necessary thorns for the simulation, but also to choose outputs and their format.
 \\
 A thorough description of the numerical methods used to perform the simulations can be found here, we depict the initial conditions of our simulations and we briefly mention the used thorns.
-Rather than analyzing the algorithms of th Einstein Toolkit, the purpose of the following sections is to study the gravitational-wave signals of binaries black holes (BBH) and neutron stars (BNS).\\ 
+Rather than analyzing the algorithms of th Einstein Toolkit, the purpose of the following sections is to study the gravitational-wave signals of binaries black holes (BBH) and neutron stars (BNS).
+\\ 
 \subsection{Gravitational Wave Extraction}
 \label{gw_extraction}
-Using \texttt{WeylScal4}, the Einstein Toolkit calculates the  Newman-Penrose scalar $\psi_4$ (also called Weyl scalar 4)[REF], which is linked to the GW strain by the following relation, valid only at spatial infinity:
+Using \texttt{WeylScal4}, the Einstein Toolkit calculates the  Newman-Penrose scalar $\psi_4$ (also called Weyl scalar 4)\cite{newman_approach_1962}, which is linked to the GW strain by the following relation, valid only at spatial infinity:
 \begin{equation}
 \label{psi_4_strain}
 \psi_{4} = \pdv[2]{}{t} \qty(h_{+} - i h_{\times})
 \end{equation}
 In order for equation(\ref{psi_4_strain}) to be valid, the signal has to be extracted as furthest as possible from the source.
-The signal is then decomposed in spin-weighted spherical harmonics of spin $ - 2$ by the thorn \texttt{Multipole} [% K. S. Thorne, Rev. Mod. Phys. 52, 299 (1980). Multipole expansions of gravitational radiation
-] 
+The signal is then decomposed in spin-weighted spherical harmonics of spin $ - 2$ by the thorn \texttt{Multipole}\cite{thorne_multipole_1980}
 \[
 \psi_4 (t',r,\theta,\phi)= \sum_{l=2} ^{\infty} \, \sum _{m=-l} ^{l=2} \psi^{lm} _4 (t',r) \, _{-2} Y _{lm} (\theta, \phi) 
 \]
-The output given by the Einstein Toolkit is therefore $\psi_{4} ^{lm} (t',r)$, however, in this work we only focus on the dominant $l = m = 2$ mode and we get the GW strain form following a procedure similiar to REF%modeling equal and un
-%mergers
-Since $\psi^{lm} _4 (t',r)$ is extracted at a distance $r$ from the source center,  our data detect the signal at a time $t'$, which is different from the instant when the radiation was emitted.
+The output given by the Einstein Toolkit is therefore $\psi_{4} ^{lm} (t',r)$, however, in this work we only focus on the dominant $l = m = 2$ mode and we get the GW strain form following a procedure similiar to \cite{de_pietri_modeling_2016}. A more advanced procedure can be found here \cite{maione_spectral_2017}. Since $\psi^{lm} _4 (t',r)$ is extracted at a distance $r$ from the source center,  our data detect the signal at a time $t'$, which is different from the instant when the radiation was emitted.
 So, we subtract from the output time $t'$ the distance from the source $r$
 in order to compute the gravitational radiation as if the signal would have been emitted at the coordinate origin.\\
 We are interested in the behavior of the gravitational wave at a given time and distance $(t,r) = (t'-r,r)$, so we neglect the numerical factor $_{-2} Y _{lm} (\theta, \phi)$ given by choosing an arbitrary angle $(\theta,\phi)$ for the spin-weighted spherical harmonics.
@@ -60,8 +57,8 @@ In addition, the units of time will be expressed in millisecond in order to easi
 
 \subsection{Binary Black Hole}
 As we have done so far and following the Einstein Tookit conventions, we set $G=c=1$, and therefore we express time and space in units of solar masses $M_{\odot}$, i.e. $1 t [M_{\odot}] \approx 0.005 \milli \second$ and $1 x [M_{\odot}] \approx 1.5 \kilo \meter$.\\
-We simulate the evolution of equal-mass binary black holes with different quasi-equilirbium initial conditions.
-The thorn \texttt{TwoPunctures} is used to set up the initial data for the two black holes located at the x-axis with opposite linear momentum along the y-axis.
+We simulate the evolution of equal-mass binary black holes using the parameter file included in the Einstein Toolkit \cite{loffler_einstein_2012} with different quasi-equilirbium initial conditions taken from \cite{tichy_quasi-equilibrium_2004}.
+The thorn \texttt{TwoPunctures} \cite{Ansorg:2004ds} is used to set up the initial data for the two black holes located at the x-axis with opposite linear momentum along the y-axis.
 Due to the symmetry of the problem, it is possible to reduce the computational cost by a factor of 2 by not evolving the domain with $z < 0$, and by another factor 2 evolving points with $x > 0$ and populating the missing part by rotating the existing domain for 180 degrees along the z-axis.
 An example of initial data set in the parameter file is
 \linebreak
@@ -108,7 +105,7 @@ BBH-b10 & 10 & 0.49299 & +0.061542 \\
 %%
 %%
 %%
-Each initial configuration is then evolved using the \texttt{ML\_BSSN} (\texttt{McLachlan} BSSN) thorn, the gravitational wave information is extracted using \texttt{WeylScal4} thorn.\\
+Each initial configuration is then evolved using the \texttt{ML\_BSSN} (\texttt{McLachlan} BSSN) thorn \cite{Brown:2008sb}, the gravitational wave information is extracted using \texttt{WeylScal4} thorn.\\
 The orbits of covered by the binaries black hole are shown in Figure(\ref{orbits}).
 %%
 %%
@@ -369,7 +366,7 @@ Such phenomenon could be due to the oscillations of the BBH orbits, however, a m
 We now study the evolution of a binary neutron star (BNS) made of two equal-mass objects rotating with an quasi-equilibrium initial conditions obtained using the software \texttt{Lorene} [REF].
 The total ADM mass of the system is $M_{\text{ADM}} = 3.251 \, M_{\odot}$.
 Since the two neutron stars are placed at in symmetric initial conditions with respect to the z axis, as in the binary black holes, the problem has a $\pi$ symmetry that reduces the computational cost.
-The hydrodynamics evolution of the neutron stars is achieved using the ideal fluid approximation. 
+The hydrodynamics evolution of the neutron stars is achieved using the ideal fluid approximation and the thorn \texttt{GRHydro} \cite{moesta_grhydro:_2014}. 
 The link between pressure $P$ and density $\rho$ is provided by the following equation of state (EOS)
 \[
 P = K \, \rho ^{\Gamma}
@@ -386,7 +383,8 @@ The initial separation between the two neutron stars is set to be $45 \, \kilo \
     \textbf{Gravitational wave and orbital radius of the BNS}\par\medskip
 \centering   
 \includegraphics[width=1\textwidth]{numerical_evolution/gw_r_bns.eps}
-\caption{The first and the second panels show, respectively the gravitational signal $\psi_4=\psi_4 ^{2,2}$ produced by the BNS, whereas the third pane shows the orbital radius obtained defined as the highest value of the density. Notice the bouncing behavior after $t \approx 9 \milli \second$, when the stars start bouncing and the gravitational wave decreases slowly its amplitude.}
+\caption{The first and the second panels show, respectively the gravitational signal $\psi_4=\psi_4 ^{2,2}$ produced by the BNS, whereas the third pane shows the orbital radius obtained defined as the highest value of the density. 
+Notice the bouncing behavior after $t \approx 9 \milli \second$, when the stars start bouncing and the gravitational wave decreases slowly its amplitude.}
 \label{gw_r_bns}
 \end{figure}
 %%
@@ -403,7 +401,7 @@ The reason of such behavior relies on the differences between a black hole and a
 However, since we could not continue simulations for a longer time, we cannot describe the features of the wave form in detail, but we speculate on the expected outcome and discuss the significance of the wave forms from the observational point of view.
 Due to the nature of balck holes,  the ring-down phase is short because when the events of horizon are enough close, the black holes merge into single black hole which shrinks quickly.
 So, the gravitational waveform amplitude of the BHs damps rapidly after the merger.\\
-In general, massive objects such neutron stars could collapse under their own weight forming a black hole depending on the compactness of the neutron stars before the merger.[REF]%simulations of merging binary neutron stars in full general relativity
+In general, massive objects such neutron stars could collapse under their own weight forming a black hole depending on the compactness of the neutron stars before the merger \cite{shibata_simulation_nodate,kiuchi_long-term_2009}.
 If this happens, the gravitational wave strain manifests a ring-down phase similiar to that one of the binary black holes.
 In our case, we speculate that the binary neutron stars do not form a black hole, because they are not enough compact and they transfer matter between themselves and outwards.\\
  In order to analyze the matter distribution during the simulation, let us study the rest mass density during the time evolution of the BNS.\\
@@ -415,8 +413,7 @@ Instead of merging, the matter bounces off again and again during the final stag
 Such behavior and the high rotational velocity lead the system to eject a big amount of matter, during the ring-down phase (Figures(\ref{f5}) and (\ref{f6})). 
 The matter, that does not overcome the "centrifugal force", is thrown away in a spiralling shape.\\
 The gravitational wave strain contains crucial information about the evoltuion of a system, indeed, it can give a clue on the matter evolution of our binary system.
-As Thorn would say "gravitational waves will show us details of the bulk motion of dense concentrations of energy".[REF ]%
-
+As Thorn would say "gravitational waves will show us details of the bulk motion of dense concentrations of energy".\cite{thorne_gravitational_1995}
 
 %%
 %%
