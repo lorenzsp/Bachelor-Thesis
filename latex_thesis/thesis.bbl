@@ -2370,6 +2370,15 @@
       \verb https://codata.org/blog/2015/08/04/codata-recommended-values-of-the-fundamental-physical-constants-2014/
       \endverb
     \endentry
+    \entry{EinsteinToolkit:web}{misc}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labeltitlesource}{title}
+      \field{title}{{Einstein Toolkit}: Open software for relativistic astrophysics}
+      \verb{url}
+      \verb http://einsteintoolkit.org/
+      \endverb
+    \endentry
     \entry{weinsteinEinsteinDiscoveryGravitational2016}{article}{}
       \name{author}{1}{}{%
         {{hash=6162d05004de9a4b29d5b40c1b78b6ba}{Weinstein}{W\bibinitperiod}{Galina}{G\bibinitperiod}{}{}{}{}}%
@@ -2629,15 +2638,6 @@
       \field{title}{{THE} {QUADRUPOLE} {FORMALISM} {APPLIED} {TO} {BINARY} {SYSTEMS}}
       \verb{file}
       \verb Ferrari - THE QUADRUPOLE FORMALISM APPLIED TO BINARY SYSTEMS.pdf:/Users/lorenzosperi/Zotero/storage/Y9PPDVVD/Ferrari - THE QUADRUPOLE FORMALISM APPLIED TO BINARY SYSTEMS.pdf:application/pdf
-      \endverb
-    \endentry
-    \entry{EinsteinToolkit:web}{misc}{}
-      \field{sortinit}{0}
-      \field{sortinithash}{990108227b3316c02842d895999a0165}
-      \field{labeltitlesource}{title}
-      \field{title}{{Einstein Toolkit}: Open software for relativistic astrophysics}
-      \verb{url}
-      \verb http://einsteintoolkit.org/
       \endverb
     \endentry
     \entry{EinsteinToolkit:ascl}{misc}{}

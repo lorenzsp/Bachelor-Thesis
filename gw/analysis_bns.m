@@ -87,6 +87,10 @@ figure();
 plot(A(:,1)*CU_to_ms, A(:,5)/CU_to_ms,'.')
 plot_f('\textbf{Orbital angular velocity $\omega$ of BBH-b3}','$$t \, [ms]$$','$$\omega \,[1/ms]$$',16);
 
+
+% frequency
+k=find(abs(y)==max(abs(y)));
+w_f(k)*1e3/(2*pi)
 %% snapshots
 i1=imread('../nsnstohmns/rho_000000003.png');
 i1=imcrop(i1,[30.5 62.5 546 460]);
