@@ -57,13 +57,16 @@ The proper distance is streched by the passing gravitational wave and the two pa
 \dfrac{\delta L}{L} \approx \dfrac{1}{2} h_{+} (t,z=0)
 \end{equation}
 The proper distance is a very important quantity which has a crucial experimental use. 
-For instance, a laser interferometer gravitational wave detector consists of four masses that hang from vibration-isolated supports as shown in Figure(\ref{interferometer}).
-When a gravitational wave passes through the detector, it changes the arm-length difference, thereby an optical system monitors the separations between the masses in such a way that the variations in the output of the photodiode are directly proportional to $\delta L$.
-The value of $\Delta L$ is a composition of the two polarizations of the gravitational wave $h_{+}$ and $h_{\times}$, and it also contains terms that weigh the direction of the GW.
+For instance, a laser interferometer gravitational wave detector, that consists of four masses that hang from vibration-isolated supports, compares the difference in the length $L_1$ and $L_2$ of two arms as shown in Figure(\ref{interferometer}).
+When a gravitational wave passes through the detector, it changes the arm-length difference, thereby an optical system monitors the separations between the masses in such a way that the variations in the output of the photodiode are directly proportional to $\Delta L = L_1 -L_2$.\\
+The value of $\Delta L$ is a composition of the two polarizations of the gravitational wave $h_{+}$ and $h_{\times}$, and it also contains terms $F_+$ $F_{\times}$ that weigh the direction of the GW such that
+\[
+\dfrac{\Delta L}{L} = F_{+} h_{+}(t) + F_{\times} h_{\times}(t) 
+\]
 One adjusts the reflectivities of the interferometer’s corner mirrors such that a typical photon travles up and down the cavity of order 100 times before returning to the beamsplitter and being directed into the photodiode.
 So, the accumulated phase shift in each arm will be
 \[
-\delta \phi \sim 100 \dfrac{4 \pi \delta L}{\lambda}
+\delta \phi \sim 100 \dfrac{4 \pi \Delta L}{\lambda}
 \]
 where $\lambda$ is the wavelength and $\delta L$ is the distance the mirror moves relative to the beam splitter.
 This phase shift can be measured at the photodiode to an accuracy that is governed by the light’s photon shot noise $\sim 1/\sqrt{N}$, where N is the number of photons that enter the interferometer from the laser \cite{thorne_gravitational_1995}.%ref thorne
@@ -74,7 +77,7 @@ This phase shift can be measured at the photodiode to an accuracy that is govern
 \begin{figure}[H]
 \centering
     \textbf{Laser interferometer gravitational wave detector}\par\medskip
-\makebox[\textwidth][c]{\includegraphics[width=0.9\textwidth]{effects_gw/interferometer}}
+\makebox[\textwidth][c]{\includegraphics[width=0.8\textwidth]{effects_gw/interferometer}}
 \caption{Schematic representation of a laser interferomenter gravitational wave detector (Figure from \cite{LIGOLaserInterferometer1992}).}
 %A. Abramovici et. al. Science, 256:325, 1992: name in zoteroLIGO: The Laser Interferometer Gravitational-Wave Observatory
 \label{interferometer}
@@ -83,7 +86,23 @@ This phase shift can be measured at the photodiode to an accuracy that is govern
 %%
 %%
 %%
-
+In Figure(\ref{gw_detetctor}), we show the sensitivity curve of the gravitational wave detector as a function of the gravitational strain $\mathcal{H} \sim\Delta L / L$ and $f$ the frequency of the gravitational wave. 
+%%
+%%
+%%
+%%
+\begin{figure}[H]
+\centering
+    \textbf{Sensitivity of gravitational wave detectors}\par\medskip
+\makebox[\textwidth][c]{\includegraphics[width=0.8\textwidth]{effects_gw/gw_detectors}}
+\caption{Schematic representation of a laser interferomenter gravitational wave detector (Figure from \cite{mooreGravitationalwaveSensitivityCurves2015}).}
+%A. Abramovici et. al. Science, 256:325, 1992: name in zoteroLIGO: The Laser Interferometer Gravitational-Wave Observatory
+\label{gw_detetctor}
+\end{figure}
+%%
+%%
+%%
+%%
 
 
 \subsection{From the geodesic deviation equation to the $+$ and $\times$ polarizations}

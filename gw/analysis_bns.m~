@@ -54,12 +54,15 @@ xlim([0 20]);
 %% positions importing
 A=positions_f('../nsnstohmns/rho_max_loc.csv');
 t=A(:,1);
-x=A(:,4).*cos(4*atan(A(:,3)./A(:,2)));
-y=A(:,4).*sin(4*atan(A(:,3)./A(:,2)));
+x=A(:,4).*cos(t.*A(:,5));%2*atan(A(:,3)./A(:,2)));
+y=A(:,4).*sin(t.*A(:,5));%2*atan(A(:,3)./A(:,2)));
 
 hold on;
-plot(x(:), y(:),'-')  
-plot(A(:,2),A(:,3),'-');
+plot(x,y,'b.')  
+%plot(-x(:), -y(:),'-')  
+plot(A(:,2),A(:,3),'.-');
+%plot(-A(:,2),-A(:,3),'.-');
+
 % velocities
 v_x = gradient(x,t);
 v_y = gradient(y,t);

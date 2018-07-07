@@ -2557,6 +2557,38 @@
       \verb /Users/lorenzosperi/Zotero/storage/7AJKRD7W/1992 - LIGO The Laser Interferometer Gravitational-Wave .pdf
       \endverb
     \endentry
+    \entry{mooreGravitationalwaveSensitivityCurves2015}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a6d12cc2c62df71709d9690fbf4bd4e2}{Moore}{M\bibinitperiod}{C\bibnamedelima J}{C\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=09a87f080cc3207be5af739e16f49d32}{Cole}{C\bibinitperiod}{R\bibnamedelima H}{R\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=687e28485092f7e97d042b93def9bf8d}{Berry}{B\bibinitperiod}{C\bibnamedelima P\bibnamedelima L}{C\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{11651eb3ed16e197ccdb670f6a2e472f}
+      \strng{fullhash}{11651eb3ed16e197ccdb670f6a2e472f}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{There are several common conventions in use by the gravitational-wave community to describe the amplitude of sources and the sensitivity of detectors. These are frequently confused. We outline the merits of and differences between the various quantities used for parameterizing noise curves and characterizing gravitational-wave amplitudes. We conclude by producing plots that consistently compare different detectors. Similar figures can be generated on-line for general use at http://rhcole.com/apps/GWplotter.}
+      \field{issn}{0264-9381, 1361-6382}
+      \field{journaltitle}{Classical and Quantum Gravity}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{Gravitational-Wave Sensitivity Curves}
+      \field{volume}{32}
+      \field{year}{2015}
+      \field{pages}{015014}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0264-9381/32/1/015014
+      \endverb
+      \verb{file}
+      \verb /Users/lorenzosperi/Zotero/storage/WESW69S5/Moore et al. - 2015 - Gravitational-wave sensitivity curves.pdf
+      \endverb
+    \endentry
     \entry{schutz_first_1985}{book}{}
       \name{author}{1}{}{%
         {{hash=ff7ea3de793ae7ae3e7c386d8b62d34c}{Schutz}{S\bibinitperiod}{Bernard\bibnamedelima F.}{B\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%

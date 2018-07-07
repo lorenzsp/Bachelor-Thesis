@@ -54,13 +54,14 @@ xlim([0 20]);
 %% positions importing
 A=positions_f('../nsnstohmns/rho_max_loc.csv');
 t=A(:,1);
-x=A(:,4).*cos(2*atan(A(:,3)./A(:,2)));
-y=A(:,4).*sin(2*atan(A(:,3)./A(:,2)));
+x=A(:,4).*cos(t.*A(:,5));%2*atan(A(:,3)./A(:,2)));
+y=A(:,4).*sin(t.*A(:,5));%2*atan(A(:,3)./A(:,2)));
 
 hold on;
-plot(x(:), y(:),'-')  
+plot(x,y,'b.')  
+%plot(-x(:), -y(:),'-')  
 plot(A(:,2),A(:,3),'.-');
-plot(-A(:,2),-A(:,3),'.-');
+%plot(-A(:,2),-A(:,3),'.-');
 
 % velocities
 v_x = gradient(x,t);
@@ -83,7 +84,7 @@ plot_f('\textbf{Fourier transform of the gravitational strain of BBH-b3}','$$\om
 xlim([0 15]);
 
 figure();
-plot(A(:,1)*CU_to_ms, omega/CU_to_ms,'.')
+plot(A(:,1)*CU_to_ms, A(:,5)/CU_to_ms,'.')
 plot_f('\textbf{Orbital angular velocity $\omega$ of BBH-b3}','$$t \, [ms]$$','$$\omega \,[1/ms]$$',16);
 
 %% snapshots
