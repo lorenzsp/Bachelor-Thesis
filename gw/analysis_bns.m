@@ -54,12 +54,14 @@ xlim([0 20]);
 %% positions importing
 A=positions_f('../nsnstohmns/rho_max_loc.csv');
 t=A(:,1);
-x=A(:,4).*cos(4*atan(A(:,3)./A(:,2)));
-y=A(:,4).*sin(4*atan(A(:,3)./A(:,2)));
+x=A(:,4).*cos(2*atan(A(:,3)./A(:,2)));
+y=A(:,4).*sin(2*atan(A(:,3)./A(:,2)));
 
 hold on;
-plot(x(450:end), y(450:end),'-')  
-%plot(-x,-y,'-');
+plot(x(:), y(:),'-')  
+plot(A(:,2),A(:,3),'.-');
+plot(-A(:,2),-A(:,3),'.-');
+
 % velocities
 v_x = gradient(x,t);
 v_y = gradient(y,t);
@@ -69,8 +71,8 @@ R = sqrt((x.^2 + y.^2));
 omega = (x.*v_y - y.*v_x)./(R.^2);
 
 %% Fourier
-               
-Fs = 1./abs(A(1,1)-A(2,1));            % Sampling frequency
+t=t_h_psi(:,1)*CU_to_ms;           
+Fs = 1./abs(t(2)-t(3));            % Sampling frequency
 y = fft(t_h_psi(:,2)+1i.*t_h_psi(:,3));     
 w_f = ((0:length(y)-1)*Fs/length(y))*(2*pi); % omega fourier
 
@@ -78,11 +80,11 @@ figure();
 hold on;
 plot(w_f,abs(y)/max(abs(y)));
 plot_f('\textbf{Fourier transform of the gravitational strain of BBH-b3}','$$\omega \,[1/ms]$$','$$ |\mathcal{F}[ h (t,r=100 Mpc)](\omega)|$$',16);
-xlim([0 0.8]);
+xlim([0 15]);
 
 figure();
-plot(t.*CU_to_ms, omega,'.')
-plot_f('\textbf{Angular velocity $\omega$ of BBH-b3}','$$t \, [ms]$$','$$\omega \,[1/ms]$$',16);
+plot(A(:,1)*CU_to_ms, omega/CU_to_ms,'.')
+plot_f('\textbf{Orbital angular velocity $\omega$ of BBH-b3}','$$t \, [ms]$$','$$\omega \,[1/ms]$$',16);
 
 %% snapshots
 i1=imread('../nsnstohmns/rho_000000003.png');

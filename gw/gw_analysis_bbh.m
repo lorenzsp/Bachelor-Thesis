@@ -276,12 +276,16 @@ xlim([0 7.5]);
 
 
 
+% frequency
+k=find(abs(y)==max(abs(y)));
+w_f(k)*1e3/(2*pi)
+
 
 
 %% Fourier transform and orbital angular frequency
 % b3
-t = b3_h(:,1);                   
-Fs = 1./abs(b3_h(1,1)-b3_h(2,1));            % Sampling frequency
+t = b3_h(:,1)*CU_to_ms;                   
+Fs = 1./abs(t(1)-t(2));            % Sampling frequency
 y = fft(b3_h(:,2)+1i.*b3_h(:,3));     
 w_f = ((0:length(y)-1)*Fs/length(y))*(2*pi); % omega fourier
 
@@ -289,16 +293,19 @@ figure();
 hold on;
 plot(w_f,abs(y)/max(abs(y)));
 plot_f('\textbf{Fourier transform of the gravitational strain of BBH-b3}','$$\omega \,[1/ms]$$','$$ |\mathcal{F}[ h (t,r=100 Mpc)](\omega)|$$',16);
-xlim([0 0.8]);
+xlim([0 0160]);
 
 figure();
-plot(b3_p(:,1).*CU_to_ms, b3_p(:,5))
-plot_f('\textbf{Angular velocity $\omega$ of BBH-b3}','$$t \, [ms]$$','$$\omega \,[1/ms]$$',16);
+plot(b3_p(:,1).*CU_to_ms, b3_p(:,5)/CU_to_ms)
+plot_f('\textbf{Orbital angular frequency $\omega$ of BBH-b3}','$$t \, [ms]$$','$$\omega \,[1/ms]$$',16);
 
+% frequency
+k=find(abs(y)==max(abs(y)));
+w_f(k)*1e3/(2*pi)
 
 %% b4
-t = b4_h(:,1);                   
-Fs = 1./abs(b4_h(1,1)-b4_h(2,1));            % Sampling frequency
+t = b4_h(:,1).*CU_to_ms;                   
+Fs = 1./abs(t(1)-t(2));            % Sampling frequency
 y = fft(b4_h(:,2)+1i.*b4_h(:,3));     
 w_f = ((0:length(y)-1)*Fs/length(y))*(2*pi); % omega fourier
 
@@ -306,15 +313,20 @@ figure();
 hold on;
 plot(w_f,abs(y)/max(abs(y)));
 plot_f('\textbf{Fourier transform of the gravitational strain of BBH-b4}','$$\omega \,[1/ms]$$','$$ |\mathcal{F}[ h (t,r=100 Mpc)](\omega)|$$',16);
-xlim([0 0.8]);
+xlim([0 130]);
 
 figure();
-plot(b4_p(:,1).*CU_to_ms, b4_p(:,5))
-plot_f('\textbf{Angular velocity $\omega$ of BBH-b4}','$$t \, [ms]$$','$$\omega \,[1/ms]$$',16);
+plot(b4_p(:,1).*CU_to_ms, b4_p(:,5)./CU_to_ms)
+plot_f('\textbf{Orbital angular frequency $\omega$ of BBH-b4}','$$t \, [ms]$$','$$\omega \,[1/ms]$$',16);
+
+% frequency
+k=find(abs(y)==max(abs(y)));
+w_f(k)*1e3/(2*pi)
+
 
 %% b5
-t = b5_h(:,1);                   
-Fs = 1./abs(b5_h(1,1)-b5_h(2,1));            % Sampling frequency
+t = b5_h(:,1)*CU_to_ms;                   
+Fs = 1./abs(t(2)-t(1));            % Sampling frequency
 y = fft(b5_h(:,2)+1i.*b5_h(:,3));     
 w_f = ((0:length(y)-1)*Fs/length(y))*(2*pi); % omega fourier
 
@@ -322,15 +334,21 @@ figure();
 hold on;
 plot(w_f,abs(y)/max(abs(y)));
 plot_f('\textbf{Fourier transform of the gravitational strain of BBH-b5}','$$\omega \,[1/ms]$$','$$ |\mathcal{F}[ h (t,r=100 Mpc)](\omega)|$$',16);
-xlim([0 0.8]);
+xlim([0 120]);
 
 figure();
-plot(b5_p(:,1).*CU_to_ms, b5_p(:,5))
-plot_f('\textbf{Angular velocity $\omega$ of BBH-b5}','$$t \, [ms]$$','$$\omega \,[1/ms]$$',16);
+plot(b5_p(:,1).*CU_to_ms, b5_p(:,5)./CU_to_ms)
+plot_f('\textbf{Orbital angular frequency $\omega$ of BBH-b5}','$$t \, [ms]$$','$$\omega \,[1/ms]$$',16);
+xlim([0 4.5])
+
+
+% frequency
+k=find(abs(y)==max(abs(y)));
+w_f(k)*1e3/(2*pi)
 
 %% b6
-t = b6_h(:,1);                   
-Fs = 1./abs(b6_h(1,1)-b6_h(2,1));            % Sampling frequency
+t = b6_h(:,1)*CU_to_ms;                   
+Fs = 1./abs(t(2)-t(1));            % Sampling frequency
 y = fft(b6_h(:,2)+1i.*b6_h(:,3));     
 w_f = ((0:length(y)-1)*Fs/length(y))*(2*pi); % omega fourier
 
@@ -338,15 +356,20 @@ figure();
 hold on;
 plot(w_f,abs(y)/max(abs(y)));
 plot_f('\textbf{Fourier transform of the gravitational strain of BBH-b6}','$$\omega \,[1/ms]$$','$$ |\mathcal{F}[ h (t,r=100 Mpc)](\omega)|$$',16);
-xlim([0 0.2]);
+xlim([0 20]);
 
 figure();
-plot(b6_p(:,1).*CU_to_ms, b6_p(:,5))
-plot_f('\textbf{Angular velocity $\omega$ of BBH-b6}','$$t \, [ms]$$','$$\omega \,[1/ms]$$',16);
+plot(b6_p(:,1).*CU_to_ms, b6_p(:,5)./CU_to_ms)
+plot_f('\textbf{Orbital angular frequency $\omega$ of BBH-b6}','$$t \, [ms]$$','$$\omega \,[1/ms]$$',16);
+
+
+% frequency
+k=find(abs(y)==max(abs(y)));
+w_f(k)*1e3/(2*pi)
 
 %% b7
-t = b7_h(:,1);                   
-Fs = 1./abs(b7_h(1,1)-b7_h(2,1));            % Sampling frequency
+t = b7_h(:,1)*CU_to_ms;                   
+Fs = 1./abs(t(2)-t(1));            % Sampling frequency
 y = fft(b7_h(:,2)+1i.*b7_h(:,3));     
 w_f = ((0:length(y)-1)*Fs/length(y))*(2*pi); % omega fourier
 
@@ -354,15 +377,20 @@ figure();
 hold on;
 plot(w_f,abs(y)/max(abs(y)));
 plot_f('\textbf{Fourier transform of the gravitational strain of BBH-b7}','$$\omega \,[1/ms]$$','$$ |\mathcal{F}[ h (t,r=100 Mpc)](\omega)|$$',16);
-xlim([0 0.1]);
+xlim([0 16]);
 
 figure();
-plot(b7_p(:,1).*CU_to_ms, b7_p(:,5))
-plot_f('\textbf{Angular velocity $\omega$ of BBH-b7}','$$t \, [ms]$$','$$\omega \,[1/ms]$$',16);
+plot(b7_p(:,1).*CU_to_ms, b7_p(:,5)/CU_to_ms)
+plot_f('\textbf{Orbital angular frequency $\omega$ of BBH-b7}','$$t \, [ms]$$','$$\omega \,[1/ms]$$',16);
+
+
+% frequency
+k=find(abs(y)==max(abs(y)));
+w_f(k)*1e3/(2*pi)
 
 %% b10
-t = b10_h(:,1);                   
-Fs = 1./abs(b10_h(1,1)-b10_h(2,1));            % Sampling frequency
+t = b10_h(:,1)*CU_to_ms;                   
+Fs = 1./abs(t(2)-t(1));            % Sampling frequency
 y = fft(b10_h(:,2)+1i.*b10_h(:,3));     
 w_f = ((0:length(y)-1)*Fs/length(y))*(2*pi); % omega fourier
 
@@ -370,11 +398,15 @@ figure();
 hold on;
 plot(w_f,abs(y)/max(abs(y)));
 plot_f('\textbf{Fourier transform of the gravitational strain of BBH-b10}','$$\omega \,[1/ms]$$','$$ |\mathcal{F}[ h (t,r=100 Mpc)](\omega)|$$',16);
-xlim([0 0.1]);
+xlim([0 10]);
 
 figure();
-plot(b10_p(:,1).*CU_to_ms, b10_p(:,5))
-plot_f('\textbf{Angular velocity $\omega$ of BBH-b10}','$$t \, [ms]$$','$$\omega \,[1/ms]$$',16);
+plot(b10_p(:,1).*CU_to_ms, b10_p(:,5)/CU_to_ms)
+plot_f('\textbf{Orbital angular frequency $\omega$ of BBH-b10}','$$t \, [ms]$$','$$\omega \,[1/ms]$$',18);
+
+% frequency
+k=find(abs(y)==max(abs(y)));
+w_f(k)*1e3/(2*pi)
 
 %%
 t = b10_h(:,1);                   
@@ -530,7 +562,9 @@ end
 
 %% wave polarization for BBH
 theta = 0:0.03:2*pi;
-
+t=b6_h(:,1);
+new_h_p=b6_h(:,3);
+new_h_x=b6_h(:,2);
 % t time
 for n=10:300:57001%t=0.1:3000
     % plus polarization
@@ -574,11 +608,11 @@ for n=1:10:length(C)
     
     subplot(2,1,2), 
     hold on;
-    plot(t,b4_h(ib,2),'r');
-    plot(t,b4_h(ib,3),'b');
+    plot(b4_h(:,1),b4_h(:,2),'r');
+    plot(b4_h(:,1),b4_h(:,3),'b');
     plot(t(n),b4_h(ib(n),2),'or','MarkerSize',4,'MarkerFaceColor','m') ;   
     plot(t(n),b4_h(ib(n),3),'or','MarkerSize',4,'MarkerFaceColor','m');
-
+    xlim([0 400]);
     
     pause(0.01)
     clf;

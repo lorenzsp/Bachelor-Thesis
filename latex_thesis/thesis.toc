@@ -29,5 +29,3 @@
 \contentsline {subsection}{\numberline {5.3}Binary Neutron Star}{37}{subsection.5.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6}Conclusion}{41}{section.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Appendices}{42}{section.7}
