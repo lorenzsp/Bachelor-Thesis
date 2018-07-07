@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  7 JUL 2018 03:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  7 JUL 2018 05:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2767,7 +2767,7 @@ eps-converted-to.pdf numerical_evolution/gw_b3.eps>
 (epstopdf)             \includegraphics on input line 182.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/gw_b3-eps-converted-to.pdf, id=455, 1284.8pt x 751.80875pt
+<numerical_evolution/gw_b3-eps-converted-to.pdf, id=456, 1284.8pt x 751.80875pt
 >
 File: numerical_evolution/gw_b3-eps-converted-to.pdf Graphic file (type pdf)
  <use numerical_evolution/gw_b3-eps-converted-to.pdf>
@@ -2791,7 +2791,7 @@ eps-converted-to.pdf numerical_evolution/gw_b4.eps>
 (epstopdf)             \includegraphics on input line 190.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/gw_b4-eps-converted-to.pdf, id=456, 1284.8pt x 751.80875pt
+<numerical_evolution/gw_b4-eps-converted-to.pdf, id=457, 1284.8pt x 751.80875pt
 >
 File: numerical_evolution/gw_b4-eps-converted-to.pdf Graphic file (type pdf)
  <use numerical_evolution/gw_b4-eps-converted-to.pdf>
@@ -2814,7 +2814,7 @@ eps-converted-to.pdf numerical_evolution/gw_b5.eps>
 (epstopdf)             \includegraphics on input line 202.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/gw_b5-eps-converted-to.pdf, id=473, 1284.8pt x 751.80875pt
+<numerical_evolution/gw_b5-eps-converted-to.pdf, id=474, 1284.8pt x 751.80875pt
 >
 File: numerical_evolution/gw_b5-eps-converted-to.pdf Graphic file (type pdf)
  <use numerical_evolution/gw_b5-eps-converted-to.pdf>
@@ -2842,7 +2842,7 @@ eps-converted-to.pdf numerical_evolution/gw_b6.eps>
 (epstopdf)             \includegraphics on input line 235.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/gw_b6-eps-converted-to.pdf, id=508, 1284.8pt x 751.80875pt
+<numerical_evolution/gw_b6-eps-converted-to.pdf, id=509, 1284.8pt x 751.80875pt
 >
 File: numerical_evolution/gw_b6-eps-converted-to.pdf Graphic file (type pdf)
  <use numerical_evolution/gw_b6-eps-converted-to.pdf>
@@ -2861,7 +2861,7 @@ eps-converted-to.pdf numerical_evolution/gw_b7.eps>
 (epstopdf)             \includegraphics on input line 247.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/gw_b7-eps-converted-to.pdf, id=509, 1284.8pt x 751.80875pt
+<numerical_evolution/gw_b7-eps-converted-to.pdf, id=510, 1284.8pt x 751.80875pt
 >
 File: numerical_evolution/gw_b7-eps-converted-to.pdf Graphic file (type pdf)
  <use numerical_evolution/gw_b7-eps-converted-to.pdf>
@@ -2880,7 +2880,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 259.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/gw_b10-eps-converted-to.pdf, id=510, 1284.8pt x 751.80875p
+<numerical_evolution/gw_b10-eps-converted-to.pdf, id=511, 1284.8pt x 751.80875p
 t>
 File: numerical_evolution/gw_b10-eps-converted-to.pdf Graphic file (type pdf)
  <use numerical_evolution/gw_b10-eps-converted-to.pdf>
@@ -2896,20 +2896,14 @@ Package epstopdf Info: Source file: <numerical_evolution/fourier_b3.eps>
 (epstopdf)                    size: 101059 bytes
 (epstopdf)             Output file: <numerical_evolution/fourier_b3-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2018-07-03 17:54:43
-(epstopdf)                    size: 48491 bytes
+(epstopdf)                    date: 2018-07-07 03:54:02
+(epstopdf)                    size: 47347 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/fourie
 r_b3-eps-converted-to.pdf numerical_evolution/fourier_b3.eps>
 (epstopdf)             \includegraphics on input line 280.
-runsystem(repstopdf --outfile=numerical_evolution/fourier_b3-eps-converted-to.p
-df numerical_evolution/fourier_b3.eps)...executed safely (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <numerical_evolution/fourier_b3-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2018-07-07 03:54:02
-(epstopdf)                    size: 47347 bytes.
-
-<numerical_evolution/fourier_b3-eps-converted-to.pdf, id=524, 562.1pt x 421.575
+<numerical_evolution/fourier_b3-eps-converted-to.pdf, id=525, 562.1pt x 421.575
 pt>
 File: numerical_evolution/fourier_b3-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2922,20 +2916,14 @@ Package epstopdf Info: Source file: <numerical_evolution/omega_b3.eps>
 (epstopdf)                    size: 94812 bytes
 (epstopdf)             Output file: <numerical_evolution/omega_b3-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2018-07-03 17:54:31
-(epstopdf)                    size: 45640 bytes
+(epstopdf)                    date: 2018-07-07 03:54:03
+(epstopdf)                    size: 45664 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/omega_
 b3-eps-converted-to.pdf numerical_evolution/omega_b3.eps>
 (epstopdf)             \includegraphics on input line 282.
-runsystem(repstopdf --outfile=numerical_evolution/omega_b3-eps-converted-to.pdf
- numerical_evolution/omega_b3.eps)...executed safely (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <numerical_evolution/omega_b3-eps-converted
--to.pdf>
-(epstopdf)                    date: 2018-07-07 03:54:03
-(epstopdf)                    size: 45664 bytes.
-
-<numerical_evolution/omega_b3-eps-converted-to.pdf, id=525, 562.1pt x 421.575pt
+<numerical_evolution/omega_b3-eps-converted-to.pdf, id=526, 562.1pt x 421.575pt
 >
 File: numerical_evolution/omega_b3-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2948,20 +2936,14 @@ Package epstopdf Info: Source file: <numerical_evolution/fourier_b4.eps>
 (epstopdf)                    size: 99416 bytes
 (epstopdf)             Output file: <numerical_evolution/fourier_b4-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2018-07-03 17:59:01
-(epstopdf)                    size: 48970 bytes
+(epstopdf)                    date: 2018-07-07 03:54:04
+(epstopdf)                    size: 46122 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/fourie
 r_b4-eps-converted-to.pdf numerical_evolution/fourier_b4.eps>
 (epstopdf)             \includegraphics on input line 288.
-runsystem(repstopdf --outfile=numerical_evolution/fourier_b4-eps-converted-to.p
-df numerical_evolution/fourier_b4.eps)...executed safely (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <numerical_evolution/fourier_b4-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2018-07-07 03:54:04
-(epstopdf)                    size: 46122 bytes.
-
-<numerical_evolution/fourier_b4-eps-converted-to.pdf, id=526, 562.1pt x 421.575
+<numerical_evolution/fourier_b4-eps-converted-to.pdf, id=527, 562.1pt x 421.575
 pt>
 File: numerical_evolution/fourier_b4-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2974,20 +2956,14 @@ Package epstopdf Info: Source file: <numerical_evolution/omega_b4.eps>
 (epstopdf)                    size: 118201 bytes
 (epstopdf)             Output file: <numerical_evolution/omega_b4-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2018-07-03 17:59:02
-(epstopdf)                    size: 54437 bytes
+(epstopdf)                    date: 2018-07-07 03:54:04
+(epstopdf)                    size: 51682 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/omega_
 b4-eps-converted-to.pdf numerical_evolution/omega_b4.eps>
 (epstopdf)             \includegraphics on input line 290.
-runsystem(repstopdf --outfile=numerical_evolution/omega_b4-eps-converted-to.pdf
- numerical_evolution/omega_b4.eps)...executed safely (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <numerical_evolution/omega_b4-eps-converted
--to.pdf>
-(epstopdf)                    date: 2018-07-07 03:54:04
-(epstopdf)                    size: 51682 bytes.
-
-<numerical_evolution/omega_b4-eps-converted-to.pdf, id=527, 562.1pt x 421.575pt
+<numerical_evolution/omega_b4-eps-converted-to.pdf, id=528, 562.1pt x 421.575pt
 >
 File: numerical_evolution/omega_b4-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3000,20 +2976,14 @@ Package epstopdf Info: Source file: <numerical_evolution/fourier_b5.eps>
 (epstopdf)                    size: 99414 bytes
 (epstopdf)             Output file: <numerical_evolution/fourier_b5-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2018-07-03 17:59:57
-(epstopdf)                    size: 49095 bytes
+(epstopdf)                    date: 2018-07-07 03:54:05
+(epstopdf)                    size: 46036 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/fourie
 r_b5-eps-converted-to.pdf numerical_evolution/fourier_b5.eps>
 (epstopdf)             \includegraphics on input line 296.
-runsystem(repstopdf --outfile=numerical_evolution/fourier_b5-eps-converted-to.p
-df numerical_evolution/fourier_b5.eps)...executed safely (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <numerical_evolution/fourier_b5-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2018-07-07 03:54:05
-(epstopdf)                    size: 46036 bytes.
-
-<numerical_evolution/fourier_b5-eps-converted-to.pdf, id=528, 562.1pt x 421.575
+<numerical_evolution/fourier_b5-eps-converted-to.pdf, id=529, 562.1pt x 421.575
 pt>
 File: numerical_evolution/fourier_b5-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -3026,20 +2996,14 @@ Package epstopdf Info: Source file: <numerical_evolution/omega_b5.eps>
 (epstopdf)                    size: 194793 bytes
 (epstopdf)             Output file: <numerical_evolution/omega_b5-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2018-07-03 17:59:57
-(epstopdf)                    size: 71347 bytes
+(epstopdf)                    date: 2018-07-07 03:54:05
+(epstopdf)                    size: 76762 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/omega_
 b5-eps-converted-to.pdf numerical_evolution/omega_b5.eps>
 (epstopdf)             \includegraphics on input line 298.
-runsystem(repstopdf --outfile=numerical_evolution/omega_b5-eps-converted-to.pdf
- numerical_evolution/omega_b5.eps)...executed safely (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <numerical_evolution/omega_b5-eps-converted
--to.pdf>
-(epstopdf)                    date: 2018-07-07 03:54:05
-(epstopdf)                    size: 76762 bytes.
-
-<numerical_evolution/omega_b5-eps-converted-to.pdf, id=529, 562.1pt x 421.575pt
+<numerical_evolution/omega_b5-eps-converted-to.pdf, id=530, 562.1pt x 421.575pt
 >
 File: numerical_evolution/omega_b5-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3057,20 +3021,14 @@ Package epstopdf Info: Source file: <numerical_evolution/fourier_b6.eps>
 (epstopdf)                    size: 94916 bytes
 (epstopdf)             Output file: <numerical_evolution/fourier_b6-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2018-07-03 18:01:48
-(epstopdf)                    size: 44369 bytes
+(epstopdf)                    date: 2018-07-07 03:54:06
+(epstopdf)                    size: 42583 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/fourie
 r_b6-eps-converted-to.pdf numerical_evolution/fourier_b6.eps>
 (epstopdf)             \includegraphics on input line 316.
-runsystem(repstopdf --outfile=numerical_evolution/fourier_b6-eps-converted-to.p
-df numerical_evolution/fourier_b6.eps)...executed safely (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <numerical_evolution/fourier_b6-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2018-07-07 03:54:06
-(epstopdf)                    size: 42583 bytes.
-
-<numerical_evolution/fourier_b6-eps-converted-to.pdf, id=530, 562.1pt x 421.575
+<numerical_evolution/fourier_b6-eps-converted-to.pdf, id=531, 562.1pt x 421.575
 pt>
 File: numerical_evolution/fourier_b6-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -3083,20 +3041,14 @@ Package epstopdf Info: Source file: <numerical_evolution/omega_b6.eps>
 (epstopdf)                    size: 237527 bytes
 (epstopdf)             Output file: <numerical_evolution/omega_b6-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2018-07-03 18:01:48
-(epstopdf)                    size: 89751 bytes
+(epstopdf)                    date: 2018-07-07 03:54:07
+(epstopdf)                    size: 86292 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/omega_
 b6-eps-converted-to.pdf numerical_evolution/omega_b6.eps>
 (epstopdf)             \includegraphics on input line 318.
-runsystem(repstopdf --outfile=numerical_evolution/omega_b6-eps-converted-to.pdf
- numerical_evolution/omega_b6.eps)...executed safely (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <numerical_evolution/omega_b6-eps-converted
--to.pdf>
-(epstopdf)                    date: 2018-07-07 03:54:07
-(epstopdf)                    size: 86292 bytes.
-
-<numerical_evolution/omega_b6-eps-converted-to.pdf, id=531, 562.1pt x 421.575pt
+<numerical_evolution/omega_b6-eps-converted-to.pdf, id=532, 562.1pt x 421.575pt
 >
 File: numerical_evolution/omega_b6-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3109,20 +3061,14 @@ Package epstopdf Info: Source file: <numerical_evolution/fourier_b7.eps>
 (epstopdf)                    size: 97506 bytes
 (epstopdf)             Output file: <numerical_evolution/fourier_b7-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2018-07-03 18:01:49
-(epstopdf)                    size: 45862 bytes
+(epstopdf)                    date: 2018-07-07 03:54:07
+(epstopdf)                    size: 44196 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/fourie
 r_b7-eps-converted-to.pdf numerical_evolution/fourier_b7.eps>
 (epstopdf)             \includegraphics on input line 324.
-runsystem(repstopdf --outfile=numerical_evolution/fourier_b7-eps-converted-to.p
-df numerical_evolution/fourier_b7.eps)...executed safely (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <numerical_evolution/fourier_b7-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2018-07-07 03:54:07
-(epstopdf)                    size: 44196 bytes.
-
-<numerical_evolution/fourier_b7-eps-converted-to.pdf, id=532, 562.1pt x 421.575
+<numerical_evolution/fourier_b7-eps-converted-to.pdf, id=533, 562.1pt x 421.575
 pt>
 File: numerical_evolution/fourier_b7-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -3135,20 +3081,14 @@ Package epstopdf Info: Source file: <numerical_evolution/omega_b7.eps>
 (epstopdf)                    size: 311320 bytes
 (epstopdf)             Output file: <numerical_evolution/omega_b7-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2018-07-03 18:01:49
-(epstopdf)                    size: 105570 bytes
+(epstopdf)                    date: 2018-07-07 03:54:08
+(epstopdf)                    size: 108631 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/omega_
 b7-eps-converted-to.pdf numerical_evolution/omega_b7.eps>
 (epstopdf)             \includegraphics on input line 326.
-runsystem(repstopdf --outfile=numerical_evolution/omega_b7-eps-converted-to.pdf
- numerical_evolution/omega_b7.eps)...executed safely (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <numerical_evolution/omega_b7-eps-converted
--to.pdf>
-(epstopdf)                    date: 2018-07-07 03:54:08
-(epstopdf)                    size: 108631 bytes.
-
-<numerical_evolution/omega_b7-eps-converted-to.pdf, id=533, 562.1pt x 421.575pt
+<numerical_evolution/omega_b7-eps-converted-to.pdf, id=534, 562.1pt x 421.575pt
 >
 File: numerical_evolution/omega_b7-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3161,20 +3101,14 @@ Package epstopdf Info: Source file: <numerical_evolution/fourier_b10.eps>
 (epstopdf)                    size: 94741 bytes
 (epstopdf)             Output file: <numerical_evolution/fourier_b10-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2018-07-03 18:01:50
-(epstopdf)                    size: 46001 bytes
+(epstopdf)                    date: 2018-07-07 03:54:08
+(epstopdf)                    size: 42428 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/fourie
 r_b10-eps-converted-to.pdf numerical_evolution/fourier_b10.eps>
 (epstopdf)             \includegraphics on input line 332.
-runsystem(repstopdf --outfile=numerical_evolution/fourier_b10-eps-converted-to.
-pdf numerical_evolution/fourier_b10.eps)...executed safely (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <numerical_evolution/fourier_b10-eps-conver
-ted-to.pdf>
-(epstopdf)                    date: 2018-07-07 03:54:08
-(epstopdf)                    size: 42428 bytes.
-
-<numerical_evolution/fourier_b10-eps-converted-to.pdf, id=534, 562.1pt x 421.57
+<numerical_evolution/fourier_b10-eps-converted-to.pdf, id=535, 562.1pt x 421.57
 5pt>
 File: numerical_evolution/fourier_b10-eps-converted-to.pdf Graphic file (type p
 df)
@@ -3187,20 +3121,14 @@ Package epstopdf Info: Source file: <numerical_evolution/omega_b10.eps>
 (epstopdf)                    size: 283416 bytes
 (epstopdf)             Output file: <numerical_evolution/omega_b10-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2018-07-03 18:01:59
-(epstopdf)                    size: 99431 bytes
+(epstopdf)                    date: 2018-07-07 03:54:09
+(epstopdf)                    size: 95611 bytes
 (epstopdf)             Command: <repstopdf --outfile=numerical_evolution/omega_
 b10-eps-converted-to.pdf numerical_evolution/omega_b10.eps>
 (epstopdf)             \includegraphics on input line 334.
-runsystem(repstopdf --outfile=numerical_evolution/omega_b10-eps-converted-to.pd
-f numerical_evolution/omega_b10.eps)...executed safely (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <numerical_evolution/omega_b10-eps-converte
-d-to.pdf>
-(epstopdf)                    date: 2018-07-07 03:54:09
-(epstopdf)                    size: 95611 bytes.
-
-<numerical_evolution/omega_b10-eps-converted-to.pdf, id=535, 562.1pt x 421.575p
+<numerical_evolution/omega_b10-eps-converted-to.pdf, id=536, 562.1pt x 421.575p
 t>
 File: numerical_evolution/omega_b10-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -3243,7 +3171,7 @@ ns-eps-converted-to.pdf numerical_evolution/gw_r_bns.eps>
 (epstopdf)             \includegraphics on input line 385.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/gw_r_bns-eps-converted-to.pdf, id=628, 1284.8pt x 751.8087
+<numerical_evolution/gw_r_bns-eps-converted-to.pdf, id=629, 1284.8pt x 751.8087
 5pt>
 File: numerical_evolution/gw_r_bns-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3264,7 +3192,7 @@ f>
 (epstopdf)             \includegraphics on input line 430.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f1-eps-converted-to.pdf, id=650, 550.055pt x 463.7325pt>
+<numerical_evolution/f1-eps-converted-to.pdf, id=651, 550.055pt x 463.7325pt>
 File: numerical_evolution/f1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f1-eps-converted-to.pdf>
@@ -3283,7 +3211,7 @@ f>
 (epstopdf)             \includegraphics on input line 433.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f2-eps-converted-to.pdf, id=651, 550.055pt x 463.7325pt>
+<numerical_evolution/f2-eps-converted-to.pdf, id=652, 550.055pt x 463.7325pt>
 File: numerical_evolution/f2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f2-eps-converted-to.pdf>
@@ -3302,7 +3230,7 @@ f>
 (epstopdf)             \includegraphics on input line 436.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f3-eps-converted-to.pdf, id=652, 550.055pt x 463.7325pt>
+<numerical_evolution/f3-eps-converted-to.pdf, id=653, 550.055pt x 463.7325pt>
 File: numerical_evolution/f3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f3-eps-converted-to.pdf>
@@ -3321,7 +3249,7 @@ f>
 (epstopdf)             \includegraphics on input line 439.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f4-eps-converted-to.pdf, id=653, 550.055pt x 463.7325pt>
+<numerical_evolution/f4-eps-converted-to.pdf, id=654, 550.055pt x 463.7325pt>
 File: numerical_evolution/f4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f4-eps-converted-to.pdf>
@@ -3340,7 +3268,7 @@ f>
 (epstopdf)             \includegraphics on input line 458.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f5-eps-converted-to.pdf, id=654, 550.055pt x 463.7325pt>
+<numerical_evolution/f5-eps-converted-to.pdf, id=655, 550.055pt x 463.7325pt>
 File: numerical_evolution/f5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f5-eps-converted-to.pdf>
@@ -3359,7 +3287,7 @@ f>
 (epstopdf)             \includegraphics on input line 461.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f6-eps-converted-to.pdf, id=655, 550.055pt x 463.7325pt>
+<numerical_evolution/f6-eps-converted-to.pdf, id=656, 550.055pt x 463.7325pt>
 File: numerical_evolution/f6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f6-eps-converted-to.pdf>
@@ -3378,7 +3306,7 @@ f>
 (epstopdf)             \includegraphics on input line 464.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f7-eps-converted-to.pdf, id=656, 550.055pt x 463.7325pt>
+<numerical_evolution/f7-eps-converted-to.pdf, id=657, 550.055pt x 463.7325pt>
 File: numerical_evolution/f7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f7-eps-converted-to.pdf>
@@ -3397,7 +3325,7 @@ f>
 (epstopdf)             \includegraphics on input line 467.
 Package epstopdf Info: Output file is already uptodate.
 
-<numerical_evolution/f8-eps-converted-to.pdf, id=657, 550.055pt x 463.7325pt>
+<numerical_evolution/f8-eps-converted-to.pdf, id=658, 550.055pt x 463.7325pt>
 File: numerical_evolution/f8-eps-converted-to.pdf Graphic file (type pdf)
 
 <use numerical_evolution/f8-eps-converted-to.pdf>
@@ -3440,7 +3368,7 @@ Missing character: There is no ½ in font cmr12!
  [42
 
 ]
-Overfull \hbox (18.53494pt too wide) in paragraph at lines 80--80
+Overfull \hbox (18.53494pt too wide) in paragraph at lines 78--78
 []\OT1/cmr/m/it/12 Einstein Toolkit: Open soft-ware for rel-a-tivis-tic as-tro-
 physics\OT1/cmr/m/n/12 . \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : [][]$http : / / 
 einsteintoolkit .
@@ -3463,11 +3391,11 @@ Missing character: There is no ï in font cmr12!
 Missing character: There is no ¿ in font cmr12!
 Missing character: There is no ½ in font cmr12!
  [44]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 83.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 83.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 83.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 83.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 81.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: E8F9A7767F83247838560515001CEC02;1189.
 
@@ -3477,16 +3405,16 @@ LaTeX Warning: There were multiply-defined labels.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 83.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 81.
  ) 
 Here is how much of TeX's memory you used:
- 36583 strings out of 493033
- 709953 string characters out of 6134139
- 1467389 words of memory out of 5000000
- 39301 multiletter control sequences out of 15000+600000
+ 36581 strings out of 493033
+ 709842 string characters out of 6134139
+ 1465097 words of memory out of 5000000
+ 39300 multiletter control sequences out of 15000+600000
  22410 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,19n,80p,10426b,1116s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,19n,80p,10426b,1119s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
@@ -3506,10 +3434,10 @@ ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
 015/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/
 texlive/2015/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on thesis.pdf (47 pages, 14703011 bytes).
+Output written on thesis.pdf (47 pages, 14705620 bytes).
 PDF statistics:
- 894 PDF objects out of 1000 (max. 8388607)
- 727 compressed objects within 8 object streams
- 178 named destinations out of 1000 (max. 500000)
+ 897 PDF objects out of 1000 (max. 8388607)
+ 730 compressed objects within 8 object streams
+ 177 named destinations out of 1000 (max. 500000)
  343 words of extra memory for PDF output out of 10000 (max. 10000000)
 

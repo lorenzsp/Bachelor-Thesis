@@ -2962,37 +2962,6 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevD.80.064037
       \endverb
     \endentry
-    \entry{taniguchiVariousFeaturesQuasiequilibrium2003}{article}{}
-      \name{author}{2}{}{%
-        {{hash=94bcd01a615878e069e3599359978104}{Taniguchi}{T\bibinitperiod}{Keisuke}{K\bibinitperiod}{}{}{}{}}%
-        {{hash=9a3b9848f96fda0bd6d7fff533737b1d}{Gourgoulhon}{G\bibinitperiod}{Eric}{E\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{6a275c1c5eabeea463583fa12647335f}
-      \strng{fullhash}{6a275c1c5eabeea463583fa12647335f}
-      \field{sortinit}{0}
-      \field{sortinithash}{990108227b3316c02842d895999a0165}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Quasiequilibrium sequences of binary neutron stars are numerically calculated in the framework of the Isenberg-Wilson-Mathews (IWM) approximation of general relativity. The results are presented for both rotation states of synchronized spins and irrotational motion, the latter being considered as the realistic one for binary neutron stars just prior to the merger. We assume a polytropic equation of state and compute several evolutionary sequences of binary systems composed of different-mass stars as well as identical-mass stars with adiabatic indices gamma=2.5, 2.25, 2, and 1.8. From our results, we propose as a conjecture that if the turning point of binding energy (and total angular momentum) locating the innermost stable circular orbit (ISCO) is found in Newtonian gravity for some value of the adiabatic index gamma\_0, that of the ADM mass (and total angular momentum) should exist in the IWM approximation of general relativity for the same value of the adiabatic index.}
-      \field{eprinttype}{arxiv}
-      \field{issn}{0556-2821, 1089-4918}
-      \field{journaltitle}{Physical Review D}
-      \field{month}{12}
-      \field{number}{12}
-      \field{title}{Various Features of Quasiequilibrium Sequences of Binary Neutron Stars in General Relativity}
-      \field{volume}{68}
-      \field{year}{2003}
-      \verb{doi}
-      \verb 10.1103/PhysRevD.68.124025
-      \endverb
-      \verb{eprint}
-      \verb gr-qc/0309045
-      \endverb
-      \verb{file}
-      \verb /Users/lorenzosperi/Zotero/storage/M95XJPIC/Taniguchi e Gourgoulhon - 2003 - Various features of quasiequilibrium sequences of .pdf;/Users/lorenzosperi/Zotero/storage/IIIFDSPD/0309045.html
-      \endverb
-      \keyw{Astrophysics,General Relativity and Quantum Cosmology}
-    \endentry
   \endsortlist
 \endrefsection
 \endinput

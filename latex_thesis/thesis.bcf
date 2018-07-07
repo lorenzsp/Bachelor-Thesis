@@ -2249,11 +2249,15 @@
     <bcf:citekey order="27">tichy_quasi-equilibrium_2004</bcf:citekey>
     <bcf:citekey order="28">Ansorg:2004ds</bcf:citekey>
     <bcf:citekey order="29">Brown:2008sb</bcf:citekey>
-    <bcf:citekey order="30">moesta_grhydro:_2014</bcf:citekey>
-    <bcf:citekey order="31">shibata_simulation_nodate</bcf:citekey>
-    <bcf:citekey order="31">kiuchi_long-term_2009</bcf:citekey>
-    <bcf:citekey order="32">thorne_gravitational_1995</bcf:citekey>
-    <bcf:citekey order="33">taniguchiVariousFeaturesQuasiequilibrium2003</bcf:citekey>
+    <bcf:citekey order="30">loffler_einstein_2012</bcf:citekey>
+    <bcf:citekey order="31">moesta_grhydro:_2014</bcf:citekey>
+    <bcf:citekey order="32">shibata_simulation_nodate</bcf:citekey>
+    <bcf:citekey order="32">kiuchi_long-term_2009</bcf:citekey>
+    <bcf:citekey order="33">thorne_gravitational_1995</bcf:citekey>
+    <bcf:citekey order="34">EinsteinToolkit:web</bcf:citekey>
+    <bcf:citekey order="35">tichy_quasi-equilibrium_2004</bcf:citekey>
+    <bcf:citekey order="36">abbott_gw170817:_2017</bcf:citekey>
+    <bcf:citekey order="36">abbott_observation_2016</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none" type="entry" sortscheme="none">
   <bcf:sorting>
