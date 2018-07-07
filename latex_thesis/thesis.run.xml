@@ -79,7 +79,7 @@
       <file>thesis.bcf</file>
     </requires>
     <requires type="editable">
-      <file>bibliography/trial.bib</file>
+      <file>bibliography/bibthesis.bib</file>
     </requires>
   </external>
 </requests>

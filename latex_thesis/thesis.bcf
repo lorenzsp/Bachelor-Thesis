@@ -2212,7 +2212,7 @@
   <!-- CITATION DATA -->
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
-    <bcf:datasource type="file" datatype="bibtex">bibliography/trial.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliography/bibthesis.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">weisberg_relativistic_2004</bcf:citekey>
@@ -2249,15 +2249,18 @@
     <bcf:citekey order="27">tichy_quasi-equilibrium_2004</bcf:citekey>
     <bcf:citekey order="28">Ansorg:2004ds</bcf:citekey>
     <bcf:citekey order="29">Brown:2008sb</bcf:citekey>
+    <bcf:citekey order="29">McLachlan:web</bcf:citekey>
+    <bcf:citekey order="29">Kranc:web</bcf:citekey>
     <bcf:citekey order="30">loffler_einstein_2012</bcf:citekey>
-    <bcf:citekey order="31">moesta_grhydro:_2014</bcf:citekey>
-    <bcf:citekey order="32">shibata_simulation_nodate</bcf:citekey>
-    <bcf:citekey order="32">kiuchi_long-term_2009</bcf:citekey>
-    <bcf:citekey order="33">thorne_gravitational_1995</bcf:citekey>
-    <bcf:citekey order="34">EinsteinToolkit:web</bcf:citekey>
-    <bcf:citekey order="35">tichy_quasi-equilibrium_2004</bcf:citekey>
-    <bcf:citekey order="36">abbott_gw170817:_2017</bcf:citekey>
-    <bcf:citekey order="36">abbott_observation_2016</bcf:citekey>
+    <bcf:citekey order="31">Lorene:web</bcf:citekey>
+    <bcf:citekey order="32">moesta_grhydro:_2014</bcf:citekey>
+    <bcf:citekey order="33">shibata_simulation_nodate</bcf:citekey>
+    <bcf:citekey order="33">kiuchi_long-term_2009</bcf:citekey>
+    <bcf:citekey order="34">thorne_gravitational_1995</bcf:citekey>
+    <bcf:citekey order="35">EinsteinToolkit:web</bcf:citekey>
+    <bcf:citekey order="36">tichy_quasi-equilibrium_2004</bcf:citekey>
+    <bcf:citekey order="37">abbott_gw170817:_2017</bcf:citekey>
+    <bcf:citekey order="37">abbott_observation_2016</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none" type="entry" sortscheme="none">
   <bcf:sorting>

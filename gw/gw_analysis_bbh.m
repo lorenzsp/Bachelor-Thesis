@@ -13,7 +13,7 @@ CU_to_dens = c*c*c*c*c*c / (G*G*G * M_sun*M_sun); % kg/m^3
 
 CU_to_energy    = M_sun*c*c  ;        % kg m^2/s^2
 
-% order of magnitude of a gw (quadrupole formula of a binary system equal mass = Msun)
+%% order of magnitude of a gw (quadrupole formula of a binary system equal mass = Msun)
 % distance between the stars 100 times the swarzschild radius of the source
 r_s = 2*G*M_sun/c^2
 R = 3*r_s
@@ -62,7 +62,7 @@ filename = '../BBH-b10/mp_psi4_l2_m2_r115.00.asc';
 r = 115;
 b10_h = gw_strain(filename,r);
 
-%% orbits
+%% orbits of the BBHs
 % b3
 figure();
 plot(b3_p(:,2),b3_p(:,3));
@@ -115,7 +115,7 @@ plot_f('','$$x \; [M_{\odot}]$$','$$y \;[M_{\odot}]$$',16)
 axis([-10.5 10.5 -10.5 10.5])
 pbaspect([1 1 1]);
 
-%% radius
+%% radial evolution
 % b3
 figure();
 col=jet(6);
@@ -274,15 +274,12 @@ legend_f(s);
 xlim([0 7.5]);
 %ylim([-5.2 5].*1e-23)
 
-
-
 % frequency
 k=find(abs(y)==max(abs(y)));
 w_f(k)*1e3/(2*pi)
 
-
-
-%% Fourier transform and orbital angular frequency
+%% Fourier transform of the gravitational strain h = h_+ + i h_x
+% and orbital angular frequency
 % b3
 t = b3_h(:,1)*CU_to_ms;                   
 Fs = 1./abs(t(1)-t(2));            % Sampling frequency
@@ -436,6 +433,40 @@ ylabel('|P1(f)|')
 
 
 %% ANIMATED PLOTS
+% ring tube of the signals
+%% wave polarization for BBH
+theta = 0:0.03:2*pi;
+t=b5_h(:,1);
+new_h_p=b5_h(:,3);
+new_h_x=b5_h(:,2);
+% t time
+for n=10:100:length(t)%t=0.1:3000
+    % plus polarization
+    h_plus = 100.*new_h_p(n);%0.5.*cos(omega.*t);
+    h_times = 100.*new_h_x(n);%0.5.*cos(omega.*t - pi/2);
+    X = cos(theta) .* (1 + 0.5.*h_plus) + sin(theta).*(0.5.*h_times);
+    Y = sin(theta) .* (1 - 0.5.*h_plus) + cos(theta).*(0.5.*h_times);    
+    
+    CM = jet(length(1:length(t)));
+    subplot(2,1,1), plot3(X,t(n).*ones(size(Y)),Y,'.','color',CM(n,:));
+    hold on;
+    %xlim([-2 2]);
+    %ylim([-2 2]);
+    %s= {['time ',num2str(t(n)),]};
+    %legend_f(s);
+    
+    subplot(2,1,2), 
+    hold on;
+    plot(t,new_h_p,'r');
+    plot(t,new_h_x,'b');
+    %plot(t(n),new_h_p(n),'or','MarkerSize',5,'MarkerFaceColor','m') ;   
+    %plot(t(n),new_h_x(n),'or','MarkerSize',5,'MarkerFaceColor','m');
+
+    
+    %pause(0.1)
+    %clf;
+end
+
 %% ANIMATED PLOTS
 %% ring tube visualization
 %angle parameter of the ring
@@ -467,7 +498,7 @@ for ii=1:50:final_t
     %xlim([-2 2]);
     %ylim([-2 2]);
     hold on;
-    %pause(0.01)
+    pause(0.01)
     
     
     n=n+1;

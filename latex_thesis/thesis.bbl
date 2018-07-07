@@ -2595,8 +2595,6 @@
       \field{labeltitlesource}{title}
       \field{langid}{english}
       \field{title}{{THE} {QUADRUPOLE} {FORMALISM} {APPLIED} {TO} {BINARY} {SYSTEMS}}
-      \field{pages}{41}
-      \range{pages}{1}
       \verb{file}
       \verb Ferrari - THE QUADRUPOLE FORMALISM APPLIED TO BINARY SYSTEMS.pdf:/Users/lorenzosperi/Zotero/storage/Y9PPDVVD/Ferrari - THE QUADRUPOLE FORMALISM APPLIED TO BINARY SYSTEMS.pdf:application/pdf
       \endverb
@@ -2854,9 +2852,43 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Phys. Rev. D}
-      \field{title}{Turduckening black holes: an analytical and computational study}
+      \field{title}{{Turduckening black holes: an analytical and computational study}}
+      \field{volume}{79}
+      \field{year}{2009}
+      \field{pages}{044023}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.79.044023
+      \endverb
       \verb{eprint}
       \verb arXiv:0809.3533 [gr-qc]
+      \endverb
+    \endentry
+    \entry{McLachlan:web}{misc}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labeltitlesource}{title}
+      \field{title}{{McLachlan}, a Public {BSSN} Code}
+      \verb{url}
+      \verb http://www.cct.lsu.edu/~eschnett/McLachlan/
+      \endverb
+    \endentry
+    \entry{Kranc:web}{misc}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labeltitlesource}{title}
+      \field{title}{{Kranc}: {Kranc} Assembles Numerical Code}
+      \verb{url}
+      \verb http://kranccode.org/
+      \endverb
+    \endentry
+    \entry{Lorene:web}{misc}{}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labeltitlesource}{title}
+      \field{title}{{LORENE}: {L}angage {O}bjet pour la {RE}lativit\'{e} {N}um\'{e}riqu{E}}
+      \verb{url}
+      \verb http://www.lorene.obspm.fr/
       \endverb
     \endentry
     \entry{moesta_grhydro:_2014}{article}{}
