@@ -7,7 +7,7 @@ The Einstein's field equation is a tensor equation that represents how the geome
 \label{einstein_eq}
 G_{\mu \nu} \equiv R_{\mu \nu} - \dfrac{1}{2} \,  g_{\mu \nu} \, R =8 \, \pi \, T_{\mu \nu}
 \end{equation}
-On the right hand side we have the energy-momentum tensor $T_{\mu \nu}$ (or stress-energy tesnor), which is interpreted as the flux of four momentum $p^\mu$ accross a surface of constant $x^\nu$. 
+On the right hand side we have the energy-momentum tensor $T_{\mu \nu}$ (or stress-energy tensor), which is interpreted as the flux of four momentum $p^\mu$ accross a surface of constant $x^\nu$. 
 On the left hand side the Einstein tensor $G_{\mu \nu}$ includes a measure of the curvature of spacetime through the Ricci tensor $R_{\mu \nu}$, the Ricci scalar $R = R_{\mu \nu} g^{\mu \nu} $ and the metric $g_{\mu \nu}$. \\
 In order to solve the Einstein's equation we will make use of the weak field linearized approximation on the metric tensor $g_{\mu \nu}$ and we will derive the Einstein tensor $G_{\mu \nu}$ going through the following steps:
 \begin{itemize}
@@ -16,13 +16,13 @@ In order to solve the Einstein's equation we will make use of the weak field lin
 \begin{equation}
 \label{christoffel_symbol}
 :\Gamma ^\alpha _{\beta \gamma}: = 
-\dfrac{1}{2} g^{\alpha ^\rho} \qty(
+\dfrac{1}{2} g^{\alpha \rho} \qty(
 \partial_\beta g_{\gamma \rho} + 
 \partial_\gamma g_{\rho \beta} -
 \partial_\rho g_{\beta \gamma}
 )
 \end{equation}
-where $\partial_\mu$ means the partial derivative $\partial/\partial x^{\mu}$.
+
 \item[(b)] Calculate the Riemann curvature tensor
 \begin{equation}
 \label{riemann_tensor}
@@ -39,7 +39,7 @@ where $\partial_\mu$ means the partial derivative $\partial/\partial x^{\mu}$.
 \partial_\sigma :\Gamma^\alpha _{\gamma \beta} :
 \end{equation}
 
-\item[(c)] Obtain the Ricci tensor and the Ricci scalar from the Riemann curvature tenor
+\item[(c)] Obtain the Ricci tensor and the Ricci scalar from the Riemann curvature tensor
 \begin{equation}
 \label{ricci}
 R_{\mu \nu} = :R^\alpha _\mu \alpha _\nu: \hspace{1.5cm}
@@ -50,15 +50,15 @@ R=\eta^{\mu \nu} R_{\mu \nu} = :R^{\mu} _\mu:
 
 $G_{\mu \nu}$ and $T_{\mu \nu}$ are symmetric tensors, since $g_{\mu \nu}$ is symmetric.
 So the Einstein's field equation is a set of non-linear second-order partial differential equations with $10$ linearly independent variables. \\
-We show that the equation(\ref{einstein_eq}) leads to gravitational wave solutions if we use the \textbf{weak field linearized approximation}, wheich means that we treat the spacetime as nearly flat. 
-Therefore, we assume the metric tensor $g_{\mu \nu}$ to be equal to the Minkwoski metric $\eta=\text{diag}(-1,+1,+1,+1)$ plus a small metric perturbation $h_{\mu \nu}$ :
+We show that the equation(\ref{einstein_eq}) leads to gravitational wave solutions if we use the \textbf{weak field linearized approximation}, which means that we treat the spacetime as nearly flat. 
+Therefore, we assume the metric tensor $g_{\mu \nu}$ to be equal to the Minkwoski metric $\eta_{\mu \nu}=\text{diag}(-1,+1,+1,+1)$ plus a small metric perturbation $h_{\mu \nu}$ :
 \begin{equation}
 \label{metric}
 g_{\mu \nu} = \eta_{\mu \nu} + h_{\mu \nu}
 \end{equation}
 where the metric perturbation is symmetric and $\abs{h_{\mu \nu}}\ll 1$ for all $\mu$ and $\nu$. \\
 The metric $g_{\mu \nu}$ is also used to lower and raise indeces, however, in linearized theory we consider only the first order approximation in $h_{\mu \nu}$. So, it is possible to raise and lower indeces using the Minkoswkian metric $\eta_{\mu \nu}$.\\ % we can add the estimation of the swarzschild metric the correction at the sun surface h - 10^-6
-Taking into account the mentioned approximations we follow the described procedure to calculate the so-called linearized Einstein's field equation.
+Taking into account the mentioned approximations, we follow the itemized procedure to derive the so-called linearized Einstein's field equation.\\
 The Christoffel symbol is obtained keeping up to the first order in the perturbation $h_{\mu \nu}$
 \[
 :\Gamma ^\alpha _{\beta \gamma}: = 
@@ -155,7 +155,7 @@ G_{\beta \nu} = \dfrac{1}{2}
 \eta_{\beta \nu} \square h
 )
 \end{equation}
-If we define the \textbf{trace-reversed} perturbation 
+If we define the \textbf{trace-reversed} perturbation metric
 \[
 \bar{h} _{\mu \nu} = h_{\mu \nu} - \dfrac{1}{2} h \eta_{\mu \nu} \hspace{1.5cm} \bar{h}=\bar{h}^{\mu \nu} \eta_{\mu \nu} = - h
 \]
@@ -211,7 +211,7 @@ G_{\beta \nu} = \dfrac{1}{2}
 - \eta_{\mu \nu} \partial_\mu \partial_\nu \bar{h}^{\mu \nu}
 )
 \end{equation}
-This expression can be simplified further by choosing an appropriate gauge transformation.
+This expression can be further simplified by choosing an appropriate gauge transformation.
 Using the \textbf{Lorenz gauge} condition 
 \begin{equation}
 \label{lorentz_gauge}
@@ -242,7 +242,7 @@ The energy-momentumn tensor $T_{\beta \nu}$ is null in vacuum so the linearized 
 \label{wave_equation}
 \square \bar{h}_{\beta \nu} =0  
 \end{equation}
-The above equation shows that the trace-reversed metric perturbation propagate as a wave distorting a flat spacetime.\\
+The above equation shows that the trace-reversed metric perturbation propagates as a wave distorting a flat spacetime.\\
 The simplest solution to the linearized Einstein's equation(\ref{wave_equation}) is a plane wave
 \[
 \bar{h}_{\beta \nu} = A_{\beta \nu} \, \exp\qty(i\, k_{\alpha} x^{\alpha})
@@ -264,7 +264,7 @@ The invariance of the curvature under such transformations is analogous to the t
 Assuming that the Einstein's field equation(\ref{linear_einstein_eq}) are valid everywhere the metric perturbation $h_{\mu \nu}$ contains: gauge degrees of freedom; physical, radiative degrees of freedom; and physical, non-radiative degrees of freedom tied to the matter source of the GW. \\
  It is possible to show that the linearized Einstein's equation can be written as 5 Poisson-type quations, plus a wave equation for the transverse-traceless components of the metric perturbation, which represents the radiative degrees of freedom \cite{flanagan_basics_2005,carroll_spacetime_2003}.\\
  Neverthless this procedure will manifestly demonstrate that the radiative degrees of freedom in spacetime are two, it is a cumbersome and long derivation.
-Instead, we ignore the degrees of freedom tied to the matter setting $T_{\mu \nu} =0$ and we analyze only plane wave solutions of equation(\ref{wave_equation}):
+Instead, we neglect the degrees of freedom tied to the matter setting $T_{\mu \nu} =0$ and we analyze only plane wave solutions of equation(\ref{wave_equation}):
 \[
 \bar{h}_{\mu \nu} = A_{\mu \nu} \, \exp\qty(i\, k_{\alpha} x^{\alpha})
 \]
@@ -317,7 +317,7 @@ The \textbf{Transverse-Traceless (TT) gauge} is the most convinient gauge for th
 \]
 The amplitude tensor $A_{\mu \nu}$ and the four vector $k^{\mu}$ are orthogonal.
 
-\item[b)] Three components of the aplitude tensor can be eliminated selecting $\xi_{\mu} = C_{\mu} \exp[i k_{\alpha} x^{\alpha}]$ so that $A^{\mu \nu} u_{\mu} =0$ for some chosen four velocity $u_{\mu}$. Three and not four components are fixed, since one firther constraint $k^{\mu} A_{\mu \nu} u^{\nu}$ needs to be satisfied.
+\item[b)] Three components of the aplitude tensor can be eliminated selecting $\xi_{\mu} = C_{\mu} \exp[i k_{\alpha} x^{\alpha}]$ so that $A^{\mu \nu} u_{\mu} =0$ for some chosen four velocity $u_{\mu}$. Three and not four components are fixed, since one further constraint $k^{\mu} A_{\mu \nu} u^{\nu}$ needs to be satisfied.
  
 \item[c)] One component of the aplitude tensor can be eliminated selecting $\xi_{\mu} = C_{\mu} \exp[i k_{\alpha} x^{\alpha}]$ so that $A^{\mu} _{\mu} = 0$.
 

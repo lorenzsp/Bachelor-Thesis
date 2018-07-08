@@ -2598,6 +2598,30 @@
       \verb /Users/lorenzosperi/Zotero/storage/WESW69S5/Moore et al. - 2015 - Gravitational-wave sensitivity curves.pdf
       \endverb
     \endentry
+    \entry{leclercGeodesicDeviationGravitational2006}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4743b7549d6aa7b1e8720b8233ab25e8}{Leclerc}{L\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{4743b7549d6aa7b1e8720b8233ab25e8}
+      \strng{fullhash}{4743b7549d6aa7b1e8720b8233ab25e8}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The detection of gravitational waves based on the geodesic deviation equation is discussed. In particular, it is shown that the only non-vanishing components of the wave field in the conventional traceless-transverse gauge in linearized general relativity do not enter the geodesic deviation equation, and therefore, apparently, no effect is predicted by that equation in that specific gauge. The reason is traced back to the fact that the geodesic deviation equation is written in terms of a coordinate distance, which is not a directly measurable quantity. On the other hand, in the proper Lorentz frame of the detector, the conventional result described in standard textbooks holds.}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{arXiv:gr-qc/0605033}
+      \field{month}{05}
+      \field{title}{Geodesic Deviation and Gravitational Waves}
+      \field{year}{2006}
+      \verb{eprint}
+      \verb gr-qc/0605033
+      \endverb
+      \verb{file}
+      \verb /Users/lorenzosperi/Zotero/storage/25VG2JCP/Leclerc - 2006 - Geodesic deviation and gravitational waves.pdf;/Users/lorenzosperi/Zotero/storage/5TFB5X4A/0605033.html
+      \endverb
+      \keyw{General Relativity and Quantum Cosmology}
+    \endentry
     \entry{schutz_first_1985}{book}{}
       \name{author}{1}{}{%
         {{hash=ff7ea3de793ae7ae3e7c386d8b62d34c}{Schutz}{S\bibinitperiod}{Bernard\bibnamedelima F.}{B\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%

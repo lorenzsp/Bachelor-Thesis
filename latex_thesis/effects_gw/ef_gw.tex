@@ -15,7 +15,8 @@ u^{\mu} = \dv{x^{\mu}}{\tau} = (1,0,0,0)
 \]
 We consider a plane wave in the TT gauge propagating towards the test particle. \\
 Equation(\ref{geodesic_eq}) can be used to express the initial acceleration of the particle
-\[
+\begin{equation}
+\label{christoffel_symbol_geodesic}
 \qty(
 \dv{u^{\beta}}{\tau} 
 )_{0}
@@ -27,7 +28,7 @@ Equation(\ref{geodesic_eq}) can be used to express the initial acceleration of t
 \partial_{0} h_{0 \alpha} + 
 \partial_{\alpha} h_{0 0}
 )
-\]
+\end{equation}
 However, we recall from the TT gauge that
 \[
 h^{\T}_{0 \alpha} = 0 \qquad  \qquad h^{\T}_{\mu \nu} = \bar{h}^{\T}_{\mu \nu} 
@@ -63,10 +64,10 @@ The value of $\Delta L$ is a composition of the two polarizations of the gravita
 \[
 \dfrac{\Delta L}{L} = F_{+} h_{+}(t) + F_{\times} h_{\times}(t) 
 \]
-One adjusts the reflectivities of the interferometer’s corner mirrors such that a typical photon travles up and down the cavity of order 100 times before returning to the beamsplitter and being directed into the photodiode.
+One adjusts the reflectivities of the interferometer’s corner mirrors such that a typical photon travles up and down the cavity of order 200 times before returning to the beamsplitter and being directed into the photodiode.
 So, the accumulated phase shift in each arm will be
 \[
-\delta \phi \sim 100 \dfrac{4 \pi \Delta L}{\lambda}
+\delta \phi \sim 200 \dfrac{2 \pi \Delta L}{\lambda}
 \]
 where $\lambda$ is the wavelength and $\delta L$ is the distance the mirror moves relative to the beam splitter.
 This phase shift can be measured at the photodiode to an accuracy that is governed by the light’s photon shot noise $\sim 1/\sqrt{N}$, where N is the number of photons that enter the interferometer from the laser \cite{thorne_gravitational_1995}.%ref thorne
@@ -125,7 +126,7 @@ Let us consider some nearby particles with four-velocities described by a single
 \end{equation}
 The four-velocity vector can be approximated with a unit vector in the time direction plus corrections of order $h^{\T} _{\mu \nu}$ and higher, however the Reimann curvature tensor is already a first order in the metric perturbation. 
 Therefore, we ignore the corrections of the four-velocity vector and we approximate $u^{\nu} =(1,0,0,0)$.\\
-Since we have already calculated the Riemann curvature tensor in equation(\ref{reimann_tensor_TT}), taking into account the TT gauge conditions, we recall the result
+Since we have already calculated the Riemann curvature tensor in equation(\ref{reimann_tensor_TT}), taking into account the TT gauge conditions, we recall the result\footnote{Since the Riemann curvature tensor is derived from the Christoffel symbol, the two equations (\ref{reimann_tensor_TT}) (\ref{christoffel_symbol_geodesic}) may seem  incompatible in the TT gauge. However, with the given interpretation their are both correct, for a further discussion look at \cite{leclercGeodesicDeviationGravitational2006}}
 \bea
 :R^\mu _{00 \sigma }: 
 &=&
@@ -204,12 +205,12 @@ S' _{+}\, ^{1} = (S^{1}_{+} - S^{2}_{+})/\sqrt{2} = \cos \qty(\theta +\pi / 4 ) 
 S' _{+}\, ^{2} = (S^{1}_{+} + S^{2}_{+})/\sqrt{2}  = \sin \qty(\theta +\pi / 4 )   +  \dfrac{1}{2}  \cos \qty(\theta +\pi / 4 )  h_{+}
 \\
 \eea
-The above equations are similiar to those with $h_{+} = 0$ and $h_{\times} \neq 0$, in fact the deviations $S^{1} _{\times}$ and $S^{2} _\times$ are nothing but the plus polarization rotated of an angle $-\pi/4$. So, in this case ($h_{+} = 0$ and $h_{\times} \neq 0$) the circle of particles bounce back and forth in the shape of $\times$ as we can see from Figures (\ref{times_polarization}) and (\ref{times_cont}).\\
+The above equations are similiar to those with $h_{+} = 0$ and $h_{\times} \neq 0$, in fact the deviations $S^{1} _{\times}$ and $S^{2} _\times$ are nothing but the plus polarization rotated of an angle $-\pi/4$. So, in this case ($h_{+} = 0$ and $h_{\times} \neq 0$) the ring of test particles bounce back and forth in the shape of $\times$ as we can see from Figures (\ref{times_polarization}) and (\ref{times_cont}).\\
 %%
 %%
 %%
 %%
-\begin{figure}
+\begin{figure}[H]
 \centering
     \textbf{$\mathlarger{\mathlarger{+}}$ Polarization and $\mathlarger{\mathlarger{\times}}$ Polarization}\par\medskip
 \centering
@@ -223,9 +224,20 @@ The above equations are similiar to those with $h_{+} = 0$ and $h_{\times} \neq 
 \label{plus_and_times}
 \end{figure}
 %%
-%%
-%%
-%%
+\begin{figure}[H]
+\centering
+    \textbf{ Right- and Left-handed cricularly polarized modes}\par\medskip
+\centering
+
+\subfloat[][Right-handed polarized gravitational wave.]
+   {\includegraphics[width=.40\textwidth]{effects_gw/r_pol.eps}
+   \label{left}} \quad
+\subfloat[][Left-handed polarized gravitational wave.]
+   {\includegraphics[width=.40\textwidth]{effects_gw/l_pol.eps}
+   \label{right}} \\
+\caption{Time evoluition of a ring of free-falling test particles on the x-y plane.}
+\label{left_and_right}
+\end{figure}
 We could consider also right- and left-handed cricularly polarized modes by defining
 \begin{eqnarray}
 \label{r_polarized}
@@ -234,27 +246,8 @@ h_{R} = \dfrac{1}{\sqrt{2}} (h_{+} - i h_{\times})
 \label{l_polarized}
 h_{L} = \dfrac{1}{\sqrt{2}} (h_{+} + i h_{\times})
 \end{eqnarray}
-The effect of a pure $h_R$ wave would be to rotate the particles in a right-handed sense and similiarly for the left-handed mode $h_{L}$. 
+The effect of a pure $h_R$ wave would be to rotate the particles in a right-handed sense and similiarly for the left-handed mode $h_{L}$ Figure(\ref{left_and_right}). 
 It is important to stress that the particles do not travel around the ring, they just move in little epicycles.\\
-%%
-%%
-%%
-%%
-\begin{figure}
-\centering
-    \textbf{ Right- and Left-handed cricularly polarized modes}\par\medskip
-\centering
-
-\subfloat[][Right-handed polarized gravitational wave.]
-   {\includegraphics[width=.45\textwidth]{effects_gw/r_pol.eps}
-   \label{plus_cont}} \quad
-\subfloat[][Left-handed polarized gravitational wave.]
-   {\includegraphics[width=.45\textwidth]{effects_gw/l_pol.eps}
-   \label{times_cont}} \\
-\caption{Time evoluition of a ring of free-falling test particles on the x-y plane.}
-\label{plus_and_times}
-
-\end{figure}
 Another remarkable consequence of the plus $+$ and times $\times$ polarizations is that it is possible to relate the polarization states of classical gravitational waves to the kinds of particles we would expect to find upon quantization.
 The spin of a quantized field is directly realted to the transformation properties of that field under spatial rotations.
 For instance, the electromagnetic field has two independent polarization states, which can be described by vectors in the x-y plane, and they are invariant under a rotation by $360 \degree$.

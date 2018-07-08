@@ -8,24 +8,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2}Gauge transformations and GW polarizations}{7}{subsection.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Effects of Gravitational Waves}{11}{section.3}
+\contentsline {section}{\numberline {3}Effects of Gravitational Waves}{10}{section.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Free particles and detection principles}{11}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.1}Free particles and detection principles}{10}{subsection.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}From the geodesic deviation equation to the $+$ and $\times $ polarizations}{14}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.2}From the geodesic deviation equation to the $+$ and $\times $ polarizations}{13}{subsection.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Production of Gravitational Waves}{19}{section.4}
+\contentsline {section}{\numberline {4}Production of Gravitational Waves}{18}{section.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Solution of the linearized Einstein's field equation}{19}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.1}Solution of the linearized Einstein's field equation}{18}{subsection.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}The nature of the gravitational radiation}{23}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.2}The nature of the gravitational radiation}{22}{subsection.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Numerical Evolution of Compact Binaries}{26}{section.5}
+\contentsline {section}{\numberline {5}Numerical Evolution of Compact Binaries}{25}{section.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1}Gravitational Wave Extraction}{26}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.1}Gravitational Wave Extraction}{25}{subsection.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2}Binary Black Hole}{28}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.2}Binary Black Hole}{27}{subsection.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3}Binary Neutron Star}{38}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.3}Binary Neutron Star}{37}{subsection.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Conclusion}{43}{section.6}
+\contentsline {section}{\numberline {6}Conclusion}{42}{section.6}
