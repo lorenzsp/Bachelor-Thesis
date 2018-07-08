@@ -3,10 +3,10 @@ We now want to understand the relation between the gravitational waves and their
 we make several approximations in order to find a solution of the linearized Einstein's field equation(\ref{linear_einstein_eq}).
 In addition, we apply the solution to a slowly moving binary source and we give an estimate of the amplitude of a typical gravitational wave.\\
 We will follow a procedure similiar to \cite{carroll_spacetime_2003}, however a derivation of the same result can be found also in \cite{schutz_first_1985,flanagan_basics_2005}.
-\subsection{Solution of the linearized Einstein's field equation}
+\subsection{Solution of the Linearized Einstein's Field Equation}
 \label{solution_linearized_einstein_eq}
-The generation of gravitational radiation depends on the movements of objects in spacetime. 
-So far, we have neglected the presence of matter and we solved the linearized Einstein's field equation in vacuum. However, if we want to analyze the relation between sources and gravitational waves we need to consider $T_{\mu \nu} \neq 0$ and solve equation(\ref{linear_einstein_eq}):
+The production of gravitational radiation depends on the movements of objects in spacetime. 
+So far, we have neglected the presence of matter and we solved the linearized Einstein's field equation in vacuum. However, if we want to analyze the relation between sources and gravitational waves we need to consider $T_{\mu \nu} \neq 0$ and  solve equation(\ref{linear_einstein_eq}):
 \[
 \square \bar{h}_{\mu \nu} = - 16 \pi \, T_{\mu \nu}
 \]
@@ -208,7 +208,7 @@ which projects the components of a tensor (with rank 2) into a surface orthogona
 \[
 (P_{i j} X^{i l}) n^{j} = X^{ j l} n_{j}-  n_{i} n_{j} X^{i l} n^{j} = 0
 \]
-We can us the \textbf{projection tensor} to construct the transverse-traceless version of a symmetric spatial tensor $X_{ij}$ via
+We can use the \textbf{projection tensor} to construct the transverse-traceless version of a symmetric spatial tensor $X_{ij}$ via
 \begin{equation}
 \label{TT_projection}
 X^{TT} _{ij} = \qty(:P_{i}^{k}::P_{j}^{l}: - \dfrac{1}{2} P_{ij} P^{kl}) X_{kl}
@@ -232,20 +232,21 @@ h^{\T}_{ij} = \dfrac{2}{r} \dv[2]{\mathcal{I}_{kl}(t_r)}{t} \qty(:P_{i}^{k}::P_{
 which represents the metric perturbation of equation(\ref{h_bar_quadrupole_formula}) in the TT gauge, since $h^{\T}_{\mu \nu} = \bar{h} ^{\T}_{\mu \nu}$.\\
 Equation(\ref{h_TT_quadrupole_formula}) represents a general solution of the linearized Einstein's field equation, and it shows that the gravitational wave scales as $\sim 1/r$.
 \\
+The quadrupole formula cannot be used for a black hole because within the Schwarzschild radius of a black hole there is a singularity, which leads to an infinite density.
 
 
 \subsection{The nature of the gravitational radiation}
 The quadrupole formula (\ref{h_TT_quadrupole_formula}) and its derivation gives a  first insight into the properties of the gravitational waves and their sources.\\
-Firstly, the gravitational radiation has a \textbf{quadrupolar nature}, because the GW produced by an isolated nonrelativisitc object is proportional to the second derivative of the reduced quadrupole moment of the energy density. 
+Firstly, the gravitational radiation has a \textbf{quadrupolar nature}, because the GW produced by an isolated nonrelativisitc object is proportional to the second derivative of the reduced quadrupole moment of the energy density. \\
 We justify qualitatively
-the quadrupole nature of the GWs.
+the quadrupole nature of the GWs making an anlogy with the electromagnetism.
 Let us define the gravitational analogue of the dipole moment: \textbf{mass dipole moment}
 \begin{equation}
 \label{mass_dipole_moment}
 \vb{D} = \sum _{i} m_{i} \vb{x}_i
 \end{equation}
 where the $m_i$ is the rest mass and $\vb{x}_{i}$ is the spatial postion of particle $i$.\\
-The leading contribution to the electromagnetic radiation comes from the changing dipole moment. 
+In the electromagnetic radiation, the leading contribution to the  comes from the changing dipole moment. 
 However, the first derivative of the mass dipole moment is the total linear momentum
 \[
 \dv{\vb{D}}{t} = \sum _{i} m_i \dv{\vb{x}_i}{t} = \vb{p}
@@ -256,8 +257,8 @@ Similiarly, the gravitational analogue of the magnetic dipole moment is
 \vb{\mu} = \sum_{i} \vb{x}_i \times \qty(m_i \dv{\vb{x}_i}{t}) =\vb{J}
 \]
 where $\vb{J}$ is the total angular momentum of the system. 
-Since the total angular momentum is conserved. Hence, there can be no dipole radiation of any sort from a gravitational source.
-It should be stressed that for a spherical  distribution of matter (or energy) the quadrupole moment is a constant, even if the body is rotating: thus, a spherical star does not emit gravitational waves.\\
+Since the total angular momentum is conserved, there can be no dipole radiation of any sort from a gravitational source.
+So, the quadrupole moment is the first possible moment which can contribute to the production of GWs.\\
 
 We now study the GW-emission of a binary system in circular orbit with radius $R$.
 We assume that two equal-mass stars are orbiting far from each others with an angular frequency $\omega$ and they can be trated as point particles on the $x^{1}-x^{2}$ plane. Thus,
@@ -320,45 +321,45 @@ we obtain the gravitational wave through the the quadrupole formula(\ref{h_TT_qu
 \[
 h^{\T} _{ij} = \dfrac{8\,G M \,R^{2} \omega^{2}}{c^{4}\, r} \,
 \begin{bmatrix}
-- \cos 2 \omega t   &
- - \sin 2 \omega t &
+- \cos 2 \omega t_r   &
+ - \sin 2 \omega t_r &
 0
 \\
-  \sin 2 \omega t &
- \cos 2 \omega t &
+  -\sin 2 \omega t_r &
+ \cos 2 \omega t_r &
 0
 \\
 0 & 0 & 0\\
 \end{bmatrix}
 \]
-where we inserted $G$ and $c$ in order to give an estimates of the coefficient.\\
-Two remarkable aspects of the above formula are that the gravitational radiation is emitted at  twice the angular frequency at which the system rotates, and $h_{+} ^{\T}= i h_{\times} ^{\T}$ so the wave is circularly polarized.\\
-We will see again these aspects when we will treat the numerical simulations, but let us now give an order-of-magnitude estimate of the amplitude of the gravitational wave
+where we inserted $G$ and $c$ in order to give an estimates of the coefficient, and $t_r = t -r/c$ ($r=z$ in this case).\\
+Two remarkable aspects of the above formula are that the \textbf{gravitational wave has an angular frequency that is twice the orbital angular frequency at which the system rotates}, and $h_{+} ^{\T}= i h_{\times} ^{\T}$ so the wave is circularly polarized.\\
+Let us now give an order-of-magnitude estimate of the amplitude of the gravitational wave, using the coefficient
 \[
 \mathcal{H} = 
  \dfrac{8\,G M \,R^{2} \omega^{2}}{c^{4}\, r} \,
 \]
 We assume the two objects to be separated by a distance $R$ equal three times their Schwarzschild radii $r_s=2 G M/c^{2}$.
-In addition we consider that the two objects have approximately the mass of the Sun $M=M_{\odot}=2\times 10^{30} \kilo \gram $ and they rotate with an angular frequency given by the Kepler's third law $\omega = \sqrt{GM/(4R^{3})}$.
+In addition, if the two objects have approximately the mass of the Sun $M=M_{\odot}=2\times 10^{30} \kilo \gram $ and they rotate with an angular frequency given by the Kepler's third law $\omega = \sqrt{GM/(4R^{3})}$, we have
 \bea
-\dfrac{G}{c^{4}} = 8.26 \times 10^{-45} \kilo \gram^{-1} \, \second ^{2} \meter ^{-1} 
+\dfrac{G}{c^{4}} \approx 8.26 \times 10^{-45} \kilo \gram^{-1} \, \second ^{2} \meter ^{-1} 
 \\
-r_s=2.95 \times 10^{3} \, \meter
+r_s\approx2.95 \times 10^{3} \, \meter
 \\
-R  = 3 r_s = 8.86 \times 10 ^{3} \, \meter
+R  = 3 r_s \approx 8.86 \times 10 ^{3} \, \meter
 \\
-\omega = 6.9 \times 10 ^{3} \second ^{-1}
+\omega \approx 6.9 \times 10 ^{3} \second ^{-1}
 \eea
-Pluging into $\mathcal{H}$ and considering the source at the a cosmological distance $r= 100 \, \mega pc \approx 3.09 \times 10^{24} \meter$ we have
+Pluging into $\mathcal{H}$ and considering the source at the a cosmological distance $r\approx 100 \, \mega pc \approx 3.09 \times 10^{24} \meter$ we have
 \[
-\mathcal{H} = 1.6 \times 10^{-22}
+\mathcal{H} \approx 1.6 \times 10^{-22}
 \]
-Altough we used Newtonian formulae in a regime where the GR becomes to be important, we obtained an estimate of the gravitational wave amplitude.\\
-Taking into account the discussion we made in section(\ref{free_particles_detection_principles}), if an interferometer of length $L=4 \, \kilo \meter$ was affected by a gravitational wave with intensity $\mathcal{h}$, the strecthing in the arm-length would be of order
+Altough we used Newtonian formulae in a regime where the GR becomes to be important, we obtained a reasonable estimate of the gravitational wave amplitude.\\
+Taking into account the discussion we made in section(\ref{free_particles_detection_principles}), if an interferometer of length $L=4 \, \kilo \meter$ was affected by a gravitational wave with intensity $\mathcal{H}$, the strecthing in the arm-length would be of order
 \[
-\delta L = L \, \mathcal{H} = 6.38 \times 10^{-19} \, \meter
+\delta L \approx L \, \mathcal{H} \approx 6.38 \times 10^{-19} \, \meter
 \]
 and the laser light with wavelength $\lambda=10^{-6} \meter$ would acquire a phase shift
 \[
-\delta \phi = 100 \dfrac{4 \pi}{\lambda} \delta L= 8.02 \times 10 ^{-10}
+\delta \phi = 100 \dfrac{4 \pi}{\lambda} \delta L\approx 8.02 \times 10 ^{-10}
 \]

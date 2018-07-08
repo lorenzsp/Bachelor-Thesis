@@ -1,27 +1,28 @@
 [0] Config.pm:327> INFO - This is Biber 2.3
 [1] Config.pm:330> INFO - Logfile is 'thesis.blg'
-[65] biber-darwin:287> INFO - === Sun Jul  8, 2018, 13:46:50
-[93] Biber.pm:346> INFO - Reading 'thesis.bcf'
-[224] Biber.pm:689> INFO - Found 33 citekeys in bib section 0
-[232] Biber.pm:3066> INFO - Processing section 0
-[251] Biber.pm:3206> INFO - Looking for bibtex format file 'bibliography/bibthesis.bib' for section 0
-[269] bibtex.pm:1062> INFO - Decoding LaTeX character macros into UTF-8
-[288] bibtex.pm:923> INFO - Found BibTeX data source 'bibliography/bibthesis.bib'
-[1128] Utils.pm:147> WARN - ISBN '978-0-521-25770-1 978-0-521-27703-7' in entry 'schutz_first_1985' is invalid - run biber with '--validate_datamodel' for details.
-[1693] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1693] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1693] Biber.pm:2943> INFO - Sorting list 'none' of type 'entry' with scheme 'none' and locale 'en-US'
-[1693] Biber.pm:2947> INFO - No sort tailoring available for locale 'en-US'
-[1781] bbl.pm:505> INFO - Writing 'thesis.bbl' with encoding 'ascii'
-[1854] Utils.pm:147> WARN - The entry 'abbott_observation_2016' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1937] Utils.pm:147> WARN - The entry 'abbott_gw170817:_2017' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1950] Utils.pm:147> WARN - The entry 'loffler_einstein_2012' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1954] Utils.pm:147> WARN - The entry 'LIGOLaserInterferometer1992' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1956] Utils.pm:147> WARN - The entry 'noauthor_cactus_nodate' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1958] Utils.pm:147> WARN - The entry 'de_pietri_modeling_2016' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1960] Utils.pm:147> WARN - The entry 'maione_spectral_2017' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1961] Utils.pm:147> WARN - The entry 'Ansorg:2004ds' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1962] Utils.pm:147> WARN - The entry 'Lorene:web' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1964] Utils.pm:147> WARN - The entry 'shibata_simulation_nodate' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1964] bbl.pm:596> INFO - Output to thesis.bbl
-[1965] Biber.pm:107> INFO - WARNINGS: 11
+[72] biber-darwin:287> INFO - === Sun Jul  8, 2018, 17:52:19
+[105] Biber.pm:346> INFO - Reading 'thesis.bcf'
+[262] Biber.pm:689> INFO - Found 34 citekeys in bib section 0
+[272] Biber.pm:3066> INFO - Processing section 0
+[298] Biber.pm:3206> INFO - Looking for bibtex format file 'bibliography/bibthesis.bib' for section 0
+[313] bibtex.pm:1062> INFO - Decoding LaTeX character macros into UTF-8
+[331] bibtex.pm:923> INFO - Found BibTeX data source 'bibliography/bibthesis.bib'
+[1333] Utils.pm:147> WARN - ISBN '978-0-521-25770-1 978-0-521-27703-7' in entry 'schutz_first_1985' is invalid - run biber with '--validate_datamodel' for details.
+[1998] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1998] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1998] Biber.pm:2943> INFO - Sorting list 'none' of type 'entry' with scheme 'none' and locale 'en-US'
+[1999] Biber.pm:2947> INFO - No sort tailoring available for locale 'en-US'
+[2101] bbl.pm:505> INFO - Writing 'thesis.bbl' with encoding 'ascii'
+[2183] Utils.pm:147> WARN - The entry 'abbott_observation_2016' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[2280] Utils.pm:147> WARN - The entry 'abbott_gw170817:_2017' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[2296] Utils.pm:147> WARN - The entry 'loffler_einstein_2012' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[2300] Utils.pm:147> WARN - The entry 'LIGOLaserInterferometer1992' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[2303] Utils.pm:147> WARN - The entry 'noauthor_cactus_nodate' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[2305] Utils.pm:147> WARN - The entry 'de_pietri_modeling_2016' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[2307] Utils.pm:147> WARN - The entry 'maione_spectral_2017' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[2309] Utils.pm:147> WARN - The entry 'Ansorg:2004ds' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[2311] Utils.pm:147> WARN - The entry 'zilhaoIntroductionEinsteinToolkit2013' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[2312] Utils.pm:147> WARN - The entry 'Lorene:web' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[2314] Utils.pm:147> WARN - The entry 'shibata_simulation_nodate' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[2315] bbl.pm:596> INFO - Output to thesis.bbl
+[2315] Biber.pm:107> INFO - WARNINGS: 12

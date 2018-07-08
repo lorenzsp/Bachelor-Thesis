@@ -2893,6 +2893,39 @@
       \verb arXiv:gr-qc/0404056
       \endverb
     \endentry
+    \entry{zilhaoIntroductionEinsteinToolkit2013}{article}{}
+      \name{author}{2}{}{%
+        {{hash=dee353afc77ec26dbbeb47b1f078a88b}{Zilh\~{a}o}{Z\bibinitperiod}{Miguel}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=b953f4aaa0d48c69954ef5734aa5b890}{L\"{o}ffler}{L\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0ef1785c015a2d5888d1d5fc726c1977}
+      \strng{fullhash}{0ef1785c015a2d5888d1d5fc726c1977}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We give an introduction to the Einstein Toolkit, a mature, open-source computational infrastructure for numerical relativity based on the Cactus Framework, for the target group of new users. This toolkit is composed of several different modules, is developed by researchers from different institutions throughout the world and is in active continuous development. Documentation for the toolkit and its several modules is often scattered across different locations, a difficulty new users may at times have to struggle with. Scientific papers exist describing the toolkit and its methods in detail, but they might be overwhelming at first. With these lecture notes we hope to provide an initial overview for new users. We cover how to obtain, compile and run the toolkit, and give an overview of some of the tools and modules provided with it.}
+      \field{eprinttype}{arxiv}
+      \field{issn}{0217-751X, 1793-656X}
+      \field{journaltitle}{International Journal of Modern Physics A}
+      \field{month}{09}
+      \field{number}{22n23}
+      \field{title}{An {{Introduction}} to the {{Einstein Toolkit}}}
+      \field{volume}{28}
+      \field{year}{2013}
+      \field{pages}{1340014}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1142/S0217751X13400149
+      \endverb
+      \verb{eprint}
+      \verb 1305.5299
+      \endverb
+      \verb{file}
+      \verb /Users/lorenzosperi/Zotero/storage/8HTS4U3P/Zilh��o and L��ffler - 2013 - An Introduction to the Einstein Toolkit.pdf;/Users/lorenzosperi/Zotero/storage/VG6UQQHL/1305.html
+      \endverb
+      \keyw{General Relativity and Quantum Cosmology,Physics - Computational Physics}
+    \endentry
     \entry{Brown:2008sb}{article}{}
       \name{author}{5}{}{%
         {{hash=c3d6efc453fa268ccc9e613151f7a6a7}{Brown}{B\bibinitperiod}{J.\bibnamedelimi David}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%

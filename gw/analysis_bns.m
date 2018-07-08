@@ -48,7 +48,7 @@ hold on;
 plot_f('Radius of the orbit $$R(t)$$','$$t \,[ms]$$','$$ R \, [M_{\odot}] $$',20)
 %ylim([-0.6 0.6])
 plot(t(1:540).*CU_to_ms,A(1:540,4))
-xlim([0 20]);
+ylim([0 20]);
 
 
 %% positions importing

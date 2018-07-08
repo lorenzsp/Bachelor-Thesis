@@ -2245,26 +2245,25 @@
     <bcf:citekey order="24">EinsteinToolkit:web</bcf:citekey>
     <bcf:citekey order="24">EinsteinToolkit:ascl</bcf:citekey>
     <bcf:citekey order="25">noauthor_cactus_nodate</bcf:citekey>
-    <bcf:citekey order="26">newman_approach_1962</bcf:citekey>
-    <bcf:citekey order="27">thorne_multipole_1980</bcf:citekey>
-    <bcf:citekey order="28">de_pietri_modeling_2016</bcf:citekey>
-    <bcf:citekey order="29">maione_spectral_2017</bcf:citekey>
-    <bcf:citekey order="30">loffler_einstein_2012</bcf:citekey>
-    <bcf:citekey order="31">tichy_quasi-equilibrium_2004</bcf:citekey>
-    <bcf:citekey order="32">Ansorg:2004ds</bcf:citekey>
-    <bcf:citekey order="33">Brown:2008sb</bcf:citekey>
-    <bcf:citekey order="33">McLachlan:web</bcf:citekey>
-    <bcf:citekey order="33">Kranc:web</bcf:citekey>
-    <bcf:citekey order="34">loffler_einstein_2012</bcf:citekey>
-    <bcf:citekey order="35">Lorene:web</bcf:citekey>
-    <bcf:citekey order="36">moesta_grhydro:_2014</bcf:citekey>
-    <bcf:citekey order="37">shibata_simulation_nodate</bcf:citekey>
-    <bcf:citekey order="37">kiuchi_long-term_2009</bcf:citekey>
-    <bcf:citekey order="38">thorne_gravitational_1995</bcf:citekey>
-    <bcf:citekey order="39">EinsteinToolkit:web</bcf:citekey>
-    <bcf:citekey order="40">tichy_quasi-equilibrium_2004</bcf:citekey>
-    <bcf:citekey order="41">abbott_gw170817:_2017</bcf:citekey>
-    <bcf:citekey order="41">abbott_observation_2016</bcf:citekey>
+    <bcf:citekey order="26">loffler_einstein_2012</bcf:citekey>
+    <bcf:citekey order="27">newman_approach_1962</bcf:citekey>
+    <bcf:citekey order="28">thorne_multipole_1980</bcf:citekey>
+    <bcf:citekey order="29">de_pietri_modeling_2016</bcf:citekey>
+    <bcf:citekey order="30">maione_spectral_2017</bcf:citekey>
+    <bcf:citekey order="31">loffler_einstein_2012</bcf:citekey>
+    <bcf:citekey order="32">tichy_quasi-equilibrium_2004</bcf:citekey>
+    <bcf:citekey order="33">Ansorg:2004ds</bcf:citekey>
+    <bcf:citekey order="34">zilhaoIntroductionEinsteinToolkit2013</bcf:citekey>
+    <bcf:citekey order="35">Brown:2008sb</bcf:citekey>
+    <bcf:citekey order="35">McLachlan:web</bcf:citekey>
+    <bcf:citekey order="35">Kranc:web</bcf:citekey>
+    <bcf:citekey order="36">loffler_einstein_2012</bcf:citekey>
+    <bcf:citekey order="37">Lorene:web</bcf:citekey>
+    <bcf:citekey order="38">moesta_grhydro:_2014</bcf:citekey>
+    <bcf:citekey order="39">shibata_simulation_nodate</bcf:citekey>
+    <bcf:citekey order="39">kiuchi_long-term_2009</bcf:citekey>
+    <bcf:citekey order="40">EinsteinToolkit:web</bcf:citekey>
+    <bcf:citekey order="41">tichy_quasi-equilibrium_2004</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none" type="entry" sortscheme="none">
   <bcf:sorting>
