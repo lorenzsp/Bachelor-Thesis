@@ -4,8 +4,8 @@ Therefore, gravitational-wave detectors find more likely an event which has a po
 Thus, it is important to be able to calculate gravitational-wave emission accurately for processes such as black hole or neutron star inspiral and merger.
 Such problems cannot be solved analytically and instead are modeled by numerical relativity to compute the gravitational field near the source \cite{bishop_extraction_2016}.\\
 In this section we study the gravitational-wave signals obtained from numerical simulations of compact binaries, using the Einstein Toolkit \cite{loffler_einstein_2012,EinsteinToolkit:web,EinsteinToolkit:ascl}, an open-source computational infrastructure for numerical relativity based on Cactus Framework \cite{noauthor_cactus_nodate}.\\
-The Cactus framework is a general framework for the development of portable, modular applications, wherein programs are split into components (called thorns) with clearly defined dependencies and interactions. 
-Thorns are typically developed independently and do not directly interact with each other. 
+The Cactus framework is a general framework for the development of modular applications, wherein programs are split into components (called thorns) with clearly defined dependencies and interactions. 
+Thorns are typically developed independently and do not directly interact with each other \cite{zilhaoIntroductionEinsteinToolkit2013}. 
 Cactus simulations require an executable to be compiled, and this executable has one mandatory argument: a parameter file.
 The parameter file is a simple text file, containing the desired settings within the simulation, it is used not only to set up the initial conditions and the necessary thorns for the simulation, but also to choose outputs and their format.
 \\
@@ -23,7 +23,7 @@ h(t) \equiv h_{+} - i h_{\times}
 Using the thorn \texttt{WeylScal4}, the Einstein Toolkit calculates the  Newman-Penrose scalar $\psi_4$ (also called Weyl scalar 4)\cite{newman_approach_1962}, which is linked to the GW strain $h$ by the following relation, valid only at spatial infinity:
 \begin{equation}
 \label{psi_4_strain}
-\psi_{4} = \pdv[2]{}{t} \qty(h_{+} - i h_{\times}) = \pdv[2]{}{t} h
+\psi_{4} = \pdv[2]{}{t} \qty(h_{+} - i h_{\times}) = \pdv[2]{h}{t} 
 \end{equation}
 In order for equation(\ref{psi_4_strain}) to be valid, the signal has to be extracted as furthest as possible from the source.
 The signal is then decomposed in spin-weighted spherical harmonics of spin $ - 2$ by the thorn \texttt{Multipole}\cite{thorne_multipole_1980}
@@ -393,7 +393,7 @@ The initial separation between the two neutron stars is set to be $45 \, \kilo \
 \centering   
 \includegraphics[width=1\textwidth]{numerical_evolution/gw_r_bns.eps}
 \caption{The first and the second panels show, respectively the gravitational signal $\psi_4=\psi_4 ^{2,2}$ produced by the BNS, whereas the third pane shows the orbital radius obtained defined as the highest value of the density. 
-Notice the bouncing behavior after $t \approx 9 \milli \second$, when the stars start bouncing and the gravitational wave decreases slowly its amplitude.}
+Notice the bouncing behavior after $t \approx 9 \milli \second$, when the stars start bouncing and the gravitational wave amplitude decreases slowly.}
 \label{gw_r_bns}
 \end{figure}
 %%
@@ -476,7 +476,7 @@ The bounce of the neutron stars is associated to the oscillation of the gravitat
    {\includegraphics[width=.45\textwidth]{numerical_evolution/f8.eps}
    \label{f8}} \quad
  \\
-\caption{The resta mass density evolution in the final stage is dominated by an ejection of matter. The neutron stars' cores bounce back and forth and releases matter in an inspiral shape.}
+\caption{The rest mass density evolution in the final stage is dominated by an ejection of matter. The neutron stars' cores bounce back and forth and releases matter in an inspiral shape, this feature of the evolution is imprinted in the gravitational wave in Figure(\ref{gw_r_bns}).}
 \label{f_5678}
 \end{figure}
 %%
