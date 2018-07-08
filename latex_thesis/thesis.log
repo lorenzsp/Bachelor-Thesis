@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  8 JUL 2018 18:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  8 JUL 2018 19:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2333,7 +2333,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--40
 ) [3]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 46.
+(hyperref)                removing `\\' on input line 56.
 
 (./einstein_eq/einstein_eq_gw.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--3
@@ -3421,7 +3421,7 @@ Missing character: There is no ï in font cmr12!
 Missing character: There is no ¿ in font cmr12!
 Missing character: There is no ½ in font cmr12!
 
-Overfull \hbox (18.53494pt too wide) in paragraph at lines 79--79
+Overfull \hbox (18.53494pt too wide) in paragraph at lines 89--89
 []\OT1/cmr/m/it/12 Einstein Toolkit: Open soft-ware for rel-a-tivis-tic as-tro-
 physics\OT1/cmr/m/n/12 . \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : [][]$http : / / 
 einsteintoolkit .
@@ -3430,7 +3430,7 @@ einsteintoolkit .
 [44
 
 ]
-Overfull \hbox (1.20834pt too wide) in paragraph at lines 79--79
+Overfull \hbox (1.20834pt too wide) in paragraph at lines 89--89
 []\OT1/cmr/m/n/12 M. Leclerc. ``Geodesic De-vi-a-tion and Grav-i-ta-tional Wave
 s''. In: \OT1/cmr/m/it/12 arXiv:gr-qc/0605033
  []
@@ -3452,22 +3452,22 @@ Missing character: There is no ï in font cmr12!
 Missing character: There is no ¿ in font cmr12!
 Missing character: There is no ½ in font cmr12!
  [46]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 82.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 82.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 82.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 514F67DF575938D8876757C4EE7BCF32;1218.
+(rerunfilecheck)             Checksum: 5042DF23D1356640CCDDBCDC38F3D901;1219.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 82.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
  ) 
 Here is how much of TeX's memory you used:
  36637 strings out of 493033
  711311 string characters out of 6134139
- 1473057 words of memory out of 5000000
+ 1473058 words of memory out of 5000000
  39333 multiletter control sequences out of 15000+600000
  22410 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3492,7 +3492,7 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/
 /texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on thesis.pdf (49 pages, 14918463 bytes).
+Output written on thesis.pdf (49 pages, 14919869 bytes).
 PDF statistics:
  966 PDF objects out of 1000 (max. 8388607)
  789 compressed objects within 8 object streams
