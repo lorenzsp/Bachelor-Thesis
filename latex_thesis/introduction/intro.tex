@@ -1,20 +1,27 @@
-Albert Einstein developed the General Theory of Relativity between and 1907 and 1917, creating a new tool to observe the universe. 
-The General Theory of Relativity has changed the way we describe and study the gravitational phenomena. 
-In particular, the new theory of gravitation was not only able to solve unexplained observations, as for instance, anomalies in the newtonian description of planets' orbits as Mercury, but it also predictied new  phenomena such as gravitational time dilation, gravitational lensing and gravitational waves.\\
+The constancy of the speed of light as measured by observers in different reference frames forces space and time to be mixed into spacetime.
+When Albert Einstein developed the General Theory of Relativity, he endowed spacetime with curvature and made it dynamical, creating a theory in which all predictions for physical measurements are invariant under changes in coordinates.
+The speed of light is independent of the observer and it is the speed of causality.
+Therefore, gravity must be casual as well, and
+any change to a gravitating source is communicated to a distant observer no faster than the speed of light $c$.
+Such communication of a change in spacetime from a source to an observer leads to the idea that there must exists some notion of gravitational radiation.\\
+From the General Theory of Relativity, it is possible to obtain a tensorial wave equation, which governs the behavior of such gravitational radiation.
+Therefore, we propose in  section(\ref{from_equation_to_solution}) the derivation of the gravitational wave solution from the Einstein's field equation using the linearized approximation.
+Applying the transverse traceless gauge, we find out that the number of raditative degrees of freedom of the general theory of relativity is two.\\
+The triumph of theoretical prediction of the gravitational waves (GW) is confirmed by the several experiments.\\
 The first indirect evidence of the existence of gravitational waves was given by Hulse and Taylor in 1993 \cite{weisberg_relativistic_2004,weisberg_timing_2010}. 
-The two scientists, through the study of the orbital decay of a binary pulsar, inferred the emission of gravitational waves, since the binary’s two neutron stars are spiraling together at just the rate predicted by general relativity’s theory of gravitational radiation reaction.\\
-Subsequently in 2016, the laser interferometer gravitational wave detector LIGO measured directly the signal of a gravitational wave produced by a binary black hole \cite{abbott_observation_2016}.
+From the study of the orbital decay of a binary pulsar, Hulse and Taylor inferred the emission of gravitational waves, since the two neutron stars were spiraling together at just the rate predicted by general relativity’s theory of gravitational radiation reaction.\\
+Subsequently, in 2016, the laser interferometer gravitational wave detector LIGO measured directly the signal of a gravitational wave produced by a binary black hole \cite{abbott_observation_2016}.
 And, one year later LIGO-Virgo detector network observed a gravitational-wave signal from the inspiral of two low-mass compact objects consistent with a binary neutron star (BNS) merger \cite{abbott_gw170817:_2017}.\\
-The gravitational waves are not only the triumph of the General Relativity, but they also give us a completely new approach to the investigate the nature of binary systems. 
+So, in order to understand the basic principles of gravitational wave detectors, in section(\ref{effects_gw}) we study how the gravitational waves perturb free falling particles.\\
+Then, by studying a ring of free falling test particles, we explain the physical interpretation of the two radiative degrees of freedom two polarization states of the GWs.\\
+The gravitational waves are not only the triumph of the General Relativity, but they also give us a completely new method to investigate the nature of binary systems. 
 Binary neutron stars and black holes can imprint a large amount of information in the produced gravitational radiations.
 However, a thorough study of a gravitational signals needs to be combined with accurate numerical simulations of binary mergers in order to fully understand the link between the  gravitational wave production and their sources.\\
-Therefore, we propose in  section(\ref{from_equation_to_solution}) the derivation of the gravitational wave solution from the Einstein's field equation using the linearized approximation, and, applying the transverse traceless gauge, we find the two raditative degrees of freedom of the general theory of relativity.\\
-In section(\ref{effects_gw}) we study how the gravitational waves perturb free falling particles, and a physical interpretation of the two polarization states of the GWs is given through the study of a ring of free falling test particles.\\
-The linearized Einstein's field equation is solved with the presence of matter in section(\ref{production_gw}), and, by using different approximations, we also derive the quadrupole formula. 
-In addition, we study the physical implications of the quadrupole formula for a slowly-moving binary source, giving also an order-of-magnitude estimate of the typical amplitude of the GWs.\\
-In the last section(\ref{numerical_evolution}), by using the open-source computational infrastructure Einstein Tookit\cite{loffler_einstein_2012}, we study the relativistic numerical simulations of compact binaries.
-After explaining a simple gravitational wave extraction method, we analyze the gravitational radiations emitted by the evolution of binary black holes with six different quasi-equilibrium initial configurations and from a binary neutron star.
-In addition, we also analyze the rest mass density of the binary neutron in order to find the link between the gravitational wave behavior and the matter evolution.
+So, firstly, we find a simple theoretical model by solving the linearized Einstein's field equation with the presence of matter in section(\ref{production_gw}).
+Then, we apply the obtained solution, the so-called quadrupole formula, for a slowly-moving binary source.
+And, finally, in the last section(\ref{numerical_evolution}), by using the open-source computational infrastructure Einstein Tookit\cite{loffler_einstein_2012}, we study the relativistic numerical simulations of compact binaries: binary black holes (BBH) with six different quasi-equilibrium initial configurations and a binary neutron star (BNS) is accomplished.
+The theoretical prediction from the quadrupole formula, that the frequency of the gravitational wave is twice the orbital angular frequncy of the binary, is confirmed in the simulations through a Fourier analysis of the gravitational signal.
+In addition, we propose a simple gravitational wave extraction method and we also analyze the rest mass density of the binary neutron stars in order to find the relation with the gravitational signal behavior.\\
 
 \textbf{NOTATION}\\
 Throughout, we will use a spacelike signature $(-,+,+,+)$ and a system of geometrised units in which $G=c=1$, however depending on the need we will also indicate explicitely the speed of light $c=299\,792\,458 \,\metre \per \second$, and the Newton constant of gravitation $G=6.67408 \times 10^{-11} \, \newton \usk \metre^2 \usk \kilogram^{-2}$ \cite{codata_blog_codata_nodate}.\\
@@ -32,7 +39,7 @@ x^{\sigma} = (x^{0},x^{1}, x^{2},x^{3}) = (t,\vb{x}) = (t,x,y,z)
 The four-dimensional covariant and partial derivatives will be indicated respectively with $\nabla _{\mu}$ and $\partial _\mu$.\\
 
 \textbf{Codes, Data and Reproducibility of the simulations}\\
-The codes used for the numerical simulations, the scripts for the data analysis and and the scripts used to generate the figures are available at the website
+The codes used for the numerical simulations, the scripts for the data analysis and the scripts used to generate the figures are available at the website
 \\
 \url{https://github.com/lorenzsp/thesis}
 \\
