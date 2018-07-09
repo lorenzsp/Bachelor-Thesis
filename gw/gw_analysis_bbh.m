@@ -304,14 +304,14 @@ w_f(k)*1e3/(2*pi)
 %% b4
 t = b4_h(:,1).*CU_to_ms;                   
 Fs = 1./abs(t(1)-t(2));            % Sampling frequency
-y = fft(b4_h(:,2)-1i.*b4_h(:,3));     
+y = fft(b4_h(:,2)+i.*b4_h(:,3));     
 w_f = ((0:length(y)-1)*Fs/length(y))*(2*pi); % omega fourier
 
 figure();
 hold on;
 plot(w_f,abs(y)/max(abs(y)));
 plot_f('\textbf{Fourier transform of the gravitational strain of BBH-b4}','$$\omega \,[1/ms]$$','$$ |\mathcal{F}[ h (t,r=100 Mpc)](\omega)|$$',16);
-%xlim([0 130]);
+xlim([0 130]);
 
 figure();
 plot(b4_p(:,1).*CU_to_ms, b4_p(:,5)./CU_to_ms)
@@ -332,7 +332,7 @@ figure();
 hold on;
 plot(w_f,abs(y)/max(abs(y)));
 plot_f('\textbf{Fourier transform of the gravitational strain of BBH-b5}','$$\omega \,[1/ms]$$','$$ |\mathcal{F}[ h (t,r=100 Mpc)](\omega)|$$',16);
-%xlim([0 120]);
+xlim([0 120]);
 
 figure();
 plot(b5_p(:,1).*CU_to_ms, b5_p(:,5)./CU_to_ms)
