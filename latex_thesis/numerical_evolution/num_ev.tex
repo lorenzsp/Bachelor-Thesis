@@ -18,12 +18,12 @@ The purpose of the following sections is to study the gravitational-wave signals
 Firstly, we define the \textbf{gravitational wave strain} as
 \begin{equation}
 \label{gravitational_wave_strain}
-h(t) \equiv h_{+} - i h_{\times}
+h(t) \equiv h_{+} + i h_{\times}
 \end{equation} 
 Using the thorn \texttt{WeylScal4}, the Einstein Toolkit calculates the  Newman-Penrose scalar $\psi_4$ (also called Weyl scalar 4)\cite{newman_approach_1962}, which is linked to the GW strain $h$ by the following relation, valid only at spatial infinity:
 \begin{equation}
 \label{psi_4_strain}
-\psi_{4} = \pdv[2]{}{t} \qty(h_{+} - i h_{\times}) = \pdv[2]{h}{t} 
+\psi_{4} = \pdv[2]{}{t} \qty(h_{+} - i h_{\times})
 \end{equation}
 In order for equation(\ref{psi_4_strain}) to be valid, the signal has to be extracted as furthest as possible from the source.
 The signal is then decomposed in spin-weighted spherical harmonics of spin $ - 2$ by the thorn \texttt{Multipole}\cite{thorne_multipole_1980}
@@ -56,7 +56,7 @@ where the $Q$ values are the coefficients of the fitted polynomials for the real
 As we have seen in section(\ref{solution_linearized_einstein_eq}) the gravitational radiation scales with the distance from the source as $1/r$.
 Therefore, in order to have a reasonable order of magnitude of the gravitational wave strain
 \begin{equation}
-h(t) = h_{+} - i h_{\times}
+h(t) = h_{+} + i h_{\times}
 \end{equation} 
 where $h_{+}$ and $h_{\times}$ are taken from equations(\ref{h_+_numerical}) and (\ref{h_x_numerical}), we multiply $h(t)$ by the distance at which it is was measured and we divide it by a typical cosmological distance of binary sources $r=100 \, \mega \text{pc} \approx 3.1 \times 10^{19} \, \kilo \meter$.
 

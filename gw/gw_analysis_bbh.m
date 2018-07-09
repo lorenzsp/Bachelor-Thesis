@@ -300,17 +300,18 @@ plot_f('\textbf{Orbital angular frequency $\omega$ of BBH-b3}','$$t \, [ms]$$','
 k=find(abs(y)==max(abs(y)));
 w_f(k)*1e3/(2*pi)
 
+
 %% b4
 t = b4_h(:,1).*CU_to_ms;                   
 Fs = 1./abs(t(1)-t(2));            % Sampling frequency
-y = fft(b4_h(:,2)+1i.*b4_h(:,3));     
+y = fft(b4_h(:,2)-1i.*b4_h(:,3));     
 w_f = ((0:length(y)-1)*Fs/length(y))*(2*pi); % omega fourier
 
 figure();
 hold on;
 plot(w_f,abs(y)/max(abs(y)));
 plot_f('\textbf{Fourier transform of the gravitational strain of BBH-b4}','$$\omega \,[1/ms]$$','$$ |\mathcal{F}[ h (t,r=100 Mpc)](\omega)|$$',16);
-xlim([0 130]);
+%xlim([0 130]);
 
 figure();
 plot(b4_p(:,1).*CU_to_ms, b4_p(:,5)./CU_to_ms)
@@ -331,7 +332,7 @@ figure();
 hold on;
 plot(w_f,abs(y)/max(abs(y)));
 plot_f('\textbf{Fourier transform of the gravitational strain of BBH-b5}','$$\omega \,[1/ms]$$','$$ |\mathcal{F}[ h (t,r=100 Mpc)](\omega)|$$',16);
-xlim([0 120]);
+%xlim([0 120]);
 
 figure();
 plot(b5_p(:,1).*CU_to_ms, b5_p(:,5)./CU_to_ms)
@@ -590,6 +591,52 @@ for t=80:3000
     ii = ii + 0.2;
 end
 
+
+%% travelling GW
+%angle parameter of the ring
+theta = 0:0.03:2*pi;
+%frequency of the wave
+omega = 0.1;
+% t time
+
+n=1;
+ii=1;
+z=0:1:210;
+for t=20:3000
+    % plus polarization
+    
+
+    CM = jet(250); % n+10 
+    for z=0.5:0.01:4;
+        h_plus = 0.5*cos(omega.*(t-z ))./z;
+    h_times = 0.5*sin(omega.*(t-z ))./z;
+    X = cos(theta) .* (1 + 0.5.*h_plus) + sin(theta).*(0.5.*h_times);
+    Y = sin(theta) .* (1 - 0.5.*h_plus) + cos(theta).*(0.5.*h_times);
+    plot3(X,Y,z.*ones(size(X)),'.','color',CM(round(10*z),:));
+        
+    hold on
+    end
+    grid on;
+    %set(gca,'Visible','off')
+    %pbaspect([1 1 1]);
+    set(gca,'zticklabel',[])
+    set(gca,'xticklabel',[])
+    set(gca,'yticklabel',[])
+    plot_f('','x','y',20);
+    %xlabel('x');
+    %ylabel('y');
+    zlabel('t');
+    %set(gca,'xtick',[])
+    %set(gca,'ytick',[])
+    %set(gca,'ztick',[])
+    %xlim([-2 2]);
+    %ylim([-2 2]);
+    pause(0.01)
+    n=n+1;
+    %hold on;
+    clf;
+    ii = ii + 0.2;
+end
 
 %% wave polarization for BBH
 theta = 0:0.03:2*pi;
