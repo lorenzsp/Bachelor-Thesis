@@ -1,28 +1,28 @@
 [0] Config.pm:327> INFO - This is Biber 2.3
-[1] Config.pm:330> INFO - Logfile is 'thesis.blg'
-[62] biber-darwin:287> INFO - === Mon Jul  9, 2018, 13:09:43
-[96] Biber.pm:346> INFO - Reading 'thesis.bcf'
-[236] Biber.pm:689> INFO - Found 34 citekeys in bib section 0
-[243] Biber.pm:3066> INFO - Processing section 0
-[270] Biber.pm:3206> INFO - Looking for bibtex format file 'bibliography/bibthesis.bib' for section 0
-[285] bibtex.pm:1062> INFO - Decoding LaTeX character macros into UTF-8
-[298] bibtex.pm:923> INFO - Found BibTeX data source 'bibliography/bibthesis.bib'
-[1146] Utils.pm:147> WARN - ISBN '978-0-521-25770-1 978-0-521-27703-7' in entry 'schutz_first_1985' is invalid - run biber with '--validate_datamodel' for details.
-[1738] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1738] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1738] Biber.pm:2943> INFO - Sorting list 'none' of type 'entry' with scheme 'none' and locale 'en-US'
-[1739] Biber.pm:2947> INFO - No sort tailoring available for locale 'en-US'
-[1829] bbl.pm:505> INFO - Writing 'thesis.bbl' with encoding 'ascii'
-[1896] Utils.pm:147> WARN - The entry 'abbott_observation_2016' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1979] Utils.pm:147> WARN - The entry 'abbott_gw170817:_2017' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1992] Utils.pm:147> WARN - The entry 'loffler_einstein_2012' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1996] Utils.pm:147> WARN - The entry 'LIGOLaserInterferometer1992' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1998] Utils.pm:147> WARN - The entry 'noauthor_cactus_nodate' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[2000] Utils.pm:147> WARN - The entry 'zilhaoIntroductionEinsteinToolkit2013' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[2001] Utils.pm:147> WARN - The entry 'de_pietri_modeling_2016' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[2002] Utils.pm:147> WARN - The entry 'maione_spectral_2017' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[2004] Utils.pm:147> WARN - The entry 'Ansorg:2004ds' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[2005] Utils.pm:147> WARN - The entry 'Lorene:web' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[2006] Utils.pm:147> WARN - The entry 'shibata_simulation_nodate' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[2007] bbl.pm:596> INFO - Output to thesis.bbl
-[2007] Biber.pm:107> INFO - WARNINGS: 12
+[0] Config.pm:330> INFO - Logfile is 'thesis.blg'
+[75] biber-darwin:287> INFO - === Wed Jul 11, 2018, 19:09:15
+[108] Biber.pm:346> INFO - Reading 'thesis.bcf'
+[258] Biber.pm:689> INFO - Found 34 citekeys in bib section 0
+[265] Biber.pm:3066> INFO - Processing section 0
+[288] Biber.pm:3206> INFO - Looking for bibtex format file 'bibliography/bibthesis.bib' for section 0
+[301] bibtex.pm:1062> INFO - Decoding LaTeX character macros into UTF-8
+[315] bibtex.pm:923> INFO - Found BibTeX data source 'bibliography/bibthesis.bib'
+[997] Utils.pm:147> WARN - ISBN '978-0-521-25770-1 978-0-521-27703-7' in entry 'schutz_first_1985' is invalid - run biber with '--validate_datamodel' for details.
+[1502] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1502] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1502] Biber.pm:2943> INFO - Sorting list 'none' of type 'entry' with scheme 'none' and locale 'en-US'
+[1503] Biber.pm:2947> INFO - No sort tailoring available for locale 'en-US'
+[1591] bbl.pm:505> INFO - Writing 'thesis.bbl' with encoding 'ascii'
+[1659] Utils.pm:147> WARN - The entry 'abbott_observation_2016' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[1740] Utils.pm:147> WARN - The entry 'abbott_gw170817:_2017' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[1753] Utils.pm:147> WARN - The entry 'loffler_einstein_2012' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[1757] Utils.pm:147> WARN - The entry 'LIGOLaserInterferometer1992' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[1759] Utils.pm:147> WARN - The entry 'noauthor_cactus_nodate' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[1761] Utils.pm:147> WARN - The entry 'zilhaoIntroductionEinsteinToolkit2013' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[1763] Utils.pm:147> WARN - The entry 'de_pietri_modeling_2016' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[1765] Utils.pm:147> WARN - The entry 'maione_spectral_2017' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[1766] Utils.pm:147> WARN - The entry 'Ansorg:2004ds' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[1767] Utils.pm:147> WARN - The entry 'Lorene:web' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[1769] Utils.pm:147> WARN - The entry 'shibata_simulation_nodate' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[1769] bbl.pm:596> INFO - Output to thesis.bbl
+[1769] Biber.pm:107> INFO - WARNINGS: 12
