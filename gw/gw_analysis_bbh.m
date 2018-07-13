@@ -552,7 +552,7 @@ end
 
 %% wave polarizations animated
 %angle parameter of the ring
-theta = 0:0.03:pi/5;
+theta = 0:0.03:2*pi;
 %frequency of the wave
 omega = 0.1;
 % t time
@@ -590,61 +590,6 @@ for t=80:3000
     %clf;
     ii = ii + 0.2;
 end
-
-
-%% travelling GW
-%angle parameter of the ring
-theta = 0:0.01:2*pi;
-%frequency of the wave
-omega = 0.5;
-% t time
-
-n=1;
-ii=1;
-z=0:1:210;
-for t=10:0.5:3000
-    % plus polarization
-    
-
-    CM = jet(250); % n+10 
-    %for z=0.5:0.1:4;
-    h_plus = 0.5*cos(omega.*(t-z ));%./z;
-    h_times = 0*sin(omega.*(t-z ));%./z;
-    X = cos(theta) .* (1 + 0.5.*h_plus) + sin(theta).*(0.5.*h_times);
-    Y = sin(theta) .* (1 - 0.5.*h_plus) + cos(theta).*(0.5.*h_times);
-    plot3(X,Y,ones(size(X)),'.','color',CM(n,:));%z.*round(10*z)
-        
-    hold on
-    %end
-    grid on;
-    %set(gca,'Visible','off')
-    %pbaspect([1 1 1]);
-    set(gca,'zticklabel',[])
-    set(gca,'xticklabel',[])
-    set(gca,'yticklabel',[])
-    plot_f('','x','y',20);
-    %xlabel('x');
-    %ylabel('y');
-    zlabel('t');
-    %set(gca,'xtick',[])
-    %set(gca,'ytick',[])
-    %set(gca,'ztick',[])
-    %xlim([-2 2]);
-    %ylim([-2 2]);
-    pause(0.5)
-    n=n+1;
-    %hold on;
-    clf;
-    ii = ii + 0.2;
-end
-%%
-t = 0:pi/10:2*pi;
-figure
-[X,Y,Z] = cylinder(2+cos(t));
-surf(X,Y,Z)
-axis square
-
-
 
 
 %% wave polarization for BBH

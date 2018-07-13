@@ -2,7 +2,7 @@
 % gifsicle --unoptimize ../times_pol.gif | convert - frame-%d.png
 %% wave polarizations animated
 %angle parameter of the ring
-theta = 0:0.03:2*pi;
+theta = 0:0.1:2*pi;
 %frequency of the wave
 omega = 0.1;
 % t time
@@ -14,8 +14,8 @@ n=1;
 ii=1;
 for ot=0:0.1:2*pi;
     % plus polarization
-    h_plus = 0*cos(ot);
-    h_times = 0.5*cos(ot);
+    h_plus = 0.5*cos(ot);
+    h_times = 0.5*cos(ot-pi/2);
     X = cos(theta) .* (1 + 0.5.*h_plus) + sin(theta).*(0.5.*h_times);
     Y = sin(theta) .* (1 - 0.5.*h_plus) + cos(theta).*(0.5.*h_times);
 
@@ -40,9 +40,9 @@ for ot=0:0.1:2*pi;
     %set(gca,'ztick',[])
     xlim([-2 2]);
     ylim([-2 2]);
-    %pause(0.01)
+    pause(0.01)
     if ot==0
-        gif('times_pol.gif','DelayTime',0.2,'LoopCount',5,'frame',gcf);
+        gif('r_pol.gif','DelayTime',0.2,'LoopCount',5,'frame',gcf);
     else
     
     gif
@@ -59,26 +59,27 @@ end
 
 
 %% binary sources and GW
-[C,ia,ib] = intersect(b4_p(:,1),b4_h(:,1));
+theta = 0:0.1:2*pi;
+[C,ia,ib] = intersect(b3_p(:,1),b3_h(:,1));
 t=C;
 for n=1:10:length(C)
     
     subplot(2,2,1),
-    plot(b4_p(ia(n),2),b4_p(ia(n),3),'.','MarkerSize',15);
+    plot(b3_p(ia(n),2),b3_p(ia(n),3),'.','MarkerSize',15);
     hold on;
-    plot(-b4_p(ia(n),2),-b4_p(ia(n),3),'.','MarkerSize',15);
+    plot(-b3_p(ia(n),2),-b3_p(ia(n),3),'.','MarkerSize',15);
     %axis equal
         pbaspect([1 1 1]);
 
-    xlim([-5 5]);
-    ylim([-5 5]);
+    xlim([-4 4]);
+    ylim([-4 4]);
     plot_f('','$$x \; [M_{\odot}]$$','$$y \;[M_{\odot}]$$',16)
     grid on;
     
     subplot(2,2,2),
     % plus polarization
-    h_plus = 200.*b4_h(ib(n),2);
-    h_times = 200.*b4_h(ib(n),3);
+    h_plus = 200.*b3_h(ib(n),2);
+    h_times = 200.*b3_h(ib(n),3);
     X = cos(theta) .* (1 + 0.5.*h_plus) + sin(theta).*(0.5.*h_times);
     Y = sin(theta) .* (1 - 0.5.*h_plus) + cos(theta).*(0.5.*h_times);
     plot(X,Y,'.');
@@ -92,11 +93,12 @@ for n=1:10:length(C)
     
     subplot(2,2,[3,4]), 
     hold on;
-    plot(b4_h(:,1),b4_h(:,2).*115/(100.*Mparsec),'r');
-    plot(b4_h(:,1),b4_h(:,3).*115/(100.*Mparsec),'b');
-    plot(t(n),b4_h(ib(n),2).*115/(100.*Mparsec),'or','MarkerSize',4,'MarkerFaceColor','m') ;   
-    plot(t(n),b4_h(ib(n),3).*115/(100.*Mparsec),'or','MarkerSize',4,'MarkerFaceColor','m');
-    xlim([0 400]);
+    plot(b3_h(:,1),b3_h(:,2).*110/(100.*Mparsec),'r');
+    plot(b3_h(:,1),b3_h(:,3).*110/(100.*Mparsec),'b');
+    plot(t(n),b3_h(ib(n),2).*110/(100.*Mparsec),'or','MarkerSize',4,'MarkerFaceColor','m') ;   
+    plot(t(n),b3_h(ib(n),3).*110/(100.*Mparsec),'or','MarkerSize',4,'MarkerFaceColor','m');
+    ylim([-1.5 1.5].*1e-22)
+    xlim([0 200]);
         grid on;
 plot_f('','$$t \,[M_{\odot}]$$','$$ h(t,r=100 Mpc) $$',16)
     s= {['$$h_+$$'],...
@@ -105,7 +107,7 @@ plot_f('','$$t \,[M_{\odot}]$$','$$ h(t,r=100 Mpc) $$',16)
     
     %pause(0.01)
     if n==1
-        gif('bbh-b4.gif','DelayTime',0.2,'LoopCount',5,'frame',gcf);
+        gif('bbh-b3.gif','DelayTime',0.2,'LoopCount',5,'frame',gcf);
     else
     
     gif
@@ -114,22 +116,22 @@ plot_f('','$$t \,[M_{\odot}]$$','$$ h(t,r=100 Mpc) $$',16)
 
 end
 
-for n=ib(end):40:24849
+for n=ib(end):40:length(b3_h(:,1))
     
     subplot(2,2,1),
     plot(0,0,'k.','MarkerSize',15);
     hold on;
     plot_f('','$$x \; [M_{\odot}]$$','$$y \;[M_{\odot}]$$',16)
-xlim([-5 5]);
-ylim([-5 5]);
+xlim([-4 4]);
+ylim([-4 4]);
     pbaspect([1 1 1]);
 
             grid on;
 
     
     subplot(2,2,2),
-    h_plus = 200.*b4_h((n),2);
-    h_times = 200.*b4_h((n),3);
+    h_plus = 200.*b3_h((n),2);
+    h_times = 200.*b3_h((n),3);
     X = cos(theta) .* (1 + 0.5.*h_plus) + sin(theta).*(0.5.*h_times);
     Y = sin(theta) .* (1 - 0.5.*h_plus) + cos(theta).*(0.5.*h_times);
     plot(X,Y,'.');
@@ -140,11 +142,12 @@ ylim([-5 5]);
     
     subplot(2,2,[3,4]), 
     hold on;
-    plot(b4_h(:,1),b4_h(:,2).*115/(100.*Mparsec),'r');
-    plot(b4_h(:,1),b4_h(:,3).*115/(100.*Mparsec),'b');
-    plot(b4_h(n,1),b4_h(n,2).*115/(100.*Mparsec),'or','MarkerSize',4,'MarkerFaceColor','m') ;   
-    plot(b4_h(n,1),b4_h(n,3).*115/(100.*Mparsec),'or','MarkerSize',4,'MarkerFaceColor','m');
-    xlim([0 400]);
+    plot(b3_h(:,1),b3_h(:,2).*110/(100.*Mparsec),'r');
+    plot(b3_h(:,1),b3_h(:,3).*110/(100.*Mparsec),'b');
+    plot(b3_h(n,1),b3_h(n,2).*110/(100.*Mparsec),'or','MarkerSize',4,'MarkerFaceColor','m') ;   
+    plot(b3_h(n,1),b3_h(n,3).*110/(100.*Mparsec),'or','MarkerSize',4,'MarkerFaceColor','m');
+        ylim([-1.5 1.5].*1e-22)
+    xlim([0 200]);
             grid on;
     plot_f('','$$t \,[M_{\odot}]$$','$$ h(t,r=100 Mpc) $$',16)
     s= {['$$h_+$$'],...
@@ -157,7 +160,7 @@ ylim([-5 5]);
     clf;
 
 end
-
+close all
 %% travelling GW
 %angle parameter of the ring
 theta = 0:0.01:2*pi;
@@ -218,5 +221,55 @@ for t=0.01:0.05:2.0944
     
     clf;
     ii = ii + 0.2;
+end
+
+%% BBH-b6 BBH-b7 BBH-b10
+
+
+%% binary sources and radius
+theta = 0:0.1:2*pi;
+[C,ia,ib] = intersect(b10_p(:,1),b10_h(:,1));
+t=C;
+for n=1:50:length(C)
+    
+   
+    
+    subplot(2,1,1),
+    % plus polarization
+    plot(b10_p(:,1),b10_p(:,4));
+    hold on
+   plot(t(n),b10_p(n,4),'or','MarkerSize',4,'MarkerFaceColor','m') ;   
+   plot_f('','$$t \; [M_{\odot}]$$','$$R$$',16)
+    %xlim([0 1200]);
+    %ylim([-2 2]);
+        grid on;
+     %       pbaspect([1 1 1]);
+
+
+    
+    
+    subplot(2,1,2), 
+    hold on;
+    plot(b10_h(:,1),b10_h(:,2).*115/(100.*Mparsec),'r');
+    plot(b10_h(:,1),b10_h(:,3).*115/(100.*Mparsec),'b');
+    plot(t(n),b10_h(ib(n),2).*115/(100.*Mparsec),'or','MarkerSize',4,'MarkerFaceColor','m') ;   
+    plot(t(n),b10_h(ib(n),3).*115/(100.*Mparsec),'or','MarkerSize',4,'MarkerFaceColor','m');
+    ylim([-4 4].*1e-23)
+    %xlim([0 1200]);
+        grid on;
+plot_f('','$$t \,[M_{\odot}]$$','$$ h(t,r=100 Mpc) $$',16)
+    s= {['$$h_+$$'],...
+    ['$$h_{\times}$$']};
+    legend_f(s);
+    
+    pause(0.01)
+    %if n==1
+    %    gif('bbh-b3.gif','DelayTime',0.2,'LoopCount',5,'frame',gcf);
+    %else
+    %
+    %gif
+    %end
+    clf;
+
 end
 
