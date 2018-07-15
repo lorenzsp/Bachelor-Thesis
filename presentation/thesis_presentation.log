@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  15 JUL 2018 19:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  15 JUL 2018 19:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2164,7 +2164,7 @@ LaTeX Info: Redefining \includegraphics on input line 52.
 LaTeX Info: Redefining \it@ocap on input line 52.
 LaTeX Info: Redefining \it@ccap on input line 52.
 
-(./thesis_presentation.nav) <logo.png, id=42, 1204.5pt x 1204.5pt>
+(./thesis_presentation.nav) <logo.png, id=41, 1204.5pt x 1204.5pt>
 File: logo.png Graphic file (type png)
 
 <use logo.png>
@@ -3771,14 +3771,14 @@ Package epstopdf Info: Source file: <bbh-b6710.eps>
 (epstopdf)                    date: 2018-07-15 16:49:17
 (epstopdf)                    size: 665067 bytes
 (epstopdf)             Output file: <bbh-b6710-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-07-15 19:14:50
+(epstopdf)                    date: 2018-07-15 19:22:46
 (epstopdf)                    size: 194679 bytes
 (epstopdf)             Command: <repstopdf --outfile=bbh-b6710-eps-converted-to
 .pdf bbh-b6710.eps>
 (epstopdf)             \includegraphics on input line 379.
 Package epstopdf Info: Output file is already uptodate.
 
-<bbh-b6710-eps-converted-to.pdf, id=10299, 1238.6275pt x 580.1675pt>
+<bbh-b6710-eps-converted-to.pdf, id=10277, 1238.6275pt x 580.1675pt>
 File: bbh-b6710-eps-converted-to.pdf Graphic file (type pdf)
 
 <use bbh-b6710-eps-converted-to.pdf>
@@ -3796,13 +3796,13 @@ Package epstopdf Info: Source file: <bns.eps>
 (epstopdf)                    date: 2018-07-15 17:58:01
 (epstopdf)                    size: 122323 bytes
 (epstopdf)             Output file: <bns-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-07-15 19:14:51
+(epstopdf)                    date: 2018-07-15 19:22:47
 (epstopdf)                    size: 72986 bytes
 (epstopdf)             Command: <repstopdf --outfile=bns-eps-converted-to.pdf b
 ns.eps>
 (epstopdf)             \includegraphics on input line 388.
 Package epstopdf Info: Output file is already uptodate.
- <bns-eps-converted-to.pdf, id=10342, 1284.8pt x 751.80875pt>
+ <bns-eps-converted-to.pdf, id=10320, 1284.8pt x 751.80875pt>
 File: bns-eps-converted-to.pdf Graphic file (type pdf)
 
 <use bns-eps-converted-to.pdf>
@@ -4114,7 +4114,7 @@ s/gw/3d/frame-60.png> </Users/lorenzosperi/Documents/GitHub/thesis/gw/3d/frame-
 61.png> </Users/lorenzosperi/Documents/GitHub/thesis/gw/3d/frame-62.png>
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 409.
+Package pdftex.def Info: logo.png used on input line 408.
 (pdftex.def)             Requested size: 27.65495pt x 27.64226pt.
 Package atenddvi Info: Last page = 24.
  [24
@@ -4129,11 +4129,11 @@ Package atenddvi Info: Last page = 24.
 \tf@snm=\write7
 \openout7 = `thesis_presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 412.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 412.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 411.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 411.
  (./thesis_presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 412.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 412.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 411.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 411.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -4142,13 +4142,13 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 412.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 411.
  ) 
 Here is how much of TeX's memory you used:
- 40898 strings out of 493033
- 785290 string characters out of 6134139
- 836891 words of memory out of 5000000
- 42636 multiletter control sequences out of 15000+600000
+ 40895 strings out of 493033
+ 785244 string characters out of 6134139
+ 834979 words of memory out of 5000000
+ 42634 multiletter control sequences out of 15000+600000
  19161 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,19n,63p,10415b,762s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -4169,10 +4169,10 @@ e/2015/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb></usr/local/texlive/
 15/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2015
 /texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb></usr/local/texlive/2015/t
 exmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb>
-Output written on thesis_presentation.pdf (24 pages, 28952569 bytes).
+Output written on thesis_presentation.pdf (24 pages, 28951845 bytes).
 PDF statistics:
- 12301 PDF objects out of 12825 (max. 8388607)
- 4759 compressed objects within 48 object streams
- 60 named destinations out of 1000 (max. 500000)
+ 12275 PDF objects out of 12825 (max. 8388607)
+ 4734 compressed objects within 48 object streams
+ 59 named destinations out of 1000 (max. 500000)
  32778 words of extra memory for PDF output out of 35830 (max. 10000000)
 
