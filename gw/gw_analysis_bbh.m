@@ -661,7 +661,7 @@ y=x;
 for omeg =0:0.1:2*pi
 for n=1:length(x)
     for m = 1:length(y)
-        z(n,m)=(60.*cos(2.*atan2(y(m),x(n)+0.0001)- omeg +0.2.*sqrt(x(n).^2+y(m).^2))./(20 + sqrt(x(n).^2+y(m).^2)));
+        z(n,m)=(60.*cos(2.*atan2(y(m),x(n)+0.0001e-7)- omeg +0.3.*sqrt(x(n).^2+y(m).^2))./(20 + sqrt(x(n).^2+y(m).^2)));
     end
 end
 
@@ -669,9 +669,17 @@ surface(z);
 xlim([0 200]);
 ylim([0 200]);
 shading interp
-
-
+hold on
+view(-71,71)
+ set(gca,'Visible','off')
+    %pbaspect([1 1 1]);
+    set(gca,'zticklabel',[])
+    set(gca,'xticklabel',[])
+    set(gca,'yticklabel',[])
 pause(0.5)
 clf
 end
-
+%%
+Sphere[{2 Cos[\[Theta] - \[Pi]/2], 2 Sin[\[Theta] - \[Pi]/2], 3}, 
+     1], Sphere[{Cos[\[Theta] + \[Pi]/2], Sin[\[Theta] + \[Pi]/2], 3},
+      1]}], PlotRange -> All]]

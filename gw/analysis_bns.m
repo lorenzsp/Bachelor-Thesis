@@ -15,8 +15,30 @@ CU_to_dens = c*c*c*c*c*c / (G*G*G * M_sun*M_sun); % kg/m^3
 
 CU_to_energy    = M_sun*c*c  ;        % kg m^2/s^2
 
+
+
+%% positions importing
+A=positions_f('../nsnstohmns/rho_max_loc.csv');
+t=A(:,1);
+x=A(:,4).*cos(t.*A(:,5));%2*atan(A(:,3)./A(:,2)));
+y=A(:,4).*sin(t.*A(:,5));%2*atan(A(:,3)./A(:,2)));
+
+hold on;
+plot(x,y,'b.')  
+%plot(-x(:), -y(:),'-')  
+plot(A(:,2),A(:,3),'.-');
+%plot(-A(:,2),-A(:,3),'.-');
+
+% velocities
+v_x = gradient(x,t);
+v_y = gradient(y,t);
+%distance from the origin
+R = sqrt((x.^2 + y.^2));
+% angular frequency
+omega = (x.*v_y - y.*v_x)./(R.^2);
+
 %% GW importing
-t_h_psi = gw_strain('../nsnstohmns/mp_Psi4_l2_m2_r300.00.asc',300);
+t_h_psi = gw_strain('../nsnstohmns/mp_Psi4_l2_m2_r300.00_2.asc',300);
 
 figure();
 subplot(3,1,1),
@@ -51,27 +73,6 @@ A=positions_f('../nsnstohmns/rho_max_loc.csv');
 t=A(:,1);
 plot(t(1:540).*CU_to_ms,A(1:540,4))
 ylim([0 20]);
-
-
-%% positions importing
-A=positions_f('../nsnstohmns/rho_max_loc.csv');
-t=A(:,1);
-x=A(:,4).*cos(t.*A(:,5));%2*atan(A(:,3)./A(:,2)));
-y=A(:,4).*sin(t.*A(:,5));%2*atan(A(:,3)./A(:,2)));
-
-hold on;
-plot(x,y,'b.')  
-%plot(-x(:), -y(:),'-')  
-plot(A(:,2),A(:,3),'.-');
-%plot(-A(:,2),-A(:,3),'.-');
-
-% velocities
-v_x = gradient(x,t);
-v_y = gradient(y,t);
-%distance from the origin
-R = sqrt((x.^2 + y.^2));
-% angular frequency
-omega = (x.*v_y - y.*v_x)./(R.^2);
 
 %% Fourier
 t=t_h_psi(:,1)*CU_to_ms;           

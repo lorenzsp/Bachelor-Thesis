@@ -1,0 +1,9 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {italian}
+\select@language {italian}
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Einstein's Field Equation}{4}{0}{2}
+\beamer@sectionintoc {3}{Effects of GWs}{8}{0}{3}
+\beamer@sectionintoc {4}{Production of GWs}{13}{0}{4}
+\beamer@sectionintoc {5}{Numerical Evolution}{17}{0}{5}
+\beamer@sectionintoc {6}{Conclusions}{24}{0}{6}
