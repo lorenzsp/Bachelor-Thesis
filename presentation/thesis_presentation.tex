@@ -36,7 +36,7 @@
 
 \title{Analyzing Gravitational Waves \\ through Numerical Simulations}
 \author{Lorenzo Speri}
-%\date{17$^{th}$ July 2017}
+\date{}
 \institute[]{Department of Physics \\
 University of Trento\\
 17th July 2018}
@@ -77,14 +77,19 @@ University of Trento\\
 \end{frame}
 
 \section{Introduction}
-\begin{frame}{What can Gravitational Waves tell us?}
-The speed of light is the speed of causality.\\
-\vspace{0.7cm}
-Gravity must be causal.\\
-\vspace{0.7cm}
-A change in a gravitating source is communicated to a distant observer not faster than light.\\
-\vspace{0.7cm}
-Communication of a change in spacetime $\rightarrow$ Gravitational Waves
+\begin{frame}{Introduction}
+Gravitational waves can provide a large amount of information about a binary system.
+\\
+\vspace{1cm}
+Our method
+\begin{itemize}
+\item Properties of the gravitational waves
+\item Analysis of the gravitational wave signal
+\item Relation with the dynamical evolution
+\end{itemize}
+
+
+
 \end{frame}
 
 \section{Einstein's Field Equation}
@@ -94,7 +99,7 @@ Communication of a change in spacetime $\rightarrow$ Gravitational Waves
 	\vspace{0.8cm}
 	\\
 	\[
-	R_{\mu \nu} - \dfrac{1}{2} R g_{\mu \nu} = 
+	G_{\mu \nu} \equiv R_{\mu \nu} - \dfrac{1}{2} R g_{\mu \nu} = 
 \dfrac{8 \pi G}{c^4} T_{\mu \nu}
 	\]
 	\vspace{0.8cm}
@@ -268,40 +273,52 @@ h^{\text{TT}} _{ij} = \frac{8\,G M \,R^{2} \omega^{2}}{c^{4}\, r} \,
 \section{Numerical Evolution}
 \subsection{}
 \begin{frame}{Numerical Evolution of Compact Binaries}
-Quasi-equilibrium initial conditions of compact objects
+\vspace{0.5cm}
+Einstein Toolkit is an open-source
+computational infrastructure for numerical relativity based on the Cactus Framework.
+\begin{figure}
+\includegraphics[scale=0.3]{ET}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{Quasi-equilibrium initial conditions of compact objects}
+
 \vspace{1cm}
 \begin{itemize}
 \item \textbf{Binary Black Holes (BBH)}
-%\begin{table}
-%\centering
-%\begin{tabular}{|c|c|c|c|}
-%\hline 
-%simulation name & \texttt{par\_b} & \texttt{par\_m\_plus} & \texttt{par\_P\_plus[1]} \\ 
-%\hline 
-%BBH-b3 & 3 & 0.47656
-% & +0.13808 \\ 
-%%\hline 
-%BBH-b4 & 4 & 0.48243 & +0.11148 \\ 
-%%\hline 
-%BBH-b5 & 5 & 0.48595 & +0.095433 \\ 
-%%\hline 
-%BBH-b6 & 6 & 0.48830 & +0.084541 \\ 
-%%\hline 
-%BBH-b7 & 7 &  0.48997 & +0.076578 \\ 
-%%\hline 
-%BBH-b10 & 10 & 0.49299 & +0.061542 \\ 
-%\hline 
-%\end{tabular} 
-%\end{table}
+\begin{table}
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline 
+simulation name & \texttt{par\_b} & \texttt{par\_m\_plus} & \texttt{par\_P\_plus[1]} \\ 
+\hline 
+BBH-b3 & 3 & 0.47656
+ & +0.13808 \\ 
+\hline 
+BBH-b4 & 4 & 0.48243 & +0.11148 \\ 
+\hline 
+BBH-b5 & 5 & 0.48595 & +0.095433 \\ 
+\hline 
+BBH-b6 & 6 & 0.48830 & +0.084541 \\ 
+\hline 
+BBH-b7 & 7 &  0.48997 & +0.076578 \\ 
+\hline 
+BBH-b10 & 10 & 0.49299 & +0.061542 \\ 
+\hline 
+\end{tabular} 
+\end{table}
 \vspace{0.5cm}
 \item \textbf{Binary Neutron Stars (BNS)}
+\[
+M_{\text{TOT}} = 3.251 \, M_{\odot} \qquad 
+b=15.285 \, M_{\odot}
+\]
+Ideal fluid approximation
 	\end{itemize}
 	\vspace{1cm}
-
-\textbf{Gravitational Radiation}
-$\Leftrightarrow$
-\textbf{Dynamical Evolution}
 \end{frame}
+
 
 \begin{frame}{BBH-b3}
 \begin{figure}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  16 JUL 2018 13:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.29)  16 JUL 2018 16:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2164,14 +2164,14 @@ LaTeX Info: Redefining \includegraphics on input line 52.
 LaTeX Info: Redefining \it@ocap on input line 52.
 LaTeX Info: Redefining \it@ccap on input line 52.
 
-(./thesis_presentation.nav) <logo.png, id=36, 1204.5pt x 1204.5pt>
+(./thesis_presentation.nav) <logo.png, id=37, 1204.5pt x 1204.5pt>
 File: logo.png Graphic file (type png)
 
 <use logo.png>
 Package pdftex.def Info: logo.png used on input line 62.
 (pdftex.def)             Requested size: 92.1879pt x 92.17151pt.
 
-Overfull \vbox (34.35268pt too high) detected at line 62
+Overfull \vbox (24.23276pt too high) detected at line 62
  []
 
 
@@ -2192,50 +2192,50 @@ Package pdftex.def Info: logo.png used on input line 77.
  [2
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 88.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 93.
+
+LaTeX Font Info:    No file OMScmss.fd. on input line 93.
+
+
+LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 93.
+
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png used on input line 93.
+(pdftex.def)             Requested size: 27.65495pt x 27.64226pt.
+ [3
+
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 131.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 88.
+LaTeX Font Info:    Try loading font information for U+msb on input line 131.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 88.
+Package pdftex.def Info: logo.png used on input line 131.
 (pdftex.def)             Requested size: 27.65495pt x 27.64226pt.
 
-[3
+[4
 
 ]
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 126.
-(pdftex.def)             Requested size: 27.65495pt x 27.64226pt.
- [4
-
-]
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 154
-.
-LaTeX Font Info:    No file OMScmss.fd. on input line 154.
-
-
-LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 154.
-
-File: logo.png Graphic file (type png)
-<use logo.png>
-Package pdftex.def Info: logo.png used on input line 154.
+Package pdftex.def Info: logo.png used on input line 159.
 (pdftex.def)             Requested size: 27.65495pt x 27.64226pt.
  [5
 
 ]
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 190.
+Package pdftex.def Info: logo.png used on input line 195.
 (pdftex.def)             Requested size: 27.65495pt x 27.64226pt.
  [6
 
@@ -2296,12 +2296,12 @@ s/lorenzosperi/Documents/GitHub/thesis/gw/plus_pol/frame-59.png> </Users/lorenz
 osperi/Documents/GitHub/thesis/gw/plus_pol/frame-60.png> </Users/lorenzosperi/D
 ocuments/GitHub/thesis/gw/plus_pol/frame-61.png> </Users/lorenzosperi/Documents
 /GitHub/thesis/gw/plus_pol/frame-62.png>
-Overfull \vbox (1.05714pt too high) detected at line 198
+Overfull \vbox (1.05714pt too high) detected at line 203
  []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 198.
+Package pdftex.def Info: logo.png used on input line 203.
 (pdftex.def)             Requested size: 27.65495pt x 27.64226pt.
  [7
 
@@ -2363,12 +2363,12 @@ ents/GitHub/thesis/gw/times_pol/frame-59.png> </Users/lorenzosperi/Documents/Gi
 tHub/thesis/gw/times_pol/frame-60.png> </Users/lorenzosperi/Documents/GitHub/th
 esis/gw/times_pol/frame-61.png> </Users/lorenzosperi/Documents/GitHub/thesis/gw
 /times_pol/frame-62.png>
-Overfull \vbox (1.05714pt too high) detected at line 205
+Overfull \vbox (1.05714pt too high) detected at line 210
  []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 205.
+Package pdftex.def Info: logo.png used on input line 210.
 (pdftex.def)             Requested size: 27.65495pt x 27.64226pt.
  [8
 
@@ -2427,12 +2427,12 @@ ments/GitHub/thesis/gw/l_pol/frame-59.png> </Users/lorenzosperi/Documents/GitHu
 b/thesis/gw/l_pol/frame-60.png> </Users/lorenzosperi/Documents/GitHub/thesis/gw
 /l_pol/frame-61.png> </Users/lorenzosperi/Documents/GitHub/thesis/gw/l_pol/fram
 e-62.png>
-Overfull \vbox (1.05714pt too high) detected at line 212
+Overfull \vbox (1.05714pt too high) detected at line 217
  []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 212.
+Package pdftex.def Info: logo.png used on input line 217.
 (pdftex.def)             Requested size: 27.65495pt x 27.64226pt.
  [9
 
@@ -2491,19 +2491,19 @@ ments/GitHub/thesis/gw/r_pol/frame-59.png> </Users/lorenzosperi/Documents/GitHu
 b/thesis/gw/r_pol/frame-60.png> </Users/lorenzosperi/Documents/GitHub/thesis/gw
 /r_pol/frame-61.png> </Users/lorenzosperi/Documents/GitHub/thesis/gw/r_pol/fram
 e-62.png>
-Overfull \vbox (1.05714pt too high) detected at line 219
+Overfull \vbox (1.05714pt too high) detected at line 224
  []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 219.
+Package pdftex.def Info: logo.png used on input line 224.
 (pdftex.def)             Requested size: 27.65495pt x 27.64226pt.
  [10
 
 ]
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 256.
+Package pdftex.def Info: logo.png used on input line 261.
 (pdftex.def)             Requested size: 27.65495pt x 27.64226pt.
  [11
 
@@ -2548,21 +2548,42 @@ s/gw/gw_travelling/frame-38.png> </Users/lorenzosperi/Documents/GitHub/thesis/g
 w/gw_travelling/frame-39.png> </Users/lorenzosperi/Documents/GitHub/thesis/gw/g
 w_travelling/frame-40.png> </Users/lorenzosperi/Documents/GitHub/thesis/gw/gw_t
 ravelling/frame-41.png>
-Overfull \vbox (1.05714pt too high) detected at line 265
+Overfull \vbox (1.05714pt too high) detected at line 270
  []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 265.
+Package pdftex.def Info: logo.png used on input line 270.
 (pdftex.def)             Requested size: 27.65495pt x 27.64226pt.
  [12
 
-]
+] <ET.jpeg, id=2177, 888.31876pt x 495.8525pt>
+File: ET.jpeg Graphic file (type jpg)
+ <use ET.jpeg>
+Package pdftex.def Info: ET.jpeg used on input line 283.
+(pdftex.def)             Requested size: 266.49768pt x 148.7569pt.
 File: logo.png Graphic file (type png)
- <use logo.png>
-Package pdftex.def Info: logo.png used on input line 304.
+
+<use logo.png>
+Package pdftex.def Info: logo.png used on input line 283.
 (pdftex.def)             Requested size: 27.65495pt x 27.64226pt.
  [13
+
+ <./ET.jpeg>]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 320.
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+Overfull \vbox (22.66176pt too high) detected at line 320
+ []
+
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png used on input line 320.
+(pdftex.def)             Requested size: 27.65495pt x 27.64226pt.
+ [14
 
 ] </Users/lorenzosperi/Documents/GitHub/thesis/gw/bbh-b3/frame-1.png> </Users/l
 orenzosperi/Documents/GitHub/thesis/gw/bbh-b3/frame-2.png> </Users/lorenzosperi
@@ -2755,14 +2776,14 @@ hesis/gw/bbh-b3/frame-213.png> </Users/lorenzosperi/Documents/GitHub/thesis/gw/
 bbh-b3/frame-214.png> </Users/lorenzosperi/Documents/GitHub/thesis/gw/bbh-b3/fr
 ame-215.png> </Users/lorenzosperi/Documents/GitHub/thesis/gw/bbh-b3/frame-216.p
 ng>
-Overfull \vbox (1.05714pt too high) detected at line 311
+Overfull \vbox (1.05714pt too high) detected at line 328
  []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 311.
+Package pdftex.def Info: logo.png used on input line 328.
 (pdftex.def)             Requested size: 27.65495pt x 27.64226pt.
- [14
+ [15
 
 ] </Users/lorenzosperi/Documents/GitHub/thesis/gw/bbh-b4/frame-1.png> </Users/l
 orenzosperi/Documents/GitHub/thesis/gw/bbh-b4/frame-2.png> </Users/lorenzosperi
@@ -3064,14 +3085,14 @@ esis/gw/bbh-b4/frame-336.png> </Users/lorenzosperi/Documents/GitHub/thesis/gw/b
 bh-b4/frame-337.png> </Users/lorenzosperi/Documents/GitHub/thesis/gw/bbh-b4/fra
 me-338.png> </Users/lorenzosperi/Documents/GitHub/thesis/gw/bbh-b4/frame-339.pn
 g>
-Overfull \vbox (1.05714pt too high) detected at line 318
+Overfull \vbox (1.05714pt too high) detected at line 335
  []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 318.
+Package pdftex.def Info: logo.png used on input line 335.
 (pdftex.def)             Requested size: 27.65495pt x 27.64226pt.
- [15
+ [16
 
 ] </Users/lorenzosperi/Documents/GitHub/thesis/gw/bbh-b5/frame-1.png> </Users/l
 orenzosperi/Documents/GitHub/thesis/gw/bbh-b5/frame-2.png> </Users/lorenzosperi
@@ -3727,14 +3748,14 @@ s/lorenzosperi/Documents/GitHub/thesis/gw/bbh-b5/frame-736.png> </Users/lorenzo
 speri/Documents/GitHub/thesis/gw/bbh-b5/frame-737.png> </Users/lorenzosperi/Doc
 uments/GitHub/thesis/gw/bbh-b5/frame-738.png> </Users/lorenzosperi/Documents/Gi
 tHub/thesis/gw/bbh-b5/frame-739.png>
-Overfull \vbox (1.05714pt too high) detected at line 325
+Overfull \vbox (1.05714pt too high) detected at line 342
  []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 325.
+Package pdftex.def Info: logo.png used on input line 342.
 (pdftex.def)             Requested size: 27.65495pt x 27.64226pt.
- [16
+ [17
 
 ]
 Package epstopdf Info: Source file: <bbh-b6710.eps>
@@ -3745,21 +3766,21 @@ Package epstopdf Info: Source file: <bbh-b6710.eps>
 (epstopdf)                    size: 194679 bytes
 (epstopdf)             Command: <repstopdf --outfile=bbh-b6710-eps-converted-to
 .pdf bbh-b6710.eps>
-(epstopdf)             \includegraphics on input line 334.
+(epstopdf)             \includegraphics on input line 351.
 Package epstopdf Info: Output file is already uptodate.
 
-<bbh-b6710-eps-converted-to.pdf, id=10062, 1238.6275pt x 580.1675pt>
+<bbh-b6710-eps-converted-to.pdf, id=10109, 1238.6275pt x 580.1675pt>
 File: bbh-b6710-eps-converted-to.pdf Graphic file (type pdf)
 
 <use bbh-b6710-eps-converted-to.pdf>
-Package pdftex.def Info: bbh-b6710-eps-converted-to.pdf used on input line 334.
+Package pdftex.def Info: bbh-b6710-eps-converted-to.pdf used on input line 351.
 
 (pdftex.def)             Requested size: 371.59113pt x 174.05157pt.
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 334.
+Package pdftex.def Info: logo.png used on input line 351.
 (pdftex.def)             Requested size: 27.65495pt x 27.64226pt.
- [17
+ [18
 
  <./bbh-b6710-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <bns.eps>
@@ -3770,23 +3791,23 @@ Package epstopdf Info: Source file: <bns.eps>
 (epstopdf)                    size: 72986 bytes
 (epstopdf)             Command: <repstopdf --outfile=bns-eps-converted-to.pdf b
 ns.eps>
-(epstopdf)             \includegraphics on input line 343.
+(epstopdf)             \includegraphics on input line 360.
 Package epstopdf Info: Output file is already uptodate.
- <bns-eps-converted-to.pdf, id=10100, 1284.8pt x 751.80875pt>
+ <bns-eps-converted-to.pdf, id=10147, 1284.8pt x 751.80875pt>
 File: bns-eps-converted-to.pdf Graphic file (type pdf)
 
 <use bns-eps-converted-to.pdf>
-Package pdftex.def Info: bns-eps-converted-to.pdf used on input line 343.
+Package pdftex.def Info: bns-eps-converted-to.pdf used on input line 360.
 (pdftex.def)             Requested size: 385.44298pt x 225.54436pt.
 
-Overfull \vbox (8.98318pt too high) detected at line 343
+Overfull \vbox (8.98318pt too high) detected at line 360
  []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 343.
+Package pdftex.def Info: logo.png used on input line 360.
 (pdftex.def)             Requested size: 27.65495pt x 27.64226pt.
- [18
+ [19
 
  <./bns-eps-converted-to.pdf>] </Users/lorenzosperi/Documents/GitHub/thesis/bin
 ary_ns_video/rho_000000001.png (PNG copy)> </Users/lorenzosperi/Documents/GitHu
@@ -4022,14 +4043,14 @@ is/binary_ns_video/rho_000000384.png (PNG copy)> </Users/lorenzosperi/Documents
 ri/Documents/GitHub/thesis/binary_ns_video/rho_000000388.png (PNG copy)> </User
 s/lorenzosperi/Documents/GitHub/thesis/binary_ns_video/rho_000000391.png (PNG c
 opy)>
-Overfull \vbox (15.11357pt too high) detected at line 351
+Overfull \vbox (15.11357pt too high) detected at line 368
  []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png used on input line 351.
+Package pdftex.def Info: logo.png used on input line 368.
 (pdftex.def)             Requested size: 27.65495pt x 27.64226pt.
- [19
+ [20
 
 ] </Users/lorenzosperi/Documents/GitHub/thesis/gw/3d/frame-1.png> </Users/loren
 zosperi/Documents/GitHub/thesis/gw/3d/frame-2.png> </Users/lorenzosperi/Documen
@@ -4084,24 +4105,17 @@ s/gw/3d/frame-60.png> </Users/lorenzosperi/Documents/GitHub/thesis/gw/3d/frame-
 61.png> </Users/lorenzosperi/Documents/GitHub/thesis/gw/3d/frame-62.png>
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 363.
+Package pdftex.def Info: logo.png used on input line 380.
 (pdftex.def)             Requested size: 27.65495pt x 27.64226pt.
- [20
+ [21
 
 ]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 370.
-
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
 File: logo.png Graphic file (type png)
  <use logo.png>
-Package pdftex.def Info: logo.png used on input line 370.
+Package pdftex.def Info: logo.png used on input line 387.
 (pdftex.def)             Requested size: 27.65495pt x 27.64226pt.
-Package atenddvi Info: Last page = 21.
-
-[21
+Package atenddvi Info: Last page = 22.
+ [22
 
 ]
 \tf@nav=\write5
@@ -4113,12 +4127,11 @@ Package atenddvi Info: Last page = 21.
 \tf@snm=\write7
 \openout7 = `thesis_presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 373.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 373.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 390.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 390.
  (./thesis_presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 373.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 373.
-
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 390.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 390.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
@@ -4126,13 +4139,13 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 373.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 390.
  ) 
 Here is how much of TeX's memory you used:
- 40888 strings out of 493033
- 785466 string characters out of 6134139
- 829509 words of memory out of 5000000
- 42634 multiletter control sequences out of 15000+600000
+ 40894 strings out of 493033
+ 785542 string characters out of 6134139
+ 830446 words of memory out of 5000000
+ 42636 multiletter control sequences out of 15000+600000
  18546 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,19n,63p,10415b,762s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -4153,24 +4166,10 @@ ve/2015/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb></usr/local/texlive
 5/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb></usr/local/texlive/2015/
 texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on thesis_presentation.pdf (21 pages, 28951162 bytes).
+Output written on thesis_presentation.pdf (22 pages, 29029776 bytes).
 PDF statistics:
- 12065 PDF objects out of 12825 (max. 8388607)
- 4534 compressed objects within 46 object streams
- 51 named destinations out of 1000 (max. 500000)
- 32770 words of extra memory for PDF output out of 35830 (max. 10000000)
-
-/cm-super/sfso1095.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb></usr/local/texlive/2015/
-texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2015/te
-xmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on thesis_presentation.pdf (21 pages, 28939988 bytes).
-PDF statistics:
- 12063 PDF objects out of 12825 (max. 8388607)
- 4532 compressed objects within 46 object streams
- 51 named destinations out of 1000 (max. 500000)
- 32762 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 12115 PDF objects out of 12825 (max. 8388607)
+ 4581 compressed objects within 46 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 32775 words of extra memory for PDF output out of 35830 (max. 10000000)
 
