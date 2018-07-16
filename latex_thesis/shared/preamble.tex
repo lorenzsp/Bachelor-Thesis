@@ -165,4 +165,11 @@ morecomment=[l][keywordstyle4]{\#},
 
 % ------------------------------------------------- COLOR BOX
 
+\usepackage{fancyhdr}   
+\usepackage{lipsum}
 
+\pagestyle{fancy}
+\fancyhead{}% clear headers
+\fancyfoot{}% clear footers
+\renewcommand{\headrulewidth}{0pt}% eliminate horizontal line
+\fancyfoot[RO, LE]{\thepage}

@@ -60,7 +60,7 @@ h(t) = h_{+} + i h_{\times}
 \end{equation} 
 where $h_{+}$ and $h_{\times}$ are taken from equations(\ref{h_+_numerical}) and (\ref{h_x_numerical}), we multiply $h(t)$ by the distance at which it is was measured and we divide it by a typical cosmological distance of binary sources $r=100 \, \mega \text{pc} \approx 3.1 \times 10^{19} \, \kilo \meter$.
 
-\subsection{Binary Black Hole}
+\subsection{Binary Black Hole Systems}
 As we have done so far and following the Einstein Tookit conventions, we set $G=c=1$, and therefore we express time and space in units of solar masses $M_{\odot}$, i.e. $1 t [M_{\odot}] \approx 0.005 \milli \second$ and $1 x [M_{\odot}] \approx 1.5 \kilo \meter$.\\
 We simulate the evolution of equal-mass binary black holes using the parameter file included in the Einstein Toolkit \cite{loffler_einstein_2012} with different quasi-equilirbium initial conditions taken from \cite{tichy_quasi-equilibrium_2004}.
 The thorn \texttt{TwoPunctures} \cite{Ansorg:2004ds} is used to set up the initial data for the two black holes located on the x-axis with opposite linear momentum along the y-axis.
@@ -500,7 +500,7 @@ As expected from the quadrupole formula, the gravitational wave has an angula fr
    {\includegraphics[width=.40\textwidth]{numerical_evolution/omega_bns.eps} \label{omega_bns}} 
 
    
-   \caption{The Fourier trasnform of the gravitational strain $|\mathcal{F}[h]|$ shows a borad distribution of angular frequencies, however the two highest peaks are at $\omega= 4.3 \milli \second^-1$ and at $\omega= 5.5 \milli \second^-1$. On the right side the orbital angular momentum of the binary system is stable around $2 \, \milli \second ^{-2}$ before the merger. After $10 \milli \second$ the orbital angular momentum is in a range $(4.5,7) \milli \second ^{-1} $. }
+   \caption{The Fourier trasnform of the gravitational strain $|\mathcal{F}[h]|$ shows a borad distribution of angular frequencies, however the two highest peaks are at $\omega= 4.3 \milli \second^{-1}$ and at $\omega= 5.5 \milli \second^{-1}$. On the right side the orbital angular momentum of the binary system is stable around $2 \, \milli \second ^{-2}$ before the merger. After $10 \milli \second$ the orbital angular momentum is in a range $(4.5,7) \milli \second ^{-1} $. }
 \label{fourier_omega_bns}
 \end{figure}
 
