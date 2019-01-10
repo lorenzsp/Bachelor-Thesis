@@ -1,3 +1,4 @@
+%% To run the script: download the folder "thesis" and place yourself in gw
 %% units
 G     = 6.674e-11;       % m^3/(kg s^2)
 c     = 299792458 ;      % m/s
@@ -679,7 +680,63 @@ view(-71,71)
 pause(0.5)
 clf
 end
-%%
-Sphere[{2 Cos[\[Theta] - \[Pi]/2], 2 Sin[\[Theta] - \[Pi]/2], 3}, 
-     1], Sphere[{Cos[\[Theta] + \[Pi]/2], Sin[\[Theta] + \[Pi]/2], 3},
-      1]}], PlotRange -> All]]
+%% data cleansing of gw_strain function: example plot
+% note: everytime you want to rerun this part you need to clear the data
+% produced
+filename = ('../BBH-b5/positions-b5.csv');
+%importing data
+r = 115;
+
+x = importdata(filename, ' ');
+% time in solar masses
+t = x(:,1)-r;
+k=find(t>0);
+t= x(k,1)-r;
+% psi4 weyl scalar psi4 = second derivative of (h_+ - i h_x)
+psi4_r = x(k,2); 
+psi4_i = x(k,3);
+
+ R = zeros(size(psi4_r));
+ I = zeros(size(psi4_i));
+for i=2:length(t)
+
+    R(i) = trapz(t(1:i),psi4_r(1:i));
+    I(i) = trapz(t(1:i),psi4_i(1:i));
+    rr(i) = trapz(t(1:i),R(1:i));
+    ii(i) =  trapz(t(1:i),I(1:i));
+end
+
+rr=rr';
+ii=ii';
+
+
+
+% fit of polynomial
+p_r=polyfit(t,rr,2);
+p_i = polyfit(t,ii,2);
+% correction to the perturbation
+h_p = rr-(polyval(p_r,t)); %h_+
+h_x = -(ii-(polyval(p_i,t))); %h_x
+
+figure();
+hold on
+plot_f('Before Data Cleaning','$$t $$','$$ h $$',16)
+
+plot(t,rr,'LineWidth',3)
+plot(t,-ii,'LineWidth',3)
+s= {['$$ h_+$$'],...
+    ['$$ h_{\times}$$']};
+%ylim([-0.6 0.6])
+legend_f(s);
+
+figure();
+hold on
+plot_f('After Data Cleaning','$$t $$','$$ h $$',16)
+
+plot(t,h_p,'LineWidth',3)
+plot(t,h_x,'LineWidth',3)
+s= {['$$ h_+$$'],...
+    ['$$ h_{\times}$$']};
+%ylim([-0.6 0.6])
+legend_f(s);
+clear all
