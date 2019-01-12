@@ -9,7 +9,7 @@ nsnstohmns contains the data from the Einstein Toolkit simulation of the binary 
 
 the folders BBH-b contain the data from the Einstein Toolkit simulation of the binary black holes with initial quasi-equilibrium configurations
 
-gw contains the data analysis and the scripts for generating all the figures of my thesis
+gw contains the scripts for the data analysis
 
 presentation contains the presentation of my thesis
 
