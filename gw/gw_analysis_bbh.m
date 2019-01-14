@@ -595,9 +595,9 @@ end
 
 %% wave polarization for BBH
 theta = 0:0.03:2*pi;
-t=b6_h(:,1);
-new_h_p=b6_h(:,3);
-new_h_x=b6_h(:,2);
+t=b5_h(:,1);
+new_h_p=b5_h(:,3);
+new_h_x=b5_h(:,2);
 % t time
 for n=10:300:57001%t=0.1:3000
     % plus polarization
