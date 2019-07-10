@@ -472,7 +472,7 @@ end
 %% ANIMATED PLOTS
 %% ring tube visualization
 %angle parameter of the ring
-theta = 0:0.03:2*pi;
+theta = 0:0.1:2*pi;
 %frequency of the wave
 n=1;
 final_t = length(b5_h(:,1));
@@ -500,7 +500,7 @@ for ii=1:50:final_t
     %xlim([-2 2]);
     %ylim([-2 2]);
     hold on;
-    pause(0.01)
+    %pause(0.01)
     
     
     n=n+1;
