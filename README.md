@@ -1,7 +1,9 @@
-# thesis
-this folder contains all the files of my bachelor thesis
+# Bachelor Thesis
+# Analyzing Gravitational Waves through Numerical Simulations of Compact Binaries
+<p align="center"><img src="https://github.com/lorenzsp/Bachelor-Thesis/blob/master/animations/bbh-b3.gif"></p>
+This folder contains all the files related to my bachelor thesis
 
-latex_thesis is the folder containing the pdf of my bachelor thesis and the source latex file
+latex_thesis is the latex source file generating the pdf thesis.pdf
 
 binary_ns_video contains a video showing the simulation of the rest mass density of the binary neutron star studied in the thesis
 
