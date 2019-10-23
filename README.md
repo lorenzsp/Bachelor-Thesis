@@ -5,7 +5,7 @@ This folder contains all the files related to my bachelor thesis
 
 - latex_thesis is the latex source file generating the pdf thesis.pdf
 
-    ![/plots_gws/gw_r_bns-eps-converted-to.pdf](/plots_gws/gw_r_bns-eps-converted-to.pdf)
+    ![/latex_thesis/numerical_evolution/gw_r_bns.eps](/latex_thesis/numerical_evolution/gw_r_bns.eps)
 
 - binary_ns_video contains a video showing the simulation of the rest mass density of the binary neutron star studied in the thesis
 
