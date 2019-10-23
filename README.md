@@ -3,10 +3,10 @@
 <p align="center"><img src="https://github.com/lorenzsp/Bachelor-Thesis/blob/master/animations/bbh-b3.gif"></p>
 This folder contains all the files related to my bachelor thesis
 
-- latex_thesis is the latex source file generating the pdf thesis.pdf
-
-    ![plots_gws/gw_r_bns-eps-converted-to.pdf](plots_gws/gw_r_bns-eps-converted-to.pdf)
-
+- latex_thesis is the latex source file generating the pdf thesis.pdf.
+Gravitational wave signal of a binary neutron star
+<img src="https://github.com/lorenzsp/Bachelor-Thesis/blob/master/plots_gws/gw_r_bns-eps-converted-to.pdf">
+    
 - binary_ns_video contains a video showing the simulation of the rest mass density of the binary neutron star studied in the thesis
 
 - nsnstohmns contains the data from the Einstein Toolkit simulation of the binary neutron stars
