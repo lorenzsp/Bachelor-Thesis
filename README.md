@@ -17,7 +17,7 @@ This folder contains all the files related to my bachelor thesis
 
 - animations contain gifs and files used for the presentation of the thesis and other cool animations ;)
 
-<img src="https://github.com/lorenzsp/Bachelor-Thesis/blob/master/animations/gw_travelling.gif">
+<p align="center"><img src="https://github.com/lorenzsp/Bachelor-Thesis/blob/master/animations/gw_travelling.gif"></p>
 
 
 
