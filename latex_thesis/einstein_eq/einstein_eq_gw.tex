@@ -7,7 +7,7 @@ The Einstein's field equation is a tensor equation that represents how the geome
 \label{einstein_eq}
 G_{\mu \nu} \equiv R_{\mu \nu} - \dfrac{1}{2} \,  g_{\mu \nu} \, R =8 \, \pi \, T_{\mu \nu}
 \end{equation}
-On the right hand side we have the energy-momentum tensor $T_{\mu \nu}$ (or stress-energy tensor), which is interpreted as the flux of four momentum $p^\mu$ accross a surface of constant $x^\nu$. 
+On the right hand side we have the energy-momentum tensor $T_{\mu \nu}$ (or stress-energy tensor), which is interpreted as the flux of four momentum $p^\mu$ across a surface of constant $x^\nu$. 
 On the left hand side the Einstein tensor $G_{\mu \nu}$ includes a measure of the curvature of spacetime through the Ricci tensor $R_{\mu \nu}$, the Ricci scalar $R = R_{\mu \nu} g^{\mu \nu} $ and the metric $g_{\mu \nu}$. \\
 In order to solve the Einstein's equation we will make use of the weak field linearized approximation on the metric tensor $g_{\mu \nu}$ and we will derive the Einstein tensor $G_{\mu \nu}$ going through the following steps:
 \begin{itemize}
@@ -57,7 +57,7 @@ Therefore, we assume the metric tensor $g_{\mu \nu}$ to be equal to the Minkwosk
 g_{\mu \nu} = \eta_{\mu \nu} + h_{\mu \nu}
 \end{equation}
 where the metric perturbation is symmetric and $\abs{h_{\mu \nu}}\ll 1$ for all $\mu$ and $\nu$. \\
-The metric $g_{\mu \nu}$ is also used to lower and raise indeces, however, in linearized theory we consider only the first order approximation in $h_{\mu \nu}$. So, it is possible to raise and lower indeces using the Minkoswkian metric $\eta_{\mu \nu}$.\\ % we can add the estimation of the swarzschild metric the correction at the sun surface h - 10^-6
+The metric $g_{\mu \nu}$ is also used to lower and raise indexes, however, in linearized theory we consider only the first order approximation in $h_{\mu \nu}$. So, it is possible to raise and lower indexes using the Minkoswkian metric $\eta_{\mu \nu}$.\\ % we can add the estimation of the swarzschild metric the correction at the sun surface h - 10^-6
 Taking into account the mentioned approximations, we follow the itemized procedure to derive the so-called linearized Einstein's field equation.\\
 The Christoffel symbol is obtained keeping up to the first order in the perturbation $h_{\mu \nu}$
 \[
@@ -106,7 +106,7 @@ Thus, the Riemann curvature tensor becomes
 )
 \end{eqnarray}
 where we neglected the first two terms in eq(\ref{riemann_tensor}) because they are second order terms. 
-Contracting the first and the third indeces we get the Ricci tensor
+Contracting the first and the third indexes we get the Ricci tensor
 \bea
 R_{\beta \de} &=& 
 \dfrac{1}{2} 
@@ -237,7 +237,7 @@ The linearized Einstein's field equation is
 \label{linear_einstein_eq}
 \square \bar{h}_{\beta \nu} = - 16 \pi\,  T_{\beta \nu} 
 \end{equation}
-The energy-momentumn tensor $T_{\beta \nu}$ is null in vacuum so the linearized Einstein's equation in vacuum assumes the form of the wave equation in a tensorial form
+The energy-momentum tensor $T_{\beta \nu}$ is null in vacuum so the linearized Einstein's equation in vacuum assumes the form of the wave equation in a tensorial form
 \begin{equation}
 \label{wave_equation}
 \square \bar{h}_{\beta \nu} =0  
@@ -262,8 +262,8 @@ for a given vector field $\xi^\mu$.
 Gauge transformations are particularly important because they leave the Riemann curvature tensor unchanged (up to the first order in $h_{\mu \nu}$), such that, the physical spacetime is unchanged (a simple proof can be found in \cite{carroll_spacetime_2003}). 
 The invariance of the curvature under such transformations is analogous to the traditional gauge invariance of electromagnetism.\\
 Assuming that the Einstein's field equation(\ref{linear_einstein_eq}) are valid everywhere the metric perturbation $h_{\mu \nu}$ contains: gauge degrees of freedom; physical, radiative degrees of freedom; and physical, non-radiative degrees of freedom tied to the matter source of the GW. \\
- It is possible to show that the linearized Einstein's equation can be written as 5 Poisson-type quations, plus a wave equation for the transverse-traceless components of the metric perturbation, which represents the radiative degrees of freedom \cite{flanagan_basics_2005,carroll_spacetime_2003}.\\
- Neverthless this procedure will manifestly demonstrate that the radiative degrees of freedom in spacetime are two, it is a cumbersome and long derivation.
+ It is possible to show that the linearized Einstein's equation can be written as 5 Poisson-type equations, plus a wave equation for the transverse-traceless components of the metric perturbation, which represents the radiative degrees of freedom \cite{flanagan_basics_2005,carroll_spacetime_2003}.\\
+ Nevertheless this procedure will manifestly demonstrate that the radiative degrees of freedom in spacetime are two, it is a cumbersome and long derivation.
 Instead, we neglect the degrees of freedom tied to the matter setting $T_{\mu \nu} =0$ and we analyze only plane wave solutions of equation(\ref{wave_equation}):
 \[
 \bar{h}_{\mu \nu} = A_{\mu \nu} \, \exp\qty(i\, k_{\alpha} x^{\alpha})
@@ -309,7 +309,7 @@ Any metric perturbation $h_{\mu \nu}$ can therefore be put into a Lorenz gauge b
 \square \xi_\mu = 0
 \]
 The plane wave $\xi_{\mu} = C_{\mu} \exp[i k_{\alpha} x^{\alpha}]$ is a solution of the above equation and it generates a gauge transformation through the four arbitrary constants $C_{\mu}$. \\
-The \textbf{Transverse-Traceless (TT) gauge} is the most convinient gauge for the analysis of the gravitational waves, and it is defined for a plane wave by the following conditions:
+The \textbf{Transverse-Traceless (TT) gauge} is the most convenient gauge for the analysis of the gravitational waves, and it is defined for a plane wave by the following conditions:
 \begin{itemize}
 \item[a)] The Lorenz gauge condition fixes four components of $A_{\mu \nu}$
 \[
@@ -317,16 +317,16 @@ The \textbf{Transverse-Traceless (TT) gauge} is the most convinient gauge for th
 \]
 The amplitude tensor $A_{\mu \nu}$ and the four vector $k^{\mu}$ are orthogonal.
 
-\item[b)] Three components of the aplitude tensor can be eliminated selecting $\xi_{\mu} = C_{\mu} \exp[i k_{\alpha} x^{\alpha}]$ so that $A^{\mu \nu} u_{\mu} =0$ for some chosen four velocity $u_{\mu}$. Three and not four components are fixed, since one further constraint $k^{\mu} A_{\mu \nu} u^{\nu}$ needs to be satisfied.
+\item[b)] Three components of the amplitude tensor can be eliminated selecting $\xi_{\mu} = C_{\mu} \exp[i k_{\alpha} x^{\alpha}]$ so that $A^{\mu \nu} u_{\mu} =0$ for some chosen four velocity $u_{\mu}$. Three and not four components are fixed, since one further constraint $k^{\mu} A_{\mu \nu} u^{\nu}$ needs to be satisfied.
  
-\item[c)] One component of the aplitude tensor can be eliminated selecting $\xi_{\mu} = C_{\mu} \exp[i k_{\alpha} x^{\alpha}]$ so that $A^{\mu} _{\mu} = 0$.
+\item[c)] One component of the amplitude tensor can be eliminated selecting $\xi_{\mu} = C_{\mu} \exp[i k_{\alpha} x^{\alpha}]$ so that $A^{\mu} _{\mu} = 0$.
 
 \end{itemize}
-This means that we have suffecient freedom to fix the values of 8 components of $A_{\mu \nu}$ from a), b) and c), hence, reducing the number of independent component from 10 to 2 \cite{bishop_extraction_2016}.
+This means that we have sufficient freedom to fix the values of 8 components of $A_{\mu \nu}$ from a), b) and c), hence, reducing the number of independent component from 10 to 2 \cite{bishop_extraction_2016}.
 Note that $\bar{h} ^{\T} _{\mu \nu}= h^{\T} _{\mu \nu}$ from c).
 \\
 What does the TT gauge tell us about gravitational radiation ?\\
-Let use consider a test a particle at rest with four-velocity $u^{\alpha} = (1,0,0,0)$ in a nearly flat spacetime. If we orient our spatial coordinate axes so that the a plane gravitational wave is travelling in the positive z-direction (equivalentely $x^{3}$ direction) $k^{\sigma} = (\omega, 0 ,0 ,\omega)$ the transverse traceless conditions becomes
+Let use consider a test a particle at rest with four-velocity $u^{\alpha} = (1,0,0,0)$ in a nearly flat spacetime. If we orient our spatial coordinate axes so that the a plane gravitational wave is travelling in the positive z-direction (equivalently $x^{3}$ direction) $k^{\sigma} = (\omega, 0 ,0 ,\omega)$ the transverse traceless conditions becomes
 \[ \left.
 \begin{aligned}
 A^{\T}_{\mu 0} \, \omega + A ^{\T}_{\mu 3} \, \omega &= 0 \\
@@ -367,7 +367,7 @@ h_{\times} =  A^{\T} _{12} \cos \qty(\omega(t-z))
 $h_{+}$ and $h_{\times}$ are the two independent polarizations of a gravitational wave and they completely characterize the gravitational wave solution. 
 We finally found that the radiative degrees of freedom are only two and they are represented by $h_{+}$ and $h_{\times}$. \\
 
-Generally, within any finite vacuum region it is always possible to find a gauge which is locally transverse and traceless \cite{flanagan_basics_2005}, that is, a guage which satisfies the following general conditions
+Generally, within any finite vacuum region it is always possible to find a gauge which is locally transverse and traceless \cite{flanagan_basics_2005}, that is, a gauge which satisfies the following general conditions
 \bea
 h_{0 \nu} ^{\T} = 0 \\
 \eta ^{\mu \nu} h_{\mu \nu} ^{\T} =0 \\
@@ -397,7 +397,7 @@ Considering a plane wave we have
 \]
 where $\omega$ is the frequency of the plane wave. 
 The curvature is proportional to the square of the frequency, in fact we expect a bigger curvature if the wave oscillates more times per second.
-Neverthless we considered the simple model of a plane wave, we can say, naively, that the spacetime is more curved if the ripples of the GW are squeezed in a narrow time interval.
+Nevertheless we considered the simple model of a plane wave, we can say, naively, that the spacetime is more curved if the ripples of the GW are squeezed in a narrow time interval.
 Analogously, the electromagnetic field of an oscillating electric dipole is proportional to the square of the frequency, in fact we expect a more intense  field if the charge oscillates more times per second.
 
 

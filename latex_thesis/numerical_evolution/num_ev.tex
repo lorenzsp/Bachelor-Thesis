@@ -1,4 +1,4 @@
-In the linearized approximation, where gravitational fields are weak and velocities are nonrelativistic, we showed that it is straightforward to derive a relationship between the matter dynamics and the emission of gravitational waves, thus obtaining the quadrupole formula.
+In the linearized approximation, where gravitational fields are weak and velocities are non-relativistic, we showed that it is straightforward to derive a relationship between the matter dynamics and the emission of gravitational waves, thus obtaining the quadrupole formula.
 However, the strongest gravitational-wave signals come from highly compact systems that evolve at relativistic speeds, where the linearized assumptions do not apply. 
 Therefore, gravitational-wave detectors find more likely an event which has a powerful signals.
 Thus, it is important to be able to calculate gravitational-wave emission accurately for processes such as black hole or neutron star inspiral and merger.
@@ -10,7 +10,7 @@ Cactus simulations require an executable to be compiled, and this executable has
 The parameter file is a simple text file, containing the desired settings within the simulation, it is used not only to set up the initial conditions and the necessary thorns for the simulation, but also to choose outputs and their format.
 \\
 A thorough description of the numerical methods used to perform the simulations can be found here \cite{loffler_einstein_2012}. 
-We do not anlyze the algorithms of th Einstein Toolkit, we only state the initial conditions of simulations and we briefly mention the used thorns. 
+We do not analyze the algorithms of th Einstein Toolkit, we only state the initial conditions of simulations and we briefly mention the used thorns. 
 The purpose of the following sections is to study the gravitational-wave signals of binaries black holes (BBH) and neutron stars (BNS).
 \\ 
 \subsection{Extraction of Gravitational Waves}
@@ -30,7 +30,7 @@ The signal is then decomposed in spin-weighted spherical harmonics of spin $ - 2
 \[
 \psi_4 (t',r,\theta,\phi)= \sum_{l=2} ^{\infty} \, \sum _{m=-l} ^{l=2} \psi^{lm} _4 (t',r) \, _{-2} Y _{lm} (\theta, \phi) 
 \]
-The output given by the Einstein Toolkit is  $\psi_{4} ^{lm} (t',r)$. Since the dominant  mode is $l = m = 2$,  we consider $\psi_4 = \psi_4 ^{l=2,m=2}$ and we extract the GW strain following a simplified procedure, which is similiar to the extraction method in \cite{de_pietri_modeling_2016}. 
+The output given by the Einstein Toolkit is  $\psi_{4} ^{lm} (t',r)$. Since the dominant  mode is $l = m = 2$,  we consider $\psi_4 = \psi_4 ^{l=2,m=2}$ and we extract the GW strain following a simplified procedure, which is similar to the extraction method in \cite{de_pietri_modeling_2016}. 
 A more advanced procedure can be found here \cite{maione_spectral_2017}. 
 Since $\psi^{lm} _4 (t',r)$ is extracted at a distance $r$ from the source center,  our data detect the signal at a time $t'$, which is different from the instant when the radiation was emitted.
 So, we subtract from the output time $t'$ the distance from the source $r$
@@ -41,7 +41,7 @@ Thus, we integrate twice in time in order to get the complex-valued gravitationa
 \tilde{h}(t) = \int _0 ^{t} \int _0 ^{\hat{t}} \psi_4 ^{2,2} (t^{*},r)
 \, \dd t^{*} \,  \dd \hat{t}
 \]
-where we used the trapezodail rule for the numeric integration.
+where we used the trapezoidal rule for the numeric integration.
 The resulting quantity obtained with the procedure described above show a left-over  drift in the GW. Performing a fit to a second order polynomial for both the real and the imaginary parts of $\tilde{h}(t)$, it is possible to eliminate the left-over  drift by using:
 \begin{eqnarray}
 \label{h_+_numerical}
@@ -62,7 +62,7 @@ where $h_{+}$ and $h_{\times}$ are taken from equations(\ref{h_+_numerical}) and
 
 \subsection{Binary Black Hole Systems}
 As we have done so far and following the Einstein Tookit conventions, we set $G=c=1$, and therefore we express time and space in units of solar masses $M_{\odot}$, i.e. $1 t [M_{\odot}] \approx 0.005 \milli \second$ and $1 x [M_{\odot}] \approx 1.5 \kilo \meter$.\\
-We simulate the evolution of equal-mass binary black holes using the parameter file included in the Einstein Toolkit \cite{loffler_einstein_2012} with different quasi-equilirbium initial conditions taken from \cite{tichy_quasi-equilibrium_2004}.
+We simulate the evolution of equal-mass binary black holes using the parameter file included in the Einstein Toolkit \cite{loffler_einstein_2012} with different quasi-equilibrium initial conditions taken from \cite{tichy_quasi-equilibrium_2004}.
 The thorn \texttt{TwoPunctures} \cite{Ansorg:2004ds} is used to set up the initial data for the two black holes located on the x-axis with opposite linear momentum along the y-axis.
 Due to the symmetry of the problem, it is possible to reduce the computational cost by a factor of 2 by not evolving the domain with $z < 0$, and by another factor 2 evolving points with $x > 0$ and populating the missing part by rotating the existing domain for 180 degrees along the z-axis \cite{zilhaoIntroductionEinsteinToolkit2013}.
 An example of initial data set in the parameter file is
@@ -103,7 +103,7 @@ BBH-b7 & 7 &  0.48997 & +0.076578 \\
 BBH-b10 & 10 & 0.49299 & +0.061542 \\ 
 \hline 
 \end{tabular} 
-\caption{The table shows the quasi-equilibrium initial conditions used in the \texttt{TwoPuncture} thorn. Since the two balck holes have equal masses \texttt{par\_m\_plus}$=$\texttt{par\_m\_minus} and opposite momentum \texttt{par\_P\_plus[1]}$=- $\texttt{par\_P\_minus[1]}, we do not report in the table the obvious initial conditions of the second black hole.}
+\caption{The table shows the quasi-equilibrium initial conditions used in the \texttt{TwoPuncture} thorn. Since the two black holes have equal masses \texttt{par\_m\_plus}$=$\texttt{par\_m\_minus} and opposite momentum \texttt{par\_P\_plus[1]}$=- $\texttt{par\_P\_minus[1]}, we do not report in the table the obvious initial conditions of the second black hole.}
 \label{initial_conditions_bbh}
 \end{table}
 %%
@@ -174,7 +174,7 @@ Notice also that the time of the merger increases non linearly as we increases $
 %%
 \par
 We now study the gravitational radiation emitted by the binary sources of Table(\ref{initial_conditions_bbh}). The gravitational wave is extracted following to the procedure described in section(\ref{gw_extraction}).\\
-The gravitational singals are shown in Figure(\ref{gw_b3}), (\ref{gw_b4}), (\ref{gw_b5}), (\ref{gw_b6}), (\ref{gw_b7}) and (\ref{gw_b10}) and the time units are in $\milli \second$.
+The gravitational signals are shown in Figure(\ref{gw_b3}), (\ref{gw_b4}), (\ref{gw_b5}), (\ref{gw_b6}), (\ref{gw_b7}) and (\ref{gw_b10}) and the time units are in $\milli \second$.
 In the time interval $t \in (0,0.1)\milli \second$ the $\psi_4$ of all simulations shows an irregular perturbation. 
 In \cite{loffler_einstein_2012} it is pointed out that there is a numerical noise that could be reduced using a more refined simulations. However,   the simulations are enough accurate for our purpose after that time interval.\\ 
 %%
@@ -213,14 +213,14 @@ In \cite{loffler_einstein_2012} it is pointed out that there is a numerical nois
    %%
    %%
    %%
-The GW radiated by the binary black hole with parameter $b=3$, in Figure(\ref{gw_b3}), has a short duration with respect to the others due to the intial conditions.
+The GW radiated by the binary black hole with parameter $b=3$, in Figure(\ref{gw_b3}), has a short duration with respect to the others due to the initial conditions.
 In fact, due to the strong interaction between the two bodies, the black holes merge quickly after $125 \, M_{\odot} \approx 0.616 \, \milli \second$ from Figure(\ref{radius_evolution}). 
 The radius of the orbit decreases rapidly and the inspiralling phase lasts only $0.6 \milli \second$ and, as a consequence the waveform is a sinusoid with a noticeable varying frequency.
-After $6.1 \milli \second$ the gravitational wave aplitude starts decreasing and oscillating around zero as expected in the ring-down phase, in which the black holes are already merged. 
+After $6.1 \milli \second$ the gravitational wave amplitude starts decreasing and oscillating around zero as expected in the ring-down phase, in which the black holes are already merged. 
 \\
-The gravitational radiations emitted of BBH-b4 and BBH-b5 are pretty similiar, they both show the typical phase of insipralling that can be approximated with a sinusoid analogue to the quadrupole formula.
-Since the BBH-b5 has a initial configuration with further initial separation than BBH-b4, the signal of BBH-b5 lasts longer $4.5 \milli \second$ than the GW radiaition of BBH-b4 lasting $2 \milli \second$.\\
-The gravitational strains $h$ of BBH-b3, BBH-b4 and BBH-b5 have similiar amplitudes, the strain increases its vale from $\approx 0.5 \times 10^{-22}$ up to $\approx1.5 \times 10^{-22}$ during the inspiralling, and the ring-doww phase lasts approximately $0.5 \, \milli \second$.\\
+The gravitational radiations emitted of BBH-b4 and BBH-b5 are pretty similar, they both show the typical phase of insipralling that can be approximated with a sinusoid analogue to the quadrupole formula.
+Since the BBH-b5 has a initial configuration with further initial separation than BBH-b4, the signal of BBH-b5 lasts longer $4.5 \milli \second$ than the GW radiation of BBH-b4 lasting $2 \milli \second$.\\
+The gravitational strains $h$ of BBH-b3, BBH-b4 and BBH-b5 have similar amplitudes, the strain increases its vale from $\approx 0.5 \times 10^{-22}$ up to $\approx1.5 \times 10^{-22}$ during the inspiralling, and the ring-down phase lasts approximately $0.5 \, \milli \second$.\\
 The gravitational signal $\psi_4$ radiated by the BBH-b6 source has big initial noise and it is affected by perturbations between $(1,1.5) \milli \second$. 
 These perturbations are washed out with the gravitational wave extraction method, indeed, Figure(\ref{gw_b6}) shows a smooth gravitational strain $h$. 
 In a time interval of $5 \milli \second$ the amplitudes of the two polarizations $h_+$ and $h_{\times}$ of BBH-b6 vary, respectively, from $3.9\times 10^{-23}$ to $5\times 10^{-23}$, and from $3\times 10^{-23}$ up to $4.5\times 10^{-23}$.\\
@@ -232,7 +232,7 @@ We give two possible causes of such behavior.
 The strong curvature due to the two black holes might generate gravitational perturbations propagating inwards, and therefore, influencing each others trajectories.
 Or, another cause could be that the results of the simulations are affected by a numerical noise.
 However, a more accurate analysis is needed to confirm one of the two hypothesis or none of them.\\
-Despite the fact that the quadupole formula cannot be used for black holes, the inspiralling phase of BBH-b6, BBH-b7, BBH-b10 could be well approximated by the quadrupole formula as we can see from the waveform.\par
+Despite the fact that the quadrupole formula cannot be used for black holes, the inspiralling phase of BBH-b6, BBH-b7, BBH-b10 could be well approximated by the quadrupole formula as we can see from the waveform.\par
    %%
    %%
    %%
@@ -365,7 +365,7 @@ The Fourier transform allows us to study the range of angular frequencies of the
 In Figures (\ref{fourier_b3}), (\ref{fourier_b4}) and (\ref{fourier_b5}) it is evident a peak on an angular frequency that is approximately twice the mean value of the orbital angular frequencies of the rotating black in Figures (\ref{omega_b3}), (\ref{omega_b4}) and (\ref{omega_b5}).
 Notice that the peak is more narrow for higher values of $b$, since the initial sinusoidal behavior of the gravitational wave is more evident and longer for simulations with high $b$.\\
 The BBH-b6, BBH-b7 and BBH-b10 depict, as well, the typical peak at twice the orbital angular frequency.
-We confirm that the gravitational wave strain of a binary balck holes source has an angular frequency at twice the orbital angular frequency of the rotating bodies.\\
+We confirm that the gravitational wave strain of a binary black holes source has an angular frequency at twice the orbital angular frequency of the rotating bodies.\\
 Although the peaks are particularly sharp,  each Figure (\ref{fourier_b6}), (\ref{fourier_b7}) and (\ref{fourier_b10}) manifest a smaller peak at lower frequencies, which has an increasing intensity with the increasing parameter $b$.
 Such phenomenon could be due to the oscillations of the BBHs that we discussed previously.
 
@@ -403,22 +403,22 @@ Notice the bouncing behavior after $t \approx 9 \milli \second$, when the stars 
 
 The gravitational wave strain $h$ is extracted following the procedure in section(\ref{gw_extraction}), whereas the orbital radius $R$ is obtained calculating the highest value of density $\rho$ at each time step.\\
 The gravitational wave and the orbital radius are shown in Figure(\ref{gw_r_bns}).
-During the inspiralling phase $t \in (0, 8.5) \, \milli \second$, the gravitational wave is similiar to that one of the binary black holes, indeed, BNS and BBH both show a sinusoid with an increasing frequency.
+During the inspiralling phase $t \in (0, 8.5) \, \milli \second$, the gravitational wave is similar to that one of the binary black holes, indeed, BNS and BBH both show a sinusoid with an increasing frequency.
 However, when the strain reaches the highest value approximately at $t\approx 9 \milli \second$, the signal does not drop off as rapidly as for the black holes, but it rebounds while slowly decreasing.
 The orbital radius $R$ shows an analogue behavior, in fact, it reaches the lowest value right at $t \approx 9.9 \milli \second$ and then it bounces around $R \approx 4 \, M _{\odot}$.\\
 The reason of such behavior relies on the differences between a black hole and a neutron star.
 However, since we could not continue simulations for a longer time, we cannot describe the features of the waveform in detail, but we speculate on the expected outcome and discuss the significance of the waveforms from the observational point of view.
-Due to the nature of balck holes,  the ring-down phase is short because when the events of horizon are enough close, the black holes merge into single black hole which shrinks quickly.
+Due to the nature of black holes,  the ring-down phase is short because when the events of horizon are enough close, the black holes merge into single black hole which shrinks quickly.
 So, the gravitational waveform amplitude of the BHs damps rapidly after the merger.\\
 In general, massive objects such neutron stars could collapse under their own weight forming a black hole. The compactness of the neutron stars is a crucial parameter which determines if the a black hole is formed after the merger \cite{shibata_simulation_nodate,kiuchi_long-term_2009}.
-If the neutron stars merge into a black hole, the gravitational wave strain manifests a ring-down phase similiar to that one of the binary black holes.
+If the neutron stars merge into a black hole, the gravitational wave strain manifests a ring-down phase similar to that one of the binary black holes.
 In our case, we speculate that the binary neutron stars do not form a black hole, because they are not enough compact and they transfer matter between themselves and outwards.\\
  In order to analyze the matter distribution during the simulation, let us study the rest mass density during the time evolution of the BNS.\\
 A video of the rest mass density evolution can be downloaded at \url{https://github.com/lorenzsp/thesis/blob/master/binary_ns_video/bns.mp4}
  \\
-In Figure (\ref{f_1234}) it is shown the intial stage of the BNS evolution.
-From Figure(\ref{f1}) it is possible to notice how the gravitational attraction between the two objects slighlty reshapes their surfaces.
-After $t = 3.83 \milli \second = 777.6 \, M _{\odot}$ the stars start tranfering matter between themselves, meanwhile a stream of matter is being ejected (Figure(\ref{f3})).\\
+In Figure (\ref{f_1234}) it is shown the initial stage of the BNS evolution.
+From Figure(\ref{f1}) it is possible to notice how the gravitational attraction between the two objects slightly reshapes their surfaces.
+After $t = 3.83 \milli \second = 777.6 \, M _{\odot}$ the stars start transferring matter between themselves, meanwhile a stream of matter is being ejected (Figure(\ref{f3})).\\
 When the gravitational strain reaches the highest amplitude $\approx 9 \milli \second$, the neutron stars have a prolate shape (Figure(\ref{f4})).
 Instead of merging, the neutron stars bounce off again and again during the final stage of the evolution Figure(\ref{f_5678}).
 Such behavior and the high rotational velocity lead the system to eject a big amount of matter, during the ring-down phase (Figures(\ref{f5}) and (\ref{f6})). 
@@ -485,8 +485,8 @@ The bounce of the neutron stars is associated to the oscillation of the gravitat
 %%
 \pagebreak
 We study the angular frequency spectrum of the gravitational waves from Figure(\ref{fourier_omega_bns}).\\
-Neverthless, the orbital angular frequency is characterized by a lot of noise\footnote{the values of $\omega$ are particularly spread out because of the low sampling frequency and problems in the acquisition of data. It is possible to better appreciate this reasons analyzing the data given at \url{https://github.com/lorenzsp/thesis/tree/master/gw}}, it is possible anyway to see that the $\omega$ has a value approximately $2 \, \milli \second ^{-1}$ before the merger, and a value approximately $6 \, \milli \second ^{-1}$ after the merging.
-As expected from the quadrupole formula, the gravitational wave has an angula frequency that is twice the orbital angula frequency for that mentioned values.
+Nevertheless, the orbital angular frequency is characterized by a lot of noise\footnote{the values of $\omega$ are particularly spread out because of the low sampling frequency and problems in the acquisition of data. It is possible to better appreciate this reasons analyzing the data given at \url{https://github.com/lorenzsp/thesis/tree/master/gw}}, it is possible anyway to see that the $\omega$ has a value approximately $2 \, \milli \second ^{-1}$ before the merger, and a value approximately $6 \, \milli \second ^{-1}$ after the merging.
+As expected from the quadrupole formula, the gravitational wave has an angular frequency that is twice the orbital angular frequency for that mentioned values.
 
 \begin{figure}[]
 \centering
@@ -500,7 +500,7 @@ As expected from the quadrupole formula, the gravitational wave has an angula fr
    {\includegraphics[width=.40\textwidth]{numerical_evolution/omega_bns.eps} \label{omega_bns}} 
 
    
-   \caption{The Fourier trasnform of the gravitational strain $|\mathcal{F}[h]|$ shows a borad distribution of angular frequencies, however the two highest peaks are at $\omega= 4.3 \milli \second^{-1}$ and at $\omega= 5.5 \milli \second^{-1}$. On the right side the orbital angular momentum of the binary system is stable around $2 \, \milli \second ^{-2}$ before the merger. After $10 \milli \second$ the orbital angular momentum is in a range $(4.5,7) \milli \second ^{-1} $. }
+   \caption{The Fourier transform of the gravitational strain $|\mathcal{F}[h]|$ shows a broad distribution of angular frequencies, however the two highest peaks are at $\omega= 4.3 \milli \second^{-1}$ and at $\omega= 5.5 \milli \second^{-1}$. On the right side the orbital angular momentum of the binary system is stable around $2 \, \milli \second ^{-2}$ before the merger. After $10 \milli \second$ the orbital angular momentum is in a range $(4.5,7) \milli \second ^{-1} $. }
 \label{fourier_omega_bns}
 \end{figure}
 
